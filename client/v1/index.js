@@ -118,6 +118,16 @@ console.table(dealDiscount);
 // 1. Determine the average percentage discount of the deals
 // 2. Log the average
 
+const Discounts = deals.map(deal => deal.discount);
+const initialValue = 0;
+const sumWithInitial = Discounts.reduce(
+  (accumulator, currentValue) => accumulator + currentValue, 
+  initialValue,
+);
+const average = sumWithInitial / Discounts.length; 
+
+console.log(average);
+
 /**
  * 🏎
  * We are almost done with the `deals` variable
