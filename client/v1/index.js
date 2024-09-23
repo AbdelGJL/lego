@@ -111,6 +111,9 @@ console.table(dealsByDate);
 // 1. Filter the list of deals between 50% and 75%
 // 2. Log the list
 
+const dealDiscount = deals.filter(a => a.discount >= 50 && a.discount <= 75);
+console.table(dealDiscount);
+
 // 🎯 TODO 7: Average percentage discount
 // 1. Determine the average percentage discount of the deals
 // 2. Log the average
