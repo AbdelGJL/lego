@@ -77,13 +77,13 @@ console.log(Array.from(dealersName).length);
 // 2. Create a variable and assign it the list of sets by price from lowest to highest
 // 3. Log the variable
 
-function sortByPrice() {
+function sortByPriceLow() {
   return deals.sort(function (a, b){
     return a.price - b.price;
   });
 }
 
-const sortedDeals = sortByPrice();
+const sortedDeals = sortByPriceLow();
 
 const dealsWithTitleAndPrice = sortedDeals.map(deal => ({
   title: deal.title,
@@ -151,9 +151,35 @@ console.log(average);
 // 2. Log the variable
 // 3. Log the number of deals by community
 
+const communities = [];
+
+for(let i = 0; i < deals.length; i++) {
+  const deal = deals[i];
+  if(!communities[deal.community]){
+    communities[deal.community] = [];
+  }
+  communities[deal.community].push(deal);
+}
+
+console.table(communities);
+console.log("Number of deals by community : \n", Object.keys(communities).length);
+
+
 // 🎯 TODO 9: Sort by price for each community
 // 1. For each community, sort the deals by discount price, from highest to lowest
 // 2. Log the sort
+
+function sortByPriceHigh(k) {
+  return communities[k].sort(function (a, b){
+    return b.price - a.price;
+  });
+}
+
+for(let j = 0; j < communities.length; j++){
+  communities[j] = sortByPriceHigh(j);
+}
+
+console.table(communities);
 
 // 🎯 TODO 10: Sort by date for each community
 // 1. For each set, sort the deals by date, from old to recent
