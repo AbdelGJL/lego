@@ -16,7 +16,6 @@ const MY_FAVORITE_DEALERS = [
 ];
 
 
-//console.log(MY_FAVORITE_DEALERS[0]);
 
 /**
  * 🌱
@@ -61,9 +60,17 @@ console.log(nbDeals);
 // 2. Log the variable
 // 3. Log how many shopping communities we have
 
-//const dealersName = MY_FAVORITE_DEALERS.map(deals => deals.name);
-//console.log(dealersName);
-//console.log(dealersName.length);
+// Importer la variable deals depuis le fichier data.js
+//const { deals } = require('./data.js');
+
+// Créer une variable et lui assigner la liste des noms des communautés de shopping
+const dealersName = new Set(deals.map(deal => deal.community));
+
+// Afficher la variable
+console.log(dealersName);
+// Afficher le nombre de communautés de shopping
+console.log(Array.from(dealersName).length);
+
 
 // 🎯 TODO 4: Sort by price
 // 1. Create a function to sort the deals by price
