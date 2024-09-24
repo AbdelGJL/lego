@@ -29,6 +29,7 @@ const MY_FAVORITE_DEALERS = [
 // 1. Create a new variable and assign it the link of the lego set with the highest reduction I can find on these 2 websites
 // 2. Log the variable
 
+console.log("TODO 1 : \n");
 MY_FAVORITE_DEALERS.push(
   {
     'name': 'Dealabs',
@@ -52,6 +53,7 @@ console.log(MY_FAVORITE_DEALERS);
 // 1. Create a variable and assign it the number of deals
 // 2. Log the variable
 
+console.log("TODO 2 : \n");
 const nbDeals = MY_FAVORITE_DEALERS.length;
 console.log(nbDeals);
 
@@ -60,15 +62,9 @@ console.log(nbDeals);
 // 2. Log the variable
 // 3. Log how many shopping communities we have
 
-// Importer la variable deals depuis le fichier data.js
-//const { deals } = require('./data.js');
-
-// Créer une variable et lui assigner la liste des noms des communautés de shopping
+console.log("TODO 3 : \n");
 const dealersName = new Set(deals.map(deal => deal.community));
-
-// Afficher la variable
 console.log(dealersName);
-// Afficher le nombre de communautés de shopping
 console.log(Array.from(dealersName).length);
 
 
@@ -77,6 +73,7 @@ console.log(Array.from(dealersName).length);
 // 2. Create a variable and assign it the list of sets by price from lowest to highest
 // 3. Log the variable
 
+console.log("TODO 4 : \n");
 function sortByPriceLow() {
   return deals.sort(function (a, b){
     return a.price - b.price;
@@ -98,8 +95,8 @@ console.table(dealsWithTitleAndPrice);
 // 2. Create a variable and assign it the list of deals by date from recent to old
 // 3. Log the variable
 
+console.log("TODO 5 : \n");
 const dealsByDate = deals;
-
 dealsByDate.sort(function(a,b){
   return new Date(b.published) - new Date(a.published);
 });
@@ -111,6 +108,7 @@ console.table(dealsByDate);
 // 1. Filter the list of deals between 50% and 75%
 // 2. Log the list
 
+console.log("TODO 6 : \n");
 const dealDiscount = deals.filter(a => a.discount >= 50 && a.discount <= 75);
 console.table(dealDiscount);
 
@@ -118,6 +116,7 @@ console.table(dealDiscount);
 // 1. Determine the average percentage discount of the deals
 // 2. Log the average
 
+console.log("TODO 7 : \n");
 const Discounts = deals.map(deal => deal.discount);
 const initialValue = 0;
 const sumWithInitial = Discounts.reduce(
@@ -151,6 +150,7 @@ console.log(average);
 // 2. Log the variable
 // 3. Log the number of deals by community
 
+console.log("TODO 8 : \n");
 const communities = [];
 
 for(let i = 0; i < deals.length; i++) {
@@ -174,12 +174,12 @@ for(let j = 0; j < keys.length; j++){
 // 1. For each community, sort the deals by discount price, from highest to lowest
 // 2. Log the sort
 
+console.log("TODO 9 : \n");
 function sortByPriceHigh(k) {
   return k.sort(function (a, b){
     return b.price - a.price;
   });
 }
-
 
 for(let j = 0; j < keys.length; j++){
   communities[keys[j]] = sortByPriceHigh(communities[keys[j]]);
@@ -191,7 +191,7 @@ console.table(communities);
 // 1. For each set, sort the deals by date, from old to recent
 // 2. Log the sort
 
-console.log("TODO 10 : Sort by date for each community :");
+console.log("TODO 10 : \n");
 for(let j = 0; j < keys.length;j++){  
   communities[keys[j]] = communities[keys[j]].sort(function(a,b){
     return new Date(a.published) - new Date(b.published);
@@ -421,6 +421,8 @@ const VINTED = [
 // 3. Compute the p99 price value of the listing
 // The p95 value (95th percentile) is the lower value expected to be exceeded in 95% of the vinted items
 
+
+console.log("TODO 11 : \n");
 //A. Average price value of the listing
 const VINPrice = VINTED.map(vinted => vinted.price);
 const initial = 0;
@@ -457,6 +459,7 @@ console.log("p99 price value : ", p99);
 // // 1. Log if we have very old items (true or false)
 // // A very old item is an item `released` more than 3 weeks ago.
 
+console.log("TODO 12 : \n");
 const dealsWithDate = VINTED.map(deal => ({
   title: deal.title,
   released: deal.released
@@ -481,6 +484,7 @@ console.table(dealsWithDate);
 // 1. Find the item with the uuid `f2c5377c-84f9-571d-8712-98902dcbb913`
 // 2. Log the item
 
+console.log("TODO 13 : \n");
 const item = VINTED.find((element) => element.uuid === 'f2c5377c-84f9-571d-8712-98902dcbb913');
 console.log(item);
 
@@ -488,6 +492,7 @@ console.log(item);
 // 1. Delete the item with the uuid `f2c5377c-84f9-571d-8712-98902dcbb913`
 // 2. Log the new list of items
 
+console.log("TODO 14 : \n");
 for(let j = 0; j < VINTED.length; j++){
   if(VINTED[j].uuid === 'f2c5377c-84f9-571d-8712-98902dcbb913'){
     VINTED.splice(j, 1);
@@ -498,6 +503,8 @@ console.log(VINTED);
 
 // 🎯 TODO 15: Save a favorite item
 // We declare and assign a variable called `sealedCamera`
+
+console.log("TODO 15 : \n");
 let sealedCamera = {
   title: 'La caméra Hommage à Walt Disney lego set 43230',
   link: 'https://www.vinted.fr/items/4872522741-la-camera-hommage-a-walt-disney-lego-set-43230',
@@ -538,6 +545,7 @@ console.log(sealedCamera);
 
 // 🎯 TODO 16: Compute the profitability
 // From a specific deal called `deal`
+
 const deal = {
   'title':  'La caméra Hommage à Walt Disney',
   'retail': 75.98,
