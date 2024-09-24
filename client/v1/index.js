@@ -191,6 +191,14 @@ console.table(communities);
 // 1. For each set, sort the deals by date, from old to recent
 // 2. Log the sort
 
+console.log("TODO 10 : Sort by date for each community :");
+for(let j = 0; j < keys.length;j++){  
+  communities[keys[j]] = communities[keys[j]].sort(function(a,b){
+    return new Date(a.published) - new Date(b.published);
+  });
+}
+
+console.table(communities);
 
 /**
  * 🧥
@@ -413,9 +421,43 @@ const VINTED = [
 // 3. Compute the p99 price value of the listing
 // The p95 value (95th percentile) is the lower value expected to be exceeded in 95% of the vinted items
 
+//A. Average price value of the listing
+const VINPrice = VINTED.map(vinted => vinted.price);
+const initial = 0;
+const sumInitial = VINPrice.reduce(
+  (accumulator, currentValue) => accumulator + currentValue, 
+  initial,
+);
+const avg = sumInitial / VINTED.length; 
+
+console.log("Average price value : ", avg);
+
+//B. p95 price value of the listing
+/* The formula for the 95th percentile is:
+The total number of entries (K) in the report is 50. So, K = 50.
+Since the 95th percentile value (N) is being calculated, multiply the number of entries (K) with 0.95.
+Therefore, N = 50 x 0.95 = 47.5.
+In the below image, the section marked as 'Sorted based on Value' has the values arranged in ascending order. 
+The 48th value in the sorted list is 289.615K. This is The 95th percentile value.
+*/
+
+const N = Math.round(VINPrice.length * 0.95);
+const sortedVINPrice = VINPrice.sort(function(a,b) {return a - b;});
+const p95 = sortedVINPrice[N-1];
+console.log("p95 price value : ", p95);
+
+//C. p99 price value of the listing
+
+const N99 = Math.round(VINPrice.length * 0.99);
+const p99 = sortedVINPrice[N99-1];
+console.log("p99 price value : ", p99);
+
+
 // 🎯 TODO 12: Very old listed items
 // // 1. Log if we have very old items (true or false)
 // // A very old item is an item `released` more than 3 weeks ago.
+
+
 
 // 🎯 TODO 13: Find a specific item
 // 1. Find the item with the uuid `f2c5377c-84f9-571d-8712-98902dcbb913`
@@ -425,7 +467,7 @@ const VINTED = [
 // 1. Delete the item with the uuid `f2c5377c-84f9-571d-8712-98902dcbb913`
 // 2. Log the new list of items
 
-// 🎯 TODO 5: Save a favorite item
+// 🎯 TODO 15: Save a favorite item
 // We declare and assign a variable called `sealedCamera`
 let sealedCamera = {
   title: 'La caméra Hommage à Walt Disney lego set 43230',
@@ -456,7 +498,7 @@ sealedCamera = {
 // 3. Update `camera` property with `favorite` to true WITHOUT changing sealedCamera properties
 
 
-// 🎯 TODO 11: Compute the profitability
+// 🎯 TODO 16: Compute the profitability
 // From a specific deal called `deal`
 const deal = {
   'title':  'La caméra Hommage à Walt Disney',
