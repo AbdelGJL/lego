@@ -162,7 +162,12 @@ for(let i = 0; i < deals.length; i++) {
 }
 
 console.table(communities);
-console.log("Number of deals by community : \n", Object.keys(communities).length);
+
+const keys = Object.keys(communities);
+console.log("Number of deals by community : \n");
+for(let j = 0; j < keys.length; j++){
+  console.log(keys[j] + " : " + communities[keys[j]].length);
+}
 
 
 // 🎯 TODO 9: Sort by price for each community
@@ -170,13 +175,14 @@ console.log("Number of deals by community : \n", Object.keys(communities).length
 // 2. Log the sort
 
 function sortByPriceHigh(k) {
-  return communities[k].sort(function (a, b){
+  return k.sort(function (a, b){
     return b.price - a.price;
   });
 }
 
-for(let j = 0; j < communities.length; j++){
-  communities[j] = sortByPriceHigh(j);
+
+for(let j = 0; j < keys.length; j++){
+  communities[keys[j]] = sortByPriceHigh(communities[keys[j]]);
 }
 
 console.table(communities);
