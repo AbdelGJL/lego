@@ -506,6 +506,7 @@ let sealedCamera = {
   uuid: '5357bbf5-7232-5a6a-b48c-1e4f9a26ac68'
 };
 
+
 // we make a copy of `sealedCamera` to `camera` variable
 // and set a new property `favorite` to true
 let camera = sealedCamera;
@@ -514,6 +515,11 @@ camera.favorite = true;
 
 // 1. Log `sealedCamera` and `camera` variables
 // 2. What do you notice?
+
+console.log(sealedCamera);
+console.log(camera);
+
+//2. We notice that the 'favorite' proprety is added to 'camera' and 'sealedCamera' variables. 
 
 // we make (again) a new assignment again
 sealedCamera = {
@@ -526,6 +532,9 @@ sealedCamera = {
 
 // 3. Update `camera` property with `favorite` to true WITHOUT changing sealedCamera properties
 
+camera = {...sealedCamera, favorite: true};
+console.log("New Update : \n",camera);
+console.log(sealedCamera);
 
 // 🎯 TODO 16: Compute the profitability
 // From a specific deal called `deal`
