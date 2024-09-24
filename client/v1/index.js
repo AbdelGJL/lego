@@ -457,6 +457,26 @@ console.log("p99 price value : ", p99);
 // // 1. Log if we have very old items (true or false)
 // // A very old item is an item `released` more than 3 weeks ago.
 
+const dealsWithDate = VINTED.map(deal => ({
+  title: deal.title,
+  released: deal.released
+}));
+const today = new Date();
+
+for(let i = 0; i < dealsWithDate.length; i++){
+  let Difference_In_Time = Math.abs(new Date(dealsWithDate[i].released).getTime() - today.getTime());
+  let Difference_In_Days = Math.round(Difference_In_Time / (1000 * 3600 * 24));
+  if(Difference_In_Days <= 21){
+    dealsWithDate[i].isOld = true;
+  }
+  else{
+    dealsWithDate[i].isOld = false;
+  }
+}
+
+console.table(dealsWithDate); 
+
+
 
 
 // 🎯 TODO 13: Find a specific item
