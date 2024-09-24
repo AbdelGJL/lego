@@ -545,9 +545,26 @@ const deal = {
   'legoId': '43230'
 }
 
+const pro = Math.round((deal.retail - deal.price)*100)/100;
+console.log("Profitability : ", pro);
+
 // 1. Compute the potential highest profitability based on the VINTED items
 // 2. Log the value
 
+//1. 
+console.log("TODO 16 \n")
+// We compute the profitability for each item in VINTED
+for(let i = 0; i < VINTED.length; i++){
+  VINTED[i].profitability = Math.round((VINTED[i].price - deal.price)*100)/100;
+}
+
+// We sort the items by profitability from highest to lowest
+VINTED.sort(function(a,b){
+  return b.profitability - a.profitability;
+})
+
+//2.
+console.log(VINTED[0]); // The first item of the array contains the highest profitability
 
 
 /**
