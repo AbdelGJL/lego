@@ -576,3 +576,7 @@ console.log(VINTED[0]); // The first item of the array contains the highest prof
 // 🎯 LAST TODO: Save in localStorage
 // 1. Save MY_FAVORITE_DEALERS in the localStorage
 // 2. log the localStorage
+
+let string = JSON.stringify(MY_FAVORITE_DEALERS);
+localStorage.setItem('MY_FAVORITE_DEALERS', string);
+
