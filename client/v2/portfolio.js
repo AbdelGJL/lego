@@ -32,7 +32,7 @@ const selectLegoSetIds = document.querySelector('#lego-set-id-select');
 const sectionDeals= document.querySelector('#deals');
 const spanNbDeals = document.querySelector('#nbDeals');
 
-/**
+/** 
  * Set global value
  * @param {Array} result - deals to display
  * @param {Object} meta - pagination meta info
@@ -78,9 +78,9 @@ const renderDeals = deals => {
     .map(deal => {
       return `
       <div class="deal" id=${deal.uuid}>
-        <span>${deal.id}</span>
+        <span>${deal.id} | </span>
         <a href="${deal.link}">${deal.title}</a>
-        <span>${deal.price}</span>
+        <span> - ${deal.price}€</span>
       </div>
     `;
     })
@@ -141,6 +141,8 @@ const render = (deals, pagination) => {
  * Declaration of all Listeners
  */
 
+
+// Feature 0 : Show more
 /**
  * Select the number of deals to display
  */
@@ -157,3 +159,12 @@ document.addEventListener('DOMContentLoaded', async () => {
   setCurrentDeals(deals);
   render(currentDeals, currentPagination);
 });
+
+// Feature 1 : Browse pages
+selectPage.addEventListener('change', async (event) => {
+  const deals = await fetchDeals(parseInt(event.target.value), selectShow.value);
+
+  setCurrentDeals(deals);
+  render(currentDeals, currentPagination);
+});
+
