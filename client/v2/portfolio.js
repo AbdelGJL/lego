@@ -194,9 +194,9 @@ selectPage.addEventListener('change', async (event) => {
 });*/
 
 // Feature 2 : Filter by best discount
-// First, we create a new button
+
 let isDiscount = false;
-async function discount(){
+async function Discount(){
   if(isDiscount){ 
     const deals = await fetchDeals(parseInt(selectPage.value), parseInt(selectShow.value));
     setCurrentDeals(deals);
@@ -215,6 +215,29 @@ async function discount(){
   }
   render(currentDeals, currentPagination);
 }
+
+// Feature 3 : Filter by most commented
+let isCommented = false;
+async function Commented(){
+  if(isCommented){ 
+    const deals = await fetchDeals(parseInt(selectPage.value), parseInt(selectShow.value));
+    setCurrentDeals(deals);
+    isCommented = false;
+  }
+  else{ 
+    let filteredDeals = [];
+    currentDeals.forEach(deal => {
+      if(deal.comments >= 15){
+        filteredDeals.push(deal);
+      }
+    });
+
+    isCommented = true;
+    currentDeals = filteredDeals;
+  }
+  render(currentDeals, currentPagination);
+}
+
 
 document.querySelectorAll('input[name="filter"]').forEach((radio) => {
   radio.addEventListener('change', (event) => {
