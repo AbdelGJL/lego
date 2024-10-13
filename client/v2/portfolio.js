@@ -238,6 +238,29 @@ async function Commented(){
   render(currentDeals, currentPagination);
 }
 
+// Feature 4 : Filter by most liked
+let isHotDeals = false;
+async function HotDeals(){
+  if(isHotDeals){ 
+    const deals = await fetchDeals(parseInt(selectPage.value), parseInt(selectShow.value));
+    setCurrentDeals(deals);
+    isHotDeals = false;
+  }
+  else{ 
+    let filteredDeals = [];
+    currentDeals.forEach(deal => {
+      if(deal.temperature >= 100){
+        filteredDeals.push(deal);
+      }
+    });
+
+    isHotDeals = true;
+    currentDeals = filteredDeals;
+  }
+  render(currentDeals, currentPagination);
+}
+
+
 
 document.querySelectorAll('input[name="filter"]').forEach((radio) => {
   radio.addEventListener('change', (event) => {
