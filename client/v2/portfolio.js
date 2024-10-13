@@ -22,6 +22,7 @@ This endpoint accepts the following optional query string parameters:
 */
 
 // current deals on the page
+
 let currentDeals = [];
 let currentPagination = {};
 
@@ -32,6 +33,7 @@ const selectLegoSetIds = document.querySelector('#lego-set-id-select');
 const sectionDeals= document.querySelector('#deals');
 const spanNbDeals = document.querySelector('#nbDeals');
 
+
 /** 
  * Set global value
  * @param {Array} result - deals to display
@@ -41,6 +43,7 @@ const setCurrentDeals = ({result, meta}) => {
   currentDeals = result;
   currentPagination = meta;
 };
+
 
 /**
  * Fetch deals from api
@@ -70,6 +73,8 @@ const fetchDeals = async (page = 1, size = 6) => {
 /**
  * Render list of deals
  * @param  {Array} deals
+ * @param  {Object} pagination
+ * @param  {Number} page
  */
 const renderDeals = deals => {
   const fragment = document.createDocumentFragment();
@@ -81,6 +86,7 @@ const renderDeals = deals => {
         <span>${deal.id} | </span>
         <a href="${deal.link}">${deal.title}</a>
         <span> - ${deal.price}€</span>
+        <span> - ${deal.discount}%</span>
       </div>
     `;
     })
@@ -130,7 +136,16 @@ const renderIndicators = pagination => {
   spanNbDeals.innerHTML = count;
 };
 
-const render = (deals, pagination) => {
+const render = (deals, pagination,page) => {
+  sectionDeals.innerHTML = deals.slice((page - 1) * selectShow.value, page * selectShow.value).map(deal => `
+    <div class="deal">
+      <h3>${deal.name}</h3>
+      <p>Discount: ${deal.discount}%</p>
+    </div>
+  `).join('');
+
+  spanNbDeals.innerText = deals.length;
+  
   renderDeals(deals);
   renderPagination(pagination);
   renderIndicators(pagination);
@@ -168,3 +183,49 @@ selectPage.addEventListener('change', async (event) => {
   render(currentDeals, currentPagination);
 });
 
+/*
+selectPage.addEventListener('change', async (event) => {
+  currentPage = parseInt(event.target.value); // Mettre à jour la page actuelle
+  const deals = await fetchDeals(currentPage, selectShow.value);
+
+  // Mettre à jour les données globales avec les nouvelles offres
+  setCurrentDeals(deals);
+  render(currentDeals, currentPagination, currentPage);
+});*/
+
+// Feature 2 : Filter by best discount
+// First, we create a new button
+let isDiscount = false;
+async function discount(){
+  if(isDiscount){ 
+    const deals = await fetchDeals(parseInt(selectPage.value), parseInt(selectShow.value));
+    setCurrentDeals(deals);
+    isDiscount = false;
+  }
+  else{ 
+    let filteredDeals = [];
+    currentDeals.forEach(deal => {
+      if(deal.discount >= 50){
+        filteredDeals.push(deal);
+      }
+    });
+
+    isDiscount = true;
+    currentDeals = filteredDeals;
+  }
+  render(currentDeals, currentPagination);
+}
+
+document.querySelectorAll('input[name="filter"]').forEach((radio) => {
+  radio.addEventListener('change', (event) => {
+    if (event.target.value === 'discount') {
+      discount();
+    } else if (event.target.value === 'noFilter') {
+      // Ajouter d'autres filtres ici si nécessaire
+      fetchAllDeals(); // Réinitialiser les filtres
+    }
+    else {
+      fetchAllDeals();
+    }
+  });
+});

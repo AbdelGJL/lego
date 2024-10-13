@@ -20,9 +20,21 @@
         <select name="page" id="page-select"> </select>
       </div>
       <div id="filters">
-        <span>By best discount</span>
-        <span>By most commented</span>
-        <span>By hot deals</span>
+        <button type="button" onclick="discount();">By best discount</button>
+        <div> 
+          <input type="radio" id="noFilter" name="filter" value="noFilter" checked/>
+            <label for="discount">No Filter</label>
+          </div>
+        <div> 
+        <input type="radio" id="discount" name="filter" value="discount"/>
+          <label for="discount">Discount</label>
+        </div>
+        <input type="radio" id="comm" name="filter" value="comm"/>
+          <label for="comm">Commented</label>
+        </div>
+        <input type="radio" id="discount" name="filter" value="hotDeals"/>
+          <label for="hotDeals">Hot Deals</label>
+        </div>
       </div>
       <div id="sort">
         <label for="sort-select">Sort:</label>
