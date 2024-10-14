@@ -89,6 +89,8 @@ const renderDeals = deals => {
         <span> - ${deal.discount}%</span>
         <span> - ${deal.comments} comments</span>
         <span> - ${deal.temperature}°</span>
+        <span> - ${Duration(deal.published)}</span>
+        
       </div>
     `;
     })
@@ -152,7 +154,7 @@ const render = (deals, pagination,page) => {
   renderPagination(pagination);
   renderIndicators(pagination);
   renderLegoSetIds(deals)
-  Sorting(selectSort.value);
+  //Sorting(selectSort.value);
 };
 
 /**
@@ -167,20 +169,54 @@ const render = (deals, pagination,page) => {
 selectShow.addEventListener('change', async (event) => {
   const deals = await fetchDeals(currentPagination.currentPage, parseInt(event.target.value));
 
+  let curDeals = deals.result;
+
+  sortDeals(curDeals, selectSort.value);
+
   setCurrentDeals(deals);
   render(currentDeals, currentPagination);
 });
-
+/*
 document.addEventListener('DOMContentLoaded', async () => {
   const deals = await fetchDeals();
 
+
   setCurrentDeals(deals);
   render(currentDeals, currentPagination);
-});
+});*/
+
+function sortDeals(deals, sortValue) {
+  if (sortValue === "price-asc") {
+    deals.sort((a, b) => a.price - b.price);
+  } else if (sortValue === "price-desc") {
+    deals.sort((a, b) => b.price - a.price);
+  } else if (sortValue === "date-asc") {
+    deals.sort((a, b) => new Date(a.published) - new Date(b.published));
+  } else if (sortValue === "date-desc") {
+    deals.sort((a, b) => new Date(b.published) - new Date(a.published));
+  }
+}
+
+// Fonction de rendu initial
+async function initialRender() {
+  const deals = await fetchDeals();
+  let curDeals = deals.result;
+
+  sortDeals(curDeals, selectSort.value);
+
+  setCurrentDeals({ result: curDeals, meta: deals.meta });
+  render(currentDeals, currentPagination);
+}
+
+// Appelez initialRender lors de l'ouverture de la page
+document.addEventListener('DOMContentLoaded', initialRender);
 
 // Feature 1 : Browse pages
 selectPage.addEventListener('change', async (event) => {
   const deals = await fetchDeals(parseInt(event.target.value), selectShow.value);
+
+  let curDeals = deals.result;
+  sortDeals(curDeals, selectSort.value);
 
   setCurrentDeals(deals);
   render(currentDeals, currentPagination);
@@ -263,7 +299,7 @@ async function HotDeals(){
   render(currentDeals, currentPagination);
 }
 
-// Feature 5 : Sort by price
+// Feature 5 : Sort by price AND 6 ; Sort by date
 
 selectSort.addEventListener('change', async (event) => {  
   Sorting(event.target.value);
@@ -278,7 +314,29 @@ async function Sorting(event){
   else if(event === "price-desc"){
     curDeals.sort((a, b) => b.price - a.price);
   }
+  else if(event === "date-asc"){
+    curDeals.sort((a, b) => new Date(a.published) - new Date(b.published));
+  }
+  else if(event === "date-desc"){
+    curDeals.sort((a, b) => new Date(b.published) - new Date(a.published));
+  }
+
   render(curDeals, currentPagination);
+}
+
+function Duration(time){
+  const today = new Date();
+  
+  let Difference_In_Time = Math.abs(today.getTime() - time * 1000);
+  let Difference_In_Days = Math.round(Difference_In_Time / (1000 * 3600 * 24));
+  
+  if(Difference_In_Days <= 1){
+    let Difference_In_Hours = Math.round(Difference_In_Time / (1000 * 3600));
+    console.log(Difference_In_Hours + " hours ago");
+  }
+  else{
+    return Difference_In_Days + " days ago";
+  }
 }
 
 
