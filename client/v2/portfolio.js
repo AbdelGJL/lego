@@ -152,6 +152,7 @@ const render = (deals, pagination,page) => {
   renderPagination(pagination);
   renderIndicators(pagination);
   renderLegoSetIds(deals)
+  Sorting(selectSort.value);
 };
 
 /**
@@ -265,16 +266,21 @@ async function HotDeals(){
 // Feature 5 : Sort by price
 
 selectSort.addEventListener('change', async (event) => {  
+  Sorting(event.target.value);
+});
+
+async function Sorting(event){
   const deals = await fetchDeals(parseInt(selectPage.value), parseInt(selectShow.value));
   let curDeals = deals.result;
-  if(event.target.value === "price-asc"){
+  if(event === "price-asc"){
     curDeals.sort((a, b) => a.price - b.price);
   }
-  else if(event.target.value === "price-desc"){
+  else if(event === "price-desc"){
     curDeals.sort((a, b) => b.price - a.price);
   }
   render(curDeals, currentPagination);
-});
+}
+
 
 document.querySelectorAll('input[name="filter"]').forEach((radio) => {
   radio.addEventListener('change', (event) => {
