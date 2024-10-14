@@ -3,7 +3,7 @@
 
 /**
 Description of the available api
-GET https://lego-api-blue.vercel.app/deals
+Ids https://lego-api-blue.vercel.app/deals
 
 Search for specific deals
 
@@ -32,7 +32,7 @@ const selectPage = document.querySelector('#page-select');
 const selectLegoSetIds = document.querySelector('#lego-set-id-select');
 const sectionDeals= document.querySelector('#deals');
 const spanNbDeals = document.querySelector('#nbDeals');
-
+const selectSort = document.querySelector('#sort-select');
 
 /** 
  * Set global value
@@ -87,6 +87,8 @@ const renderDeals = deals => {
         <a href="${deal.link}">${deal.title}</a>
         <span> - ${deal.price}€</span>
         <span> - ${deal.discount}%</span>
+        <span> - ${deal.comments} comments</span>
+        <span> - ${deal.temperature}°</span>
       </div>
     `;
     })
@@ -205,11 +207,11 @@ async function Discount(){
   else{ 
     let filteredDeals = [];
     currentDeals.forEach(deal => {
-      if(deal.discount >= 50){
+      if(deal.discount >= 30){
         filteredDeals.push(deal);
       }
     });
-
+    filteredDeals.sort((a, b) => b.discount - a.discount);
     isDiscount = true;
     currentDeals = filteredDeals;
   }
@@ -231,7 +233,7 @@ async function Commented(){
         filteredDeals.push(deal);
       }
     });
-
+    filteredDeals.sort((a, b) => b.comments - a.comments);
     isCommented = true;
     currentDeals = filteredDeals;
   }
@@ -253,14 +255,26 @@ async function HotDeals(){
         filteredDeals.push(deal);
       }
     });
-
+    filteredDeals.sort((a, b) => b.temperature - a.temperature);
     isHotDeals = true;
     currentDeals = filteredDeals;
   }
   render(currentDeals, currentPagination);
 }
 
+// Feature 5 : Sort by price
 
+selectSort.addEventListener('change', async (event) => {  
+  const deals = await fetchDeals(parseInt(selectPage.value), parseInt(selectShow.value));
+  let curDeals = deals.result;
+  if(event.target.value === "price-asc"){
+    curDeals.sort((a, b) => a.price - b.price);
+  }
+  else if(event.target.value === "price-desc"){
+    curDeals.sort((a, b) => b.price - a.price);
+  }
+  render(curDeals, currentPagination);
+});
 
 document.querySelectorAll('input[name="filter"]').forEach((radio) => {
   radio.addEventListener('change', (event) => {
