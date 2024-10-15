@@ -393,54 +393,11 @@ const renderSales = (sales, dealID) => {
   fragment.appendChild(div);
   sectionSales.innerHTML = '<h2>Vinted</h2>';
   sectionSales.appendChild(fragment);
-};
-
-/*
-const fetchDeals = async (page = 1, size = 6) => {
-  try {
-    const response = await fetch(
-      `https://lego-api-blue.vercel.app/deals?page=${page}&size=${size}`
-    );
-    const body = await response.json();
-
-    if (body.success !== true) {
-      console.error(body);
-      return {currentDeals, currentPagination};
-    }
-
-    return body.data;
-  } catch (error) {
-    console.error(error);
-    return {currentDeals, currentPagination};
-  }
+  spanNbSales.innerText = sales.length; // Feature 8 : Total number of sales
 };
 
 
-const renderDeals = deals => {
-  const fragment = document.createDocumentFragment();
-  const div = document.createElement('div');
-  const template = deals
-    .map(deal => {
-      return `
-      <div class="deal" id=${deal.uuid}>
-        <span>${deal.id} | </span>
-        <a href="${deal.link}">${deal.title}</a>
-        <span> - ${deal.price}€</span>
-        <span> - ${deal.discount}%</span>
-        <span> - ${deal.comments} comments</span>
-        <span> - ${deal.temperature}°</span>
-        <span> - ${Duration(deal.published)}</span>
-        
-      </div>
-    `;
-    })
-    .join('');
 
-  div.innerHTML = template;
-  fragment.appendChild(div);
-  sectionDeals.innerHTML = '<h2>Deals</h2>';
-  sectionDeals.appendChild(fragment);
-};*/
 
 
 
