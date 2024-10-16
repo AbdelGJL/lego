@@ -36,6 +36,11 @@ const spanNbDeals = document.querySelector('#nbDeals');
 const sectionSales = document.querySelector('#vinted');
 const spanNbSales = document.querySelector('#nbSales');
 const selectSort = document.querySelector('#sort-select');
+const averagePrice = document.querySelector('#average');
+const p5Value = document.querySelector('#p5');
+const p25Value = document.querySelector('#p25');
+const p50Value = document.querySelector('#p50');
+const p95Value = document.querySelector('#p95');
 
 /** 
  * Set global value
@@ -347,6 +352,13 @@ function Duration(time){
 selectLegoSetIds.addEventListener('change', async (event) => {
   let sale = await fetchSales(event.target.value);
   renderSales(sale, event.target.value);
+  let salesPrice = sale.map(sale => sale.price);
+  averagePrice.innerText = Average(salesPrice) + " €"; // Feature 9 : average price
+  p5Value.innerText = pValue(salesPrice, 0.05) + " €"; // Feature 9 : p5 price
+  p25Value.innerText = pValue(salesPrice, 0.25) + " €"; // Feature 9 : p25 price
+  p50Value.innerText = pValue(salesPrice, 0.50) + " €"; // Feature 9 : p50 price
+  p95Value.innerText = pValue(salesPrice, 0.95) + " €"; // Feature 9 : p95 price
+
 
 });
 
@@ -396,11 +408,27 @@ const renderSales = (sales, dealID) => {
   spanNbSales.innerText = sales.length; // Feature 8 : Total number of sales
 };
 
+// Feature 9 - average, p25, p50 and p95 price value indicators
+// Average value
+function Average(sales){
+  let initialValue = 0;
+  let sumWithInitial = sales.reduce(
+    (accumulator, currentValue) => parseFloat(accumulator) + parseFloat(currentValue), 
+    initialValue,
+  );
+  const average = sumWithInitial / sales.length; 
+  return average.toFixed(2);
+}
 
-
-
-
-
+function pValue(salesPrice, pvalue){
+  if(salesPrice.length !== 0 && salesPrice !== null && salesPrice !== undefined)
+  {
+    const N = Math.ceil(salesPrice.length * pvalue);
+    const sortedSales = salesPrice.sort(function(a,b) {return a - b;});
+    return sortedSales[N-1];
+  }
+  else return 0;
+}
 
 
 document.querySelectorAll('input[name="filter"]').forEach((radio) => {

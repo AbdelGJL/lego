@@ -454,6 +454,17 @@ const N99 = Math.round(VINPrice.length * 0.99);
 const p99 = sortedVINPrice[N99-1];
 console.log("p99 price value : ", p99);
 
+function Percentile(data, p){
+  if(data !== null && data !== undefined && data.length !== 0){
+    const k = data.length;
+    let n = (k-1) * p; // because index starts at 0
+    n = Math.ceil(n); // always rounds up
+    let data_sorted = data.sort((a,b) => SortByPrice(a,b, "inc"));
+    return data_sorted[n].price;
+  }
+  else return 0;
+}
+
 
 // 🎯 TODO 12: Very old listed items
 // // 1. Log if we have very old items (true or false)
