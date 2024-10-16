@@ -41,6 +41,7 @@ const p5Value = document.querySelector('#p5');
 const p25Value = document.querySelector('#p25');
 const p50Value = document.querySelector('#p50');
 const p95Value = document.querySelector('#p95');
+const lifetimeValue = document.querySelector('#lifetime');
 
 /** 
  * Set global value
@@ -359,6 +360,10 @@ selectLegoSetIds.addEventListener('change', async (event) => {
   p50Value.innerText = pValue(salesPrice, 0.50) + " €"; // Feature 9 : p50 price
   p95Value.innerText = pValue(salesPrice, 0.95) + " €"; // Feature 9 : p95 price
 
+  let salesDate = sale.map(sale => sale.published);
+  lifetimeValue.innerText = Lifetime(salesDate); // Feature 9 : lifetime of the deal
+
+
 
 });
 
@@ -430,6 +435,11 @@ function pValue(salesPrice, pvalue){
   else return 0;
 }
 
+function Lifetime(sale){
+  let sortSale = sale.sort(function(a,b) {return a - b;});
+  return Duration(sortSale[0]);
+
+}
 
 document.querySelectorAll('input[name="filter"]').forEach((radio) => {
   radio.addEventListener('change', (event) => {
