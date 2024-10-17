@@ -60,7 +60,7 @@ const setCurrentDeals = ({result, meta}) => {
  * @param  {Number}  [size=12] - size of the page
  * @return {Object}
  */
-const fetchDeals = async (page = 1, size = 6) => {
+const fetchDeals = async (page = 1, size = 24) => {
   try {
     const response = await fetch(
       `https://lego-api-blue.vercel.app/deals?page=${page}&size=${size}`
@@ -88,10 +88,13 @@ const fetchDeals = async (page = 1, size = 6) => {
 const renderDeals = deals => {
   const fragment = document.createDocumentFragment();
   const div = document.createElement('div');
+  const favoriteDeals = JSON.parse(localStorage.getItem('favoriteDeals')) || [];
+
   const template = deals
     .map(deal => {
+      const isFavorite = favoriteDeals.includes(deal.uuid) ? 'favorite' : '';
       return `
-      <div class="deal" id=${deal.uuid}>
+      <div class="deal ${isFavorite}" id=${deal.uuid}>
         <span>${deal.id} | </span>
         <a href="${deal.link}" target="_blank">${deal.title}</a>
         <span> - ${deal.price}€</span>
@@ -99,6 +102,7 @@ const renderDeals = deals => {
         <span> - ${deal.comments} comments</span>
         <span> - ${deal.temperature}°</span>
         <span> - ${Duration(deal.published)}</span>
+        <button class="favorite-btn" data-id="${deal.uuid}">${isFavorite ? 'Unfavorite' : 'Favorite'}</button>
         
       </div>
     `;
@@ -109,6 +113,51 @@ const renderDeals = deals => {
   fragment.appendChild(div);
   sectionDeals.innerHTML = '<h2>Deals</h2>';
   sectionDeals.appendChild(fragment);
+  
+  document.querySelectorAll('.favorite-btn').forEach(button => {
+    button.addEventListener('click', event => {
+      const dealId = event.target.getAttribute('data-id');
+      let favoriteDeals = JSON.parse(localStorage.getItem('favoriteDeals')) || [];
+
+      if (favoriteDeals.includes(dealId)) {
+        // Remove from favorites
+        favoriteDeals = favoriteDeals.filter(id => id !== dealId);
+        event.target.textContent = 'Favorite';
+        event.target.parentElement.classList.remove('favorite');
+      } else {
+        // Add to favorites
+        favoriteDeals.push(dealId);
+        event.target.textContent = 'Unfavorite';
+        event.target.parentElement.classList.add('favorite');
+      }
+
+      localStorage.setItem('favoriteDeals', JSON.stringify(favoriteDeals));
+    });
+  });
+
+};
+
+/**
+ * Render favorites
+ */
+const renderFavorites = () => {
+  const favoriteDeals = JSON.parse(localStorage.getItem('favoriteDeals')) || [];
+  const favoritesList = document.getElementById('favorites-list');
+  favoritesList.innerHTML = '';
+
+  if (favoriteDeals.length === 0) {
+    favoritesList.innerHTML = '<p>No favorites yet.</p>';
+    return;
+  }
+
+  favoriteDeals.forEach(dealId => {
+    const dealElement = document.getElementById(dealId);
+    if (dealElement) {
+      const clone = dealElement.cloneNode(true);
+      clone.querySelector('.favorite-btn').remove(); // Remove the favorite button from the clone
+      favoritesList.appendChild(clone);
+    }
+  });
 };
 
 /**
@@ -116,14 +165,29 @@ const renderDeals = deals => {
  * @param  {Object} pagination
  */
 const renderPagination = pagination => {
+  
   const {currentPage, pageCount} = pagination;
   const options = Array.from(
     {'length': pageCount},
     (value, index) => `<option value="${index + 1}">${index + 1}</option>`
   ).join('');
 
+  
+  const select = document.createElement('select');
+  select.innerHTML = options;
+  select.value = currentPage;
+
+  select.addEventListener('change', event => {
+    const selectedPage = event.target.value;
+    // Fetch and render deals for the selected page
+    fetchDeals(selectedPage);
+  });
+
+  
   selectPage.innerHTML = options;
   selectPage.selectedIndex = currentPage - 1;
+  selectPage.appendChild(select);
+
 };
 
 /**
@@ -215,6 +279,7 @@ async function initialRender() {
 
   setCurrentDeals({ result: curDeals, meta: deals.meta });
   render(currentDeals, currentPagination);
+  renderFavorites();
 }
 
 // Appelez initialRender lors de l'ouverture de la page
