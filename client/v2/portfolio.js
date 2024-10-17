@@ -93,7 +93,7 @@ const renderDeals = deals => {
       return `
       <div class="deal" id=${deal.uuid}>
         <span>${deal.id} | </span>
-        <a href="${deal.link}">${deal.title}</a>
+        <a href="${deal.link}" target="_blank">${deal.title}</a>
         <span> - ${deal.price}€</span>
         <span> - ${deal.discount}%</span>
         <span> - ${deal.comments} comments</span>
@@ -398,7 +398,7 @@ const renderSales = (sales, dealID) => {
       return `
       <div class="sale" id=${sale.uuid}>
         <span>${dealID} | </span>
-        <a href="${sale.link}">${sale.title}</a>
+        <a href="${sale.link}" target="_blank">${sale.title}</a>
         <span> - ${sale.price}€</span>
         <span> - ${Duration(sale.published)}</span>
       </div>
