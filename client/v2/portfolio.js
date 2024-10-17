@@ -132,6 +132,7 @@ const renderDeals = deals => {
       }
 
       localStorage.setItem('favoriteDeals', JSON.stringify(favoriteDeals));
+      renderFavorites();
     });
   });
 
@@ -155,9 +156,43 @@ const renderFavorites = () => {
     if (dealElement) {
       const clone = dealElement.cloneNode(true);
       clone.querySelector('.favorite-btn').remove(); // Remove the favorite button from the clone
+
+      // Add an unfavorite button for the favorite
+      const unfavoriteButton = document.createElement('button');
+      unfavoriteButton.textContent = 'Unfavorite';
+      unfavoriteButton.classList.add('unfavorite-btn');
+      unfavoriteButton.setAttribute('data-id', dealId);
+      clone.appendChild(unfavoriteButton);
+
       favoritesList.appendChild(clone);
     }
   });
+
+  // Add event listeners for unfavorite buttons
+  document.querySelectorAll('.unfavorite-btn').forEach(button => {
+    button.addEventListener('click', event => {
+      const dealId = event.target.getAttribute('data-id');
+      let favoriteDeals = JSON.parse(localStorage.getItem('favoriteDeals')) || [];
+
+      // Remove from favorites
+      favoriteDeals = favoriteDeals.filter(id => id !== dealId);
+      localStorage.setItem('favoriteDeals', JSON.stringify(favoriteDeals));
+
+      // Update the favorites list
+      renderFavorites();
+
+      // Also update the main deals list to reflect the change
+      const dealElement = document.getElementById(dealId);
+      if (dealElement) {
+        const favoriteButton = dealElement.querySelector('.favorite-btn');
+        if (favoriteButton) {
+          favoriteButton.textContent = 'Favorite';
+          dealElement.classList.remove('favorite');
+        }
+      }
+    });
+  });
+
 };
 
 /**
@@ -506,6 +541,7 @@ function Lifetime(sale){
 
 }
 
+/*
 document.querySelectorAll('input[name="filter"]').forEach((radio) => {
   radio.addEventListener('change', (event) => {
     if (event.target.value === 'discount') {
@@ -518,4 +554,4 @@ document.querySelectorAll('input[name="filter"]').forEach((radio) => {
       fetchAllDeals();
     }
   });
-});
+});*/
