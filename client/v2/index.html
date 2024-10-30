@@ -2,89 +2,160 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>🧱 Lego | Predictability of a lego set deal</title>
-    <link rel="icon" href="C:\ESILV\Cours\Semestre_9\FullStackWeb\lego\client\v2\favicon.ico" type="image/x-icon">
+    <title>BSL | Buy Sell Lego</title>
+    <link rel="icon"
+      href="C:\ESILV\Cours\Semestre_9\FullStackWeb\lego\client\v2\favicon.ico"
+      type="image/x-icon">
+    <link rel='stylesheet' href='style.css' />
   </head>
   <body>
-    <h1>Lego</h1>
-    <section id="options">
-      <div id="show">
-        <label for="show-select">Show:</label>
-        <select name="show" id="show-select">
-          <option value="24">24</option>
-          <option value="12">12</option>
-          <option value="6">6</option>
-        </select>
+    <header>
+      <h1>BSL | Predictability of a lego set deal</h1>
+    </header>
+    <div id="container">
+      <div class="modal-container" id="modal-container">
+        <div class="overlay">
+          <div class="modal">
+            <button class="close-modal">&#10006</button>
+            <div class="modal-content">
+              <section id="lego" style="display: none;">
+                <h2>Lego sets</h2>
+                <div>
+                  <label>Lego set id:</label>
+                  <select id="lego-set-id-select"></select>
+                </div>
+              </section>
+              <section id="indicators" style="display: block;">
+                <h2>Indicators</h2>
+                <table id="indicators-table">
+                  <tr>
+                    <td>
+                      <span>p5 sales price value</span>
+                      <div class="tooltip-container">
+                        <button class="tooltip-button"
+                          id="info-p5">&#10067</button>
+                        <div class="tooltip-text"></div>
+                      </div>
+                    </td>
+                    <td id="p5">0</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span>p25 sales price value</span>
+                      <div class="tooltip-container">
+                        <button class="tooltip-button"
+                          id="info-p25">&#10067</button>
+                        <div class="tooltip-text"></div>
+                      </div>
+                    </td>
+                    <td id="p25">0</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span>p50 value</span>
+                      <div class="tooltip-container">
+                        <button class="tooltip-button"
+                          id="info-p50">&#10067</button>
+                        <div class="tooltip-text"></div>
+                      </div>
+                    </td>
+                    <td id="p50">0</td>
+                  </tr>
+                  <!--<tr>
+                    <td>p95 sales price value</td>
+                    <td id="p95">0</td>
+                  </tr>-->
+                  <tr>
+                    <td>
+                      <span>Lifetime value</span>
+                      <div class="tooltip-container">
+                        <button class="tooltip-button"
+                          id="info-lifetime">&#10067</button>
+                        <div class="tooltip-text"></div>
+                      </div>
+                    </td>
+                    <td id="lifetime">0</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span>Average price</span>
+                      <div class="tooltip-container" style="display: none;">
+                        <button class="tooltip-button"
+                          id="info-p50">&#10067</button>
+                        <div class="tooltip-text"></div>
+                      </div>
+                    </td>
+                    <td id="average">0</td>
+                  </tr>
+                </table>
+              </section>
+              <section id="vinted" style="display: block;"></section>
+            </div>
+          </div>
+        </div>
       </div>
-      <div id="page">
-        <label for="page-select">Go to page:</label>
-        <select name="page" id="page-select"> </select>
-      </div>
-      <div id="filters">
-        <button type="button" onclick="Discount();">By best discount</button>
-        <button type="button" onclick="Commented();">By most commented</button>
-        <button type="button" onclick="HotDeals();">By hot deals</button>
-      </div>
-      <div id="sort">
-        <label for="sort-select">Sort:</label>
-        <select name="sort" id="sort-select">
-          <option value="price-asc">Cheaper</option>
-          <option value="price-desc">Expensive</option>
-          <option value="date-asc">Recently published</option>
-          <option value="date-desc">Anciently published</option>
-        </select>
-      </div>
-    </section>
-    <section id="lego">
-      <h2>Lego sets</h2>
-      <div>
-        <label>Lego set id:</label>
-        <select id="lego-set-id-select"></select>
-      </div>
-    </section>
-    <section id="vinted">
-      <h2>Vinted</h2>
-    </section>
-    <section id="indicators">
-      <h2>Indicators</h2>
-      <div>
-        <span>Number of deals</span>
-        <span id="nbDeals">0</span>
-      </div>
-      <div>
-        <span>Number of sales</span>
-        <span id="nbSales">0</span>
-      </div>
-      <div>
-        <span>p5 sales price value</span>
-        <span id="p5">0</span>
-      </div>
-      <div>
-        <span>p25 sales price value</span>
-        <span id="p25">0</span>
-      </div>
-      <div>
-        <span>p50 sales price value</span>
-        <span id="p50">0</span>
-      </div>
-      <div>
-        <span>p95 sales price value</span>
-        <span id="p95">0</span>
-      </div>
-      <div>
-        <span>Lifetime value</span>
-        <span id="lifetime">10 days</span>
-      </div>
-      <div>
-        <span>Average price</span>
-        <span id="average">0</span>
-      </div>
-    </section>
-    <section id="deals"></section>
-    <section id="favorites">
-      <h2>Favorites</h2>
-      <div id="favorites-list"></div>
-    </section>
+      <nav id="sidebar">
+        <ul>
+          <li><a href="#deals">Deals</a></li>
+          <li><a href="#favorites">My Favorites</a></li>
+        </ul>
+      </nav>
+      <main id="main-content">
+
+        <section id="options">
+          <h2>Latest Deals &#128165</h2>
+          <div id="filters">
+            <span>Filter by : &#10006</span>
+            <button type="button" class="filter-btn" onclick="Discount();">Best
+              discount
+              &#128201</button>
+            <button type="button" class="filter-btn" onclick="Commented();">Most
+              commented
+              &#128489</button>
+            <button type="button" class="filter-btn" onclick="HotDeals();">Hot
+              deals
+              &#128293</button>
+            <div class="tooltip-container">
+              <button class="tooltip-button" id="info-filters">&#10067</button>
+              <div class="tooltip-text"></div>
+            </div>
+          </div>
+          <div id="sort">
+            <label for="sort-select">Sort :</label>
+            <select name="sort" id="sort-select" class="select">
+              <option value="date-asc">Recently published</option>
+              <option value="date-desc">Anciently published</option>
+              <option value="price-asc">Cheaper</option>
+              <option value="price-desc">Expensive</option>
+            </select>
+            <div style="text-align: right;">
+              <span id="nbDeals">0</span>
+              <span> deals found</span>
+            </div>
+          </div>
+
+        </section>
+        <section id="deals"></section>
+        <section id="pagination">
+          <div id="show">
+            <label for="show-select">Show:</label>
+            <select name="show" id="show-select" class="select">
+              <option value="24">24</option>
+              <option value="12">12</option>
+              <option value="6">6</option>
+            </select>
+          </div>
+          <div id="page">
+            <label for="page-select">Page:</label>
+            <select name="page" id="page-select" class="select"> </select>
+          </div>
+        </section>
+        <section id="favorites" style="display: none;">
+          <h2>My Favorites &#129505</h2>
+          <div class="favorites-list" id="favorites-list"></div>
+        </section>
+      </main>
+    </div>
     <script type="text/javascript" charset="UTF-8" src="utils.js"></script>
     <script type="text/javascript" charset="UTF-8" src="portfolio.js"></script>
   </body>

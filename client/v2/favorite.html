@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>BSL | Buy Sell Lego</title>
+        <link rel="icon"
+            href="C:\ESILV\Cours\Semestre_9\FullStackWeb\lego\client\v2\favicon.ico"
+            type="image/x-icon">
+        <link rel='stylesheet' href='style.css' />
+    </head>
+    <body>
+        <header>
+            <h1>BSL | Predictability of a lego set deal</h1>
+        </header>
+        <div id="container">
+            <nav id="sidebar">
+                <ul>
+                    <li><a href='index.html' id="deals-link">Deals</a></li>
+                    <li><a href='favorite.html' id="favorites-link">My Favorites</a></li>
+                </ul>
+            </nav>
+            <main id="main-content">
+                <!--
+                <section id="options">
+                    <h2>Latest Deals &#128165</h2>
+                    <div id="filters">
+                        <span>Filter by : &#10006</span>
+                        <button type="button" class="filter-btn"
+                            onclick="Discount();">Best
+                            discount
+                            &#128201</button>
+                        <button type="button" class="filter-btn"
+                            onclick="Commented();">Most
+                            commented
+                            &#128489</button>
+                        <button type="button" class="filter-btn"
+                            onclick="HotDeals();">Hot
+                            deals
+                            &#128293</button>
+                        <div class="tooltip-container">
+                            <button class="tooltip-button"
+                                id="info-filters">&#10067</button>
+                            <div class="tooltip-text"></div>
+                        </div>
+                    </div>
+                    <div id="sort">
+                        <label for="sort-select">Sort :</label>
+                        <select name="sort" id="sort-select" class="select">
+                            <option value="date-asc">Recently published</option>
+                            <option value="date-desc">Anciently
+                                published</option>
+                            <option value="price-asc">Cheaper</option>
+                            <option value="price-desc">Expensive</option>
+                        </select>
+                        <div style="text-align: right;">
+                            <span id="nbDeals">0</span>
+                            <span> deals found</span>
+                        </div>
+                    </div>
+                </section>
+                -->
+                <section id="favorites" style="display: block;">
+                    <h2>My Favorites &#129505</h2>
+                    <div class="favorites-list" id="favorites-list"></div>
+                </section>
+            </main>
+        </div>
+        <script type="text/javascript" charset="UTF-8" src="utils.js"></script>
+        <script type="text/javascript" charset="UTF-8" src="portfolio.js"></script>
+    </body>
+</html>
