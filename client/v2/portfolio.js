@@ -234,8 +234,8 @@ const renderFavorites = () => {
 
       // Update the favorites list
       renderFavorites();
-      
-      
+
+
       // Also update the main deals list to reflect the change
       const dealElement = document.getElementById(dealId);
       if (dealElement) {
@@ -350,7 +350,6 @@ selectShow.addEventListener('change', async (event) => {
 document.addEventListener('DOMContentLoaded', async () => {
   const deals = await fetchDeals();
 
-
   setCurrentDeals(deals);
   render(currentDeals, currentPagination);
 });*/
@@ -399,10 +398,8 @@ selectPage.addEventListener('change', async (event) => {
 
 /*
 selectPage.addEventListener('change', async (event) => {
-  currentPage = parseInt(event.target.value); // Mettre à jour la page actuelle
+  currentPage = parseInt(event.target.value); 
   const deals = await fetchDeals(currentPage, selectShow.value);
-
-  // Mettre à jour les données globales avec les nouvelles offres
   setCurrentDeals(deals);
   render(currentDeals, currentPagination, currentPage);
 });*/
@@ -475,7 +472,6 @@ async function HotDeals() {
 }
 
 // Feature 5 : Sort by price AND 6 ; Sort by date
-
 selectSort.addEventListener('change', async (event) => {
   Sorting(event.target.value);
 });
@@ -516,6 +512,7 @@ function Duration(time) {
 }
 
 // Feature 7 : Display Vinted Sales
+/*
 selectLegoSetIds.addEventListener('change', async (event) => {
   let sale = await fetchSales(event.target.value);
   renderSales(sale, event.target.value);
@@ -529,7 +526,7 @@ selectLegoSetIds.addEventListener('change', async (event) => {
   let salesDate = sale.map(sale => sale.published);
   lifetimeValue.innerText = Lifetime(salesDate); // Feature 9 : lifetime of the deal
 
-});
+});*/
 
 const fetchSales = async id => {
   try {
@@ -709,7 +706,7 @@ async function toggleModal(id) {
 
   let salesDate = sale.map(sale => sale.published);
   lifetimeValue.innerText = Lifetime(salesDate); // Feature 9 : lifetime of the deal
-  
+
 }
 closeModalButton.addEventListener('click', () => {
   modalContainer.classList.remove('active');
@@ -746,17 +743,3 @@ infoLifetime.addEventListener('mouseover', event => {
 });
 
 
-/*
-document.querySelectorAll('input[name="filter"]').forEach((radio) => {
-  radio.addEventListener('change', (event) => {
-    if (event.target.value === 'discount') {
-      discount();
-    } else if (event.target.value === 'noFilter') {
-      // Ajouter d'autres filtres ici si nécessaire
-      fetchAllDeals(); // Réinitialiser les filtres
-    }
-    else {
-      fetchAllDeals();
-    }
-  });
-});*/
