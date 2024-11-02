@@ -4,13 +4,15 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>BSL | Buy Sell Lego</title>
     <link rel="icon"
-      href="C:\ESILV\Cours\Semestre_9\FullStackWeb\lego\client\v2\favicon.ico"
+      href="BSLLogo.png"
       type="image/x-icon">
     <link rel='stylesheet' href='style.css' />
   </head>
   <body>
     <header>
-      <h1>BSL | Predictability of a lego set deal</h1>
+      <a href="index.html">
+        <img src="BSLLogo.png" alt="BSL Logo" id="logo"/>
+      </a>
     </header>
     <div id="container">
       <div class="modal-container" id="modal-container">
@@ -30,7 +32,7 @@
                 <table id="indicators-table">
                   <tr>
                     <td>
-                      <span>p5 sales price value</span>
+                      <span>5th Percentile</span>
                       <div class="tooltip-container">
                         <button class="tooltip-button"
                           id="info-p5">&#10067</button>
@@ -41,7 +43,7 @@
                   </tr>
                   <tr>
                     <td>
-                      <span>p25 sales price value</span>
+                      <span>25th Percentile</span>
                       <div class="tooltip-container">
                         <button class="tooltip-button"
                           id="info-p25">&#10067</button>
@@ -52,7 +54,7 @@
                   </tr>
                   <tr>
                     <td>
-                      <span>p50 value</span>
+                      <span>50th Percentile</span>
                       <div class="tooltip-container">
                         <button class="tooltip-button"
                           id="info-p50">&#10067</button>
@@ -89,6 +91,10 @@
                   </tr>
                 </table>
               </section>
+              <section id="advice">
+                <h2>Advice</h2>
+                <p>It will be here soon. Be a little bit patient... &#129323</p>
+              </section>
               <section id="vinted" style="display: block;"></section>
             </div>
           </div>
@@ -96,23 +102,25 @@
       </div>
       <nav id="sidebar">
         <ul>
-          <li><a href="#deals">Deals</a></li>
-          <li><a href="#favorites">My Favorites</a></li>
+          <li><a href="#deals" id="deals-link">Deals</a></li>
+          <li><a href="favorite.html" id="favorites-link">My Favorites</a></li>
         </ul>
       </nav>
       <main id="main-content">
-
         <section id="options">
           <h2>Latest Deals &#128165</h2>
           <div id="filters">
-            <span>Filter by : &#10006</span>
-            <button type="button" class="filter-btn" onclick="Discount();">Best
+            <span>Filter by :</span>
+            <button type="button" class="filter-btn" id="discount-btn"
+              onclick="Discount();">Best
               discount
               &#128201</button>
-            <button type="button" class="filter-btn" onclick="Commented();">Most
+            <button type="button" class="filter-btn" id="comment-btn"
+              onclick="Commented();">Most
               commented
               &#128489</button>
-            <button type="button" class="filter-btn" onclick="HotDeals();">Hot
+            <button type="button" class="filter-btn" id="hotdeals-btn"
+              onclick="HotDeals();">Hot
               deals
               &#128293</button>
             <div class="tooltip-container">
@@ -150,10 +158,12 @@
             <select name="page" id="page-select" class="select"> </select>
           </div>
         </section>
+        <!--
         <section id="favorites" style="display: none;">
           <h2>My Favorites &#129505</h2>
           <div class="favorites-list" id="favorites-list"></div>
         </section>
+        -->
       </main>
     </div>
     <script type="text/javascript" charset="UTF-8" src="utils.js"></script>

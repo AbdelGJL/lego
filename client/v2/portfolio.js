@@ -46,12 +46,15 @@ const modalContainer = document.getElementById('modal-container');
 const modalTriggers = document.querySelectorAll(".modal-trigger");
 const modalContent = document.querySelector('.modal-content');
 const closeModalButton = document.querySelector(".close-modal");
-//const dealsLink = document.getElementById('deals-link');
+const dealsLink = document.getElementById('deals-link');
 const infoFilterButton = document.getElementById('info-filters');
 const infop5 = document.getElementById('info-p5');
 const infop25 = document.getElementById('info-p25');
 const infop50 = document.getElementById('info-p50');
 const infoLifetime = document.getElementById('info-lifetime');
+const discountBTN = document.getElementById('discount-btn');
+const commentedBTN = document.getElementById('comment-btn');
+const hotDealsBTN = document.getElementById('hotdeals-btn');
 
 /** 
  * Set global value
@@ -136,7 +139,8 @@ const renderDeals = deals => {
   div.innerHTML = template;
   fragment.appendChild(div);
   sectionDeals.appendChild(fragment);
-  document.querySelector('a[href="#deals"]').style.textDecoration = 'underline';
+
+  dealsLink.style.textDecoration = 'underline';
 
   document.querySelectorAll('.modal-trigger').forEach(button => {
     button.addEventListener('click', event => {
@@ -166,7 +170,7 @@ const renderDeals = deals => {
       }
 
       localStorage.setItem('favoriteDeals', JSON.stringify(favoriteDeals));
-      renderFavorites();
+      //renderFavorites();
     });
   });
 };
@@ -176,86 +180,82 @@ const renderDeals = deals => {
 //closeModalButton.addEventListener('click', closeModal);
 
 
-/**
- * Render favorites
- */
+/*
+
 const renderFavorites = () => {
   const favoriteDeals = JSON.parse(localStorage.getItem('favoriteDeals')) || [];
   const favoritesList = document.getElementById('favorites-list');
   if (!favoritesList) {
-    console.error('Element with ID favorites-list not found');
-    return;
+      console.error('Element with ID favorites-list not found');
+      return;
   }
   favoritesList.innerHTML = '';
 
   if (favoriteDeals.length === 0) {
-    favoritesList.innerHTML = '<p>No favorites yet.</p>';
-    return;
+      favoritesList.innerHTML = '<p>No favorites yet.</p>';
+      return;
   }
 
   favoriteDeals.forEach(dealId => {
-    const dealElement = document.getElementById(dealId);
-    if (dealElement) {
-      const clone = dealElement.cloneNode(true);
-      clone.querySelector('.favorite-btn').remove(); // Remove the favorite button from the clone
+      const dealElement = document.getElementById(dealId);
+      if (dealElement) {
+          const clone = dealElement.cloneNode(true);
+          clone.querySelector('.favorite-btn').remove(); // Remove the favorite button from the clone
 
-      const unfavoriteButton = document.createElement('button');
-      unfavoriteButton.classList.add('favorite-btn');
-      unfavoriteButton.style.backgroundImage = `url("heart.png")`;
-      unfavoriteButton.classList.add('unfavorite-btn');
-      unfavoriteButton.setAttribute('data-id', dealId);
-      const dealInfoDiv = clone.querySelector('.deal-info');
+          const unfavoriteButton = document.createElement('button');
+          unfavoriteButton.classList.add('favorite-btn');
+          unfavoriteButton.style.backgroundImage = `url("heart.png")`;
+          unfavoriteButton.classList.add('unfavorite-btn');
+          unfavoriteButton.setAttribute('data-id', dealId);
+          const dealInfoDiv = clone.querySelector('.deal-info');
 
-      if (dealInfoDiv) {
-        dealInfoDiv.appendChild(unfavoriteButton);
+          if (dealInfoDiv) {
+              dealInfoDiv.appendChild(unfavoriteButton);
+          }
+
+          const modalTrigger = clone.querySelector('.modal-trigger');
+          if (modalTrigger) {
+              modalTrigger.addEventListener('click', event => {
+                  const dealId = event.target.getAttribute('data-id');
+                  toggleModal(dealId);
+              });
+          }
+
+          favoritesList.appendChild(clone);
       }
-
-      const modalTrigger = clone.querySelector('.modal-trigger');
-      if (modalTrigger) {
-        modalTrigger.addEventListener('click', event => {
-          const dealId = event.target.getAttribute('data-id');
-          toggleModal(dealId);
-        });
-      }
-
-      favoritesList.appendChild(clone);
-    }
   });
 
   // Add event listeners for unfavorite buttons
   document.querySelectorAll('.unfavorite-btn').forEach(button => {
-    button.addEventListener('click', event => {
-      const dealId = event.target.getAttribute('data-id');
-      let favoriteDeals = JSON.parse(localStorage.getItem('favoriteDeals')) || [];
+      button.addEventListener('click', event => {
+          const dealId = event.target.getAttribute('data-id');
+          let favoriteDeals = JSON.parse(localStorage.getItem('favoriteDeals')) || [];
 
-      // Remove from favorites
-      favoriteDeals = favoriteDeals.filter(id => id !== dealId);
-      localStorage.setItem('favoriteDeals', JSON.stringify(favoriteDeals));
+          // Remove from favorites
+          favoriteDeals = favoriteDeals.filter(id => id !== dealId);
+          localStorage.setItem('favoriteDeals', JSON.stringify(favoriteDeals));
 
-      // Update the favorites list
-      renderFavorites();
+          // Update the favorites list
+          renderFavorites();
 
-
-      // Also update the main deals list to reflect the change
-      const dealElement = document.getElementById(dealId);
-      if (dealElement) {
-        const favoriteButton = dealElement.querySelector('.favorite-btn');
-        if (favoriteButton) {
-          favoriteButton.style.backgroundImage = `url("empty_heart.png")`;
-          dealElement.classList.remove('favorite');
-        }
-      }
-    });
+          /*
+          // Also update the main deals list to reflect the change
+          const dealElement = document.getElementById(dealId);
+          if (dealElement) {
+            const favoriteButton = dealElement.querySelector('.favorite-btn');
+            if (favoriteButton) {
+              favoriteButton.style.backgroundImage = `url("empty_heart.png")`;
+              dealElement.classList.remove('favorite');
+            }
+          }
+      });
   });
 
 };
+*/
 
-/*
-document.addEventListener('DOMContentLoaded', () => {
-  if (window.location.pathname.endsWith('favorite.html')) {
-    renderFavorites();
-  }
-});*/
+
+
 
 /**
  * Render page selector
@@ -336,16 +336,62 @@ const render = (deals, pagination, page) => {
 /**
  * Select the number of deals to display
  */
-selectShow.addEventListener('change', async (event) => {
-  const deals = await fetchDeals(currentPagination.currentPage, parseInt(event.target.value));
+document.addEventListener('DOMContentLoaded', () => {
+  // Vérifiez que l'élément avec l'ID `selectShow` existe dans le DOM et que nous sommes sur la page `index.html`
+  if (window.location.pathname.endsWith('index.html')) {
 
-  let curDeals = deals.result;
+    selectShow.addEventListener('change', async (event) => {
+      const deals = await fetchDeals(currentPagination.currentPage, parseInt(event.target.value));
 
-  sortDeals(curDeals, selectSort.value);
+      let curDeals = deals.result;
 
-  setCurrentDeals(deals);
-  render(currentDeals, currentPagination);
+      sortDeals(curDeals, selectSort.value);
+
+      setCurrentDeals(deals);
+      render(currentDeals, currentPagination);
+    });
+
+    // Feature 1 : Browse pages
+    selectPage.addEventListener('change', async (event) => {
+      const deals = await fetchDeals(parseInt(event.target.value), selectShow.value);
+
+      let curDeals = deals.result;
+      sortDeals(curDeals, selectSort.value);
+
+      setCurrentDeals(deals);
+      render(currentDeals, currentPagination);
+    });
+
+    // Feature 5 : Sort by price AND 6 ; Sort by date
+    selectSort.addEventListener('change', async (event) => {
+      Sorting(event.target.value);
+    });
+
+
+
+    // Info part for filter buttons
+    infoFilterButton.addEventListener('mouseover', event => {
+      const tooltipText = event.target.nextElementSibling;
+      tooltipText.innerHTML = `
+        <u>Infos about filters :</u> <br> 
+        - <u>Discount</u> : Display deals with a discount <b style="color:#D94C36;">>30%</b> <br> 
+        - <u>Commented</u> : Display deals with more than <b style="color:#D94C36;">15 comments</b> <br> 
+        - <u>Hot Deals</u> : Display deals with a temperature <b style="color:#D94C36;">>100</b>`;
+    });
+
+    dealsLink.addEventListener('click', event => {
+      event.preventDefault();
+      initialRender();
+    });
+
+    initialRender();
+  }
 });
+
+// Appelez initialRender lors de l'ouverture de la page ou lorsqu'un utilisateur clique sur le menu "Deals"
+//document.addEventListener('DOMContentLoaded', initialRender);
+
+
 /*
 document.addEventListener('DOMContentLoaded', async () => {
   const deals = await fetchDeals();
@@ -375,26 +421,11 @@ async function initialRender() {
 
   setCurrentDeals({ result: curDeals, meta: deals.meta });
   render(currentDeals, currentPagination);
-  renderFavorites();
+  //renderFavorites();
 }
 
-// Appelez initialRender lors de l'ouverture de la page ou lorsqu'un utilisateur clique sur le menu "Deals"
-document.addEventListener('DOMContentLoaded', initialRender);
-/*dealsLink.addEventListener('click', event => {
-  event.preventDefault();
-  initialRender();
-});*/
 
-// Feature 1 : Browse pages
-selectPage.addEventListener('change', async (event) => {
-  const deals = await fetchDeals(parseInt(event.target.value), selectShow.value);
 
-  let curDeals = deals.result;
-  sortDeals(curDeals, selectSort.value);
-
-  setCurrentDeals(deals);
-  render(currentDeals, currentPagination);
-});
 
 /*
 selectPage.addEventListener('change', async (event) => {
@@ -404,14 +435,37 @@ selectPage.addEventListener('change', async (event) => {
   render(currentDeals, currentPagination, currentPage);
 });*/
 
+// Fonction pour réinitialiser le style des autres boutons de filtre et les filtres appliqués
+async function resetFilters(keep = null) {
+  const deals = await fetchDeals(parseInt(selectPage.value), parseInt(selectShow.value));
+  setCurrentDeals(deals);
+
+  if (keep !== "discount") {
+    isDiscount = false;
+    discountBTN.classList.remove("actived");
+  }
+
+  if (keep !== "commented") {
+    isCommented = false;
+    commentedBTN.classList.remove("actived");
+  }
+
+  if (keep !== "hotDeal") {
+    isHotDeals = false;
+    hotDealsBTN.classList.remove("actived");
+  }
+}
+
 // Feature 2 : Filter by best discount
 
 let isDiscount = false;
 async function Discount() {
+  await resetFilters("discount");
   if (isDiscount) {
     const deals = await fetchDeals(parseInt(selectPage.value), parseInt(selectShow.value));
     setCurrentDeals(deals);
     isDiscount = false;
+    discountBTN.classList.remove("actived");
   }
   else {
     let filteredDeals = [];
@@ -421,6 +475,7 @@ async function Discount() {
       }
     });
     filteredDeals.sort((a, b) => b.discount - a.discount);
+    discountBTN.classList.add("actived");
     isDiscount = true;
     currentDeals = filteredDeals;
   }
@@ -430,10 +485,12 @@ async function Discount() {
 // Feature 3 : Filter by most commented
 let isCommented = false;
 async function Commented() {
+  await resetFilters("commented");
   if (isCommented) {
     const deals = await fetchDeals(parseInt(selectPage.value), parseInt(selectShow.value));
     setCurrentDeals(deals);
     isCommented = false;
+    commentedBTN.classList.remove("actived");
   }
   else {
     let filteredDeals = [];
@@ -443,6 +500,7 @@ async function Commented() {
       }
     });
     filteredDeals.sort((a, b) => b.comments - a.comments);
+    commentedBTN.classList.add("actived");
     isCommented = true;
     currentDeals = filteredDeals;
   }
@@ -452,10 +510,12 @@ async function Commented() {
 // Feature 4 : Filter by most liked
 let isHotDeals = false;
 async function HotDeals() {
+  await resetFilters("hotDeal");
   if (isHotDeals) {
     const deals = await fetchDeals(parseInt(selectPage.value), parseInt(selectShow.value));
     setCurrentDeals(deals);
     isHotDeals = false;
+    hotDealsBTN.classList.remove("actived");
   }
   else {
     let filteredDeals = [];
@@ -465,16 +525,14 @@ async function HotDeals() {
       }
     });
     filteredDeals.sort((a, b) => b.temperature - a.temperature);
+    hotDealsBTN.classList.add("actived");
     isHotDeals = true;
     currentDeals = filteredDeals;
   }
   render(currentDeals, currentPagination);
 }
 
-// Feature 5 : Sort by price AND 6 ; Sort by date
-selectSort.addEventListener('change', async (event) => {
-  Sorting(event.target.value);
-});
+
 
 async function Sorting(event) {
   const deals = await fetchDeals(parseInt(selectPage.value), parseInt(selectShow.value));
@@ -633,13 +691,15 @@ function handleMenuClick(event, sectionToShow) {
   document.getElementById(sectionToShow).style.display = 'block';
 }
 
+/*
 
 // For Menu 'My Favorites'
 document.querySelector('a[href="#favorites"]').addEventListener('click', event => {
-  handleMenuClick(event, 'favorites');
+  //handleMenuClick(event, 'favorites');
   document.querySelector('a[href="#favorites"]').style.textDecoration = 'underline';
   document.querySelector('a[href="#deals"]').style.textDecoration = 'none';
-  renderFavorites();
+  //renderFavorites();
+  window.location.href = 'favorite.html';
 });
 
 // For Menu 'Deals'
@@ -647,7 +707,7 @@ document.querySelector('a[href="#deals"]').addEventListener('click', event => {
   handleMenuClick(event, 'deals');
   document.querySelector('a[href="#deals"]').style.textDecoration = 'underline';
   document.querySelector('a[href="#favorites"]').style.textDecoration = 'none';
-});
+});*/
 
 // Change the color of the temperature based on the value
 function setColorForTemperature(temp) {
@@ -712,15 +772,8 @@ closeModalButton.addEventListener('click', () => {
   modalContainer.classList.remove('active');
 });
 
-// Info part for filter buttons
-infoFilterButton.addEventListener('mouseover', event => {
-  const tooltipText = event.target.nextElementSibling;
-  tooltipText.innerHTML = `
-    <u>Infos about filters :</u> <br> 
-    - <u>Discount</u> : Display deals with a discount <b style="color:#D94C36;">>30%</b> <br> 
-    - <u>Commented</u> : Display deals with more than <b style="color:#D94C36;">15 comments</b> <br> 
-    - <u>Hot Deals</u> : Display deals with a temperature <b style="color:#D94C36;">>100</b>`;
-});
+
+
 
 infop5.addEventListener('mouseover', event => {
   const tooltipText = event.target.nextElementSibling;

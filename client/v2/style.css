@@ -8,6 +8,12 @@ body {
     flex-direction: column;
 }
 
+#logo{
+    width: 100px;
+    height: 100px;
+
+}
+
 h1 {
     font-size: 36px;
 }
@@ -47,6 +53,11 @@ p {
     /* Change background color on hover */
     /*color: #F8F6E7; /* Change text color on hover */
     border-radius: 5px;
+    text-decoration: underline;
+}
+
+.actived {
+    background-color: #F8F6E7;
     text-decoration: underline;
 }
 
@@ -176,12 +187,13 @@ p {
     display: flex;
     flex-wrap: wrap;
     margin-left: 7px;
-    
+
     gap: 20px;
 }
 
 #numb-sales {
-    margin-right: 20px; /* Ajoutez de l'espace à droite */
+    margin-right: 20px;
+    /* Ajoutez de l'espace à droite */
     padding-bottom: 10px;
 }
 
