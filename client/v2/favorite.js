@@ -5,9 +5,31 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /**
+ * Fetch deal details by IDs
+ */
+const fetchDealsByIds = async (ids) => {
+  try {
+    const response = await fetch(
+      `https://lego-api-blue.vercel.app/deals?ids=${ids.join(',')}`
+    );
+    const body = await response.json();
+
+    if (body.success !== true) {
+      console.error(body);
+      return [];
+    }
+
+    return body.data;
+  } catch (error) {
+    console.error(error);
+    return [];
+  }
+};
+
+/**
  * Render favorites
  */
-const renderFavorites = () => {
+const renderFavorites = async () => {
     const favoriteDeals = JSON.parse(localStorage.getItem('favoriteDeals')) || [];
     const favoritesList = document.getElementById('favorites-list');
     if (!favoritesList) {
@@ -21,14 +43,14 @@ const renderFavorites = () => {
         return;
     }
 
-    favoriteDeals.forEach(dealId => {
-        // Fetch the deal details from the API or from the currentDeals array
-        const deal = currentDeals.find(d => d.uuid === dealId);
-        if (deal) {
-            const dealElement = document.createElement('div');
-            dealElement.className = 'deal';
-            dealElement.id = deal.uuid;
-            dealElement.innerHTML = `
+    // Fetch the deal details from the API or from the currentDeals array
+    const deals = await fetchDealsByIds(favoriteDeals);
+    deals.forEach(deal => {
+        const dealElement = document.createElement('div');
+        dealElement.className = 'deal';
+        dealElement.id = deal.uuid;
+        dealElement.innerHTML = `
+            <div class="deal" id=${deal.uuid}>
                 <div class="deal-info">
                     <p> &#128338 ${Duration(deal.published)}</p>
                     <button class="favorite-btn" data-id="${deal.uuid}" style="background-image: url('heart.png');"></button>
@@ -49,19 +71,19 @@ const renderFavorites = () => {
                     <span style="color : ${setColorForTemperature(deal.temperature)}; font-weight: 550;">${deal.temperature}°</span>
                     <button class="modal-btn modal-trigger" data-id="${deal.id}">Sales infos</button>
                 </div>
-            `;
+            </div>
+        `;
 
-            // Attach event listener to the "Sales infos" button
-            const modalTrigger = dealElement.querySelector('.modal-trigger');
-            if (modalTrigger) {
-                modalTrigger.addEventListener('click', event => {
-                    const dealId = event.target.getAttribute('data-id');
-                    toggleModal(dealId);
-                });
-            }
-
-            favoritesList.appendChild(dealElement);
+        // Attach event listener to the "Sales infos" button
+        const modalTrigger = dealElement.querySelector('.modal-trigger');
+        if (modalTrigger) {
+            modalTrigger.addEventListener('click', event => {
+                const dealId = event.target.getAttribute('data-id');
+                toggleModal(dealId);
+            });
         }
+
+        favoritesList.appendChild(dealElement);
     });
 
     // Add event listeners for unfavorite buttons
@@ -79,4 +101,3 @@ const renderFavorites = () => {
         });
     });
 };
-

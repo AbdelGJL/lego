@@ -46,7 +46,7 @@ const modalContainer = document.getElementById('modal-container');
 const modalTriggers = document.querySelectorAll(".modal-trigger");
 const modalContent = document.querySelector('.modal-content');
 const closeModalButton = document.querySelector(".close-modal");
-const dealsLink = document.getElementById('deals-link');
+//const dealsLink = document.getElementById('deals-link');
 const infoFilterButton = document.getElementById('info-filters');
 const infop5 = document.getElementById('info-p5');
 const infop25 = document.getElementById('info-p25');
@@ -140,7 +140,7 @@ const renderDeals = deals => {
   fragment.appendChild(div);
   sectionDeals.appendChild(fragment);
 
-  dealsLink.style.textDecoration = 'underline';
+  document.querySelector('a[href="#deals"]').style.textDecoration = 'underline';
 
   document.querySelectorAll('.modal-trigger').forEach(button => {
     button.addEventListener('click', event => {
@@ -170,7 +170,7 @@ const renderDeals = deals => {
       }
 
       localStorage.setItem('favoriteDeals', JSON.stringify(favoriteDeals));
-      //renderFavorites();
+      renderFavorites();
     });
   });
 };
@@ -180,7 +180,6 @@ const renderDeals = deals => {
 //closeModalButton.addEventListener('click', closeModal);
 
 
-/*
 
 const renderFavorites = () => {
   const favoriteDeals = JSON.parse(localStorage.getItem('favoriteDeals')) || [];
@@ -237,8 +236,7 @@ const renderFavorites = () => {
 
           // Update the favorites list
           renderFavorites();
-
-          /*
+          
           // Also update the main deals list to reflect the change
           const dealElement = document.getElementById(dealId);
           if (dealElement) {
@@ -252,7 +250,6 @@ const renderFavorites = () => {
   });
 
 };
-*/
 
 
 
@@ -336,61 +333,47 @@ const render = (deals, pagination, page) => {
 /**
  * Select the number of deals to display
  */
-document.addEventListener('DOMContentLoaded', () => {
-  // Vérifiez que l'élément avec l'ID `selectShow` existe dans le DOM et que nous sommes sur la page `index.html`
-  if (window.location.pathname.endsWith('index.html')) {
+// Appelez initialRender lors de l'ouverture de la page ou lorsqu'un utilisateur clique sur le menu "Deals"
+document.addEventListener('DOMContentLoaded', initialRender);
 
-    selectShow.addEventListener('change', async (event) => {
-      const deals = await fetchDeals(currentPagination.currentPage, parseInt(event.target.value));
+selectShow.addEventListener('change', async (event) => {
+  const deals = await fetchDeals(currentPagination.currentPage, parseInt(event.target.value));
 
-      let curDeals = deals.result;
+  let curDeals = deals.result;
 
-      sortDeals(curDeals, selectSort.value);
+  sortDeals(curDeals, selectSort.value);
 
-      setCurrentDeals(deals);
-      render(currentDeals, currentPagination);
-    });
-
-    // Feature 1 : Browse pages
-    selectPage.addEventListener('change', async (event) => {
-      const deals = await fetchDeals(parseInt(event.target.value), selectShow.value);
-
-      let curDeals = deals.result;
-      sortDeals(curDeals, selectSort.value);
-
-      setCurrentDeals(deals);
-      render(currentDeals, currentPagination);
-    });
-
-    // Feature 5 : Sort by price AND 6 ; Sort by date
-    selectSort.addEventListener('change', async (event) => {
-      Sorting(event.target.value);
-    });
-
-
-
-    // Info part for filter buttons
-    infoFilterButton.addEventListener('mouseover', event => {
-      const tooltipText = event.target.nextElementSibling;
-      tooltipText.innerHTML = `
-        <u>Infos about filters :</u> <br> 
-        - <u>Discount</u> : Display deals with a discount <b style="color:#D94C36;">>30%</b> <br> 
-        - <u>Commented</u> : Display deals with more than <b style="color:#D94C36;">15 comments</b> <br> 
-        - <u>Hot Deals</u> : Display deals with a temperature <b style="color:#D94C36;">>100</b>`;
-    });
-
-    dealsLink.addEventListener('click', event => {
-      event.preventDefault();
-      initialRender();
-    });
-
-    initialRender();
-  }
+  setCurrentDeals(deals);
+  render(currentDeals, currentPagination);
 });
 
-// Appelez initialRender lors de l'ouverture de la page ou lorsqu'un utilisateur clique sur le menu "Deals"
-//document.addEventListener('DOMContentLoaded', initialRender);
+// Feature 1 : Browse pages
+selectPage.addEventListener('change', async (event) => {
+  const deals = await fetchDeals(parseInt(event.target.value), selectShow.value);
 
+  let curDeals = deals.result;
+  sortDeals(curDeals, selectSort.value);
+
+  setCurrentDeals(deals);
+  render(currentDeals, currentPagination);
+});
+
+// Feature 5 : Sort by price AND 6 ; Sort by date
+selectSort.addEventListener('change', async (event) => {
+  Sorting(event.target.value);
+});
+
+
+
+// Info part for filter buttons
+infoFilterButton.addEventListener('mouseover', event => {
+  const tooltipText = event.target.nextElementSibling;
+  tooltipText.innerHTML = `
+    <u>Infos about filters :</u> <br> 
+    - <u>Discount</u> : Display deals with a discount <b style="color:#D94C36;">>30%</b> <br> 
+    - <u>Commented</u> : Display deals with more than <b style="color:#D94C36;">15 comments</b> <br> 
+    - <u>Hot Deals</u> : Display deals with a temperature <b style="color:#D94C36;">>100</b>`;
+});
 
 /*
 document.addEventListener('DOMContentLoaded', async () => {
@@ -421,7 +404,7 @@ async function initialRender() {
 
   setCurrentDeals({ result: curDeals, meta: deals.meta });
   render(currentDeals, currentPagination);
-  //renderFavorites();
+  renderFavorites();
 }
 
 
@@ -675,31 +658,24 @@ function handleMenuClick(event, sectionToShow) {
   event.preventDefault();
   if (sectionToShow === 'favorites') {
     document.getElementById('options').style.display = 'none';
-    document.getElementById('vinted').style.display = 'none';
-    document.getElementById('indicators').style.display = 'none';
     document.getElementById('deals').style.display = 'none';
-    document.getElementById('lego').style.display = 'none';
     document.getElementById('pagination').style.display = 'none';
   } else if (sectionToShow === 'deals') {
     document.getElementById('options').style.display = 'block';
-    document.getElementById('vinted').style.display = 'none';
-    document.getElementById('indicators').style.display = 'none';
     document.getElementById('favorites').style.display = 'none';
-    document.getElementById('lego').style.display = 'none';
     document.getElementById('pagination').style.display = 'flex';
   }
   document.getElementById(sectionToShow).style.display = 'block';
 }
 
-/*
+
 
 // For Menu 'My Favorites'
 document.querySelector('a[href="#favorites"]').addEventListener('click', event => {
-  //handleMenuClick(event, 'favorites');
+  handleMenuClick(event, 'favorites');
   document.querySelector('a[href="#favorites"]').style.textDecoration = 'underline';
   document.querySelector('a[href="#deals"]').style.textDecoration = 'none';
   //renderFavorites();
-  window.location.href = 'favorite.html';
 });
 
 // For Menu 'Deals'
@@ -707,7 +683,7 @@ document.querySelector('a[href="#deals"]').addEventListener('click', event => {
   handleMenuClick(event, 'deals');
   document.querySelector('a[href="#deals"]').style.textDecoration = 'underline';
   document.querySelector('a[href="#favorites"]').style.textDecoration = 'none';
-});*/
+});
 
 // Change the color of the temperature based on the value
 function setColorForTemperature(temp) {
