@@ -21,13 +21,13 @@ This endpoint accepts the following optional query string parameters:
 - `id` - lego set id to return
 */
 
-// current deals on the page
+// Current deals on the page
 
 let currentDeals = [];
 let currentPagination = {};
 let currentSales = [];
 
-// instantiate the selectors
+// Instantiate the selectors
 const selectShow = document.querySelector('#show-select');
 const selectPage = document.querySelector('#page-select');
 const selectLegoSetIds = document.querySelector('#lego-set-id-select');
@@ -46,7 +46,6 @@ const modalContainer = document.getElementById('modal-container');
 const modalTriggers = document.querySelectorAll(".modal-trigger");
 const modalContent = document.querySelector('.modal-content');
 const closeModalButton = document.querySelector(".close-modal");
-//const dealsLink = document.getElementById('deals-link');
 const infoFilterButton = document.getElementById('info-filters');
 const infop5 = document.getElementById('info-p5');
 const infop25 = document.getElementById('info-p25');
@@ -142,13 +141,12 @@ const renderDeals = deals => {
 
   document.querySelector('a[href="#deals"]').style.textDecoration = 'underline';
 
+  // Feature 7 : Display Vinted Sales
   document.querySelectorAll('.modal-trigger').forEach(button => {
     button.addEventListener('click', event => {
       toggleModal(event.target.getAttribute('data-id'))
     });
   });
-
-
 
   document.querySelectorAll('.favorite-btn').forEach(button => {
     button.addEventListener('click', event => {
@@ -158,13 +156,11 @@ const renderDeals = deals => {
       if (favoriteDeals.includes(dealId)) {
         // Remove from favorites
         favoriteDeals = favoriteDeals.filter(id => id !== dealId);
-        //event.target.textContent = 'Favorite'; //à modifier
         event.target.style.backgroundImage = `url("empty_heart.png")`;
         event.target.parentElement.classList.remove('favorite');
       } else {
         // Add to favorites
         favoriteDeals.push(dealId);
-        //event.target.textContent = 'Unfavorite'; //à modifier
         event.target.style.backgroundImage = `url("heart.png")`;
         event.target.parentElement.classList.add('favorite');
       }
@@ -175,82 +171,77 @@ const renderDeals = deals => {
   });
 };
 
-// <span>${deal.id} | </span>
-//modalTriggers.forEach(trigger => trigger.addEventListener("click", toggleModal));
-//closeModalButton.addEventListener('click', closeModal);
-
-
-
+/**
+ * Render list of favorites
+ */
 const renderFavorites = () => {
   const favoriteDeals = JSON.parse(localStorage.getItem('favoriteDeals')) || [];
   const favoritesList = document.getElementById('favorites-list');
   if (!favoritesList) {
-      console.error('Element with ID favorites-list not found');
-      return;
+    console.error('Element with ID favorites-list not found');
+    return;
   }
   favoritesList.innerHTML = '';
 
   if (favoriteDeals.length === 0) {
-      favoritesList.innerHTML = '<p>No favorites yet.</p>';
-      return;
+    favoritesList.innerHTML = '<p>No favorites yet.</p>';
+    return;
   }
 
   favoriteDeals.forEach(dealId => {
-      const dealElement = document.getElementById(dealId);
-      if (dealElement) {
-          const clone = dealElement.cloneNode(true);
-          clone.querySelector('.favorite-btn').remove(); // Remove the favorite button from the clone
+    const dealElement = document.getElementById(dealId);
+    if (dealElement) {
+      const clone = dealElement.cloneNode(true);
+      clone.querySelector('.favorite-btn').remove(); // Remove the favorite button from the clone
 
-          const unfavoriteButton = document.createElement('button');
-          unfavoriteButton.classList.add('favorite-btn');
-          unfavoriteButton.style.backgroundImage = `url("heart.png")`;
-          unfavoriteButton.classList.add('unfavorite-btn');
-          unfavoriteButton.setAttribute('data-id', dealId);
-          const dealInfoDiv = clone.querySelector('.deal-info');
+      const unfavoriteButton = document.createElement('button');
+      unfavoriteButton.classList.add('favorite-btn');
+      unfavoriteButton.style.backgroundImage = `url("heart.png")`;
+      unfavoriteButton.classList.add('unfavorite-btn');
+      unfavoriteButton.setAttribute('data-id', dealId);
+      const dealInfoDiv = clone.querySelector('.deal-info');
 
-          if (dealInfoDiv) {
-              dealInfoDiv.appendChild(unfavoriteButton);
-          }
-
-          const modalTrigger = clone.querySelector('.modal-trigger');
-          if (modalTrigger) {
-              modalTrigger.addEventListener('click', event => {
-                  const dealId = event.target.getAttribute('data-id');
-                  toggleModal(dealId);
-              });
-          }
-
-          favoritesList.appendChild(clone);
+      if (dealInfoDiv) {
+        dealInfoDiv.appendChild(unfavoriteButton);
       }
+
+      const modalTrigger = clone.querySelector('.modal-trigger');
+      if (modalTrigger) {
+        modalTrigger.addEventListener('click', event => {
+          const dealId = event.target.getAttribute('data-id');
+          toggleModal(dealId);
+        });
+      }
+
+      favoritesList.appendChild(clone);
+    }
   });
 
   // Add event listeners for unfavorite buttons
   document.querySelectorAll('.unfavorite-btn').forEach(button => {
-      button.addEventListener('click', event => {
-          const dealId = event.target.getAttribute('data-id');
-          let favoriteDeals = JSON.parse(localStorage.getItem('favoriteDeals')) || [];
+    button.addEventListener('click', event => {
+      const dealId = event.target.getAttribute('data-id');
+      let favoriteDeals = JSON.parse(localStorage.getItem('favoriteDeals')) || [];
 
-          // Remove from favorites
-          favoriteDeals = favoriteDeals.filter(id => id !== dealId);
-          localStorage.setItem('favoriteDeals', JSON.stringify(favoriteDeals));
+      // Remove from favorites
+      favoriteDeals = favoriteDeals.filter(id => id !== dealId);
+      localStorage.setItem('favoriteDeals', JSON.stringify(favoriteDeals));
 
-          // Update the favorites list
-          renderFavorites();
-          
-          // Also update the main deals list to reflect the change
-          const dealElement = document.getElementById(dealId);
-          if (dealElement) {
-            const favoriteButton = dealElement.querySelector('.favorite-btn');
-            if (favoriteButton) {
-              favoriteButton.style.backgroundImage = `url("empty_heart.png")`;
-              dealElement.classList.remove('favorite');
-            }
-          }
-      });
+      // Update the favorites list
+      renderFavorites();
+
+      // Also update the main deals list to reflect the change
+      const dealElement = document.getElementById(dealId);
+      if (dealElement) {
+        const favoriteButton = dealElement.querySelector('.favorite-btn');
+        if (favoriteButton) {
+          favoriteButton.style.backgroundImage = `url("empty_heart.png")`;
+          dealElement.classList.remove('favorite');
+        }
+      }
+    });
   });
-
 };
-
 
 
 
@@ -320,8 +311,7 @@ const render = (deals, pagination, page) => {
   renderDeals(deals);
   renderPagination(pagination);
   renderIndicators(pagination);
-  renderLegoSetIds(deals)
-  //Sorting(selectSort.value);
+  renderLegoSetIds(deals);
 };
 
 /**
@@ -333,7 +323,7 @@ const render = (deals, pagination, page) => {
 /**
  * Select the number of deals to display
  */
-// Appelez initialRender lors de l'ouverture de la page ou lorsqu'un utilisateur clique sur le menu "Deals"
+// Call initialRender at the beginning of the loading page
 document.addEventListener('DOMContentLoaded', initialRender);
 
 selectShow.addEventListener('change', async (event) => {
@@ -358,31 +348,7 @@ selectPage.addEventListener('change', async (event) => {
   render(currentDeals, currentPagination);
 });
 
-// Feature 5 : Sort by price AND 6 ; Sort by date
-selectSort.addEventListener('change', async (event) => {
-  Sorting(event.target.value);
-});
-
-
-
-// Info part for filter buttons
-infoFilterButton.addEventListener('mouseover', event => {
-  const tooltipText = event.target.nextElementSibling;
-  tooltipText.innerHTML = `
-    <u>Infos about filters :</u> <br> 
-    - <u>Discount</u> : Display deals with a discount <b style="color:#D94C36;">>30%</b> <br> 
-    - <u>Commented</u> : Display deals with more than <b style="color:#D94C36;">15 comments</b> <br> 
-    - <u>Hot Deals</u> : Display deals with a temperature <b style="color:#D94C36;">>100</b>`;
-});
-
-/*
-document.addEventListener('DOMContentLoaded', async () => {
-  const deals = await fetchDeals();
-
-  setCurrentDeals(deals);
-  render(currentDeals, currentPagination);
-});*/
-
+// Function to sort the deals based on the selected value
 function sortDeals(deals, sortValue) {
   if (sortValue === "price-asc") {
     deals.sort((a, b) => a.price - b.price);
@@ -395,7 +361,7 @@ function sortDeals(deals, sortValue) {
   }
 }
 
-// Fonction de rendu initial
+// Render the initial page
 async function initialRender() {
   const deals = await fetchDeals();
   let curDeals = deals.result;
@@ -407,18 +373,7 @@ async function initialRender() {
   renderFavorites();
 }
 
-
-
-
-/*
-selectPage.addEventListener('change', async (event) => {
-  currentPage = parseInt(event.target.value); 
-  const deals = await fetchDeals(currentPage, selectShow.value);
-  setCurrentDeals(deals);
-  render(currentDeals, currentPagination, currentPage);
-});*/
-
-// Fonction pour réinitialiser le style des autres boutons de filtre et les filtres appliqués
+// Fuction for reinitializing the filters style of other buttons and the filters applied
 async function resetFilters(keep = null) {
   const deals = await fetchDeals(parseInt(selectPage.value), parseInt(selectShow.value));
   setCurrentDeals(deals);
@@ -440,7 +395,6 @@ async function resetFilters(keep = null) {
 }
 
 // Feature 2 : Filter by best discount
-
 let isDiscount = false;
 async function Discount() {
   await resetFilters("discount");
@@ -515,8 +469,12 @@ async function HotDeals() {
   render(currentDeals, currentPagination);
 }
 
+// Feature 5 : Sort by price AND 6 ; Sort by date
+selectSort.addEventListener('change', async (event) => {
+  Sorting(event.target.value);
+});
 
-
+// Function to sort the deals based on the selected value
 async function Sorting(event) {
   const deals = await fetchDeals(parseInt(selectPage.value), parseInt(selectShow.value));
   let curDeals = deals.result;
@@ -553,6 +511,8 @@ function Duration(time) {
 }
 
 // Feature 7 : Display Vinted Sales
+// Here, we display sales based on the selected deal
+// But here we add a button to display the sales directly in our Deals
 /*
 selectLegoSetIds.addEventListener('change', async (event) => {
   let sale = await fetchSales(event.target.value);
@@ -589,8 +549,9 @@ const fetchSales = async id => {
 };
 
 /** 
- * Set global value
- * @param  {Array} sales - deals to display
+ * Render list of sales
+ * @param  {Array} sales - sales to display
+ * @param  {String} dealID - id of the deal
  */
 const renderSales = (sales, dealID) => {
   const fragment = document.createDocumentFragment();
@@ -628,7 +589,7 @@ const renderSales = (sales, dealID) => {
 };
 
 // Feature 9 - average, p25, p50 and p95 price value indicators
-// Average value
+// Average value function
 function Average(sales) {
   let initialValue = 0;
   let sumWithInitial = sales.reduce(
@@ -639,6 +600,7 @@ function Average(sales) {
   return average.toFixed(2);
 }
 
+// Percentile value function
 function pValue(salesPrice, pvalue) {
   if (salesPrice.length !== 0 && salesPrice !== null && salesPrice !== undefined) {
     const N = Math.ceil(salesPrice.length * pvalue);
@@ -648,12 +610,14 @@ function pValue(salesPrice, pvalue) {
   else return 0;
 }
 
+// Feature 10 - Lifetime of the deal
 function Lifetime(sale) {
   let sortSale = sale.sort(function (a, b) { return a - b; });
   return Duration(sortSale[0]);
 
 }
 
+// Display the section based on the menu clicked
 function handleMenuClick(event, sectionToShow) {
   event.preventDefault();
   if (sectionToShow === 'favorites') {
@@ -668,14 +632,11 @@ function handleMenuClick(event, sectionToShow) {
   document.getElementById(sectionToShow).style.display = 'block';
 }
 
-
-
 // For Menu 'My Favorites'
 document.querySelector('a[href="#favorites"]').addEventListener('click', event => {
   handleMenuClick(event, 'favorites');
   document.querySelector('a[href="#favorites"]').style.textDecoration = 'underline';
   document.querySelector('a[href="#deals"]').style.textDecoration = 'none';
-  //renderFavorites();
 });
 
 // For Menu 'Deals'
@@ -698,6 +659,7 @@ function setColorForTemperature(temp) {
   }
 }
 
+// Display only 46 characters of the title
 function stringExtract(str) {
   if (str.length <= 46) {
     return str;
@@ -725,6 +687,7 @@ function renderRetail(retail) {
   }
 }
 
+// Display the popup for the sales
 async function toggleModal(id) {
   modalContainer.classList.toggle("active");
 
@@ -748,9 +711,17 @@ closeModalButton.addEventListener('click', () => {
   modalContainer.classList.remove('active');
 });
 
+// Info part for filter buttons
+infoFilterButton.addEventListener('mouseover', event => {
+  const tooltipText = event.target.nextElementSibling;
+  tooltipText.innerHTML = `
+    <u>Infos about filters :</u> <br> 
+    - <u>Discount</u> : Display deals with a discount <b style="color:#D94C36;">>30%</b> <br> 
+    - <u>Commented</u> : Display deals with more than <b style="color:#D94C36;">15 comments</b> <br> 
+    - <u>Hot Deals</u> : Display deals with a temperature <b style="color:#D94C36;">>100</b>`;
+});
 
-
-
+// Info part for indicators
 infop5.addEventListener('mouseover', event => {
   const tooltipText = event.target.nextElementSibling;
   tooltipText.innerHTML = `The price displayed means that <b style="color:#D94C36;">95%</b> of the sales are above this price`;
