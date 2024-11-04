@@ -1,14 +1,12 @@
 body {
     font-family: "Verdana", sans-serif;
     color: #363636;
-    /* Dark gray */
     background-color: #fff8f8;
-    /* Light gray */
     display: flex;
     flex-direction: column;
 }
 
-#logo{
+#logo {
     width: 100px;
     height: 100px;
 
@@ -32,26 +30,19 @@ p {
     font-family: "Verdana", sans-serif;
     font-size: 13px;
     background-color: #fff8f8;
-    /* Light yellow F8F6E7*/
     border-radius: 15px;
     border-color: #D94C36;
     color: #D94C36;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 160px;
-    /* Largeur du select */
     height: 25px;
-    /* Hauteur du select */
     cursor: pointer;
-    /* Change cursor to pointer on hover */
     transition: background-color 0.3s, color 0.3s, border-radius 0.3s, border-color 0.3s;
-    /* Smooth transition for hover effect */
 }
 
 .filter-btn:hover {
     background-color: #F8F6E7;
-    /* Change background color on hover */
-    /*color: #F8F6E7; /* Change text color on hover */
     border-radius: 5px;
     text-decoration: underline;
 }
@@ -64,15 +55,12 @@ p {
 #container {
     display: flex;
     width: 100%;
-    /* Remplacez cette valeur par la largeur de votre page */
 }
 
 #sidebar {
-    /* width: 1000px; */
     padding: 15px;
     padding-right: 20px;
     border-right: 3px solid #D94C36;
-    /* Barre de séparation avec couleur personnalisée */
 }
 
 #sidebar ul {
@@ -92,14 +80,11 @@ p {
 
 #sidebar ul li a:hover {
     color: #D94C36;
-    /* Couleur personnalisée pour les liens survolés */
 }
 
 #main-content {
     display: flex;
     flex-direction: column;
-    /* Organise les éléments en une seule colonne */
-    /*margin-left: 10px; /* Ajustez cette valeur en fonction de la largeur de votre barre latérale */
     padding: 20px;
 }
 
@@ -108,15 +93,12 @@ p {
 #vinted,
 #indicators {
     margin-bottom: 20px;
-    /* Ajoute de l'espace entre les sections */
 }
 
 #pagination {
     display: flex;
     justify-content: space-around;
-    /* Centre les éléments horizontalement */
     flex-direction: row;
-    /* Organise les éléments en une seule colonne */
 }
 
 #show {
@@ -131,10 +113,8 @@ p {
     margin: 25px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /*border: 2px solid #ea8c7e;*/
     padding: 15px;
     background-color: #ffffff;
-    /*#eecccc*/
     width: 350px;
     height: 380px;
 }
@@ -193,7 +173,6 @@ p {
 
 #numb-sales {
     margin-right: 20px;
-    /* Ajoutez de l'espace à droite */
     padding-bottom: 10px;
 }
 
@@ -203,7 +182,6 @@ p {
     border-radius: 5px;
     padding: 10px;
     width: calc(33.333% - 20px);
-    /* Trois éléments par ligne avec un espace de 20px */
     box-sizing: border-box;
 }
 
@@ -242,7 +220,6 @@ p {
     background-color: #fff8f8;
 }
 
-/* Style pour le survol des lignes */
 #indicators-table tr:hover {
     background-color: #F8F6E7;
 }
@@ -261,7 +238,6 @@ p {
 }
 
 .favorite-btn {
-    /*background-image: url('empty_heart.png');*/
     background-color: #ffffff;
     background-size: 20px 20px;
     background-repeat: no-repeat;
@@ -308,39 +284,25 @@ p {
 
 .select {
     width: 160px;
-    /* Largeur du select */
     height: 25px;
-    /* Hauteur du select */
-    /*padding: 5px 10px; /* Espacement interne */
     border: 2px solid #D94C36;
-    /* Couleur et épaisseur de la bordure */
     border-radius: 20px;
-    /* Arrondir les coins */
     background-color: #fff8f8;
-    /* Couleur de fond */
     color: #D94C36;
-    /* Couleur du texte */
     font-family: 'Verdana', sans-serif;
-    /* Police du texte */
     text-align: center;
     cursor: pointer;
-    /* Change le curseur pour indiquer que c'est cliquable */
     transition: all 0.3s;
-    /* Animation fluide pour une meilleure expérience utilisateur */
 }
 
 .select:focus {
     border-color: #D94C36;
-    /* Couleur de la bordure lors du focus */
     outline: none;
-    /* Supprime le contour par défaut */
 }
 
 .select option {
     background-color: #F8F6E7;
-    /* Couleur de fond des options */
     color: #D94C36;
-    /* Couleur du texte des options */
 }
 
 .filter {
@@ -366,20 +328,15 @@ p {
     border: 2px solid #D94C36;
     border-radius: 25px;
     width: 35px;
-    /* Largeur du select */
     height: 25px;
-    /* Hauteur du select */
     color: #D94C36;
-    /*padding: 10px 20px;*/
     text-align: center;
     text-decoration: none;
     display: inline-block;
-
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s, border-radius 0.3s, border-color 0.3s;
-    /* Smooth transition for hover effect */
 }
 
 .tooltip-text {
@@ -415,20 +372,15 @@ p {
     font-family: "Verdana", sans-serif;
     font-size: 13px;
     background-color: #FFF;
-    /* Light yellow F8F6E7*/
     border-radius: 15px;
     border-color: #D94C36;
     color: #D94C36;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 100px;
-    /* Largeur du select */
     height: 25px;
-    /* Hauteur du select */
     cursor: pointer;
-    /* Change cursor to pointer on hover */
     transition: background-color 0.3s, color 0.3s, border-radius 0.3s, border-color 0.3s;
-    /* Smooth transition for hover effect */
 }
 
 .modal-btn:hover {
@@ -452,9 +404,8 @@ p {
     width: 100%;
     height: 100%;
     overflow: auto;
-    /* Permet le défilement si le contenu dépasse la hauteur de la fenêtre */
-    background-color: rgba(0, 0, 0, 0.5);
-    /* Fond semi-transparent */
+    background-color: rgba(0, 0, 0, 0.49);
+    transition: visibility 0.4s ease-out;
 }
 
 .modal-container.active {
@@ -468,7 +419,7 @@ p {
     width: 100%;
     height: 100%;
     background: #333333d3;
-    transition: opacity 0.4s 0.2s ease-out;
+    transition: opacity 0.4s 0.2s ease-out, visibility 0.4s ease-out;
 }
 
 .modal-container.active .overlay {
@@ -486,7 +437,7 @@ p {
     background: #fff;
     border-radius: 5px;
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, calc(-50% - 50px));
     z-index: 1001;
@@ -504,9 +455,7 @@ p {
 
 .modal-content {
     max-height: 70vh;
-    /* Adjust the height as needed */
     overflow: auto;
-    /* Enable scrolling within the modal content */
 }
 
 .close-modal {
@@ -520,11 +469,13 @@ p {
     cursor: pointer;
     background: #D94C36;
     color: #fff;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .close-modal:hover,
 .close-modal:focus {
     color: black;
+    background: #d94c36d0;
     text-decoration: none;
     cursor: pointer;
 }
