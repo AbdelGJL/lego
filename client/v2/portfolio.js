@@ -716,9 +716,9 @@ infoFilterButton.addEventListener('mouseover', event => {
   const tooltipText = event.target.nextElementSibling;
   tooltipText.innerHTML = `
     <u>Infos about filters :</u> <br> 
-    - <u>Discount</u> : Display deals with a discount <b style="color:#D94C36;">>30%</b> <br> 
+    - <u>Discount</u> : Display deals with a discount <b style="color:#D94C36;">>50%</b> <br> 
     - <u>Commented</u> : Display deals with more than <b style="color:#D94C36;">15 comments</b> <br> 
-    - <u>Hot Deals</u> : Display deals with a temperature <b style="color:#D94C36;">>100</b>`;
+    - <u>Hot Deals</u> : Display deals with a temperature <b style="color:#D94C36;">>100°</b>`;
 });
 
 // Info part for indicators

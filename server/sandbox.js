@@ -1,7 +1,7 @@
 /* eslint-disable no-console, no-process-exit */
 const avenuedelabrique = require('./websites/avenuedelabrique');
 
-async function sandbox (website = 'https://www.avenuedelabrique.com/nouveautes-lego') {
+async function sandbox (website = 'https://www.dealabs.com/groupe/lego') {
   try {
     console.log(`🕵️‍♀️  browsing ${website} website`);
 
@@ -19,3 +19,5 @@ async function sandbox (website = 'https://www.avenuedelabrique.com/nouveautes-l
 const [,, eshop] = process.argv;
 
 sandbox(eshop);
+
+//https://www.avenuedelabrique.com/nouveautes-lego
