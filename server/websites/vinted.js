@@ -47,7 +47,7 @@ const parse = (data, item_id) => {
  */
 module.exports.scrape = async (url, id) => {
   try {
-    console.log("url ------> ", url);
+    //console.log("url ------> ", url);
     const { csrfToken, cookies } = await TokenCookie();
     const response = await fetch(url, {
       headers: {

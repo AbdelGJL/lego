@@ -16,7 +16,7 @@ async function scrapePage(url, website, id = 0) {
   }
   else{
     try {
-      console.log('ça scrappe, ça scrappe, ça scrappe...');
+      //console.log('ça scrappe, ça scrappe, ça scrappe...');
       const sales = await vinted.scrape(url, id);
       return sales;
     } catch (error) {
@@ -47,7 +47,8 @@ async function sandbox(website = 'https://www.dealabs.com/groupe/lego') {
         page++;
       }
     }
-  
+    
+    console.log(`📥 Saving...`);
     await SaveInJSON(allDeals, "deals");
     console.log("📂 All deals saved in deals.json!");*/
 
@@ -56,7 +57,7 @@ async function sandbox(website = 'https://www.dealabs.com/groupe/lego') {
     console.log(`🕵️‍♀️  browsing ${website}`);
     let allSales = [];    
     //const allIds = idsArray(allDeals);
-    const allIds = [11027, 76960, 71821]
+    const allIds = [31087]
     //const content = allIds.join('\n');
     //await fs.writeFile("./ids.txt", content, 'utf8');
     for (const id of allIds) {
@@ -68,7 +69,7 @@ async function sandbox(website = 'https://www.dealabs.com/groupe/lego') {
       while (hasMorePages) {
         const url = `${website}api/v2/catalog/items?page=${page}&per_page=96&search_text=${id}&catalog_ids=&size_ids=&brand_ids=&status_ids=&color_ids=&material_ids=`;
         const sales = await scrapePage(url, "vinted", id);
-        console.log('Sales : ' + sales);
+        //console.log('Sales : ' + sales);
             
         if (sales.length === 0) {
           hasMorePages = false;
@@ -78,7 +79,7 @@ async function sandbox(website = 'https://www.dealabs.com/groupe/lego') {
           page++;
         }
       }
-      console.log(`Saving...`);
+      console.log(`📥 Saving...`);
       await SaveInJSON(allSales, id);
       console.log(`📂 All sales of lego ${id} saved in ${id}.json!`);
     }
