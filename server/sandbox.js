@@ -16,7 +16,6 @@ async function scrapePage(url, website, id = 0) {
   }
   else{
     try {
-      //console.log('ça scrappe, ça scrappe, ça scrappe...');
       const sales = await vinted.scrape(url, id);
       return sales;
     } catch (error) {
@@ -29,7 +28,7 @@ async function scrapePage(url, website, id = 0) {
 
 async function sandbox(website = 'https://www.dealabs.com/groupe/lego') {
   try {
-    /*let allDeals = [];
+    let allDeals = [];
     let page = 1;
     let hasMorePages = true;
     // Scrapping dealabs
@@ -50,18 +49,15 @@ async function sandbox(website = 'https://www.dealabs.com/groupe/lego') {
     
     console.log(`📥 Saving...`);
     await SaveInJSON(allDeals, "deals");
-    console.log("📂 All deals saved in deals.json!");*/
+    console.log("📂 All deals saved in deals.json!");
 
     //Scrapping vinted
     website = 'https://www.vinted.fr/';
     console.log(`🕵️‍♀️  browsing ${website}`);
     let allSales = [];    
-    //const allIds = idsArray(allDeals);
-    const allIds = [31087]
-    //const content = allIds.join('\n');
-    //await fs.writeFile("./ids.txt", content, 'utf8');
+    let allIds = idsArray(allDeals);
+    allIds = allIds.filter(item => item !== null);
     for (const id of allIds) {
-      //console.log(id);
       page = 1;
       hasMorePages = true;
       allSales = [];
@@ -69,7 +65,6 @@ async function sandbox(website = 'https://www.dealabs.com/groupe/lego') {
       while (hasMorePages) {
         const url = `${website}api/v2/catalog/items?page=${page}&per_page=96&search_text=${id}&catalog_ids=&size_ids=&brand_ids=&status_ids=&color_ids=&material_ids=`;
         const sales = await scrapePage(url, "vinted", id);
-        //console.log('Sales : ' + sales);
             
         if (sales.length === 0) {
           hasMorePages = false;
@@ -91,8 +86,6 @@ async function sandbox(website = 'https://www.dealabs.com/groupe/lego') {
   }
 }
 
-
-
 async function SaveInJSON(data, filename){
   const jsonContent = JSON.stringify(data, null, 2);
   if (filename === "deals")
@@ -106,21 +99,6 @@ function idsArray(array){
   return Array.from(uniqueIds);
 }
 
-async function sandboxV(website = 'https://www.vinted.fr/'){
-  console.log(`🕵️‍♀️  browsing ${website}`);
-  const url = `${website}api/v2/catalog/items?page=1&per_page=96&search_text=76960&catalog_ids=&size_ids=&brand_ids=&status_ids=&color_ids=&material_ids=`;
-  const sales = await vinted.scrape(url);
-  console.log(sales);
-
-}
-
 const [, , eshop] = process.argv;
 
 sandbox(eshop);
-
-//sandboxV(eshop);
-
-//https://www.avenuedelabrique.com/nouveautes-lego
-//https://www.dealabs.com/groupe/lego?hide_expired=true&time_frame=30
-//https://www.vinted.fr/catalog?search_text=42171&page=1
-//https://www.vinted.fr/api/v2/catalog/items?page=1&per_page=96&search_text=42171&catalog_ids=&size_ids=&brand_ids=&status_ids=&color_ids=&material_ids=
