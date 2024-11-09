@@ -39,11 +39,11 @@ const parse = data => {
       const published = dataVueJson.props.thread.publishedAt;
       const community = "dealabs";
 
-      const parenthesisMatch = title.match(/\((\d{4,})\)/);
+      const parenthesisMatch = title.match(/\((\d{5,})\)/);
       let id = parenthesisMatch ? parenthesisMatch[1] : null;
       if (!id) {
         const words = title.split(' ');
-        id = words.find(word => /^\d{4,}$/.test(word)) || null;
+        id = words.find(word => /^\d{5,}$/.test(word)) || null;
       }
 
       const dataVue2 = $(element).find('div.threadGrid div div').attr('data-vue2');

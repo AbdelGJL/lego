@@ -503,7 +503,7 @@ function Duration(time) {
 
   if (Difference_In_Days <= 1) {
     let Difference_In_Hours = Math.round(Difference_In_Time / (1000 * 3600));
-    console.log(Difference_In_Hours + " hours ago");
+    return Difference_In_Hours + " hours ago";
   }
   else {
     return Difference_In_Days + " days ago";
