@@ -47,7 +47,6 @@ const parse = (data, item_id) => {
  */
 module.exports.scrape = async (url, id) => {
   try {
-    //console.log("url ------> ", url);
     const { csrfToken, cookies } = await TokenCookie();
     const response = await fetch(url, {
       headers: {
@@ -90,6 +89,3 @@ async function TokenCookie() {
   const csrfToken = csrfTokenMatch ? csrfTokenMatch[1] : null;
   return { cookies, csrfToken };
 }
-
-
-//https://www.vinted.fr/
