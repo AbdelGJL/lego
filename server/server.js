@@ -2,6 +2,7 @@ require('dotenv').config()
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const uri = `mongodb+srv://abdelgjl:${process.env.SECRET_KEY}@clusterlego.xkkxu.mongodb.net/?retryWrites=true&w=majority&appName=ClusterLego`;
 const MONGODB_DB_NAME = 'lego';
+const fs = require('fs').promises;
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
@@ -12,6 +13,13 @@ const client = new MongoClient(uri, {
     useNewUrlParser: true,
   }
 });
+
+/** 
+ * Insert data into MongoDB
+ * @param {object} obj - The object to insert (deal or sale)
+ * @param {string} name - The name of the collection
+ * @description Insert the object into the collection
+*/
 module.exports.run = async (obj, name) => {
   try {
     // Connect the client to the server	(optional starting in v4.7)
@@ -42,7 +50,7 @@ module.exports.bestDiscount = async () => {
     const legoSetId = 'deals';
     const db = client.db(MONGODB_DB_NAME);
     const collection = db.collection(legoSetId);
-    const deals = await collection.find({ }).toArray();
+    const deals = await collection.find({}).toArray();
     const best = deals.filter(deal => deal.discount >= 50);
 
     console.log(best);
@@ -54,7 +62,6 @@ module.exports.bestDiscount = async () => {
 
 //module.exports.bestDiscount().catch(console.dir);
 
-//Find all most commented deals
 /**
  * Find all most commented deals
  * @description Display all deals with more than 15 comments in an array
@@ -65,7 +72,7 @@ module.exports.mostCommented = async () => {
     const legoSetId = 'deals';
     const db = client.db(MONGODB_DB_NAME);
     const collection = db.collection(legoSetId);
-    const deals = await collection.find({ }).toArray();
+    const deals = await collection.find({}).toArray();
     const mostCommented = deals.filter(deal => deal.comments >= 15);
 
     console.log(mostCommented);
@@ -73,12 +80,43 @@ module.exports.mostCommented = async () => {
     await client.close();
     console.log("Closed connection to MongoDB");
   }
-};  
+};
+//module.exports.mostCommented().catch(console.dir);
 
-module.exports.mostCommented().catch(console.dir);
 
-//Find all deals sorted by price
+/**
+ * Find all deals sorted by price
+ * @param {string} type - The type of sorting (asc or desc)
+ * @description Display all deals sorted by price in an array
+ */
+module.exports.sortedByPrice = async (type) => {
+  try {
+    await client.connect();
+    const legoSetId = 'deals';
+    const db = client.db(MONGODB_DB_NAME);
+    const collection = db.collection(legoSetId);
+    const deals = await collection.find({}).toArray();
+    let sortedByPrice = [];
+    if (type === 'desc')
+      sortedByPrice = deals.sort((a, b) => b.price - a.price);
+    else if (type === 'asc')
+      sortedByPrice = deals.sort((a, b) => a.price - b.price);
+    console.log(sortedByPrice);
+    //SaveInJSON(sortedByPrice, "sortedByPrice");
+  } finally {
+    await client.close();
+    console.log("Closed connection to MongoDB");
+  }
+};
+//module.exports.sortedByPrice('desc').catch(console.dir);
 
+async function SaveInJSON(data, filename) {
+  const jsonContent = JSON.stringify(data, null, 2);
+  if (filename === "deals")
+    await fs.writeFile("./deals/" + filename + ".json", jsonContent, 'utf8');
+  else
+    await fs.writeFile("./sales/" + filename + ".json", jsonContent, 'utf8');
+}
 
 //Find all deals sorted by date
 
@@ -88,4 +126,7 @@ module.exports.mostCommented().catch(console.dir);
 
 //Find all sales scraped less than 3 weeks
 
+
+
+//Display the hot deals
 
