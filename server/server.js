@@ -12,12 +12,12 @@ const client = new MongoClient(uri, {
     useNewUrlParser: true,
   }
 });
-module.exports.run = async (obj,name) => {
+module.exports.run = async (obj, name) => {
   try {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
     //const client = await MongoClient.connect(MONGODB_URI, {'useNewUrlParser': true});
-    const db =  client.db(MONGODB_DB_NAME);
+    const db = client.db(MONGODB_DB_NAME);
     const collection = db.collection(name);
     const result = await collection.insertMany(obj);
     console.log(result);
@@ -32,4 +32,36 @@ module.exports.run = async (obj,name) => {
 };
 //run().catch(console.dir);
 
+/**
+ * Find all best discount deals
+ * @param  {String} data - html response
+ * @return {Object} deal
+ */
+module.exports.bestDiscount = async () => {
+  try {
+    await client.connect();
+    const legoSetId = 'deals';
+    const db = client.db(MONGODB_DB_NAME);
+    const collection = db.collection(legoSetId);
+    const deals = await collection.find({ }).toArray();
+    const best = deals.filter(deal => deal.discount >= 50);
+
+    console.log(best);
+  } finally {
+    await client.close();
+    console.log("Closed connection to MongoDB");
+  }
+};
+
+module.exports.bestDiscount().catch(console.dir);
+
+//Find all most commented deals
+
+//Find all deals sorted by price
+
+//Find all deals sorted by date
+
+//Find all sales for a given lego set id
+
+//Find all sales scraped less than 3 weeks
 
