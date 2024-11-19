@@ -118,10 +118,35 @@ async function SaveInJSON(data, filename) {
     await fs.writeFile("./sales/" + filename + ".json", jsonContent, 'utf8');
 }
 
-//Find all deals sorted by date
+/**
+ * Find all deals sorted by date
+ * @param {String} type The type of sorting (asc or desc)
+ * @description Display all deals sorted by date in an array
+ */
+module.exports.sortedByDate = async (type) => {
+  try {
+    await client.connect();
+    const legoSetId = 'deals';
+    const db = client.db(MONGODB_DB_NAME);
+    const collection = db.collection(legoSetId);
+    const deals = await collection.find({}).toArray();
+    let sortedByDate = [];
+    if (type === 'desc')
+      sortedByDate = deals.sort((a, b) => new Date(a.published) - new Date(b.published));
+    else if (type === 'asc')
+      sortedByDate = deals.sort((a, b) => new Date(b.published) - new Date(a.published));
+    console.log(sortedByDate);
+    //SaveInJSON(sortedByDate, "sortedByDate");
+  } finally {
+    await client.close();
+    console.log("Closed connection to MongoDB");
+  }
+};
 
+//module.exports.sortedByDate('desc').catch(console.dir);
 
 //Find all sales for a given lego set id
+
 
 
 //Find all sales scraped less than 3 weeks
