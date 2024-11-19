@@ -34,8 +34,7 @@ module.exports.run = async (obj, name) => {
 
 /**
  * Find all best discount deals
- * @param  {String} data - html response
- * @return {Object} deal
+ * @description Display all deals with a discount greater than 50% in an array
  */
 module.exports.bestDiscount = async () => {
   try {
@@ -53,15 +52,40 @@ module.exports.bestDiscount = async () => {
   }
 };
 
-module.exports.bestDiscount().catch(console.dir);
+//module.exports.bestDiscount().catch(console.dir);
 
 //Find all most commented deals
+/**
+ * Find all most commented deals
+ * @description Display all deals with more than 15 comments in an array
+ */
+module.exports.mostCommented = async () => {
+  try {
+    await client.connect();
+    const legoSetId = 'deals';
+    const db = client.db(MONGODB_DB_NAME);
+    const collection = db.collection(legoSetId);
+    const deals = await collection.find({ }).toArray();
+    const mostCommented = deals.filter(deal => deal.comments >= 15);
+
+    console.log(mostCommented);
+  } finally {
+    await client.close();
+    console.log("Closed connection to MongoDB");
+  }
+};  
+
+module.exports.mostCommented().catch(console.dir);
 
 //Find all deals sorted by price
 
+
 //Find all deals sorted by date
+
 
 //Find all sales for a given lego set id
 
+
 //Find all sales scraped less than 3 weeks
+
 
