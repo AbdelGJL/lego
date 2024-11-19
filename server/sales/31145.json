@@ -1,890 +1,226 @@
 [
   {
     "id": "31145",
-    "title": "Livres",
-    "price": 4.9,
-    "link": "https://www.vinted.fr/items/5212310816-livres",
-    "published": 1728839755,
-    "uuid": "cd52a1b5-e295-4715-bf89-4d493bef7e22"
-  },
-  {
-    "id": "31145",
-    "title": "livre les 50 règles d'or pour avoir de la répartie",
-    "price": 4.78,
-    "link": "https://www.vinted.fr/items/5329172040-livre-les-50-regles-dor-pour-avoir-de-la-repartie",
-    "published": 1730728575,
-    "uuid": "dacde1e8-c739-4d95-8d8f-371b603b5691"
-  },
-  {
-    "id": "31145",
-    "title": "50 règles d’or pour avoir de la répartie",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/5148792369-50-regles-dor-pour-avoir-de-la-repartie",
-    "published": 1727898476,
-    "uuid": "b6b4a7d0-0d32-4459-b99e-68302413b32a"
-  },
-  {
-    "id": "31145",
-    "title": "Livre ",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/2969961784-livre",
-    "published": 1682967898,
-    "uuid": "abf1713f-25f7-4bf3-9c0c-2927955ecf94"
-  },
-  {
-    "id": "31145",
-    "title": "Les 50 règles d'or de la première rencontre  - Émilie Devienne ",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/3906419586-les-50-regles-dor-de-la-premiere-rencontre-emilie-devienne",
-    "published": 1703445892,
-    "uuid": "6beed78c-7c04-4fc6-abf3-9e383f77c1a2"
-  },
-  {
-    "id": "31145",
-    "title": "Les 50 règles d'or pour ne plus jamais être débordé(e)",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/2836301013-les-50-regles-dor-pour-ne-plus-jamais-etre-debordee",
-    "published": 1679914733,
-    "uuid": "88f271a2-c16c-4aef-a509-9cb241cbf509"
-  },
-  {
-    "id": "31145",
-    "title": "Livre prendre la parole en public",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/4029090985-livre-prendre-la-parole-en-public",
-    "published": 1706366316,
-    "uuid": "da9c0d88-3c08-4097-b2a4-75c91118adc8"
-  },
-  {
-    "id": "31145",
-    "title": "Prendre la parole en public",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/5096213650-prendre-la-parole-en-public",
-    "published": 1727109586,
-    "uuid": "0d2aacb5-33dc-4e47-a648-1014935a69e0"
-  },
-  {
-    "id": "31145",
-    "title": "Les 50 règles d'or de la première rencontre • Émilie Devienne",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/4431489143-les-50-regles-dor-de-la-premiere-rencontre-emilie-devienne",
-    "published": 1714330865,
-    "uuid": "bef4a36c-1fb6-4d8c-9901-e11f14ed85a8"
-  },
-  {
-    "id": "31145",
-    "title": "Les 50 règles d or pour gérer les personnes difficiles",
-    "price": 2.28,
-    "link": "https://www.vinted.fr/items/4927645241-les-50-regles-d-or-pour-gerer-les-personnes-difficiles",
-    "published": 1724425814,
-    "uuid": "eb911e44-3b0a-4252-abfb-d98853a49f34"
-  },
-  {
-    "id": "31145",
-    "title": "Les 50 règles d'or pour se faire des amis",
-    "price": 2.8,
-    "link": "https://www.vinted.fr/items/4728718889-les-50-regles-dor-pour-se-faire-des-amis",
-    "published": 1720253670,
-    "uuid": "d52f07ff-94d3-4900-ba45-bd51ff8291f4"
-  },
-  {
-    "id": "31145",
-    "title": "Mini livre Larousse ",
-    "price": 2.01,
-    "link": "https://www.vinted.fr/items/1265492070-mini-livre-larousse",
-    "published": 1629450674,
-    "uuid": "3e6e45ce-162a-40c5-8ff4-2ed696eab6a0"
-  },
-  {
-    "id": "31145",
-    "title": "Les 50 règles d'or pour gérer les personnalités difficiles",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/3351127484-les-50-regles-dor-pour-gerer-les-personnalites-difficiles",
-    "published": 1692037258,
-    "uuid": "7bfedb3b-5c65-441c-a9c7-461c085cc419"
-  },
-  {
-    "id": "31145",
-    "title": "Livre de poche",
-    "price": 2.28,
-    "link": "https://www.vinted.fr/items/5068176319-livre-de-poche",
-    "published": 1726681529,
-    "uuid": "4442d43d-4acc-4df8-bcdc-1ae04569b56f"
-  },
-  {
-    "id": "31145",
-    "title": "Les 50 règles d’or de la négociation",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/2922974884-les-50-regles-dor-de-la-negociation",
-    "published": 1681919485,
-    "uuid": "05984e75-6e0e-41ef-8f3e-5652da94e35f"
-  },
-  {
-    "id": "31145",
-    "title": "Regles d or 40 gestes d urgence ",
-    "price": 3.85,
-    "link": "https://www.vinted.fr/items/3194729906-regles-d-or-40-gestes-d-urgence",
-    "published": 1688217990,
-    "uuid": "fd9279b4-d38e-4d73-92c9-9197b5bafeab"
-  },
-  {
-    "id": "31145",
-    "title": "Les 50 règles d’or de la négociation",
-    "price": 2.8,
-    "link": "https://www.vinted.fr/items/4947589413-les-50-regles-dor-de-la-negociation",
-    "published": 1724767706,
-    "uuid": "0e750276-56fa-44d8-8b0f-55baf7e348f8"
-  },
-  {
-    "id": "31145",
-    "title": "petit livre",
-    "price": 4.9,
-    "link": "https://www.vinted.fr/items/1609237017-petit-livre",
-    "published": 1643971850,
-    "uuid": "620354c8-5437-4e03-8e7f-11fc41684df8"
-  },
-  {
-    "id": "31145",
-    "title": "La parole en public 50 règles d'or",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/5280279241-la-parole-en-public-50-regles-dor",
-    "published": 1729947727,
-    "uuid": "53b7c7c5-17ea-467c-987d-15ec5591a6dc"
-  },
-  {
-    "id": "31145",
-    "title": "Les 50 règles d'or de la première rencontre",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/5104202238-les-50-regles-dor-de-la-premiere-rencontre",
-    "published": 1727255670,
-    "uuid": "5073173c-02e4-4722-9699-154394f74364"
-  },
-  {
-    "id": "31145",
-    "title": "Livre 50 règles d'or pour ne plus jamais être débordée",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/4295944427-livre-50-regles-dor-pour-ne-plus-jamais-etre-debordee",
-    "published": 1711891063,
-    "uuid": "a9ff1bb4-635b-41b3-a5c6-a6ac47343795"
-  },
-  {
-    "id": "31145",
-    "title": "Les 50 règles d'or pour gérer les personnalités difficiles",
-    "price": 2.8,
-    "link": "https://www.vinted.fr/items/2889867555-les-50-regles-dor-pour-gerer-les-personnalites-difficiles",
-    "published": 1681210572,
-    "uuid": "ee1d8eb6-3886-4ef1-b3ad-b6f7fcd1ea71"
-  },
-  {
-    "id": "31145",
-    "title": "Livre savoir vivre",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/4811793461-livre-savoir-vivre",
-    "published": 1722003017,
-    "uuid": "00b8fd5d-a9fa-4d08-b3c7-f88dbfeba062"
-  },
-  {
-    "id": "31145",
-    "title": "Repartie : 50 regles d'or",
-    "price": 2.8,
-    "link": "https://www.vinted.fr/items/2515580093-repartie-50-regles-dor",
-    "published": 1671142185,
-    "uuid": "c07ebbf9-02d6-46a9-b83e-061122c0fabc"
-  },
-  {
-    "id": "31145",
-    "title": "Livre \"ne plus être débordée\"",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/1949194840-livre-ne-plus-etre-debordee",
-    "published": 1654736680,
-    "uuid": "c14f0834-3250-4ac1-8092-c6a35fad1cc0"
-  },
-  {
-    "id": "31145",
-    "title": "Lego Creator 3in1 Nr 31145",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/5297654236-lego-creator-3in1-nr-31145",
-    "published": 1730208368,
-    "uuid": "7ec5c2ab-5682-49d2-a969-8324ea3c443b"
-  },
-  {
-    "id": "31145",
-    "title": "Lego Creator 31145  non ouvert",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/5324252272-lego-creator-31145-non-ouvert",
-    "published": 1730649258,
-    "uuid": "ec7b23b2-4a1a-46e0-b42c-685afdf7cb8e"
-  },
-  {
-    "id": "31145",
-    "title": "Mini livre les 50 règles d or de la négociation",
-    "price": 2.28,
-    "link": "https://www.vinted.fr/items/4456560898-mini-livre-les-50-regles-d-or-de-la-negociation",
-    "published": 1714836709,
-    "uuid": "47b77638-e3f9-4977-ace9-4373bb15a267"
-  },
-  {
-    "id": "31145",
-    "title": "Savoir vivre ",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/272879797-savoir-vivre",
-    "published": 1601858268,
-    "uuid": "48dd43db-baed-43a0-8452-94b18dcd1c04"
-  },
-  {
-    "id": "31145",
-    "title": "Mini livre le harcèlement moral",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/2255317760-mini-livre-le-harcelement-moral",
-    "published": 1664455566,
-    "uuid": "68ae4512-d10a-4505-8ef2-de698cbd6e95"
-  },
-  {
-    "id": "31145",
-    "title": "La parole en public",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/4461225133-la-parole-en-public",
-    "published": 1714917923,
-    "uuid": "b576b5a0-503c-467e-8ef6-0b5828eff136"
-  },
-  {
-    "id": "31145",
-    "title": "Les 50 règles d'or du Savoir vivre ",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/2510269498-les-50-regles-dor-du-savoir-vivre",
-    "published": 1670958289,
-    "uuid": "301cbe68-4bcf-4c1f-85ec-795d91bc5a8f"
-  },
-  {
-    "id": "31145",
-    "title": "Livre pour une collocation réussi ",
-    "price": 2.8,
-    "link": "https://www.vinted.fr/items/3499481316-livre-pour-une-collocation-reussi",
-    "published": 1695227296,
-    "uuid": "b1555c1c-f752-46cf-b776-8520753a8a2c"
-  },
-  {
-    "id": "31145",
-    "title": "Petit livre les 50 règles d or pour ne plus jamais être débordé(e)",
-    "price": 2.28,
-    "link": "https://www.vinted.fr/items/2773523819-petit-livre-les-50-regles-d-or-pour-ne-plus-jamais-etre-debordee",
-    "published": 1678468363,
-    "uuid": "8f451fb5-e6ae-4ad4-8f5d-b603b5f6231d"
-  },
-  {
-    "id": "31145",
-    "title": "Livre",
-    "price": 3.85,
-    "link": "https://www.vinted.fr/items/5136370249-livre",
-    "published": 1727711033,
-    "uuid": "d3e84e05-3eef-4e29-80fb-7fbb9c99cd25"
-  },
-  {
-    "id": "31145",
-    "title": "Lego creator 3en1 31145",
-    "price": 4.9,
-    "link": "https://www.vinted.fr/items/5157860239-lego-creator-3en1-31145",
-    "published": 1728056633,
-    "uuid": "609a61b1-913e-4581-a2c8-522892a74125"
-  },
-  {
-    "id": "31145",
-    "title": "Les 50 règles d'or pour ne plus jamais être débordé(e)",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/4632781765-les-50-regles-dor-pour-ne-plus-jamais-etre-debordee",
-    "published": 1718195413,
-    "uuid": "d4c0970f-ffde-4ec8-a7a5-7e754aa73bc8"
-  },
-  {
-    "id": "31145",
-    "title": "Les 50 règles d'or pour ne plus jamais être débordée",
-    "price": 2.8,
-    "link": "https://www.vinted.fr/items/4796226759-les-50-regles-dor-pour-ne-plus-jamais-etre-debordee",
-    "published": 1721664902,
-    "uuid": "ff1754f7-ed7e-4c2f-915d-9554616f22d0"
-  },
-  {
-    "id": "31145",
-    "title": "Les 50 règles d'or pour gérer les personnalités difficiles ",
-    "price": 2.8,
-    "link": "https://www.vinted.fr/items/1439213863-les-50-regles-dor-pour-gerer-les-personnalites-difficiles",
-    "published": 1636738550,
-    "uuid": "34d04b9e-fd7e-4aaf-84b0-0280c4b06eb4"
-  },
-  {
-    "id": "31145",
-    "title": "Lot magazines",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/4900779672-lot-magazines",
-    "published": 1724926496,
-    "uuid": "5b06d4d0-d196-47ee-97da-66413f89e563"
-  },
-  {
-    "id": "31145",
-    "title": "Livre la parole en public",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/5149397697-livre-la-parole-en-public",
-    "published": 1727931677,
-    "uuid": "d407b4d9-f3ce-4eaf-a8c8-f575b95f4b74"
-  },
-  {
-    "id": "31145",
-    "title": "Mini Larousse répartie",
-    "price": 2.8,
-    "link": "https://www.vinted.fr/items/5095722021-mini-larousse-repartie",
-    "published": 1727105509,
-    "uuid": "ca1e81c3-5014-4b20-99ec-8bf194c67fbc"
-  },
-  {
-    "id": "31145",
-    "title": "Les 50 règles d’or pour se faire des amis - Muriel Bensimon",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/4448542388-les-50-regles-dor-pour-se-faire-des-amis-muriel-bensimon",
-    "published": 1714671595,
-    "uuid": "bb4bc8ba-9d45-42a2-b164-c387dcb1d673"
-  },
-  {
-    "id": "31145",
-    "title": "Livre prendre la parole en public",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/4907607907-livre-prendre-la-parole-en-public",
-    "published": 1724071476,
-    "uuid": "c94d12b5-29f3-4b32-9930-32da1132e35d"
-  },
-  {
-    "id": "31145",
-    "title": "Programme Cendrillon",
-    "price": 2.28,
-    "link": "https://www.vinted.fr/items/5147679012-programme-cendrillon",
-    "published": 1727886708,
-    "uuid": "f3654ac4-ebfa-47ba-ae62-e78601157461"
-  },
-  {
-    "id": "31145",
-    "title": "Les 50 règles d'or pour ne plus jamais être débordé(e)!",
-    "price": 2.8,
-    "link": "https://www.vinted.fr/items/3132164412-les-50-regles-dor-pour-ne-plus-jamais-etre-debordee",
-    "published": 1686658703,
-    "uuid": "bb40eceb-3c84-4547-b105-125f30000a81"
-  },
-  {
-    "id": "31145",
-    "title": "Lego Creator 3-in-1 Dragão Vermelho [novo]",
-    "price": 9.89,
-    "link": "https://www.vinted.fr/items/5290126831-lego-creator-3-in-1-dragao-vermelho-novo",
-    "published": 1730071897,
-    "uuid": "239106bc-6a30-419c-a184-ffb819484d9e"
-  },
-  {
-    "id": "31145",
-    "title": "Lego 31145 3in1",
-    "price": 10.15,
-    "link": "https://www.vinted.fr/items/5297421608-lego-31145-3in1",
-    "published": 1730206192,
-    "uuid": "a9506475-1970-4056-a322-0fdb65e8dcf8"
-  },
-  {
-    "id": "31145",
-    "title": "Livre 50 règles d'or",
-    "price": 2.8,
-    "link": "https://www.vinted.fr/items/3911817198-livre-50-regles-dor",
-    "published": 1703687344,
-    "uuid": "ceb11aa4-784d-4cca-ba9f-e882debc2c81"
-  },
-  {
-    "id": "31145",
-    "title": "Lego creator",
-    "price": 7,
-    "link": "https://www.vinted.fr/items/5311347719-lego-creator",
-    "published": 1730466140,
-    "uuid": "d6a31d65-4717-4852-ac82-c0d9c83a86e1"
-  },
-  {
-    "id": "31145",
-    "title": "Lego Creator 31145 Rode draak 3in1",
-    "price": 8.58,
-    "link": "https://www.vinted.fr/items/5336101259-lego-creator-31145-rode-draak-3in1",
-    "published": 1730837496,
-    "uuid": "f9efe928-17fe-436e-9678-b9a8d6606665"
-  },
-  {
-    "id": "31145",
-    "title": "Livre n’emplis jamais être débordé ",
-    "price": 2.8,
-    "link": "https://www.vinted.fr/items/1748163233-livre-nemplis-jamais-etre-deborde",
-    "published": 1649345274,
-    "uuid": "7d1f178e-4cd8-4e5d-a49b-530dedb49609"
-  },
-  {
-    "id": "31145",
-    "title": "Programme lac des cygnes",
-    "price": 2.28,
-    "link": "https://www.vinted.fr/items/5147653118-programme-lac-des-cygnes",
-    "published": 1727886861,
-    "uuid": "0b3ac807-79f0-475f-9bff-b591d8403d22"
-  },
-  {
-    "id": "31145",
-    "title": "La parole en public ",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/3990378025-la-parole-en-public",
-    "published": 1705504315,
-    "uuid": "6dc16622-ecc2-4277-a6bc-8db8d027c457"
-  },
-  {
-    "id": "31145",
-    "title": "Livre les 50 règles l or de la rencontre",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/4559184835-livre-les-50-regles-l-or-de-la-rencontre",
-    "published": 1716752947,
-    "uuid": "cdbecc13-64f6-4378-87e5-d1b8338cf519"
-  },
-  {
-    "id": "31145",
     "title": "Lego creator 31145",
-    "price": 11.2,
+    "price": null,
     "link": "https://www.vinted.fr/items/5161288819-lego-creator-31145",
     "published": 1728126434,
-    "uuid": "23c45c7b-b193-4c42-a254-687b6cb5cb5b"
-  },
-  {
-    "id": "31145",
-    "title": "50 règles  d'or de la première rencontre",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/3987000514-50-regles-dor-de-la-premiere-rencontre",
-    "published": 1705424200,
-    "uuid": "b96dc829-59a6-4697-a311-9fec96a0454c"
-  },
-  {
-    "id": "31145",
-    "title": "Lego Creator 31145 / 3 in 1",
-    "price": 5.95,
-    "link": "https://www.vinted.fr/items/5178855195-lego-creator-31145-3-in-1",
-    "published": 1728329339,
-    "uuid": "6be866d6-86c6-4888-94ff-9c16f055b756"
-  },
-  {
-    "id": "31145",
-    "title": "Les 50 règles de la première rencontre",
-    "price": 2.28,
-    "link": "https://www.vinted.fr/items/5285579593-les-50-regles-de-la-premiere-rencontre",
-    "published": 1730031243,
-    "uuid": "120cf1a8-c70f-4d8d-b10e-9ed7f86542c1"
-  },
-  {
-    "id": "31145",
-    "title": "Lego 31145 3 in 1",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/4447805249-lego-31145-3-in-1",
-    "published": 1714662944,
-    "uuid": "967e4c68-1b5a-4061-8e0c-a37bfdbe070d"
-  },
-  {
-    "id": "31145",
-    "title": "Lot Magazines",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/4900863960-lot-magazines",
-    "published": 1724926316,
-    "uuid": "551da6ac-6a18-44f4-8dd1-3f262dc272dd"
-  },
-  {
-    "id": "31145",
-    "title": "Prendre la parole en public ",
-    "price": 3.85,
-    "link": "https://www.vinted.fr/items/3172037144-prendre-la-parole-en-public",
-    "published": 1687634627,
-    "uuid": "9be778b1-b305-4506-8f03-b4e6b38000dc"
+    "uuid": "fa7e105c-6e54-44c7-adf7-ebbb266a1eba"
   },
   {
     "id": "31145",
     "title": "Lego 31145",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/5307311989-lego-31145",
-    "published": 1730381912,
-    "uuid": "e4282af6-d33c-4921-b280-99e36dab35fc"
+    "price": null,
+    "link": "https://www.vinted.fr/items/5395600007-lego-31145",
+    "published": 1731839810,
+    "uuid": "7d49e805-ebcf-415b-bfed-adc2b8cfb1a5"
   },
   {
     "id": "31145",
-    "title": "Livre",
-    "price": 2.8,
-    "link": "https://www.vinted.fr/items/1822547562-livre",
-    "published": 1652174427,
-    "uuid": "2fdbce88-ed6c-4277-bf8c-1f3d90a21734"
-  },
-  {
-    "id": "31145",
-    "title": "Lego creator 31145",
-    "price": 7.53,
-    "link": "https://www.vinted.fr/items/5175511729-lego-creator-31145",
-    "published": 1728300205,
-    "uuid": "a335c94f-a74d-4e8b-b655-6ddb6d05200a"
-  },
-  {
-    "id": "31145",
-    "title": "\"La parole en public \" de Jean-Paul Guedj",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/4534964790-la-parole-en-public-de-jean-paul-guedj",
-    "published": 1716294542,
-    "uuid": "3aaa0e58-1e08-4ed5-915a-68a4e03cc7bf"
-  },
-  {
-    "id": "31145",
-    "title": "Lots 5 petits livres les 50 règles d'or",
-    "price": 11.1,
-    "link": "https://www.vinted.fr/items/5161823696-lots-5-petits-livres-les-50-regles-dor",
-    "published": 1728130534,
-    "uuid": "affd2854-d04f-4384-9b45-891396140c8e"
-  },
-  {
-    "id": "31145",
-    "title": "Les  50 règles  d'or  de la première  rencontre",
-    "price": 2.8,
-    "link": "https://www.vinted.fr/items/4992047537-les-50-regles-dor-de-la-premiere-rencontre",
-    "published": 1725551972,
-    "uuid": "6ad6be33-abb7-4433-ad0c-c3d6ced0362e"
-  },
-  {
-    "id": "31145",
-    "title": "Prendre la parole en public ",
-    "price": 3.33,
-    "link": "https://www.vinted.fr/items/2905026087-prendre-la-parole-en-public",
-    "published": 1681555680,
-    "uuid": "05dd2348-daad-44d0-8e96-b67609cffb44"
-  },
-  {
-    "id": "31145",
-    "title": "Livre 50 règles d'or pour ne jamais être débordé",
-    "price": 3.85,
-    "link": "https://www.vinted.fr/items/2298649090-livre-50-regles-dor-pour-ne-jamais-etre-deborde",
-    "published": 1665433818,
-    "uuid": "0bc86b32-ef44-4dba-8191-a66f05e63362"
-  },
-  {
-    "id": "31145",
-    "title": "Les 50 règles d'or pour prendre la parole en public",
-    "price": 2.28,
-    "link": "https://www.vinted.fr/items/864182245-les-50-regles-dor-pour-prendre-la-parole-en-public",
-    "published": 1611513212,
-    "uuid": "ccb8d60d-dbda-4e02-b254-dd39f57ad54f"
-  },
-  {
-    "id": "31145",
-    "title": "Lego creator",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/5296443061-lego-creator",
-    "published": 1730196866,
-    "uuid": "ed357976-77d9-452a-9d8d-ad14f74a1c7a"
-  },
-  {
-    "id": "31145",
-    "title": "Lego notice 31145 dragon rouge",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/4999477872-lego-notice-31145-dragon-rouge",
-    "published": 1725706646,
-    "uuid": "872bbb06-9be0-4cb2-b2b0-90977a12ccee"
-  },
-  {
-    "id": "31145",
-    "title": "50 règles pour se faire des amis",
-    "price": 4.9,
-    "link": "https://www.vinted.fr/items/2026810563-50-regles-pour-se-faire-des-amis",
-    "published": 1657515504,
-    "uuid": "6d9d433d-afbc-429b-ae5f-8b30c8a7114d"
-  },
-  {
-    "id": "31145",
-    "title": "Les 50 règles d'or de la négociation ",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/3433260629-les-50-regles-dor-de-la-negociation",
-    "published": 1693819186,
-    "uuid": "d455e956-efab-4816-ae01-319db7144790"
-  },
-  {
-    "id": "31145",
-    "title": "Livre « votre Grossesse jour après jour »",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/5237654373-livre-votre-grossesse-jour-apres-jour",
-    "published": 1729261098,
-    "uuid": "1d0a8687-adf3-42b4-a9b7-16b0e63d61bf"
-  },
-  {
-    "id": "31145",
-    "title": "Lego 31145",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/4402459206-lego-31145",
-    "published": 1713796223,
-    "uuid": "5244042a-7f59-4633-89a2-db8949879f18"
-  },
-  {
-    "id": "31145",
-    "title": "Lego creator 31145",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/5091793992-lego-creator-31145",
-    "published": 1727035862,
-    "uuid": "4178ff61-88ae-435e-86c4-191bdeb9e0ee"
-  },
-  {
-    "id": "31145",
-    "title": "Lego 31145 Creator \"Nuevo a Estrenar\"",
-    "price": 10.15,
-    "link": "https://www.vinted.fr/items/5272693635-lego-31145-creator-nuevo-a-estrenar",
-    "published": 1729794864,
-    "uuid": "4d7a9a7a-7877-4c61-8fc4-ea4207d184ad"
-  },
-  {
-    "id": "31145",
-    "title": "Lego Creator 31145",
-    "price": 10.1,
-    "link": "https://www.vinted.fr/items/5343554813-lego-creator-31145",
-    "published": 1730988978,
-    "uuid": "6868f7c7-84d5-4e35-b528-f5d71f268a26"
-  },
-  {
-    "id": "31145",
-    "title": "Lego creator 3 in 1 - 31145 - Drago rosso",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/5320434299-lego-creator-3-in-1-31145-drago-rosso",
-    "published": 1730624917,
-    "uuid": "180e7544-84c3-4905-8b2c-1f885ec1ab9d"
-  },
-  {
-    "id": "31145",
-    "title": "Livre les 50 règles d’or pour se faire des amis Les Mini Larousse Muriel Bensimon",
-    "price": 3.33,
-    "link": "https://www.vinted.fr/items/5161794377-livre-les-50-regles-dor-pour-se-faire-des-amis-les-mini-larousse-muriel-bensimon",
-    "published": 1728130316,
-    "uuid": "eb2c5564-12bc-4d32-95af-0e03d9ca1dc3"
-  },
-  {
-    "id": "31145",
-    "title": "Lego notice 31145 poisson",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/4999472542-lego-notice-31145-poisson",
-    "published": 1725706597,
-    "uuid": "5b006b22-ed29-4aa3-91ce-2953c345cc26"
-  },
-  {
-    "id": "31145",
-    "title": "Caixa Vazia do Lego Set 31145",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/5037611982-caixa-vazia-do-lego-set-31145",
-    "published": 1726249786,
-    "uuid": "ef1463b6-5126-46ee-b6ac-7a50b3bb6dc6"
-  },
-  {
-    "id": "31145",
-    "title": "Lego creator 3 in 1 - draakje",
-    "price": 11.15,
-    "link": "https://www.vinted.fr/items/4174624419-lego-creator-3-in-1-draakje",
-    "published": 1709464505,
-    "uuid": "9e579bf7-67c0-40b0-87e1-19623c6dd17f"
+    "title": "Lego creator dragon",
+    "price": null,
+    "link": "https://www.vinted.fr/items/5405029384-lego-creator-dragon",
+    "published": 1731945870,
+    "uuid": "b430894a-ad37-4ea0-b5e8-7eec8c74d785"
   },
   {
     "id": "31145",
     "title": "Lego Creator 31145 nuovo mai aperto",
-    "price": 11.2,
+    "price": null,
     "link": "https://www.vinted.fr/items/4648373584-lego-creator-31145-nuovo-mai-aperto",
     "published": 1718532675,
-    "uuid": "0ff48f02-34b1-49df-a2da-6b623dadf367"
+    "uuid": "4a0837e7-2164-4e40-83fb-3df5e7d5a864"
   },
   {
     "id": "31145",
-    "title": "LEGO 31145 Creator 3-in-1 Red Dragon / Rode Draak",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/4553986170-lego-31145-creator-3-in-1-red-dragon-rode-draak",
-    "published": 1716665712,
-    "uuid": "d3770ede-dcc3-4542-b00d-3752034a74b3"
-  },
-  {
-    "id": "31145",
-    "title": "Lego notice 31145 phénix",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/4999484172-lego-notice-31145-phenix",
-    "published": 1725706705,
-    "uuid": "dcde8045-8d8f-423f-abe4-1b86785671c2"
-  },
-  {
-    "id": "31145",
-    "title": "Lego  set  31145 3 in 1 set",
-    "price": 16.45,
-    "link": "https://www.vinted.fr/items/5280272020-lego-set-31145-3-in-1-set",
-    "published": 1729947671,
-    "uuid": "8d431804-e20c-4fe5-bf28-be1ae93850d1"
-  },
-  {
-    "id": "31145",
-    "title": "Brick de construction kre-o transformers",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/4456119008-brick-de-construction-kre-o-transformers",
-    "published": 1714832504,
-    "uuid": "a7b4076f-d276-4c04-a2c1-fb483e84c778"
+    "title": "Nieuw! Lego 3in1 creator 31145 🦖",
+    "price": null,
+    "link": "https://www.vinted.fr/items/5399470199-nieuw-lego-3in1-creator-31145",
+    "published": 1731861782,
+    "uuid": "4923a5fd-00fe-47b2-85cf-d531b28ccad8"
   },
   {
     "id": "31145",
     "title": "Lego 31145",
-    "price": 10.15,
+    "price": null,
+    "link": "https://www.vinted.fr/items/4402459206-lego-31145",
+    "published": 1713796223,
+    "uuid": "168ac8c2-e87f-4c5b-b4fe-228a21e0e9ca"
+  },
+  {
+    "id": "31145",
+    "title": "Lego 31145 Creator \"Nuevo a Estrenar\"",
+    "price": null,
+    "link": "https://www.vinted.fr/items/5272693635-lego-31145-creator-nuevo-a-estrenar",
+    "published": 1729794864,
+    "uuid": "6c7d6545-f4ce-4db9-9485-5dccb4df9f12"
+  },
+  {
+    "id": "31145",
+    "title": "Lego 31145 3 in 1",
+    "price": null,
+    "link": "https://www.vinted.fr/items/4447805249-lego-31145-3-in-1",
+    "published": 1714662944,
+    "uuid": "5edd60f6-881f-4fba-8225-0c037860b476"
+  },
+  {
+    "id": "31145",
+    "title": "Lego Creator 3-in-1 Dragão Vermelho [novo]",
+    "price": null,
+    "link": "https://www.vinted.fr/items/5290126831-lego-creator-3-in-1-dragao-vermelho-novo",
+    "published": 1730071897,
+    "uuid": "df906195-1d7d-4da6-baba-e9b943ff1812"
+  },
+  {
+    "id": "31145",
+    "title": "Lego 3 in 1 creator 31145",
+    "price": null,
+    "link": "https://www.vinted.fr/items/5390871437-lego-3-in-1-creator-31145",
+    "published": 1731762077,
+    "uuid": "cf5abcda-e97d-47ad-878c-99d50f31796e"
+  },
+  {
+    "id": "31145",
+    "title": "Lego Creator 3in1 modello 31145",
+    "price": null,
+    "link": "https://www.vinted.fr/items/5399660341-lego-creator-3in1-modello-31145",
+    "published": 1731862944,
+    "uuid": "8efd914c-20b6-4949-84a8-bfdbd24f84f1"
+  },
+  {
+    "id": "31145",
+    "title": "Lego creator 31145",
+    "price": null,
+    "link": "https://www.vinted.fr/items/5091793992-lego-creator-31145",
+    "published": 1727035862,
+    "uuid": "cd1dfa05-77e6-4651-97d8-2f28617255b5"
+  },
+  {
+    "id": "31145",
+    "title": "Lego notice 31145 phénix",
+    "price": null,
+    "link": "https://www.vinted.fr/items/4999484172-lego-notice-31145-phenix",
+    "published": 1725706705,
+    "uuid": "b8ab81de-a8f1-45b5-b1ce-0d9721989431"
+  },
+  {
+    "id": "31145",
+    "title": "Lego creator 31145",
+    "price": null,
+    "link": "https://www.vinted.fr/items/5386756422-lego-creator-31145",
+    "published": 1731682930,
+    "uuid": "3d4a3d7e-12ec-4230-80dd-297055ba2062"
+  },
+  {
+    "id": "31145",
+    "title": "Lego Creator 31145 neu /. Lego 3in1 roter Drache - Fisch - Papagei / Weihnachten",
+    "price": null,
+    "link": "https://www.vinted.fr/items/5394490778-lego-creator-31145-neu-lego-3in1-roter-drache-fisch-papagei-weihnachten",
+    "published": 1731821763,
+    "uuid": "df1553ea-150e-429f-bfaf-8bddcad83bb6"
+  },
+  {
+    "id": "31145",
+    "title": "Lego notice 31145 poisson",
+    "price": null,
+    "link": "https://www.vinted.fr/items/4999472542-lego-notice-31145-poisson",
+    "published": 1725706597,
+    "uuid": "d36c8694-b836-40fb-995b-24bff6cc2295"
+  },
+  {
+    "id": "31145",
+    "title": "Lego 31145",
+    "price": null,
+    "link": "https://www.vinted.fr/items/5307311989-lego-31145",
+    "published": 1730381912,
+    "uuid": "efd5aaed-bd8f-4d73-b0b0-e517b88dc427"
+  },
+  {
+    "id": "31145",
+    "title": "Lego creator 3 in 1 - draakje",
+    "price": null,
+    "link": "https://www.vinted.fr/items/4174624419-lego-creator-3-in-1-draakje",
+    "published": 1709464505,
+    "uuid": "bc22daeb-f3c5-47a4-aff7-12bfa74a1d7b"
+  },
+  {
+    "id": "31145",
+    "title": "Lego notice 31145 dragon rouge",
+    "price": null,
+    "link": "https://www.vinted.fr/items/4999477872-lego-notice-31145-dragon-rouge",
+    "published": 1725706646,
+    "uuid": "fcfa98cc-3002-403f-bf45-3f495255a35b"
+  },
+  {
+    "id": "31145",
+    "title": "Lego 31145",
+    "price": null,
     "link": "https://www.vinted.fr/items/5249872411-lego-31145",
     "published": 1729436247,
-    "uuid": "d56f7b44-456c-4966-9422-52daee3c378d"
+    "uuid": "02cb6b10-1380-4af1-8eaa-4c4c5bce7e83"
   },
   {
     "id": "31145",
-    "title": "Lego Creator 31145 / Lego 3in1 Drache - Fisch - Papagei",
-    "price": 21.7,
-    "link": "https://www.vinted.fr/items/5353680628-lego-creator-31145-lego-3in1-drache-fisch-papagei",
-    "published": 1731170514,
-    "uuid": "53072edd-320f-4f10-919b-36a863a83e26"
-  },
-  {
-    "id": "31145",
-    "title": "Transformers Kre-O 31145 Mirage 2 en 1 Complet",
-    "price": 26.95,
-    "link": "https://www.vinted.fr/items/5178920190-transformers-kre-o-31145-mirage-2-en-1-complet",
-    "published": 1728330032,
-    "uuid": "4fb4e4a6-9186-4187-9b7c-ee3a57e0884f"
+    "title": "Lego 31145 3in1",
+    "price": null,
+    "link": "https://www.vinted.fr/items/5297421608-lego-31145-3in1",
+    "published": 1730206192,
+    "uuid": "58160373-2aaf-46e7-aab8-d1da0a904658"
   },
   {
     "id": "31145",
     "title": "Lego creator",
-    "price": 22.75,
-    "link": "https://www.vinted.fr/items/5239063144-lego-creator",
-    "published": 1729277618,
-    "uuid": "583ed75a-91b7-4610-8b4c-023eab424421"
-  },
-  {
-    "id": "31145",
-    "title": "Kre-o Mirage 31145",
-    "price": 13.3,
-    "link": "https://www.vinted.fr/items/3269247973-kre-o-mirage-31145",
-    "published": 1690116887,
-    "uuid": "4eb79d2a-eaee-467d-b6df-76fd3cf97fea"
-  },
-  {
-    "id": "31145",
-    "title": "Kre-o transformers mirage",
-    "price": 13.3,
-    "link": "https://www.vinted.fr/items/5064967627-kre-o-transformers-mirage",
-    "published": 1726652396,
-    "uuid": "99355768-8609-4134-8cc1-d049c7fc3c15"
+    "price": null,
+    "link": "https://www.vinted.fr/items/5296443061-lego-creator",
+    "published": 1730196866,
+    "uuid": "57449104-73f7-44a8-b449-8d88dbde3837"
   },
   {
     "id": "31145",
     "title": "Lego: 31145, Red Dragon *NIEUW*",
-    "price": 16.44,
+    "price": null,
     "link": "https://www.vinted.fr/items/4082388104-lego-31145-red-dragon-nieuw",
     "published": 1707550493,
-    "uuid": "006060fc-8de8-4c0d-ae52-708532f2dc2c"
+    "uuid": "da369d85-8449-4068-99fc-2a2df1aeadfc"
   },
   {
     "id": "31145",
-    "title": "Transformers ",
-    "price": 21.7,
-    "link": "https://www.vinted.fr/items/3967228857-transformers",
-    "published": 1704999533,
-    "uuid": "8077cffe-0a99-4fc7-a89e-d5cdff2a112b"
+    "title": "Lego creator 3 in 1 - 31145 - Drago rosso",
+    "price": null,
+    "link": "https://www.vinted.fr/items/5320434299-lego-creator-3-in-1-31145-drago-rosso",
+    "published": 1730624917,
+    "uuid": "8e03d961-fa0e-4b5f-8ac5-b17d37dffe4b"
   },
   {
     "id": "31145",
-    "title": "Kre-o 31145 Trasformers Mirage Hasbro Nuovo",
-    "price": 23.8,
-    "link": "https://www.vinted.fr/items/2721392462-kre-o-31145-trasformers-mirage-hasbro-nuovo",
-    "published": 1677172353,
-    "uuid": "3460035a-0692-4618-a645-c8d1eeb9cfff"
-  },
-  {
-    "id": "31145",
-    "title": "puzzle clementoni",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/900940832-puzzle-clementoni",
-    "published": 1613175722,
-    "uuid": "1e1ba5db-d2f7-413a-a2ee-cb4c766ef73a"
-  },
-  {
-    "id": "31145",
-    "title": "LEGO® Creator  3-en-1 31145 -  Le Dragon Rouge",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/5350365672-legor-creator-3-en-1-31145-le-dragon-rouge",
-    "published": 1731114197,
-    "uuid": "e15494fa-7192-4cc1-80cd-2ddcce671496"
-  },
-  {
-    "id": "31145",
-    "title": "Lot de 5 mini Larousse",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/4098849838-lot-de-5-mini-larousse",
-    "published": 1707856113,
-    "uuid": "f0b10a97-fc05-461c-b324-431253a59886"
-  },
-  {
-    "id": "31145",
-    "title": "KRE-O Transformers 31145 (2 in 1)",
-    "price": 21.7,
-    "link": "https://www.vinted.fr/items/2468119134-kre-o-transformers-31145-2-in-1",
-    "published": 1669738062,
-    "uuid": "35c4b81d-2382-45e1-b986-286ad8a7694b"
-  },
-  {
-    "id": "31145",
-    "title": "Lego creator 3 in 1 Super Pack",
-    "price": 44.8,
-    "link": "https://www.vinted.fr/items/5314877363-lego-creator-3-in-1-super-pack",
-    "published": 1730542810,
-    "uuid": "72decd80-e7cb-4edd-b170-095c1c2b9d68"
-  },
-  {
-    "id": "31145",
-    "title": "Kre-o Transformers set 31145  Mirage 119 pièces + 2 kreons Hasbro voiture Robot",
-    "price": 34.3,
-    "link": "https://www.vinted.fr/items/2390829572-kre-o-transformers-set-31145-mirage-119-pieces-2-kreons-hasbro-voiture-robot",
-    "published": 1667766650,
-    "uuid": "59defbae-56f3-4d4c-8f06-8ea3a886ee4d"
-  },
-  {
-    "id": "31145",
-    "title": "Lote de 3 lego creator 3 in 1",
-    "price": 42.6,
-    "link": "https://www.vinted.fr/items/5208032703-lote-de-3-lego-creator-3-in-1",
-    "published": 1728815908,
-    "uuid": "4fe9a547-2484-4cb0-aa42-9ea808f57a83"
+    "title": "LEGO 31145 Creator 3-in-1 Red Dragon / Rode Draak",
+    "price": null,
+    "link": "https://www.vinted.fr/items/5362805379-lego-31145-creator-3-in-1-red-dragon-rode-draak",
+    "published": 1731280016,
+    "uuid": "cdc965e4-ba79-47f5-bea2-d0f564d4b1b3"
   },
   {
     "id": "31145",
     "title": "Polybags Lego + Lego 31145",
-    "price": 53.2,
+    "price": null,
     "link": "https://www.vinted.fr/items/3974931858-polybags-lego-lego-31145",
     "published": 1705179609,
-    "uuid": "da1d6425-0b28-42da-9daf-19928f639e1e"
+    "uuid": "9a6fae15-32a1-4b9d-841c-d889397e5909"
   },
   {
     "id": "31145",
-    "title": "Disco in vinile 33giri, greatest hits Kenny rogers, RCALP-31145",
-    "price": 42.7,
-    "link": "https://www.vinted.fr/items/4098178344-disco-in-vinile-33giri-greatest-hits-kenny-rogers-rcalp-31145",
-    "published": 1707845195,
-    "uuid": "dd2a2e39-7a48-4492-bb03-dcaa08cc4bf6"
+    "title": "Lote de 3 lego creator 3 in 1",
+    "price": null,
+    "link": "https://www.vinted.fr/items/5208032703-lote-de-3-lego-creator-3-in-1",
+    "published": 1728815908,
+    "uuid": "0811c0a1-d454-4c35-858d-9c5fda2d1a52"
   },
   {
     "id": "31145",
-    "title": "Kre-o 31144 / 31145 Trasformers Bumblebee + Mirage Hasbro Nuovi",
-    "price": 42.7,
-    "link": "https://www.vinted.fr/items/2721397173-kre-o-31144-31145-trasformers-bumblebee-mirage-hasbro-nuovi",
-    "published": 1677172429,
-    "uuid": "e0e0e7e5-3fc1-433e-90ba-5a9eabbcb128"
-  },
-  {
-    "id": "31145",
-    "title": "Telescopio Celestron",
-    "price": 612,
-    "link": "https://www.vinted.fr/items/5237093567-telescopio-celestron",
-    "published": 1729255534,
-    "uuid": "be9da268-3754-49fa-9b5b-daf6cd8dbf87"
-  },
-  {
-    "id": "31145",
-    "title": "Lot 15 kits Lego",
-    "price": 137.2,
-    "link": "https://www.vinted.fr/items/5141385025-lot-15-kits-lego",
-    "published": 1727793205,
-    "uuid": "28a927f6-e93c-4220-999f-82d3cdb08a54"
+    "title": "Lote de lego creator , 31136 , 31124 y 31145",
+    "price": null,
+    "link": "https://www.vinted.fr/items/5380738089-lote-de-lego-creator-31136-31124-y-31145",
+    "published": 1731582923,
+    "uuid": "6761cc4f-4049-4766-8470-cafec7e8ec4b"
   }
 ]

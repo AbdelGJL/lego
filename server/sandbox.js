@@ -2,26 +2,9 @@
 const { Console } = require('console');
 const dealabs = require('./websites/dealabs');
 const vinted = require('./websites/vinted');
+const mongo = require('./server.js');
 const fs = require('fs').promises;
 
-const array = [
-  {
-    "id": "60400",
-    "title": "2 bonnets de père Noël",
-    "price": 1.75,
-    "link": "https://www.vinted.fr/items/4432393717-2-bonnets-de-pere-noel",
-    "published": 1714373356,
-    "uuid": "0e9b1b7e-744d-4fab-8cf6-c040ef3559cc"
-  },
-  {
-    "id": "76914",
-    "title": "Lego speed champion Ferrari 76914 neuf",
-    "price": 20.65,
-    "link": "https://www.vinted.fr/items/5327925020-lego-speed-champion-ferrari-76914-neuf",
-    "published": 1730716359,
-    "uuid": "1d15488e-a734-4302-bd41-7c6f6fe1fcb0"
-  }
-]
 
 async function scrapePage(url, website, id = 0) {
   if (website === "dealabs") {
@@ -65,25 +48,27 @@ async function sandbox(website = 'https://www.dealabs.com/groupe/lego') {
         page++;
       }
     }
+    allDeals = allDeals.filter(item => item.id !== null);
+
 
     console.log(`📥 Saving...`);
+    await mongo.run(allDeals, "deals");
     await SaveInJSON(allDeals, "deals");
-    console.log("📂 All deals saved in deals.json!");
+    console.log("📂 All deals stored in deals collection !");
 
     //Scrapping vinted
     website = 'https://www.vinted.fr/';
     console.log(`🕵️‍♀️  browsing ${website}`);
     let allSales = [];
     let allIds = idsArray(allDeals);
-    allIds = allIds.filter(item => item !== null);
+    //allIds = allIds.filter(item => item !== null);
     for (const id of allIds) {
       page = 1;
       hasMorePages = true;
       allSales = [];
       console.log(`📃 Scraping lego ${id}...`);
       while (hasMorePages) {
-        const url = `${website}api/v2/catalog/items?page=${page}&per_page=96&search_text=${id}&catalog_ids=&size_ids=&brand_ids=&status_ids=&color_ids=&material_ids=`;
-     // https://www.vinted.fr/api/v2/catalog/items?page=1&per_page=96&time=1731934165&search_text=10306&catalog_ids=&size_ids=&brand_ids=89162&status_ids=6,1&material_ids=
+        const url = `${website}api/v2/catalog/items?page=${page}&per_page=96&search_text=${id}&catalog_ids=&size_ids=&brand_ids=89162&status_ids=6,1&material_ids=`;
         const sales = await scrapePage(url, "vinted", id);
 
         if (sales.length === 0) {
@@ -94,12 +79,14 @@ async function sandbox(website = 'https://www.dealabs.com/groupe/lego') {
           page++;
         }
       }
-      //Here we ask the function our sales scrapped are all lego one or not before saving
-      //à tester
-      //allSales = CleanSales(allSales)
-      console.log(`📥 Saving...`);
-      await SaveInJSON(allSales, id);
-      console.log(`📂 All sales of lego ${id} saved in ${id}.json!`);
+
+      if (allSales.length !== 0) {
+        console.log(`📥 Saving...`);
+        await SaveInJSON(allSales, id);
+        await mongo.run(allSales, id);
+        console.log(`📂 All sales of lego ${id} stored in ${id} collection !`);
+      }
+
     }
 
     process.exit(0);
@@ -122,24 +109,40 @@ function idsArray(array) {
   return Array.from(uniqueIds);
 }
 
-function CleanSales(array) {
-  array.forEach(obj => {
-    console.log(obj.title.substring('lego'));
-    if (obj.id === '60400') {
-      array.pop(obj);
+async function AddManualy(id = "42151") {
+  website = 'https://www.vinted.fr/';
+  console.log(`🕵️‍♀️  browsing ${website}`);
+  let allSales = [];
+  //let allIds = idsArray(allDeals);
+  page = 1;
+  hasMorePages = true;
+  allSales = [];
+  console.log(`📃 Scraping lego ${id}...`);
+  while (hasMorePages) {
+    const url = `${website}api/v2/catalog/items?page=${page}&per_page=96&search_text=${id}&catalog_ids=&size_ids=&brand_ids=89162&status_ids=6,1&material_ids=`;
+    // https://www.vinted.fr/api/v2/catalog/items?page=1&per_page=96&time=1731934165&search_text=10306&catalog_ids=&size_ids=&brand_ids=89162&status_ids=6,1&material_ids=
+    const sales = await scrapePage(url, "vinted", id);
+
+    if (sales.length === 0) {
+      hasMorePages = false;
+    } else {
+      allSales = allSales.concat(sales);
+      console.log(`sale of page ${page} added!`);
+      page++;
     }
-  });
-  return array;
+  }
+
+  if (allSales.length !== 0) {
+    console.log(`📥 Saving...`);
+    await SaveInJSON(allSales, id);
+    await mongo.run(allSales, id);
+    console.log(`📂 All sales of lego ${id} stored in ${id} collection !`);
+  }
+
 }
 
 const [, , eshop] = process.argv;
-const newArray = CleanSales(array);
-console.log(newArray);
 
-//sandbox(eshop);
+sandbox(eshop);
+//AddManualy();
 
-/* A ajouter/tester : 
-Tester la fonction CleanSales (il faut changer la condition + .pop qui n'est pas la bonne fonction)
-Créer une fonction qui delete tous les JSON du dossier sales
-*/
-// Pas besoin du coup faut utiliser ce lien à la place : https://www.vinted.fr/catalog?search_text=10306&time=1731934165&brand_ids%5B%5D=89162&page=1&status_ids%5B%5D=6&status_ids%5B%5D=1

@@ -8,7 +8,7 @@ const headers = {
   Accept: 'application/json, text/plain, */*"',
   'Accept-Language': 'fr',
   Connection: 'keep-alive',
-  Referer: `https://www.vinted.fr/catalog?search_text=42171`
+  Referer: `https://www.vinted.fr/catalog?search_text=10306&time=1731934165&brand_ids%5B%5D=89162&page=1&status_ids%5B%5D=6&status_ids%5B%5D=1`
 };
 
 /**

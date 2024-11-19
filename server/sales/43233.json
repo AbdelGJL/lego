@@ -1,74 +1,42 @@
 [
   {
     "id": "43233",
-    "title": "Boîte lego vide 43233",
-    "price": 3.85,
-    "link": "https://www.vinted.fr/items/4820727419-boite-lego-vide-43233",
-    "published": 1722192770,
-    "uuid": "910bba1a-e9fa-425a-a4e8-3fd8bc12c746"
-  },
-  {
-    "id": "43233",
     "title": "Lego 43233 Belle et Philibert",
-    "price": 5.95,
+    "price": null,
     "link": "https://www.vinted.fr/items/5260214906-lego-43233-belle-et-philibert",
     "published": 1729597911,
-    "uuid": "6458856d-5d89-4596-a21d-3503b1c5be12"
+    "uuid": "6c40e02f-b824-4c24-9430-b837b3eb9222"
   },
   {
     "id": "43233",
     "title": "Lego Disney Princess 43233",
-    "price": 12.78,
+    "price": null,
     "link": "https://www.vinted.fr/items/5343525448-lego-disney-princess-43233",
     "published": 1730988684,
-    "uuid": "dc177b80-b9c9-448f-85d0-2a434279b979"
+    "uuid": "864cc44a-69ea-44a1-ba18-b2ca12d44ea8"
   },
   {
     "id": "43233",
     "title": "Lego Disney beauty 43233",
-    "price": 11.2,
+    "price": null,
     "link": "https://www.vinted.fr/items/5294834951-lego-disney-beauty-43233",
     "published": 1730145470,
-    "uuid": "b0a81207-5035-4793-8ef3-b7cef0737c15"
-  },
-  {
-    "id": "43233",
-    "title": "Lego disney 43233 la belle et la bête",
-    "price": 13.3,
-    "link": "https://www.vinted.fr/items/5113055470-lego-disney-43233-la-belle-et-la-bete",
-    "published": 1727374634,
-    "uuid": "3f9e066e-56f4-4d0e-86ab-fd1d9ef4de4a"
+    "uuid": "0d24ef14-e78f-4d83-88f9-5bcec902884e"
   },
   {
     "id": "43233",
     "title": "Lego Disney set 43233",
-    "price": 13.3,
+    "price": null,
     "link": "https://www.vinted.fr/items/4607511327-lego-disney-set-43233",
     "published": 1717691920,
-    "uuid": "abacddce-9005-4778-b2ea-0487643c0dce"
+    "uuid": "42a3a8a6-6d50-4a83-8355-ea9887fa625e"
   },
   {
     "id": "43233",
-    "title": "Lego princesse Disney",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/5105000040-lego-princesse-disney",
-    "published": 1727263024,
-    "uuid": "87824428-0f37-4a33-944b-546fe540d018"
-  },
-  {
-    "id": "43233",
-    "title": "Red Queen by Victoria Aveyard",
-    "price": 7.42,
-    "link": "https://www.vinted.fr/items/4567063707-red-queen-by-victoria-aveyard",
-    "published": 1716909563,
-    "uuid": "68378ddb-ce8b-45fc-8fdc-7decf059168e"
-  },
-  {
-    "id": "43233",
-    "title": "Lego Princesas Disney Novos",
-    "price": 43.75,
-    "link": "https://www.vinted.fr/items/5331017927-lego-princesas-disney-novos",
-    "published": 1730747285,
-    "uuid": "02f37982-38b0-4014-9559-4c2d0e66183a"
+    "title": "Lego disney 43233 la belle et la bête",
+    "price": null,
+    "link": "https://www.vinted.fr/items/5113055470-lego-disney-43233-la-belle-et-la-bete",
+    "published": 1727374634,
+    "uuid": "5f534672-46f0-4d7d-a924-078c3c75ef06"
   }
 ]
