@@ -3,6 +3,7 @@ const { MongoClient, ServerApiVersion } = require('mongodb');
 const uri = `mongodb+srv://abdelgjl:${process.env.SECRET_KEY}@clusterlego.xkkxu.mongodb.net/?retryWrites=true&w=majority&appName=ClusterLego`;
 const MONGODB_DB_NAME = 'lego';
 const fs = require('fs').promises;
+const collection_name = 'deals';
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
@@ -47,9 +48,8 @@ module.exports.run = async (obj, name) => {
 module.exports.bestDiscount = async () => {
   try {
     await client.connect();
-    const legoSetId = 'deals';
     const db = client.db(MONGODB_DB_NAME);
-    const collection = db.collection(legoSetId);
+    const collection = db.collection(collection_name);
     const deals = await collection.find({}).toArray();
     const best = deals.filter(deal => deal.discount >= 50);
 
@@ -69,9 +69,8 @@ module.exports.bestDiscount = async () => {
 module.exports.mostCommented = async () => {
   try {
     await client.connect();
-    const legoSetId = 'deals';
     const db = client.db(MONGODB_DB_NAME);
-    const collection = db.collection(legoSetId);
+    const collection = db.collection(collection_name);
     const deals = await collection.find({}).toArray();
     const mostCommented = deals.filter(deal => deal.comments >= 15);
 
@@ -92,9 +91,8 @@ module.exports.mostCommented = async () => {
 module.exports.sortedByPrice = async (type) => {
   try {
     await client.connect();
-    const legoSetId = 'deals';
     const db = client.db(MONGODB_DB_NAME);
-    const collection = db.collection(legoSetId);
+    const collection = db.collection(collection_name);
     const deals = await collection.find({}).toArray();
     let sortedByPrice = [];
     if (type === 'desc')
@@ -126,9 +124,8 @@ async function SaveInJSON(data, filename) {
 module.exports.sortedByDate = async (type) => {
   try {
     await client.connect();
-    const legoSetId = 'deals';
     const db = client.db(MONGODB_DB_NAME);
-    const collection = db.collection(legoSetId);
+    const collection = db.collection(collection_name);
     const deals = await collection.find({}).toArray();
     let sortedByDate = [];
     if (type === 'desc')
@@ -145,9 +142,25 @@ module.exports.sortedByDate = async (type) => {
 
 //module.exports.sortedByDate('desc').catch(console.dir);
 
-//Find all sales for a given lego set id
+/**
+ * Find all sales for a given lego set id
+ * @param {sting} id 
+ * @description Display all sales for a given lego set id in an array
+ */
+module.exports.salesForLegoSet = async (id) => {
+  try {
+    await client.connect();
+    const db = client.db(MONGODB_DB_NAME);
+    const collection = db.collection(id);
+    const sales = await collection.find({}).toArray();
+    console.log(sales);
+  } finally {
+    await client.close();
+    console.log("Closed connection to MongoDB");
+  }
+};
 
-
+//module.exports.salesForLegoSet('42157').catch(console.dir);
 
 //Find all sales scraped less than 3 weeks
 
