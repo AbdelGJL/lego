@@ -25,18 +25,15 @@ module.exports.run = async (obj, name) => {
   try {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
-    //const client = await MongoClient.connect(MONGODB_URI, {'useNewUrlParser': true});
     const db = client.db(MONGODB_DB_NAME);
     const collection = db.collection(name);
+    await collection.deleteMany({});
     const result = await collection.insertMany(obj);
     console.log(result);
-    // Send a ping to confirm a successful connection
-    //await client.db(MONGODB_DB_NAME);
-    console.log("Pinged your deployment. You successfully connected to MongoDB!");
   } finally {
     // Ensures that the client will close when you finish/error
     await client.close();
-    console.log("Closed connection to MongoDB");
+    //console.log("Closed connection to MongoDB");
   }
 };
 //run().catch(console.dir);
@@ -162,9 +159,53 @@ module.exports.salesForLegoSet = async (id) => {
 
 //module.exports.salesForLegoSet('42157').catch(console.dir);
 
-//Find all sales scraped less than 3 weeks
+
+/**
+ * Find all sales scraped less than 3 weeks
+ * @param {String} id - The lego set id of the sales
+ * @description Display all sales scraped less than 3 weeks in an array
+ */
+module.exports.recentSales = async (id) => {
+  try {
+    await client.connect();
+    const db = client.db(MONGODB_DB_NAME);
+    const collection = db.collection(id);
+    const sales = await collection.find({}).toArray();
+    const recent = sales.filter(sale => (new Date() - new Date(sale.published) < new Date() - 1814400000));
+    console.log(recent);
+  } finally {
+    await client.close();
+    console.log("Closed connection to MongoDB");
+  }
+}
+
+//module.exports.recentSales('42157').catch(console.dir);
+
+/**
+ * Clear the MongoDB database
+ * @description Delete all collections in the database to avoid the concatenation of data
+ */
+module.exports.clearUpdate = async () => {
+  try {
+    await client.connect();
+    const db = client.db(MONGODB_DB_NAME);
+
+    const collections = await db.listCollections().toArray(); // List all collections in the database
+    for (const collection of collections) {
+      await db.collection(collection.name).drop(); // Delete every collection
+      console.log(`Collection '${collection.name}' deleted.`);
+    }
+    console.log("All collections have been deleted.");
 
 
+  } finally {
+    // Ensures that the client will close when you finish/error
+    await client.close();
+  }
+};
 
 //Display the hot deals
 
+
+//A faire
+//une fonction qui récuprère  les deals pour réduire la taille des fonctions

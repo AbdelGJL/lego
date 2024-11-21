@@ -30,6 +30,8 @@ async function scrapePage(url, website, id = 0) {
 
 async function sandbox(website = 'https://www.dealabs.com/groupe/lego') {
   try {
+    await mongo.mongoClear();
+    /*
     let allDeals = [];
     let page = 1;
     let hasMorePages = true;
@@ -88,7 +90,7 @@ async function sandbox(website = 'https://www.dealabs.com/groupe/lego') {
       }
 
     }
-
+    */
     process.exit(0);
   } catch (e) {
     console.error(e);
