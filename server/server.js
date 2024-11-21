@@ -206,6 +206,16 @@ module.exports.clearUpdate = async () => {
 
 //Display the hot deals
 
-
-//A faire
-//une fonction qui récuprère  les deals pour réduire la taille des fonctions
+module.exports.hotDeals = async () => {
+  try{
+    await client.connect();
+    const db = client.db(MONGODB_DB_NAME);
+    const collection = db.collection(collection_name);
+    const deals = await collection.find({}).toArray();
+    const hotDeals = deals.filter(deal => deal.temperature >= 100);
+    console.log(hotDeals);
+  } finally{
+    await client.close();
+  }
+}
+module.exports.hotDeals().catch(console.dir);

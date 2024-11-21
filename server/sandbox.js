@@ -30,8 +30,8 @@ async function scrapePage(url, website, id = 0) {
 
 async function sandbox(website = 'https://www.dealabs.com/groupe/lego') {
   try {
-    await mongo.mongoClear();
-    /*
+    await mongo.clearUpdate();
+    
     let allDeals = [];
     let page = 1;
     let hasMorePages = true;
@@ -58,6 +58,7 @@ async function sandbox(website = 'https://www.dealabs.com/groupe/lego') {
     await SaveInJSON(allDeals, "deals");
     console.log("📂 All deals stored in deals collection !");
 
+    /*
     //Scrapping vinted
     website = 'https://www.vinted.fr/';
     console.log(`🕵️‍♀️  browsing ${website}`);
