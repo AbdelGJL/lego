@@ -1,4 +1,5 @@
 require('dotenv').config()
+const { Console } = require('console');
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const uri = `mongodb+srv://abdelgjl:${process.env.SECRET_KEY}@clusterlego.xkkxu.mongodb.net/?retryWrites=true&w=majority&appName=ClusterLego`;
 const MONGODB_DB_NAME = 'lego';
@@ -159,19 +160,18 @@ module.exports.salesForLegoSet = async (id) => {
 
 //module.exports.salesForLegoSet('42157').catch(console.dir);
 
-
 /**
  * Find all sales scraped less than 3 weeks
  * @param {String} id - The lego set id of the sales
  * @description Display all sales scraped less than 3 weeks in an array
  */
-module.exports.recentSales = async (id) => {
+module.exports.recentSales = async (sales) => {
   try {
     await client.connect();
     const db = client.db(MONGODB_DB_NAME);
     const collection = db.collection(id);
     const sales = await collection.find({}).toArray();
-    const recent = sales.filter(sale => (new Date() - new Date(sale.published) < new Date() - 1814400000));
+    const recent = sales.filter(sale => DurationInDays(sale.published) < 21);
     console.log(recent);
   } finally {
     await client.close();
@@ -179,7 +179,21 @@ module.exports.recentSales = async (id) => {
   }
 }
 
-//module.exports.recentSales('42157').catch(console.dir);
+/**
+ * Convert the time of the sale into days
+ * @param {Date} time 
+ * @returns The difference in days between the current date and the date of the sale
+ */
+function DurationInDays(time) {
+  const today = new Date();
+
+  let Difference_In_Time = Math.abs(today.getTime() - time * 1000);
+  let Difference_In_Days = Math.round(Difference_In_Time / (1000 * 3600 * 24));
+  console.log(Difference_In_Days);
+  return Difference_In_Days;
+}
+
+//module.exports.recentSales(sale).catch(console.dir);
 
 /**
  * Clear the MongoDB database
@@ -204,18 +218,21 @@ module.exports.clearUpdate = async () => {
   }
 };
 
-//Display the hot deals
 
+/**
+ * Find all hot deals
+ * @description Display all deals with a temperature greater than 100 in an array
+ */
 module.exports.hotDeals = async () => {
-  try{
+  try {
     await client.connect();
     const db = client.db(MONGODB_DB_NAME);
     const collection = db.collection(collection_name);
     const deals = await collection.find({}).toArray();
     const hotDeals = deals.filter(deal => deal.temperature >= 100);
     console.log(hotDeals);
-  } finally{
+  } finally {
     await client.close();
   }
 }
-module.exports.hotDeals().catch(console.dir);
+//module.exports.hotDeals().catch(console.dir);
