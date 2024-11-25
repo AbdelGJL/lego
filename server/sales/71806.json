@@ -1,58 +1,34 @@
 [
   {
     "id": "71806",
-    "title": "Lego ninjago",
-    "price": null,
-    "link": "https://www.vinted.fr/items/5407363149-lego-ninjago",
-    "published": 1731997564,
-    "uuid": "405c3f91-b8c8-469b-8c0a-5c87d7e8e04f"
-  },
-  {
-    "id": "71806",
-    "title": "Lego 71806 - Ninjago  - Meca Elemental de la Tierra de Cole",
-    "price": null,
-    "link": "https://www.vinted.fr/items/5307150683-lego-71806-ninjago-meca-elemental-de-la-tierra-de-cole",
-    "published": 1730380162,
-    "uuid": "eb425225-784e-478a-b6f2-a14195222d02"
-  },
-  {
-    "id": "71806",
-    "title": "Lego Ninjago neuf",
-    "price": null,
-    "link": "https://www.vinted.fr/items/5369721470-lego-ninjago-neuf",
-    "published": 1731399225,
-    "uuid": "9b738982-538f-48a5-95fa-9e68805a8699"
+    "title": "Lego Ninjago",
+    "price": 21.7,
+    "link": "https://www.vinted.fr/items/5398944019-lego-ninjago",
+    "published": 1731858734,
+    "uuid": "33dd6a1e-3f26-4c28-99cf-cf7a36fdcc82"
   },
   {
     "id": "71806",
     "title": "Lego figurines Ninjago 71806",
-    "price": null,
+    "price": 10.15,
     "link": "https://www.vinted.fr/items/4556926535-lego-figurines-ninjago-71806",
     "published": 1716732515,
-    "uuid": "8e37120d-50db-4115-aad8-75454e259299"
-  },
-  {
-    "id": "71806",
-    "title": "Lego Ninjago",
-    "price": null,
-    "link": "https://www.vinted.fr/items/5398944019-lego-ninjago",
-    "published": 1731858734,
-    "uuid": "40681511-daf9-4b97-82d3-8c0c70c56065"
-  },
-  {
-    "id": "71806",
-    "title": "Lego 71806 meca de cole",
-    "price": null,
-    "link": "https://www.vinted.fr/items/5107694954-lego-71806-meca-de-cole",
-    "published": 1727286512,
-    "uuid": "7176b3bd-8db9-4b67-a365-9bdb04328c24"
+    "uuid": "36ab7843-5962-4ad9-a79b-1cc44957bd09"
   },
   {
     "id": "71806",
     "title": "Lego Ninjago - Dragon Rising (71806)",
-    "price": null,
+    "price": 26.95,
     "link": "https://www.vinted.fr/items/4336732564-lego-ninjago-dragon-rising-71806",
     "published": 1712601794,
-    "uuid": "4e711e76-2322-4d52-8d32-6c3b6c1c9e0a"
+    "uuid": "15a5df05-c6dc-4e64-926b-063053e79379"
+  },
+  {
+    "id": "71806",
+    "title": "Lego Ninjago Mechs",
+    "price": 95.2,
+    "link": "https://www.vinted.fr/items/5421751385-lego-ninjago-mechs",
+    "published": 1732225277,
+    "uuid": "30bb80ae-44a4-4141-ae6c-0458b126e569"
   }
 ]

@@ -58,7 +58,7 @@ async function sandbox(website = 'https://www.dealabs.com/groupe/lego') {
     await SaveInJSON(allDeals, "deals");
     console.log("📂 All deals stored in deals collection !");
 
-    /*
+    
     //Scrapping vinted
     website = 'https://www.vinted.fr/';
     console.log(`🕵️‍♀️  browsing ${website}`);
@@ -91,7 +91,7 @@ async function sandbox(website = 'https://www.dealabs.com/groupe/lego') {
       }
 
     }
-    */
+    
     process.exit(0);
   } catch (e) {
     console.error(e);

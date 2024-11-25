@@ -2,41 +2,49 @@
   {
     "id": "43233",
     "title": "Lego 43233 Belle et Philibert",
-    "price": null,
+    "price": 4.9,
     "link": "https://www.vinted.fr/items/5260214906-lego-43233-belle-et-philibert",
     "published": 1729597911,
-    "uuid": "6c40e02f-b824-4c24-9430-b837b3eb9222"
-  },
-  {
-    "id": "43233",
-    "title": "Lego Disney Princess 43233",
-    "price": null,
-    "link": "https://www.vinted.fr/items/5343525448-lego-disney-princess-43233",
-    "published": 1730988684,
-    "uuid": "864cc44a-69ea-44a1-ba18-b2ca12d44ea8"
+    "uuid": "c8db332a-135f-4d26-9135-44935fa284d7"
   },
   {
     "id": "43233",
     "title": "Lego Disney beauty 43233",
-    "price": null,
+    "price": 11.19,
     "link": "https://www.vinted.fr/items/5294834951-lego-disney-beauty-43233",
     "published": 1730145470,
-    "uuid": "0d24ef14-e78f-4d83-88f9-5bcec902884e"
+    "uuid": "f20a3d86-f585-4b4e-8d6c-02fe92d09e6e"
   },
   {
     "id": "43233",
-    "title": "Lego Disney set 43233",
-    "price": null,
-    "link": "https://www.vinted.fr/items/4607511327-lego-disney-set-43233",
-    "published": 1717691920,
-    "uuid": "42a3a8a6-6d50-4a83-8355-ea9887fa625e"
+    "title": "Lego Disney Princess 43233",
+    "price": 12.78,
+    "link": "https://www.vinted.fr/items/5343525448-lego-disney-princess-43233",
+    "published": 1730988684,
+    "uuid": "935fb656-ebae-40c1-b77b-d9b4cc134cd6"
+  },
+  {
+    "id": "43233",
+    "title": "LEGO 43233 Disney Princess Belles Pferdekutsche",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/5427424933-lego-43233-disney-princess-belles-pferdekutsche",
+    "published": 1732358667,
+    "uuid": "19ed9ee2-e740-4871-b404-5f875d16414d"
   },
   {
     "id": "43233",
     "title": "Lego disney 43233 la belle et la bête",
-    "price": null,
+    "price": 13.3,
     "link": "https://www.vinted.fr/items/5113055470-lego-disney-43233-la-belle-et-la-bete",
     "published": 1727374634,
-    "uuid": "5f534672-46f0-4d7d-a924-078c3c75ef06"
+    "uuid": "708ba955-46b5-4859-84dc-d54aa88d7941"
+  },
+  {
+    "id": "43233",
+    "title": "Lego Disney set 43233",
+    "price": 13.3,
+    "link": "https://www.vinted.fr/items/4607511327-lego-disney-set-43233",
+    "published": 1717691920,
+    "uuid": "188e4ade-eb97-4a3a-889d-4ecac2447632"
   }
 ]

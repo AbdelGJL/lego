@@ -22,7 +22,7 @@ const parse = (data, item_id) => {
   return data.items.map(item => {
     const title = item.title;
     const id = item_id;
-    const price = parseFloat(item.total_item_price); // total_item_price.amount sinon ça marche pas partout à confirmer c'est pas normal
+    const price = parseFloat(item.total_item_price.amount); // total_item_price.amount sinon ça marche pas partout à confirmer c'est pas normal
     const link = item.url;
     const uuid = uuidv4();
     const published = item.photo.high_resolution.timestamp;
