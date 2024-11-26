@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "First bricks for profitability",
   "main": "index.js",
+  "type": "module",
   "repository": "git@github.com:92bondstreet/lego.git",
   "dependencies": {
     "cheerio": "^1.0.0",
