@@ -1,20 +1,21 @@
-require('dotenv').config()
-const { Console } = require('console');
-const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = `mongodb+srv://abdelgjl:${process.env.SECRET_KEY}@clusterlego.xkkxu.mongodb.net/?retryWrites=true&w=majority&appName=ClusterLego`;
+//import dotenv from "dotenv";
+//const { Console } = require('console');
+//const { MongoClient, ServerApiVersion } = require('mongodb');
+//const uri = `mongodb+srv://abdelgjl:${process.env.SECRET_KEY}@clusterlego.xkkxu.mongodb.net/?retryWrites=true&w=majority&appName=ClusterLego`;
 const MONGODB_DB_NAME = 'lego';
-const fs = require('fs').promises;
+//const fs = require('fs').promises;
 const collection_name = 'deals';
+import db from './db/conn.mjs';
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
-const client = new MongoClient(uri, {
+/*const client = new MongoClient(uri, {
   serverApi: {
     version: ServerApiVersion.v1,
     strict: true,
     deprecationErrors: true,
     useNewUrlParser: true,
   }
-});
+});*/
 
 /** 
  * Insert data into MongoDB
@@ -22,7 +23,7 @@ const client = new MongoClient(uri, {
  * @param {string} name - The name of the collection
  * @description Insert the object into the collection
 */
-module.exports.run = async (obj, name) => {
+/*module.exports.run = async (obj, name) => {
   try {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
@@ -36,6 +37,16 @@ module.exports.run = async (obj, name) => {
     await client.close();
     //console.log("Closed connection to MongoDB");
   }
+};*/
+export const run = async (obj, name) => {
+  try {
+    const collection = db.collection(name);
+    await collection.deleteMany({});
+    await collection.insertOne(obj);
+    console.log(`Inserted document into ${name} collection`);
+  } catch (error) {
+    console.error('Error inserting document:', error);
+  }
 };
 //run().catch(console.dir);
 
@@ -43,10 +54,11 @@ module.exports.run = async (obj, name) => {
  * Find all best discount deals
  * @description Display all deals with a discount greater than 50% in an array
  */
+/*
 module.exports.bestDiscount = async () => {
   try {
-    await client.connect();
-    const db = client.db(MONGODB_DB_NAME);
+    //await client.connect();
+    //const db = client.db(MONGODB_DB_NAME);
     const collection = db.collection(collection_name);
     const deals = await collection.find({}).toArray();
     const best = deals.filter(deal => deal.discount >= 50);
@@ -56,14 +68,25 @@ module.exports.bestDiscount = async () => {
     await client.close();
     console.log("Closed connection to MongoDB");
   }
-};
+};*/
+export const bestDiscount = async () => {
+  try {
+    const collection = db.collection(collection_name);
+    const deals = await collection.find({}).toArray();
+    const best = deals.filter(deal => deal.discount >= 50);
 
-//module.exports.bestDiscount().catch(console.dir);
+    console.log(best);
+  } catch (error) {
+    console.error("Error fetching best discount deals:", error);
+  }
+};
+//bestDiscount().catch(console.dir);
 
 /**
  * Find all most commented deals
  * @description Display all deals with more than 15 comments in an array
  */
+/*
 module.exports.mostCommented = async () => {
   try {
     await client.connect();
@@ -77,6 +100,17 @@ module.exports.mostCommented = async () => {
     await client.close();
     console.log("Closed connection to MongoDB");
   }
+};*/
+export const mostCommented = async () => {
+  try {
+    const collection = db.collection(collection_name);
+    const deals = await collection.find({}).toArray();
+    const mostCommented = deals.filter(deal => deal.comments >= 15);
+
+    console.log(mostCommented);
+  } finally {
+    console.log("Closed connection to MongoDB");
+  }
 };
 //module.exports.mostCommented().catch(console.dir);
 
@@ -86,6 +120,7 @@ module.exports.mostCommented = async () => {
  * @param {string} type - The type of sorting (asc or desc)
  * @description Display all deals sorted by price in an array
  */
+/*
 module.exports.sortedByPrice = async (type) => {
   try {
     await client.connect();
@@ -103,40 +138,40 @@ module.exports.sortedByPrice = async (type) => {
     await client.close();
     console.log("Closed connection to MongoDB");
   }
-};
+};*/
 //module.exports.sortedByPrice('desc').catch(console.dir);
 
-async function SaveInJSON(data, filename) {
-  const jsonContent = JSON.stringify(data, null, 2);
-  if (filename === "deals")
-    await fs.writeFile("./deals/" + filename + ".json", jsonContent, 'utf8');
-  else
-    await fs.writeFile("./sales/" + filename + ".json", jsonContent, 'utf8');
-}
+// async function SaveInJSON(data, filename) {
+//   const jsonContent = JSON.stringify(data, null, 2);
+//   if (filename === "deals")
+//     await fs.writeFile("./deals/" + filename + ".json", jsonContent, 'utf8');
+//   else
+//     await fs.writeFile("./sales/" + filename + ".json", jsonContent, 'utf8');
+// }
 
 /**
  * Find all deals sorted by date
  * @param {String} type The type of sorting (asc or desc)
  * @description Display all deals sorted by date in an array
  */
-module.exports.sortedByDate = async (type) => {
-  try {
-    await client.connect();
-    const db = client.db(MONGODB_DB_NAME);
-    const collection = db.collection(collection_name);
-    const deals = await collection.find({}).toArray();
-    let sortedByDate = [];
-    if (type === 'desc')
-      sortedByDate = deals.sort((a, b) => new Date(a.published) - new Date(b.published));
-    else if (type === 'asc')
-      sortedByDate = deals.sort((a, b) => new Date(b.published) - new Date(a.published));
-    console.log(sortedByDate);
-    //SaveInJSON(sortedByDate, "sortedByDate");
-  } finally {
-    await client.close();
-    console.log("Closed connection to MongoDB");
-  }
-};
+// module.exports.sortedByDate = async (type) => {
+//   try {
+//     await client.connect();
+//     const db = client.db(MONGODB_DB_NAME);
+//     const collection = db.collection(collection_name);
+//     const deals = await collection.find({}).toArray();
+//     let sortedByDate = [];
+//     if (type === 'desc')
+//       sortedByDate = deals.sort((a, b) => new Date(a.published) - new Date(b.published));
+//     else if (type === 'asc')
+//       sortedByDate = deals.sort((a, b) => new Date(b.published) - new Date(a.published));
+//     console.log(sortedByDate);
+//     //SaveInJSON(sortedByDate, "sortedByDate");
+//   } finally {
+//     await client.close();
+//     console.log("Closed connection to MongoDB");
+//   }
+// };
 
 //module.exports.sortedByDate('desc').catch(console.dir);
 
@@ -145,18 +180,18 @@ module.exports.sortedByDate = async (type) => {
  * @param {sting} id 
  * @description Display all sales for a given lego set id in an array
  */
-module.exports.salesForLegoSet = async (id) => {
-  try {
-    await client.connect();
-    const db = client.db(MONGODB_DB_NAME);
-    const collection = db.collection(id);
-    const sales = await collection.find({}).toArray();
-    console.log(sales);
-  } finally {
-    await client.close();
-    console.log("Closed connection to MongoDB");
-  }
-};
+// module.exports.salesForLegoSet = async (id) => {
+//   try {
+//     await client.connect();
+//     const db = client.db(MONGODB_DB_NAME);
+//     const collection = db.collection(id);
+//     const sales = await collection.find({}).toArray();
+//     console.log(sales);
+//   } finally {
+//     await client.close();
+//     console.log("Closed connection to MongoDB");
+//   }
+// };
 
 //module.exports.salesForLegoSet('42157').catch(console.dir);
 
@@ -165,19 +200,19 @@ module.exports.salesForLegoSet = async (id) => {
  * @param {String} id - The lego set id of the sales
  * @description Display all sales scraped less than 3 weeks in an array
  */
-module.exports.recentSales = async (sales) => {
-  try {
-    await client.connect();
-    const db = client.db(MONGODB_DB_NAME);
-    const collection = db.collection(id);
-    const sales = await collection.find({}).toArray();
-    const recent = sales.filter(sale => DurationInDays(sale.published) < 21);
-    console.log(recent);
-  } finally {
-    await client.close();
-    console.log("Closed connection to MongoDB");
-  }
-}
+// module.exports.recentSales = async (sales) => {
+//   try {
+//     await client.connect();
+//     const db = client.db(MONGODB_DB_NAME);
+//     const collection = db.collection(id);
+//     const sales = await collection.find({}).toArray();
+//     const recent = sales.filter(sale => DurationInDays(sale.published) < 21);
+//     console.log(recent);
+//   } finally {
+//     await client.close();
+//     console.log("Closed connection to MongoDB");
+//   }
+// };
 
 /**
  * Convert the time of the sale into days
@@ -199,40 +234,40 @@ function DurationInDays(time) {
  * Clear the MongoDB database
  * @description Delete all collections in the database to avoid the concatenation of data
  */
-module.exports.clearUpdate = async () => {
-  try {
-    await client.connect();
-    const db = client.db(MONGODB_DB_NAME);
+// module.exports.clearUpdate = async () => {
+//   try {
+//     await client.connect();
+//     const db = client.db(MONGODB_DB_NAME);
 
-    const collections = await db.listCollections().toArray(); // List all collections in the database
-    for (const collection of collections) {
-      await db.collection(collection.name).drop(); // Delete every collection
-      console.log(`Collection '${collection.name}' deleted.`);
-    }
-    console.log("All collections have been deleted.");
+//     const collections = await db.listCollections().toArray(); // List all collections in the database
+//     for (const collection of collections) {
+//       await db.collection(collection.name).drop(); // Delete every collection
+//       console.log(`Collection '${collection.name}' deleted.`);
+//     }
+//     console.log("All collections have been deleted.");
 
 
-  } finally {
-    // Ensures that the client will close when you finish/error
-    await client.close();
-  }
-};
+//   } finally {
+//     // Ensures that the client will close when you finish/error
+//     await client.close();
+//   }
+// };
 
 
 /**
  * Find all hot deals
  * @description Display all deals with a temperature greater than 100 in an array
  */
-module.exports.hotDeals = async () => {
-  try {
-    await client.connect();
-    const db = client.db(MONGODB_DB_NAME);
-    const collection = db.collection(collection_name);
-    const deals = await collection.find({}).toArray();
-    const hotDeals = deals.filter(deal => deal.temperature >= 100);
-    console.log(hotDeals);
-  } finally {
-    await client.close();
-  }
-}
+// module.exports.hotDeals = async () => {
+//   try {
+//     await client.connect();
+//     const db = client.db(MONGODB_DB_NAME);
+//     const collection = db.collection(collection_name);
+//     const deals = await collection.find({}).toArray();
+//     const hotDeals = deals.filter(deal => deal.temperature >= 100);
+//     console.log(hotDeals);
+//   } finally {
+//     await client.close();
+//   }
+// };
 //module.exports.hotDeals().catch(console.dir);
