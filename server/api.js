@@ -1,5 +1,5 @@
 import cors from 'cors';
-import express from 'express';
+import express, { response } from 'express';
 import helmet from 'helmet';
 import bodyParser from 'body-parser';
 import db from "./db/conn.mjs";
@@ -7,8 +7,6 @@ import db from "./db/conn.mjs";
 const PORT = 8092;
 
 const app = express();
-
-//module.exports = app;
 
 app.use(bodyParser.json());
 app.use(cors());
@@ -20,17 +18,6 @@ app.get('/', (request, response) => {
   response.send({ 'ack': true });
 });
 
-/*
-app.get('/deals', async (request, response) => {
-
-  let collection = db.collection("deals");
-  let results = await collection.find({})
-    .limit(50)
-    .toArray();
-  response.send(results).status(200);
-});*/
-
-
 app.get('/deals/search', async (request, response) => {
   const { limit = 12, price, date, filterBy, disc = 50, temp = 100, com = 15 } = request.query;
   try {
@@ -39,7 +26,7 @@ app.get('/deals/search', async (request, response) => {
       query.price = { $lt: parseFloat(price) };
     }
     if (date) {
-      const timestamp = new Date(date).getTime() /1000;
+      const timestamp = new Date(date).getTime() / 1000;
       query.published = { $gte: timestamp };
     }
     // Here filterBy can have 3 values: best-discount, most-commented, hot-deals
@@ -57,11 +44,11 @@ app.get('/deals/search', async (request, response) => {
       }
     }
     let collection = db.collection("deals");
-    let deals = await collection.find( query )
+    let deals = await collection.find(query)
       .sort({ price: 1 })
       .limit(parseInt(limit))
       .toArray();
-    
+
     const rep = {
       limit: parseInt(limit),
       total: deals.length,
@@ -72,7 +59,6 @@ app.get('/deals/search', async (request, response) => {
     response.status(500).send({ error: 'An error occurred while searching for deals' });
   }
 });
-//search?limit=10&price=29.99&date=2024-10-03&filterBy=best-discount
 
 app.get('/deals/:id', async (request, response) => {
   const dealId = request.params.id;
@@ -88,7 +74,32 @@ app.get('/deals/:id', async (request, response) => {
     response.status(500).send({ error: 'An error occurred while fetching the deal' });
   }
 });
-//08bb1c7f-1bff-4b5f-875d-0d52ec19f57f
+
+app.get('/sales/search', async (request, response) => {
+  const { limit = 12, legoSetId } = request.query;
+  try {
+    if (!legoSetId) {
+      return response.status(400).send({ error: 'legoSetId is required' });
+    }
+
+    let collectionName = legoSetId.toString();
+    let collection = db.collection(collectionName);
+    let sales = await collection.find()
+      .sort({ published: -1 }) 
+      .limit(parseInt(limit)) 
+      .toArray();
+    
+    const rep = {
+      limit: parseInt(limit),
+      total: sales.length,
+      result: sales
+    };
+
+    response.status(200).send(rep);
+  } catch (error) {
+    response.status(500).send({ error: 'An error occurred while searching for sales' });
+  }
+});
 
 app.listen(PORT);
 
