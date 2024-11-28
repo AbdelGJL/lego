@@ -1,19 +1,11 @@
 [
   {
     "id": "71806",
-    "title": "Lego Ninjago",
-    "price": 21.7,
-    "link": "https://www.vinted.fr/items/5398944019-lego-ninjago",
-    "published": 1731858734,
-    "uuid": "33dd6a1e-3f26-4c28-99cf-cf7a36fdcc82"
-  },
-  {
-    "id": "71806",
     "title": "Lego figurines Ninjago 71806",
     "price": 10.15,
     "link": "https://www.vinted.fr/items/4556926535-lego-figurines-ninjago-71806",
     "published": 1716732515,
-    "uuid": "36ab7843-5962-4ad9-a79b-1cc44957bd09"
+    "uuid": "484aadaf-bdbd-4b64-aea0-5530af8bf2e5"
   },
   {
     "id": "71806",
@@ -21,7 +13,7 @@
     "price": 26.95,
     "link": "https://www.vinted.fr/items/4336732564-lego-ninjago-dragon-rising-71806",
     "published": 1712601794,
-    "uuid": "15a5df05-c6dc-4e64-926b-063053e79379"
+    "uuid": "5e2d72b9-2c69-46c3-b3be-79ac5617daaf"
   },
   {
     "id": "71806",
@@ -29,6 +21,6 @@
     "price": 95.2,
     "link": "https://www.vinted.fr/items/5421751385-lego-ninjago-mechs",
     "published": 1732225277,
-    "uuid": "30bb80ae-44a4-4141-ae6c-0458b126e569"
+    "uuid": "018d7521-24ed-47d7-b6bb-f911563aa35b"
   }
 ]

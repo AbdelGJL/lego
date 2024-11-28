@@ -1,7 +1,10 @@
-const fetch = (...args) => import('node-fetch').then(module => module.default(...args));
-const cheerio = require('cheerio');
-const { v4: uuidv4 } = require('uuid');
-const fs = require('fs');
+// const fetch = (...args) => import('node-fetch').then(module => module.default(...args));
+// const cheerio = require('cheerio');
+// const { v4: uuidv4 } = require('uuid');
+// const fs = require('fs');
+import fetch from 'node-fetch';
+import * as cheerio from 'cheerio';
+import { v4 as uuidv4 } from 'uuid';
 
 const headers = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
@@ -76,7 +79,7 @@ const parse = data => {
  * @param {String} url - url to parse
  * @returns 
  */
-module.exports.scrape = async url => {
+export async function scrape(url) {
   const response = await fetch(url, { headers });
 
   if (response.ok) {
@@ -88,4 +91,4 @@ module.exports.scrape = async url => {
   console.error(response);
 
   return [];
-};
+}

@@ -1,27 +1,11 @@
 [
   {
     "id": "60379",
-    "title": "Lego 60379 sous marin neuf non ouvert",
-    "price": 68.95,
-    "link": "https://www.vinted.fr/items/5396962308-lego-60379-sous-marin-neuf-non-ouvert",
-    "published": 1731848006,
-    "uuid": "005b2494-3516-4a13-b9de-90d109193968"
-  },
-  {
-    "id": "60379",
-    "title": "Lego - Natal -  Santa's Workshop - 40565 selado",
-    "price": 41.64,
-    "link": "https://www.vinted.fr/items/3893388390-lego-natal-santas-workshop-40565-selado",
-    "published": 1702899617,
-    "uuid": "80fb9422-1845-4d19-bc0b-e27ea4cb81f4"
-  },
-  {
-    "id": "60379",
-    "title": "LEGO City Exploration 60379 - Submarino Explorador do Fundo do Mar",
-    "price": 89.95,
-    "link": "https://www.vinted.fr/items/5398691376-lego-city-exploration-60379-submarino-explorador-do-fundo-do-mar",
-    "published": 1731857356,
-    "uuid": "fee84321-064c-421c-bf89-346d19413507"
+    "title": "60379 LEGO City Sottomarino per Esplorazioni Abissali",
+    "price": 84.7,
+    "link": "https://www.vinted.fr/items/5369496900-60379-lego-city-sottomarino-per-esplorazioni-abissali",
+    "published": 1731384225,
+    "uuid": "57724b9d-d228-48f9-a7c8-bba8aef3b873"
   },
   {
     "id": "60379",
@@ -29,15 +13,7 @@
     "price": 20.64,
     "link": "https://www.vinted.fr/items/5236422178-lego-speed-champions-76914-selado",
     "published": 1729248352,
-    "uuid": "6304e6e0-5e79-4c81-97b1-751da00ff339"
-  },
-  {
-    "id": "60379",
-    "title": "60379 LEGO City Sottomarino per Esplorazioni Abissali",
-    "price": 84.7,
-    "link": "https://www.vinted.fr/items/5369496900-60379-lego-city-sottomarino-per-esplorazioni-abissali",
-    "published": 1731384225,
-    "uuid": "1afb520f-8b75-45f9-b82b-f2421016862c"
+    "uuid": "05fc4971-0a41-436f-9bb1-e3c49da7427e"
   },
   {
     "id": "60379",
@@ -45,23 +21,23 @@
     "price": 84.69,
     "link": "https://www.vinted.fr/items/5236396938-lego-city-60379-selado",
     "published": 1729248071,
-    "uuid": "88bc324e-5dce-4905-8144-599f069f0bc7"
+    "uuid": "fd9762fe-5060-4d47-a211-97722b63cfee"
   },
   {
     "id": "60379",
-    "title": "Lego City  60379 Neuf",
-    "price": 95.2,
-    "link": "https://www.vinted.fr/items/5227142133-lego-city-60379-neuf",
-    "published": 1729083257,
-    "uuid": "31f44f80-ff3c-48d9-b3cc-47a52f0d6865"
+    "title": "LEGO City Exploration 60379 - Submarino Explorador do Fundo do Mar",
+    "price": 89.95,
+    "link": "https://www.vinted.fr/items/5398691376-lego-city-exploration-60379-submarino-explorador-do-fundo-do-mar",
+    "published": 1731857356,
+    "uuid": "dac158f7-234f-46e3-9522-f99271344ee5"
   },
   {
     "id": "60379",
-    "title": "Lego - Art Floral - 31207 - Selado - Descontinuado",
-    "price": 50.04,
-    "link": "https://www.vinted.fr/items/5236448409-lego-art-floral-31207-selado-descontinuado",
-    "published": 1729248646,
-    "uuid": "3eb88410-0a78-4107-ac5c-379ce2fc8dce"
+    "title": "Lego - Natal -  Santa's Workshop - 40565 selado",
+    "price": 41.64,
+    "link": "https://www.vinted.fr/items/3893388390-lego-natal-santas-workshop-40565-selado",
+    "published": 1702899617,
+    "uuid": "23f142a6-1830-4e6f-8451-c5f78153235c"
   },
   {
     "id": "60379",
@@ -69,6 +45,22 @@
     "price": 100.45,
     "link": "https://www.vinted.fr/items/4830956773-lego-sottomarino-per-esplorazioni-abissali-60379",
     "published": 1722436068,
-    "uuid": "b06f2e0e-9a42-4340-9ae8-43cf010624d3"
+    "uuid": "bc675509-5eff-4b9d-ae09-ad5d1f885f51"
+  },
+  {
+    "id": "60379",
+    "title": "Lego City  60379 Neuf",
+    "price": 95.2,
+    "link": "https://www.vinted.fr/items/5227142133-lego-city-60379-neuf",
+    "published": 1729083257,
+    "uuid": "311e3be7-0df4-4f06-8862-a569e8b4915e"
+  },
+  {
+    "id": "60379",
+    "title": "Lego - Art Floral - 31207 - Selado - Descontinuado",
+    "price": 50.04,
+    "link": "https://www.vinted.fr/items/5236448409-lego-art-floral-31207-selado-descontinuado",
+    "published": 1729248646,
+    "uuid": "528da8b4-a9f1-4a1b-ba3e-d7715022073d"
   }
 ]

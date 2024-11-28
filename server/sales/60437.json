@@ -1,11 +1,27 @@
 [
   {
     "id": "60437",
+    "title": "Lego 60437",
+    "price": 73.15,
+    "link": "https://www.vinted.fr/items/5452383823-lego-60437",
+    "published": 1732738995,
+    "uuid": "a557320f-f12e-4a52-a2da-794eaf8e9014"
+  },
+  {
+    "id": "60437",
+    "title": "Lego City 60437 Jungle Explorer Helicopter",
+    "price": 77.34,
+    "link": "https://www.vinted.fr/items/5444180824-lego-city-60437-jungle-explorer-helicopter",
+    "published": 1732612230,
+    "uuid": "1e1c4c5f-652e-4592-bfea-9284cb537082"
+  },
+  {
+    "id": "60437",
     "title": "Lego 60437 L' hélicoptère de l' explorateur",
     "price": 79.44,
     "link": "https://www.vinted.fr/items/5429900093-lego-60437-l-helicoptere-de-l-explorateur",
     "published": 1732378957,
-    "uuid": "f8f6964b-75c7-453d-a972-96cb531fab30"
+    "uuid": "be312871-9b6b-44ef-8947-28c558ce996c"
   },
   {
     "id": "60437",
@@ -13,6 +29,22 @@
     "price": 83.65,
     "link": "https://www.vinted.fr/items/5385210683-lego-60437-city-exploradores-de-la-jungla-helicoptero-en-campamento-base",
     "published": 1731666479,
-    "uuid": "736abae7-c216-4e9d-81b6-162fc5a26be8"
+    "uuid": "5192f34e-93c2-4857-a5d5-ad90d98ab9ae"
+  },
+  {
+    "id": "60437",
+    "title": "Lego City 60437 hélicoptère jungle",
+    "price": 79.45,
+    "link": "https://www.vinted.fr/items/5454619743-lego-city-60437-helicoptere-jungle",
+    "published": 1732799734,
+    "uuid": "62daff41-fd92-4c85-8640-34bf7bf9cd74"
+  },
+  {
+    "id": "60437",
+    "title": "Lego 60437 Helicoptero",
+    "price": 79.4,
+    "link": "https://www.vinted.fr/items/5452367143-lego-60437-helicoptero",
+    "published": 1732738788,
+    "uuid": "a0ee6486-b3ff-4301-b4b8-0a279eac363f"
   }
 ]

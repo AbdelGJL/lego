@@ -1,7 +1,12 @@
-const fetch = (...args) => import('node-fetch').then(module => module.default(...args));
-const cheerio = require('cheerio');
-const { v4: uuidv4 } = require('uuid');
-const fs = require('fs');
+//const fetch = (...args) => import('node-fetch').then(module => module.default(...args));
+import fetch from 'node-fetch';
+//import { TokenCookie, headers } from './utils.js'; // Assurez-vous que ces modules existent et sont correctement exportés
+import * as cheerio from 'cheerio';
+//const cheerio = require('cheerio');
+// const { v4: uuidv4 } = require('uuid');
+// const fs = require('fs');
+import { v4 as uuidv4 } from 'uuid';
+import { promises as fs } from 'fs';
 
 const headers = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
@@ -46,7 +51,7 @@ const parse = (data, item_id) => {
  * @param {String} id - item id
  * @returns 
  */
-module.exports.scrape = async (url, id) => {
+export async function scrape (url, id) {
   try {
     const { csrfToken, cookies } = await TokenCookie();
     const response = await fetch(url, {
@@ -67,12 +72,14 @@ module.exports.scrape = async (url, id) => {
       throw new Error(`Resonse error : status ${response.status} - ${response.statusText}`);
     }
   } catch (error) {
-    console.error("Fetch error :", error);
-    throw error;
+    //console.error("Fetch error :", error);
+    console.error(`Error scraping ${url}:`, error);
+    //throw error;
+    return null;
   }
 
-  return null;
-};
+  
+}
 
 async function TokenCookie() {
   const response1 = await fetch("https://www.vinted.fr/", {

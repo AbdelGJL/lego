@@ -1,35 +1,11 @@
 [
   {
     "id": "75382",
-    "title": "Lego Mandalorian 75382",
-    "price": 58.45,
-    "link": "https://www.vinted.fr/items/5431827549-lego-mandalorian-75382",
-    "published": 1732413442,
-    "uuid": "4f1cc965-a294-4b08-a100-10a4474a13b1"
-  },
-  {
-    "id": "75382",
-    "title": "Lego Star Wars UCS 75382",
-    "price": 116.2,
-    "link": "https://www.vinted.fr/items/4614766217-lego-star-wars-ucs-75382",
-    "published": 1717858249,
-    "uuid": "b4ac0169-81e8-4cfd-8171-503bb9d5aef1"
-  },
-  {
-    "id": "75382",
     "title": "LEGO Star Wars 75382 Tie interceptor ultimate collector series",
     "price": 210.7,
     "link": "https://www.vinted.fr/items/5321659805-lego-star-wars-75382-tie-interceptor-ultimate-collector-series",
     "published": 1730633795,
-    "uuid": "1bc1f341-452d-45bd-ba97-3995b6571a0d"
-  },
-  {
-    "id": "75382",
-    "title": "Lego 75382 Sealed",
-    "price": 210.7,
-    "link": "https://www.vinted.fr/items/5336087985-lego-75382-sealed",
-    "published": 1730891389,
-    "uuid": "9441d9bc-cafd-43c2-a193-b8e2e0d6f329"
+    "uuid": "8c45981d-ae0e-481e-9aac-78c021d66134"
   },
   {
     "id": "75382",
@@ -37,6 +13,22 @@
     "price": 231.7,
     "link": "https://www.vinted.fr/items/4486895932-lego-75382-star-wars",
     "published": 1715414207,
-    "uuid": "17bab838-dc1c-480c-9a9d-a0f972d2f4ac"
+    "uuid": "7e8633ed-b0c1-4d60-a742-73f525a80b68"
+  },
+  {
+    "id": "75382",
+    "title": "Lego Mandalorian 75382",
+    "price": 53.2,
+    "link": "https://www.vinted.fr/items/5431827549-lego-mandalorian-75382",
+    "published": 1732413442,
+    "uuid": "d3573c4d-8fb4-4075-aed6-41d362936e60"
+  },
+  {
+    "id": "75382",
+    "title": "Lego Star Wars UCS 75382",
+    "price": 116.2,
+    "link": "https://www.vinted.fr/items/4614766217-lego-star-wars-ucs-75382",
+    "published": 1717858249,
+    "uuid": "f68285cd-5745-474c-a5c4-598c5fb636cb"
   }
 ]

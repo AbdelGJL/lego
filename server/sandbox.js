@@ -1,15 +1,18 @@
 /* eslint-disable no-console, no-process-exit */
-const { Console } = require('console');
-const dealabs = require('./websites/dealabs');
-const vinted = require('./websites/vinted');
-const mongo = require('./server.js');
-const fs = require('fs').promises;
-
+// const { Console } = require('console');
+// const dealabs = require('./websites/dealabs');
+// const vinted = require('./websites/vinted');
+// const mongo = require('./server.js');
+// const fs = require('fs').promises;
+import { scrape as dealabsScrape } from './websites/dealabs.js';
+import { scrape as vintedScrape } from './websites/vinted.js';
+import * as mongo from './server.js';
+import { promises as fs } from 'fs';
 
 async function scrapePage(url, website, id = 0) {
   if (website === "dealabs") {
     try {
-      const deals = await dealabs.scrape(url);
+      const deals = await dealabsScrape(url);
       return deals;
     } catch (error) {
       console.error(`Error scraping ${url}:`, error);
@@ -18,14 +21,13 @@ async function scrapePage(url, website, id = 0) {
   }
   else {
     try {
-      const sales = await vinted.scrape(url, id);
+      const sales = await vintedScrape(url, id);
       return sales;
     } catch (error) {
       console.error(`Error scraping ${url}:`, error);
       return [];
     }
   }
-
 }
 
 async function sandbox(website = 'https://www.dealabs.com/groupe/lego') {
@@ -92,6 +94,7 @@ async function sandbox(website = 'https://www.dealabs.com/groupe/lego') {
 
     }
     
+    
     process.exit(0);
   } catch (e) {
     console.error(e);
@@ -145,7 +148,7 @@ async function AddManualy(id = "42151") {
 }
 
 const [, , eshop] = process.argv;
-
-sandbox(eshop);
+sandbox().catch(console.error);
+//sandbox(eshop);
 //AddManualy();
 

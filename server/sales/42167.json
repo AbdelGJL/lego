@@ -1,27 +1,19 @@
 [
   {
     "id": "42167",
+    "title": "Lego 42167 - Mack LR Electric Garbage Truk",
+    "price": 24.85,
+    "link": "https://www.vinted.fr/items/5455208315-lego-42167-mack-lr-electric-garbage-truk",
+    "published": 1732806288,
+    "uuid": "590ce042-65f0-4e8d-9d0c-985fb5140356"
+  },
+  {
+    "id": "42167",
     "title": "LEGO Technic 42167 Camião do Lixo Mack LR Electric",
     "price": 26.95,
     "link": "https://www.vinted.fr/items/5384819613-lego-technic-42167-camiao-do-lixo-mack-lr-electric",
     "published": 1731661667,
-    "uuid": "13d09f5c-8580-4252-bd99-1fb11ff32cc0"
-  },
-  {
-    "id": "42167",
-    "title": "Lego 42167 - Mack LR Electric Garbage Truk",
-    "price": 24.85,
-    "link": "https://www.vinted.fr/items/5373898216-lego-42167-mack-lr-electric-garbage-truk",
-    "published": 1731444036,
-    "uuid": "2cf28ea7-1611-424e-98b1-ef7a35a7e8a6"
-  },
-  {
-    "id": "42167",
-    "title": "42167 lego technic",
-    "price": 26.94,
-    "link": "https://www.vinted.fr/items/5360712579-42167-lego-technic",
-    "published": 1731258412,
-    "uuid": "ba9ef1db-1120-4663-885b-546f33cfe8ae"
+    "uuid": "dc8b2ab5-576a-496d-83f3-b30eb2a2a6fb"
   },
   {
     "id": "42167",
@@ -29,15 +21,15 @@
     "price": 16.45,
     "link": "https://www.vinted.fr/items/5165048544-lego-technic-42167",
     "published": 1728158059,
-    "uuid": "58bdb062-892a-481d-8e3f-e3371b290e18"
+    "uuid": "32689e24-e117-4546-82e8-4655e484bfae"
   },
   {
     "id": "42167",
-    "title": "Lego technic 42167",
-    "price": 26.95,
-    "link": "https://www.vinted.fr/items/4893739875-lego-technic-42167",
-    "published": 1723807875,
-    "uuid": "47bd4c85-0015-47cb-ab9e-9d0d547ce438"
+    "title": "Lego technic vuilniswagen 42167",
+    "price": 29.58,
+    "link": "https://www.vinted.fr/items/5453819515-lego-technic-vuilniswagen-42167",
+    "published": 1732790241,
+    "uuid": "d6ffd2ff-56e3-4e29-be75-bf948547cdb0"
   },
   {
     "id": "42167",
@@ -45,7 +37,23 @@
     "price": 30.1,
     "link": "https://www.vinted.fr/items/5389563322-lego-camion-della-spazzatura-mack",
     "published": 1731751278,
-    "uuid": "c8bd786d-25e6-418a-a59c-eb4220feebb0"
+    "uuid": "42e1c09b-2d60-40bd-8829-3026d033dba4"
+  },
+  {
+    "id": "42167",
+    "title": "42167 lego technic",
+    "price": 26.94,
+    "link": "https://www.vinted.fr/items/5360712579-42167-lego-technic",
+    "published": 1731258412,
+    "uuid": "35d324d8-c64c-4dd1-a2af-d562d9c8d3a7"
+  },
+  {
+    "id": "42167",
+    "title": "Lego technic 42167",
+    "price": 26.95,
+    "link": "https://www.vinted.fr/items/4893739875-lego-technic-42167",
+    "published": 1723807875,
+    "uuid": "5c32a426-561f-40ea-b796-ae04a02e72ad"
   },
   {
     "id": "42167",
@@ -53,7 +61,7 @@
     "price": 29.05,
     "link": "https://www.vinted.fr/items/4936460219-lego-technic",
     "published": 1724592126,
-    "uuid": "a4c277af-a079-42dd-b8e4-4bd1b4c9384e"
+    "uuid": "aa96d8ff-487c-4fc2-965b-f99064007864"
   },
   {
     "id": "42167",
@@ -61,6 +69,6 @@
     "price": 38.5,
     "link": "https://www.vinted.fr/items/4899261328-lego-technic-42167-mack-camion-della-spazzatura-con-movimenti-realistici",
     "published": 1723912151,
-    "uuid": "785d7633-4c4a-4182-a110-c988fec78cb4"
+    "uuid": "38c99ebc-72f4-406b-b62c-4907867ea3db"
   }
 ]

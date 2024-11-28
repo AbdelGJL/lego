@@ -1,11 +1,11 @@
 [
   {
     "id": "75394",
-    "title": "Lego star wars sw1326",
-    "price": 5.95,
-    "link": "https://www.vinted.fr/items/5373989380-lego-star-wars-sw1326",
-    "published": 1731445133,
-    "uuid": "32a7e81a-eba7-4dbd-8074-cfc84590c942"
+    "title": "Lego Cal Kestis",
+    "price": 53.2,
+    "link": "https://www.vinted.fr/items/5455093422-lego-cal-kestis",
+    "published": 1732804989,
+    "uuid": "3054d831-f13e-4819-afaa-556bba5c2d52"
   },
   {
     "id": "75394",
@@ -13,7 +13,23 @@
     "price": 68.95,
     "link": "https://www.vinted.fr/items/5431325365-kal-kestis-minifigura-de-25-aniversario",
     "published": 1732395364,
-    "uuid": "9ecf14c7-f2f4-40bf-be6a-7264161cc67e"
+    "uuid": "c826c21b-0a2c-46f7-9f76-41aa37ed5be3"
+  },
+  {
+    "id": "75394",
+    "title": "Lego star wars sw1326",
+    "price": 5.95,
+    "link": "https://www.vinted.fr/items/5373989380-lego-star-wars-sw1326",
+    "published": 1731445133,
+    "uuid": "2e2c2a45-2739-45c0-a283-2363324541ce"
+  },
+  {
+    "id": "75394",
+    "title": "Lego Star Wars 75394 Imperia Star destroyer",
+    "price": 152.95,
+    "link": "https://www.vinted.fr/items/5431314032-lego-star-wars-75394-imperia-star-destroyer",
+    "published": 1732395189,
+    "uuid": "88028026-7637-4046-a3c1-3e4dd6aa4c62"
   },
   {
     "id": "75394",
@@ -21,14 +37,14 @@
     "price": 53.2,
     "link": "https://www.vinted.fr/items/4862045575-lego-star-wars-75394",
     "published": 1723108076,
-    "uuid": "d8351e9b-3b56-415f-b783-adfe0510183f"
+    "uuid": "68ca245b-26b0-4e5e-91f9-93214f7f8d90"
   },
   {
     "id": "75394",
-    "title": "Lego Star Wars 75394 Imperia Star destroyer",
-    "price": 147.7,
-    "link": "https://www.vinted.fr/items/5431314032-lego-star-wars-75394-imperia-star-destroyer",
-    "published": 1732395189,
-    "uuid": "16ce20ce-6c0c-4018-b43c-998a70e31152"
+    "title": "Lego StarWars 75394 Imperial Star Destroyer",
+    "price": 110.95,
+    "link": "https://www.vinted.fr/items/5451632058-lego-starwars-75394-imperial-star-destroyer",
+    "published": 1732729886,
+    "uuid": "d7d01e6d-564b-4a35-b11a-d02cdba628d4"
   }
 ]

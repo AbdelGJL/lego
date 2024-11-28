@@ -5,7 +5,15 @@
     "price": 11.2,
     "link": "https://www.vinted.fr/items/4518645431-figurine-peli-motto-et-bd72",
     "published": 1716025838,
-    "uuid": "4f3c6234-0211-492c-82d6-89f1fc9aa5f7"
+    "uuid": "795eb914-9434-4792-9c85-218f5b2433d4"
+  },
+  {
+    "id": "75325",
+    "title": "Lego stars wars",
+    "price": 44.8,
+    "link": "https://www.vinted.fr/items/5432741301-lego-stars-wars",
+    "published": 1732443633,
+    "uuid": "03dd95f2-1eba-4c24-bb18-1cbb4089b79c"
   },
   {
     "id": "75325",
@@ -13,15 +21,7 @@
     "price": 16.45,
     "link": "https://www.vinted.fr/items/5130634137-minifigure-lego-star-wars-peli-motto",
     "published": 1727627390,
-    "uuid": "6a5925a2-92fb-4589-9f41-aa9893905112"
-  },
-  {
-    "id": "75325",
-    "title": "Mego stars wars",
-    "price": 44.8,
-    "link": "https://www.vinted.fr/items/5432741301-mego-stars-wars",
-    "published": 1732443633,
-    "uuid": "18a8c0a4-0686-46f5-8db4-11c5645359c2"
+    "uuid": "28199c32-09b4-4f4d-aa89-1fd4e08008d9"
   },
   {
     "id": "75325",
@@ -29,39 +29,47 @@
     "price": 7.95,
     "link": "https://www.vinted.fr/items/5144246921-lego-star-wars-baby-yoda-sw1113-neuf",
     "published": 1727854754,
-    "uuid": "7e7c623d-fce7-47d8-a120-aab3903cecd7"
+    "uuid": "a956653d-1532-4aab-a8f5-783bb32bb18f"
   },
   {
     "id": "75325",
-    "title": "Lego Star Wars ref 75325",
+    "title": "Lego star wars Mandalorian",
+    "price": 10.15,
+    "link": "https://www.vinted.fr/items/5436843610-lego-star-wars-mandalorian",
+    "published": 1732469310,
+    "uuid": "615d341c-c803-49f3-a0eb-b4064760e7bf"
+  },
+  {
+    "id": "75325",
+    "title": "Lego star wars Grogu",
+    "price": 5.43,
+    "link": "https://www.vinted.fr/items/5436915836-lego-star-wars-grogu",
+    "published": 1732469822,
+    "uuid": "2aa87852-7429-47ad-9ea6-599bc63c2703"
+  },
+  {
+    "id": "75325",
+    "title": "Lego star wars Peli Moto",
+    "price": 12.25,
+    "link": "https://www.vinted.fr/items/5436821443-lego-star-wars-peli-moto",
+    "published": 1732469154,
+    "uuid": "4b6336c8-83a4-4bfa-adb7-f977a6e5c4da"
+  },
+  {
+    "id": "75325",
+    "title": "LEGO Star Wars The Mandalorian’s N1 Starfighter",
     "price": 53.2,
-    "link": "https://www.vinted.fr/items/5404257608-lego-star-wars-ref-75325",
-    "published": 1731938711,
-    "uuid": "69b49e7d-a9ff-4648-9a3f-7b3aa9878d59"
+    "link": "https://www.vinted.fr/items/5445861884-lego-star-wars-the-mandalorians-n1-starfighter",
+    "published": 1732631351,
+    "uuid": "5b7f6474-d8dc-497b-842c-2608866c5170"
   },
   {
     "id": "75325",
-    "title": "LEGO 75325 Star Wars Le chasseur N-1 du Mandalorien",
-    "price": 50.05,
-    "link": "https://www.vinted.fr/items/5395259817-lego-75325-star-wars-le-chasseur-n-1-du-mandalorien",
-    "published": 1731837486,
-    "uuid": "05b72274-caa4-4b91-a7aa-5a636b9bf1c5"
-  },
-  {
-    "id": "75325",
-    "title": "Lego Star Wars",
-    "price": 116.2,
-    "link": "https://www.vinted.fr/items/5368936039-lego-star-wars",
-    "published": 1731358487,
-    "uuid": "fe98dc79-5be1-473a-9271-cec9558a309c"
-  },
-  {
-    "id": "75325",
-    "title": "Lego Star Wars 75325 Neuf emballé",
-    "price": 105.6,
-    "link": "https://www.vinted.fr/items/5432880329-lego-star-wars-75325-neuf-emballe",
-    "published": 1732444626,
-    "uuid": "c9621167-f865-4875-8cf2-6d9d4c04aec5"
+    "title": "Lego star wars bd-72",
+    "price": 9.1,
+    "link": "https://www.vinted.fr/items/5436886042-lego-star-wars-bd-72",
+    "published": 1732469610,
+    "uuid": "a32c4037-c8cf-4179-b1a8-9856277fef85"
   },
   {
     "id": "75325",
@@ -69,47 +77,7 @@
     "price": 49,
     "link": "https://www.vinted.fr/items/5388695963-lego-75325-star-wars",
     "published": 1731745108,
-    "uuid": "c68da290-58b2-49ea-8490-6dcab31afeeb"
-  },
-  {
-    "id": "75325",
-    "title": "Lego Star Wars - Set 75325 - Le Chasseur N-1 du Mandalorien - Neuf",
-    "price": 53.19,
-    "link": "https://www.vinted.fr/items/5353531291-lego-star-wars-set-75325-le-chasseur-n-1-du-mandalorien-neuf",
-    "published": 1731166222,
-    "uuid": "177dfb6f-338f-469c-9ff6-96542f8efc4e"
-  },
-  {
-    "id": "75325",
-    "title": "Lego 75325 star wars",
-    "price": 50.05,
-    "link": "https://www.vinted.fr/items/5321818029-lego-75325-star-wars",
-    "published": 1730634818,
-    "uuid": "fa3ca464-7981-4423-9713-2f83d21405c4"
-  },
-  {
-    "id": "75325",
-    "title": "Lego Star Wars The Mandalorian's N-1 Starfighter - 75325",
-    "price": 47.95,
-    "link": "https://www.vinted.fr/items/5423280213-lego-star-wars-the-mandalorians-n-1-starfighter-75325",
-    "published": 1732276123,
-    "uuid": "c6e11f6c-4308-4e14-a40c-723ab7c3332f"
-  },
-  {
-    "id": "75325",
-    "title": "Lego 75325 le chasseur N1 du mandalorien star wars",
-    "price": 47.95,
-    "link": "https://www.vinted.fr/items/5054128168-lego-75325-le-chasseur-n1-du-mandalorien-star-wars",
-    "published": 1726481429,
-    "uuid": "2d5827ea-3105-46d6-af1c-63b798de3899"
-  },
-  {
-    "id": "75325",
-    "title": "75325 LEGO Star Wars De Mandalorians N-1 Starfighter",
-    "price": 47.95,
-    "link": "https://www.vinted.fr/items/5426750672-75325-lego-star-wars-de-mandalorians-n-1-starfighter",
-    "published": 1732351090,
-    "uuid": "4163f4a7-516f-4d97-b79c-7f95dbc20ab8"
+    "uuid": "31178f0d-eec6-4ac9-843a-d037908bd010"
   },
   {
     "id": "75325",
@@ -117,119 +85,23 @@
     "price": 47.95,
     "link": "https://www.vinted.fr/items/5249821662-lego-75325-star-wars",
     "published": 1729435972,
-    "uuid": "e68f08f4-3869-49a5-b514-513f032bdfee"
+    "uuid": "46638903-5ce4-44b4-911f-c479379ab4f6"
   },
   {
     "id": "75325",
-    "title": "Lego star wars 75325",
-    "price": 46.9,
-    "link": "https://www.vinted.fr/items/4850346704-lego-star-wars-75325",
-    "published": 1722863556,
-    "uuid": "8e4eea3f-8c31-41d0-a316-d363710223cb"
+    "title": "Lego Star Wars",
+    "price": 116.2,
+    "link": "https://www.vinted.fr/items/5368936039-lego-star-wars",
+    "published": 1731358487,
+    "uuid": "0cf59cd9-d75b-4314-a45e-933bf93cdd09"
   },
   {
     "id": "75325",
-    "title": "Lego 75325 Starwars : The Mandalorian N 1 Starfighter",
-    "price": 47.95,
-    "link": "https://www.vinted.fr/items/5407379648-lego-75325-starwars-the-mandalorian-n-1-starfighter",
-    "published": 1731998589,
-    "uuid": "c5f3c8be-7783-4d7a-a461-0a6d41786079"
-  },
-  {
-    "id": "75325",
-    "title": "Lego 75325",
-    "price": 47.95,
-    "link": "https://www.vinted.fr/items/5272809491-lego-75325",
-    "published": 1729796350,
-    "uuid": "b6a2e47d-32a3-4c7c-ac10-13c3f389fab6"
-  },
-  {
-    "id": "75325",
-    "title": "Lego Star Wars 75325: The Mandalorian´s N-1 StartFighter",
-    "price": 48.95,
-    "link": "https://www.vinted.fr/items/5419201409-lego-star-wars-75325-the-mandalorians-n-1-startfighter",
-    "published": 1732195731,
-    "uuid": "16886f07-fde7-4233-9236-5d870e427ad0"
-  },
-  {
-    "id": "75325",
-    "title": "Lego 75325",
-    "price": 53.2,
-    "link": "https://www.vinted.fr/items/5407436102-lego-75325",
-    "published": 1732001103,
-    "uuid": "7c506fd6-8267-45e0-9b7e-3b15e9d50d5e"
-  },
-  {
-    "id": "75325",
-    "title": "75325 Lego star wars the mandalorian N-1 starfighter",
-    "price": 63.7,
-    "link": "https://www.vinted.fr/items/5368610283-75325-lego-star-wars-the-mandalorian-n-1-starfighter",
-    "published": 1731355137,
-    "uuid": "3913dc3d-ac33-4a4d-8d35-11fcc577564a"
-  },
-  {
-    "id": "75325",
-    "title": "Lego star wars 75325 The Mandalorian's N-1 Starfighter",
-    "price": 55.3,
-    "link": "https://www.vinted.fr/items/5358142930-lego-star-wars-75325-the-mandalorians-n-1-starfighter",
-    "published": 1731243087,
-    "uuid": "78c0d281-68a8-4d93-9f5b-e86194f0f234"
-  },
-  {
-    "id": "75325",
-    "title": "Lego Star wars 75325 Neuf",
-    "price": 47.95,
-    "link": "https://www.vinted.fr/items/5261134246-lego-star-wars-75325-neuf",
-    "published": 1729606338,
-    "uuid": "9980ade1-bd8f-4294-8777-296653e45b17"
-  },
-  {
-    "id": "75325",
-    "title": "Lego 75325",
-    "price": 53.2,
-    "link": "https://www.vinted.fr/items/5325505268-lego-75325",
-    "published": 1730657659,
-    "uuid": "297691dc-c964-4580-b6f0-02d803a9fa94"
-  },
-  {
-    "id": "75325",
-    "title": "Lego Star Wars 75325 Neu",
-    "price": 58.45,
-    "link": "https://www.vinted.fr/items/5417050273-lego-star-wars-75325-neu",
-    "published": 1732138867,
-    "uuid": "17bbc32e-ca86-424b-ace1-0af94b4c0005"
-  },
-  {
-    "id": "75325",
-    "title": "Lego star wars 75325 sin abrir",
-    "price": 63.7,
-    "link": "https://www.vinted.fr/items/5429609982-lego-star-wars-75325-sin-abrir",
-    "published": 1732376495,
-    "uuid": "f7e087a2-a2c9-44bb-88b3-3d626b21eba4"
-  },
-  {
-    "id": "75325",
-    "title": "Lego Star Wars 75325 - The Mandalorian’s N-1 Starfighter",
+    "title": "Lego Star Wars - Set 75325 - Le Chasseur N-1 du Mandalorien - Neuf",
     "price": 53.19,
-    "link": "https://www.vinted.fr/items/5369029576-lego-star-wars-75325-the-mandalorians-n-1-starfighter",
-    "published": 1731359596,
-    "uuid": "ea33ae07-054f-4807-aa83-ca9da54b0a9d"
-  },
-  {
-    "id": "75325",
-    "title": "Lego 75325 Caza Estelar N-1 Mandalorian",
-    "price": 53.2,
-    "link": "https://www.vinted.fr/items/5378457898-lego-75325-caza-estelar-n-1-mandalorian",
-    "published": 1731523792,
-    "uuid": "07025123-1168-4917-8b82-5cbe1b680039"
-  },
-  {
-    "id": "75325",
-    "title": "Lego star war 75325",
-    "price": 47.95,
-    "link": "https://www.vinted.fr/items/5314592025-lego-star-war-75325",
-    "published": 1730531900,
-    "uuid": "a7eb2fa6-d5a4-42d8-8138-4b75315c7b9a"
+    "link": "https://www.vinted.fr/items/5353531291-lego-star-wars-set-75325-le-chasseur-n-1-du-mandalorien-neuf",
+    "published": 1731166222,
+    "uuid": "32d07485-79ea-4e23-8b6e-8f3e9a63cf0a"
   },
   {
     "id": "75325",
@@ -237,39 +109,39 @@
     "price": 77.35,
     "link": "https://www.vinted.fr/items/5412262025-lego-star-wars",
     "published": 1732063960,
-    "uuid": "3425d0c6-df97-4a03-9999-8a1bf70ad263"
+    "uuid": "343ac1ca-5e3f-424e-988b-4b98fa49553a"
   },
   {
     "id": "75325",
-    "title": "Lego Star Wars",
-    "price": 57.4,
-    "link": "https://www.vinted.fr/items/5315003331-lego-star-wars",
-    "published": 1730539457,
-    "uuid": "d65fbeab-6b26-4b5f-bad3-82a23dac2d92"
+    "title": "75325 LEGO Star Wars De Mandalorians N-1 Starfighter",
+    "price": 47.95,
+    "link": "https://www.vinted.fr/items/5426750672-75325-lego-star-wars-de-mandalorians-n-1-starfighter",
+    "published": 1732351090,
+    "uuid": "cce1c16c-d91f-4d20-90bc-be01972e0d1d"
   },
   {
     "id": "75325",
-    "title": "LEGO Star Wars 75325. \nCaza Estelar N-1 de The Mandalorian",
-    "price": 51.1,
-    "link": "https://www.vinted.fr/items/4565178936-lego-star-wars-75325-caza-estelar-n-1-de-the-mandalorian",
-    "published": 1716887548,
-    "uuid": "b245a483-34e8-4249-86c7-9f124f787149"
+    "title": "Lego star wars 75325",
+    "price": 46.9,
+    "link": "https://www.vinted.fr/items/4850346704-lego-star-wars-75325",
+    "published": 1722863556,
+    "uuid": "524733a0-cc78-4f8a-a249-cff84d540566"
   },
   {
     "id": "75325",
-    "title": "Lego 75325",
+    "title": "Lego Star Wars ref 75325",
     "price": 53.2,
-    "link": "https://www.vinted.fr/items/5318648606-lego-75325",
-    "published": 1730569806,
-    "uuid": "0937dbb7-038a-4c96-9e9c-5018498561b7"
+    "link": "https://www.vinted.fr/items/5404257608-lego-star-wars-ref-75325",
+    "published": 1731938711,
+    "uuid": "8c977fcb-2099-4363-8ef0-f0bce84ddfcd"
   },
   {
     "id": "75325",
-    "title": "Lego 75325 le chasseur mandalorien",
-    "price": 55.3,
-    "link": "https://www.vinted.fr/items/5109145299-lego-75325-le-chasseur-mandalorien",
-    "published": 1727334959,
-    "uuid": "96143102-5b44-454b-bd21-e0bbffdcc591"
+    "title": "Lego 75325 star wars",
+    "price": 50.05,
+    "link": "https://www.vinted.fr/items/5321818029-lego-75325-star-wars",
+    "published": 1730634818,
+    "uuid": "668ed04c-b049-49c2-b3cb-f9a8068ffa41"
   },
   {
     "id": "75325",
@@ -277,15 +149,39 @@
     "price": 47.95,
     "link": "https://www.vinted.fr/items/4445243802-lego-75325",
     "published": 1714596046,
-    "uuid": "a23b2e59-cb96-4de7-a24b-a610242a7a53"
+    "uuid": "aa72009c-47d8-4c82-9582-ca6e0137ed86"
   },
   {
     "id": "75325",
-    "title": "Lego star WARS 75325",
-    "price": 68.95,
-    "link": "https://www.vinted.fr/items/5154877395-lego-star-wars-75325",
-    "published": 1728023832,
-    "uuid": "09f5f3e4-54fb-439b-b3a3-c3227907b693"
+    "title": "Lego Star Wars 75325 Neu",
+    "price": 58.45,
+    "link": "https://www.vinted.fr/items/5417050273-lego-star-wars-75325-neu",
+    "published": 1732138867,
+    "uuid": "2bbb889b-8134-4f74-88fd-b76c1d35b26e"
+  },
+  {
+    "id": "75325",
+    "title": "Lego star wars 75325 The Mandalorian's N-1 Starfighter",
+    "price": 55.3,
+    "link": "https://www.vinted.fr/items/5358142930-lego-star-wars-75325-the-mandalorians-n-1-starfighter",
+    "published": 1731243087,
+    "uuid": "56bbc1b4-0680-49e2-a31d-455d85be7cdf"
+  },
+  {
+    "id": "75325",
+    "title": "Lego Starfighter N-1 Mandalorian 75325 MISB",
+    "price": 63.7,
+    "link": "https://www.vinted.fr/items/5448262663-lego-starfighter-n-1-mandalorian-75325-misb",
+    "published": 1732662570,
+    "uuid": "883ec3d5-02f8-4d83-b09f-6ec34dc94b72"
+  },
+  {
+    "id": "75325",
+    "title": "Lego 75325",
+    "price": 47.95,
+    "link": "https://www.vinted.fr/items/5272809491-lego-75325",
+    "published": 1729796350,
+    "uuid": "eb865ee4-deda-4492-87e8-951dc519249b"
   },
   {
     "id": "75325",
@@ -293,95 +189,23 @@
     "price": 53.2,
     "link": "https://www.vinted.fr/items/3719251963-vends-lego-star-wars-75325",
     "published": 1699216046,
-    "uuid": "f563eb1c-5752-4ed4-9f0d-f17159db4c66"
+    "uuid": "cf9ff2f4-f4d2-448b-aefa-082b256aac6a"
   },
   {
     "id": "75325",
-    "title": "Lego star wars le vaisseau du Mandalorian N-1",
-    "price": 53.2,
-    "link": "https://www.vinted.fr/items/4504199061-lego-star-wars-le-vaisseau-du-mandalorian-n-1",
-    "published": 1715712221,
-    "uuid": "ea054a89-32b7-405d-92b9-869ff943befc"
+    "title": "Lego Star Wars 75325: The Mandalorian´s N-1 StartFighter",
+    "price": 48.95,
+    "link": "https://www.vinted.fr/items/5419201409-lego-star-wars-75325-the-mandalorians-n-1-startfighter",
+    "published": 1732195731,
+    "uuid": "a3890b53-5da0-4018-86b5-0be33b849d80"
   },
   {
     "id": "75325",
-    "title": "Lego 75325 et 75321",
-    "price": 53.2,
-    "link": "https://www.vinted.fr/items/4811907099-lego-75325-et-75321",
-    "published": 1722004501,
-    "uuid": "f8637fd4-1fe3-48ec-9425-08f2cb0d241c"
-  },
-  {
-    "id": "75325",
-    "title": "Minifig lego 75325",
-    "price": 26.95,
-    "link": "https://www.vinted.fr/items/2547112587-minifig-lego-75325",
-    "published": 1672501551,
-    "uuid": "e20362e3-a999-4acb-ad4f-6da0d55cdfbf"
-  },
-  {
-    "id": "75325",
-    "title": "Lego Star Wars 75325",
+    "title": "Lego 75325 le chasseur N1 du mandalorien star wars",
     "price": 47.95,
-    "link": "https://www.vinted.fr/items/5203259511-lego-star-wars-75325",
-    "published": 1728740172,
-    "uuid": "831deb26-6d1b-47a3-abfa-2375e34bb15a"
-  },
-  {
-    "id": "75325",
-    "title": "Lego Stars Wars 75325",
-    "price": 63.7,
-    "link": "https://www.vinted.fr/items/5209935250-lego-stars-wars-75325",
-    "published": 1728826796,
-    "uuid": "0ed3ef72-53fe-4ad5-ac66-098d0bf56b77"
-  },
-  {
-    "id": "75325",
-    "title": "LEGO Star Wars 75325",
-    "price": 51.1,
-    "link": "https://www.vinted.fr/items/5199175764-lego-star-wars-75325",
-    "published": 1729497474,
-    "uuid": "fddbe93b-95a5-498a-9e63-9bf0f13aa2fa"
-  },
-  {
-    "id": "75325",
-    "title": "Lego Star Wars The Mandalorian's N-1 Starfighter",
-    "price": 53.2,
-    "link": "https://www.vinted.fr/items/4599457295-lego-star-wars-the-mandalorians-n-1-starfighter",
-    "published": 1717523975,
-    "uuid": "e86fc666-e760-48bb-8ab0-1b4fd25d1b67"
-  },
-  {
-    "id": "75325",
-    "title": "Lego star wars",
-    "price": 63.7,
-    "link": "https://www.vinted.fr/items/4917192234-lego-star-wars",
-    "published": 1724242473,
-    "uuid": "63501fd3-cde4-4da7-bb4d-a7d547e2defa"
-  },
-  {
-    "id": "75325",
-    "title": "Lego star wars le chasseur N-1 du Mandalorien",
-    "price": 63.7,
-    "link": "https://www.vinted.fr/items/5137051698-lego-star-wars-le-chasseur-n-1-du-mandalorien",
-    "published": 1727716748,
-    "uuid": "d5b3b7df-0adb-4435-b59f-c3e6d524e807"
-  },
-  {
-    "id": "75325",
-    "title": "Lego 75325 Star Wars The Mandalorian's Starfighter",
-    "price": 58.45,
-    "link": "https://www.vinted.fr/items/4728053045-lego-75325-star-wars-the-mandalorians-starfighter",
-    "published": 1720207161,
-    "uuid": "1139f391-a67f-4338-b397-def7826efc34"
-  },
-  {
-    "id": "75325",
-    "title": "Lego star wars 75325",
-    "price": 54.25,
-    "link": "https://www.vinted.fr/items/4748968223-lego-star-wars-75325",
-    "published": 1720629584,
-    "uuid": "8eb90ec2-dae7-4ed1-b0b0-6051f59c851e"
+    "link": "https://www.vinted.fr/items/5054128168-lego-75325-le-chasseur-n1-du-mandalorien-star-wars",
+    "published": 1726481429,
+    "uuid": "aaa7d45a-37bf-4bdf-96da-8ebecb21c1de"
   },
   {
     "id": "75325",
@@ -389,111 +213,47 @@
     "price": 47.95,
     "link": "https://www.vinted.fr/items/3923463926-lego-75325",
     "published": 1703976934,
-    "uuid": "a947ba03-13b0-475d-a379-013128a81eab"
+    "uuid": "faddfd56-922f-4f64-9cb5-cfea2d1004e2"
   },
   {
     "id": "75325",
-    "title": "LEGO 75325 Starfighter Mandalorian",
-    "price": 53.2,
-    "link": "https://www.vinted.fr/items/4346272800-lego-75325-starfighter-mandalorian",
-    "published": 1712775304,
-    "uuid": "d20933e2-015a-4a3c-ac22-b3c8d142cfd1"
+    "title": "Lego Star Wars",
+    "price": 57.4,
+    "link": "https://www.vinted.fr/items/5315003331-lego-star-wars",
+    "published": 1730539457,
+    "uuid": "3d97195c-14fb-4bfc-afc9-8251282d5799"
   },
   {
     "id": "75325",
-    "title": "Lego Star Wars Le chasseur N-1 du Mandalorien 75325",
-    "price": 63.7,
-    "link": "https://www.vinted.fr/items/4604007819-lego-star-wars-le-chasseur-n-1-du-mandalorien-75325",
-    "published": 1717612675,
-    "uuid": "4e7ec487-c72f-47b4-a7de-1a413af9ebdc"
+    "title": "Minifig lego 75325",
+    "price": 26.95,
+    "link": "https://www.vinted.fr/items/2547112587-minifig-lego-75325",
+    "published": 1672501551,
+    "uuid": "f94e9bd2-fc71-47c4-920f-ab76adacb239"
   },
   {
     "id": "75325",
-    "title": "LEGO 75325 Star Wars The Mandalorian's N-1 Starfig",
-    "price": 53.2,
-    "link": "https://www.vinted.fr/items/4442909753-lego-75325-star-wars-the-mandalorians-n-1-starfig",
-    "published": 1714572543,
-    "uuid": "9458c054-5f6a-4f15-9bb9-cd880420048e"
-  },
-  {
-    "id": "75325",
-    "title": "Lego neuf star wars 75325 mandalorian 's N-1 starfighter",
-    "price": 58.45,
-    "link": "https://www.vinted.fr/items/4142894186-lego-neuf-star-wars-75325-mandalorian-s-n-1-starfighter",
-    "published": 1708803995,
-    "uuid": "53880ef8-a4ee-42d1-a4da-d245ec85fdc7"
-  },
-  {
-    "id": "75325",
-    "title": "lego 75325 the mandalorian n-1 Starfighter misb Nuovo sigillato",
-    "price": 53.2,
-    "link": "https://www.vinted.fr/items/3988363231-lego-75325-the-mandalorian-n-1-starfighter-misb-nuovo-sigillato",
-    "published": 1705473259,
-    "uuid": "baf20d09-86b7-46a8-a700-5dfbaecda4e1"
+    "title": "Lego star war 75325",
+    "price": 47.95,
+    "link": "https://www.vinted.fr/items/5314592025-lego-star-war-75325",
+    "published": 1730531900,
+    "uuid": "9052dbb4-3a5f-4edd-913e-9c7d61dfd757"
   },
   {
     "id": "75325",
     "title": "Lego 75325",
     "price": 53.2,
-    "link": "https://www.vinted.fr/items/3151386500-lego-75325",
-    "published": 1687112518,
-    "uuid": "ff271992-6546-43a5-bc5b-869b06eeb732"
+    "link": "https://www.vinted.fr/items/5325505268-lego-75325",
+    "published": 1730657659,
+    "uuid": "a283cf68-e557-47c7-a6bf-a596f2b74782"
   },
   {
     "id": "75325",
-    "title": "Lego Star Wars 75325",
-    "price": 58.45,
-    "link": "https://www.vinted.fr/items/3826445213-lego-star-wars-75325",
-    "published": 1701284056,
-    "uuid": "b0d0d5be-341f-48cf-b092-a86467ff3167"
-  },
-  {
-    "id": "75325",
-    "title": "Lego Star Wars 75325 The Mandalorian's N-1 Starfighter Boite Neuve",
+    "title": "Lego 75325",
     "price": 53.2,
-    "link": "https://www.vinted.fr/items/5270761891-lego-star-wars-75325-the-mandalorians-n-1-starfighter-boite-neuve",
-    "published": 1729774416,
-    "uuid": "2fe8a8d1-384d-4356-8f33-ee62a8a4d887"
-  },
-  {
-    "id": "75325",
-    "title": "Lego 75325 star wars",
-    "price": 65.8,
-    "link": "https://www.vinted.fr/items/4350395774-lego-75325-star-wars",
-    "published": 1712858993,
-    "uuid": "6cd8e703-3b5c-424d-ac35-baf0524520e0"
-  },
-  {
-    "id": "75325",
-    "title": "Lego 75325 The Mandalorian's N-1 Starfighter",
-    "price": 58.45,
-    "link": "https://www.vinted.fr/items/3508040238-lego-75325-the-mandalorians-n-1-starfighter",
-    "published": 1695403725,
-    "uuid": "0f393f9f-da06-4169-8ea8-ad066f5a2955"
-  },
-  {
-    "id": "75325",
-    "title": "Lego 75325 Caza estelar mandalarian",
-    "price": 58.45,
-    "link": "https://www.vinted.fr/items/5227858996-lego-75325-caza-estelar-mandalarian",
-    "published": 1729089677,
-    "uuid": "e2f5254c-1e3b-4d76-be94-f97e4a778f36"
-  },
-  {
-    "id": "75325",
-    "title": "LEGO 75325 Star Wars Caza Estelar N-1",
-    "price": 53.2,
-    "link": "https://www.vinted.fr/items/4718855074-lego-75325-star-wars-caza-estelar-n-1",
-    "published": 1720017119,
-    "uuid": "21d8adf8-f2e8-43f8-939a-464c84f0483a"
-  },
-  {
-    "id": "75325",
-    "title": "Lotto Lego Star Wars 75325 Starfighter N-1 Mandaloriano 30495 + AT-ST",
-    "price": 63.7,
-    "link": "https://www.vinted.fr/items/4583100595-lotto-lego-star-wars-75325-starfighter-n-1-mandaloriano-30495-at-st",
-    "published": 1717241107,
-    "uuid": "8daad421-4ce9-4848-ad06-1c215d35f140"
+    "link": "https://www.vinted.fr/items/5318648606-lego-75325",
+    "published": 1730569806,
+    "uuid": "4cf1c976-8d0a-45d1-84ee-52b7a1781b40"
   },
   {
     "id": "75325",
@@ -501,55 +261,39 @@
     "price": 47.95,
     "link": "https://www.vinted.fr/items/2353418683-lego-75325-the-mandalorians-n1-starfighter-preco-fixo",
     "published": 1666811817,
-    "uuid": "e8eb24b0-b7d4-4521-b3db-94d7e584a03a"
+    "uuid": "9338d757-68ed-4a35-9529-7f631397d1d3"
   },
   {
     "id": "75325",
-    "title": "LEGO Star Wars - Le chasseur N-1 du Mandalorien",
-    "price": 56.35,
-    "link": "https://www.vinted.fr/items/2490157555-lego-star-wars-le-chasseur-n-1-du-mandalorien",
-    "published": 1682280693,
-    "uuid": "63920256-fb19-496b-abdc-53efe118e19a"
-  },
-  {
-    "id": "75325",
-    "title": "Nave mandaloriano lego #75325",
+    "title": "Lego 75325",
     "price": 53.2,
-    "link": "https://www.vinted.fr/items/2843490869-nave-mandaloriano-lego-75325",
-    "published": 1680085068,
-    "uuid": "e31babd9-049c-410f-8a80-814a625049c4"
+    "link": "https://www.vinted.fr/items/3151386500-lego-75325",
+    "published": 1687112518,
+    "uuid": "a927e9df-4b7e-4493-a276-bcf505da6507"
   },
   {
     "id": "75325",
-    "title": "LEGO Star Wars The book of Boba Fett Mandalorian's N-1 Starfighter 75325 nuovo",
-    "price": 68.95,
-    "link": "https://www.vinted.fr/items/5120266959-lego-star-wars-the-book-of-boba-fett-mandalorians-n-1-starfighter-75325-nuovo",
-    "published": 1727519249,
-    "uuid": "724a6086-5469-40cc-989b-6d4254eb981a"
-  },
-  {
-    "id": "75325",
-    "title": "Lego 75325 n-1 starfighter",
+    "title": "Lego 75325 Caza Estelar N-1 Mandalorian",
     "price": 53.2,
-    "link": "https://www.vinted.fr/items/3401806202-lego-75325-n-1-starfighter",
-    "published": 1693221859,
-    "uuid": "f870f4d6-e231-411c-8fc1-4031723e0b9d"
+    "link": "https://www.vinted.fr/items/5378457898-lego-75325-caza-estelar-n-1-mandalorian",
+    "published": 1731523792,
+    "uuid": "d486f35c-be8f-4744-960b-5f315149ee0f"
   },
   {
     "id": "75325",
-    "title": "Lego Star Wars 75325",
-    "price": 63.7,
-    "link": "https://www.vinted.fr/items/3764621466-lego-star-wars-75325",
-    "published": 1700070218,
-    "uuid": "dfddbe0a-c1df-4249-b135-ada92c3ab5b1"
+    "title": "Lego star wars le vaisseau du Mandalorian N-1",
+    "price": 53.2,
+    "link": "https://www.vinted.fr/items/4504199061-lego-star-wars-le-vaisseau-du-mandalorian-n-1",
+    "published": 1715712221,
+    "uuid": "6fa3d66b-f5e1-41f5-a092-e43f8f8f29f8"
   },
   {
     "id": "75325",
-    "title": "Lego Star Wars 75325, Starfighter",
-    "price": 56.35,
-    "link": "https://www.vinted.fr/items/3814358777-lego-star-wars-75325-starfighter",
-    "published": 1701029144,
-    "uuid": "2df97ca7-2b08-4272-95a6-a54f95e877d1"
+    "title": "Lego 75325",
+    "price": 53.2,
+    "link": "https://www.vinted.fr/items/5407436102-lego-75325",
+    "published": 1732001103,
+    "uuid": "863fe655-60a9-40f2-96f1-33a284a997ce"
   },
   {
     "id": "75325",
@@ -557,39 +301,231 @@
     "price": 53.2,
     "link": "https://www.vinted.fr/items/2878047630-lego-star-wars-75325",
     "published": 1680898171,
-    "uuid": "d9167e09-eda8-4516-95b6-caa97f0619dd"
+    "uuid": "4e6f0173-ad61-44fd-8398-62891b760520"
+  },
+  {
+    "id": "75325",
+    "title": "LEGO 75325 Starfighter Mandalorian",
+    "price": 53.2,
+    "link": "https://www.vinted.fr/items/4346272800-lego-75325-starfighter-mandalorian",
+    "published": 1712775304,
+    "uuid": "26e3891e-6d0a-4575-be31-e08901bc13dc"
+  },
+  {
+    "id": "75325",
+    "title": "LEGO Star Wars - Le chasseur N-1 du Mandalorien",
+    "price": 56.35,
+    "link": "https://www.vinted.fr/items/2490157555-lego-star-wars-le-chasseur-n-1-du-mandalorien",
+    "published": 1682280693,
+    "uuid": "7bc517cc-6390-48c9-bb81-ae1ee0162a98"
+  },
+  {
+    "id": "75325",
+    "title": "Lego 75325 The Mandalorian's N-1 Starfighter",
+    "price": 58.45,
+    "link": "https://www.vinted.fr/items/3508040238-lego-75325-the-mandalorians-n-1-starfighter",
+    "published": 1695403725,
+    "uuid": "02484dd5-58e2-42f2-ba37-7fc54308a199"
+  },
+  {
+    "id": "75325",
+    "title": "Lego 75325 Caza estelar mandalarian",
+    "price": 58.45,
+    "link": "https://www.vinted.fr/items/5227858996-lego-75325-caza-estelar-mandalarian",
+    "published": 1729089677,
+    "uuid": "9a54c713-2f5a-43ed-bf00-b044a75ec45f"
   },
   {
     "id": "75325",
     "title": "Lego star wars 75325",
-    "price": 95.2,
-    "link": "https://www.vinted.fr/items/5049962111-lego-star-wars-75325",
-    "published": 1726414202,
-    "uuid": "69090fff-31a2-4677-add1-094bba65cbf5"
+    "price": 54.25,
+    "link": "https://www.vinted.fr/items/4748968223-lego-star-wars-75325",
+    "published": 1720629584,
+    "uuid": "3a39f08f-79dc-4fde-9748-60944aadb545"
   },
   {
     "id": "75325",
-    "title": "Lego 75325 Star Wars Le Chasseur N-1 Mandalorien - Neuf et scellé",
+    "title": "Lego Star Wars 75325 - The Mandalorian’s N-1 Starfighter",
+    "price": 53.19,
+    "link": "https://www.vinted.fr/items/5369029576-lego-star-wars-75325-the-mandalorians-n-1-starfighter",
+    "published": 1731359596,
+    "uuid": "3abff28b-99f4-4534-8e84-559b92ab23f5"
+  },
+  {
+    "id": "75325",
+    "title": "Lego Star Wars 75325",
+    "price": 47.95,
+    "link": "https://www.vinted.fr/items/5203259511-lego-star-wars-75325",
+    "published": 1728740172,
+    "uuid": "9d4d5380-ed89-4393-b684-454043930d45"
+  },
+  {
+    "id": "75325",
+    "title": "Lotto Lego Star Wars 75325 Starfighter N-1 Mandaloriano 30495 + AT-ST",
     "price": 63.7,
-    "link": "https://www.vinted.fr/items/2422550341-lego-75325-star-wars-le-chasseur-n-1-mandalorien-neuf-et-scelle",
-    "published": 1668558158,
-    "uuid": "211e641d-91c6-44af-8e27-f846098a8f9f"
+    "link": "https://www.vinted.fr/items/4583100595-lotto-lego-star-wars-75325-starfighter-n-1-mandaloriano-30495-at-st",
+    "published": 1717241107,
+    "uuid": "32c7c354-68a6-4c85-8234-22eed95849b0"
   },
   {
     "id": "75325",
-    "title": "75325 Caza Estelar N-1 de The Mandalorian LEGO new",
-    "price": 48.9,
-    "link": "https://www.vinted.fr/items/3602148888-75325-caza-estelar-n-1-de-the-mandalorian-lego-new",
-    "published": 1697369634,
-    "uuid": "39e535eb-1a33-44f8-9870-a3cbded015f9"
+    "title": "Lego Star wars 75325 Neuf",
+    "price": 47.95,
+    "link": "https://www.vinted.fr/items/5261134246-lego-star-wars-75325-neuf",
+    "published": 1729606338,
+    "uuid": "3ad77028-46cc-4550-91ea-0838d5298c8b"
   },
   {
     "id": "75325",
-    "title": "Lego 75325 Starfighter Mandalorian",
-    "price": 67.9,
-    "link": "https://www.vinted.fr/items/2745953536-lego-75325-starfighter-mandalorian",
-    "published": 1677781698,
-    "uuid": "6e60e5fb-6e2f-4a73-a475-4dcab62a2a38"
+    "title": "Lego star WARS 75325",
+    "price": 68.95,
+    "link": "https://www.vinted.fr/items/5154877395-lego-star-wars-75325",
+    "published": 1728023832,
+    "uuid": "3f987882-dbbc-49db-9a48-6f5fc4adb8b1"
+  },
+  {
+    "id": "75325",
+    "title": "Lego 75325 et 75321",
+    "price": 53.2,
+    "link": "https://www.vinted.fr/items/4811907099-lego-75325-et-75321",
+    "published": 1722004501,
+    "uuid": "f3e49cd3-0402-4c43-89f3-d0b745e346f6"
+  },
+  {
+    "id": "75325",
+    "title": "lego 75325 the mandalorian n-1 Starfighter misb Nuovo sigillato",
+    "price": 53.2,
+    "link": "https://www.vinted.fr/items/3988363231-lego-75325-the-mandalorian-n-1-starfighter-misb-nuovo-sigillato",
+    "published": 1705473259,
+    "uuid": "f29c37d7-0387-4656-a7fc-bfa39f7435de"
+  },
+  {
+    "id": "75325",
+    "title": "Lego Star Wars 75325 Neuf emballé",
+    "price": 105.6,
+    "link": "https://www.vinted.fr/items/5432880329-lego-star-wars-75325-neuf-emballe",
+    "published": 1732444626,
+    "uuid": "6f646099-d10d-4c78-bd62-1750e68dd13d"
+  },
+  {
+    "id": "75325",
+    "title": "LEGO Star Wars 75325",
+    "price": 51.1,
+    "link": "https://www.vinted.fr/items/5199175764-lego-star-wars-75325",
+    "published": 1729497474,
+    "uuid": "24047fb3-ee51-4ea6-ae9b-596b31eeecca"
+  },
+  {
+    "id": "75325",
+    "title": "Lego Stars Wars 75325",
+    "price": 63.7,
+    "link": "https://www.vinted.fr/items/5209935250-lego-stars-wars-75325",
+    "published": 1728826796,
+    "uuid": "af7eb147-a826-474a-a027-08647740a864"
+  },
+  {
+    "id": "75325",
+    "title": "Lego 75325 Star Wars The Mandalorian's Starfighter",
+    "price": 58.45,
+    "link": "https://www.vinted.fr/items/4728053045-lego-75325-star-wars-the-mandalorians-starfighter",
+    "published": 1720207161,
+    "uuid": "493e0a8c-1eb6-424f-bd9a-7233383a0d99"
+  },
+  {
+    "id": "75325",
+    "title": "Lego Star Wars 75325 The Mandalorian's N-1 Starfighter Boite Neuve",
+    "price": 53.2,
+    "link": "https://www.vinted.fr/items/5270761891-lego-star-wars-75325-the-mandalorians-n-1-starfighter-boite-neuve",
+    "published": 1729774416,
+    "uuid": "e0e152fd-ca6c-4679-89a5-12a5a4081a36"
+  },
+  {
+    "id": "75325",
+    "title": "Lego 75325 le chasseur mandalorien",
+    "price": 55.3,
+    "link": "https://www.vinted.fr/items/5109145299-lego-75325-le-chasseur-mandalorien",
+    "published": 1727334959,
+    "uuid": "bae7ecc2-56d4-422c-9a37-7fa25bf5b0df"
+  },
+  {
+    "id": "75325",
+    "title": "Lego star wars le chasseur N-1 du Mandalorien",
+    "price": 63.7,
+    "link": "https://www.vinted.fr/items/5137051698-lego-star-wars-le-chasseur-n-1-du-mandalorien",
+    "published": 1727716748,
+    "uuid": "2c13ca06-6dab-4e4b-8eb2-91f9373ca46d"
+  },
+  {
+    "id": "75325",
+    "title": "LEGO 75325 Star Wars The Mandalorian's N-1 Starfig",
+    "price": 53.2,
+    "link": "https://www.vinted.fr/items/4442909753-lego-75325-star-wars-the-mandalorians-n-1-starfig",
+    "published": 1714572543,
+    "uuid": "f76e5671-7077-4dd4-9ba4-e4284376039f"
+  },
+  {
+    "id": "75325",
+    "title": "75325 Lego star wars the mandalorian N-1 starfighter",
+    "price": 63.7,
+    "link": "https://www.vinted.fr/items/5368610283-75325-lego-star-wars-the-mandalorian-n-1-starfighter",
+    "published": 1731355137,
+    "uuid": "5c6beaae-5add-4a94-a0df-97bf3a665c66"
+  },
+  {
+    "id": "75325",
+    "title": "Lego Star Wars The Mandalorian's N-1 Starfighter",
+    "price": 53.2,
+    "link": "https://www.vinted.fr/items/4599457295-lego-star-wars-the-mandalorians-n-1-starfighter",
+    "published": 1717523975,
+    "uuid": "75d46919-efb3-4e4a-88e1-e376c2cfaca8"
+  },
+  {
+    "id": "75325",
+    "title": "Lego star wars 75325 sin abrir",
+    "price": 63.7,
+    "link": "https://www.vinted.fr/items/5429609982-lego-star-wars-75325-sin-abrir",
+    "published": 1732376495,
+    "uuid": "b5a89df7-69de-4297-bcf3-b89cf0a9b1f1"
+  },
+  {
+    "id": "75325",
+    "title": "LEGO Star Wars 75325. \nCaza Estelar N-1 de The Mandalorian",
+    "price": 51.1,
+    "link": "https://www.vinted.fr/items/4565178936-lego-star-wars-75325-caza-estelar-n-1-de-the-mandalorian",
+    "published": 1716887548,
+    "uuid": "52650abc-4973-4bcb-9002-9701dc418b49"
+  },
+  {
+    "id": "75325",
+    "title": "Lego 75325 n-1 starfighter",
+    "price": 53.2,
+    "link": "https://www.vinted.fr/items/3401806202-lego-75325-n-1-starfighter",
+    "published": 1693221859,
+    "uuid": "44ad02c4-3629-423e-83f2-b8cd5c17297b"
+  },
+  {
+    "id": "75325",
+    "title": "Lego neuf star wars 75325 mandalorian 's N-1 starfighter",
+    "price": 58.45,
+    "link": "https://www.vinted.fr/items/4142894186-lego-neuf-star-wars-75325-mandalorian-s-n-1-starfighter",
+    "published": 1708803995,
+    "uuid": "bdbed7eb-8aad-42d4-9a75-fb17f94f7217"
+  },
+  {
+    "id": "75325",
+    "title": "Lego star wars",
+    "price": 63.7,
+    "link": "https://www.vinted.fr/items/4917192234-lego-star-wars",
+    "published": 1724242473,
+    "uuid": "c8ce30dd-9ac5-4d69-9437-864b202f1e7f"
+  },
+  {
+    "id": "75325",
+    "title": "Lego Star Wars 75325",
+    "price": 63.7,
+    "link": "https://www.vinted.fr/items/3764621466-lego-star-wars-75325",
+    "published": 1700070218,
+    "uuid": "b575b711-928e-4ba5-8a27-e47477bbb327"
   },
   {
     "id": "75325",
@@ -597,7 +533,63 @@
     "price": 75.25,
     "link": "https://www.vinted.fr/items/3860871153-lego-star-wars-pack-2",
     "published": 1702388100,
-    "uuid": "e4030cfd-0dc8-427b-8be4-a701826d8843"
+    "uuid": "ec647dbf-73ce-4a0e-957f-dd2c6c2756a3"
+  },
+  {
+    "id": "75325",
+    "title": "Lego Star Wars 75325, Starfighter",
+    "price": 56.35,
+    "link": "https://www.vinted.fr/items/3814358777-lego-star-wars-75325-starfighter",
+    "published": 1701029144,
+    "uuid": "395715f9-2854-4be4-9df5-b25f87a07936"
+  },
+  {
+    "id": "75325",
+    "title": "Lego Star Wars Le chasseur N-1 du Mandalorien 75325",
+    "price": 63.7,
+    "link": "https://www.vinted.fr/items/4604007819-lego-star-wars-le-chasseur-n-1-du-mandalorien-75325",
+    "published": 1717612675,
+    "uuid": "e4319e57-31ab-4b4a-aad6-1abcb9caec89"
+  },
+  {
+    "id": "75325",
+    "title": "Lego Star Wars 75325",
+    "price": 58.45,
+    "link": "https://www.vinted.fr/items/3826445213-lego-star-wars-75325",
+    "published": 1701284056,
+    "uuid": "c145e8bb-01bb-4cb7-8385-f69c7e3b9fc2"
+  },
+  {
+    "id": "75325",
+    "title": "Lego 75325 star wars",
+    "price": 65.8,
+    "link": "https://www.vinted.fr/items/4350395774-lego-75325-star-wars",
+    "published": 1712858993,
+    "uuid": "759206ec-d906-4cd2-893e-f1ba37064f68"
+  },
+  {
+    "id": "75325",
+    "title": "Nave mandaloriano lego #75325",
+    "price": 53.2,
+    "link": "https://www.vinted.fr/items/2843490869-nave-mandaloriano-lego-75325",
+    "published": 1680085068,
+    "uuid": "80d9e12b-e61a-4f54-8641-8462dd02e59f"
+  },
+  {
+    "id": "75325",
+    "title": "75325 Caza Estelar N-1 de The Mandalorian LEGO new",
+    "price": 48.9,
+    "link": "https://www.vinted.fr/items/3602148888-75325-caza-estelar-n-1-de-the-mandalorian-lego-new",
+    "published": 1697369634,
+    "uuid": "35b29d28-454b-4901-b05d-bda4897db786"
+  },
+  {
+    "id": "75325",
+    "title": "LEGO 75325 Star Wars Caza Estelar N-1",
+    "price": 53.2,
+    "link": "https://www.vinted.fr/items/4718855074-lego-75325-star-wars-caza-estelar-n-1",
+    "published": 1720017119,
+    "uuid": "b4af5d05-301a-462a-8eb9-e78277237aef"
   },
   {
     "id": "75325",
@@ -605,31 +597,31 @@
     "price": 52.68,
     "link": "https://www.vinted.fr/items/2923647743-lego-star-wars-nr-75325-de-mandalorians-n-1-starfighter",
     "published": 1681928777,
-    "uuid": "646be9f8-e020-473c-9804-84ac9a8504ba"
+    "uuid": "cfe7d922-b0fa-45d2-b00e-6537f7739b01"
   },
   {
     "id": "75325",
-    "title": "Star Wars Le chasseur N-1 Mandalorien 75325",
-    "price": 79.45,
-    "link": "https://www.vinted.fr/items/3865988910-star-wars-le-chasseur-n-1-mandalorien-75325",
-    "published": 1702206581,
-    "uuid": "494a0790-be0d-4a4d-89b7-fec7ee04e11f"
-  },
-  {
-    "id": "75325",
-    "title": "Lego 75325 star wars",
-    "price": 79.45,
-    "link": "https://www.vinted.fr/items/2981716462-lego-75325-star-wars",
-    "published": 1683275863,
-    "uuid": "5ac6ff65-9f00-47e1-bfad-c7948c1b1e50"
-  },
-  {
-    "id": "75325",
-    "title": "Lego Star Wars The Mandalorian N-1 Starfighter (novo e selado)",
+    "title": "Lego 75325 Star Wars Le Chasseur N-1 Mandalorien - Neuf et scellé",
     "price": 63.7,
-    "link": "https://www.vinted.fr/items/4060580203-lego-star-wars-the-mandalorian-n-1-starfighter-novo-e-selado",
-    "published": 1707050615,
-    "uuid": "012b5cdb-73ee-49ee-86f8-fbe9b47d6feb"
+    "link": "https://www.vinted.fr/items/2422550341-lego-75325-star-wars-le-chasseur-n-1-mandalorien-neuf-et-scelle",
+    "published": 1668558158,
+    "uuid": "8feefad6-9690-421e-ad94-f7216f0f20fc"
+  },
+  {
+    "id": "75325",
+    "title": "LEGO Star Wars The book of Boba Fett Mandalorian's N-1 Starfighter 75325 nuovo",
+    "price": 68.95,
+    "link": "https://www.vinted.fr/items/5120266959-lego-star-wars-the-book-of-boba-fett-mandalorians-n-1-starfighter-75325-nuovo",
+    "published": 1727519249,
+    "uuid": "a11f70c5-060c-4ffb-9128-18edca1d82d1"
+  },
+  {
+    "id": "75325",
+    "title": "Lego 75325 Starfighter Mandalorian",
+    "price": 67.9,
+    "link": "https://www.vinted.fr/items/2745953536-lego-75325-starfighter-mandalorian",
+    "published": 1677781698,
+    "uuid": "b1d16694-f244-4e0e-b24d-923547057921"
   },
   {
     "id": "75325",
@@ -637,7 +629,39 @@
     "price": 89.95,
     "link": "https://www.vinted.fr/items/4802955477-lot-lego-star-wars-neuf-en-boite",
     "published": 1721818021,
-    "uuid": "34d819d1-2b68-4784-9e97-c942bcea8ea7"
+    "uuid": "ac218c2f-e4be-4bc5-8591-982bfdc702dd"
+  },
+  {
+    "id": "75325",
+    "title": "Lego Star Wars The Mandalorian N-1 Starfighter (novo e selado)",
+    "price": 63.7,
+    "link": "https://www.vinted.fr/items/4060580203-lego-star-wars-the-mandalorian-n-1-starfighter-novo-e-selado",
+    "published": 1707050615,
+    "uuid": "dcfe7a4e-647e-409f-97c3-b346e81397ff"
+  },
+  {
+    "id": "75325",
+    "title": "Lego star wars 75325",
+    "price": 95.2,
+    "link": "https://www.vinted.fr/items/5049962111-lego-star-wars-75325",
+    "published": 1726414202,
+    "uuid": "92109c23-cf61-4ee1-b7f7-5d2209ae0bfd"
+  },
+  {
+    "id": "75325",
+    "title": "Star Wars Le chasseur N-1 Mandalorien 75325",
+    "price": 79.45,
+    "link": "https://www.vinted.fr/items/3865988910-star-wars-le-chasseur-n-1-mandalorien-75325",
+    "published": 1702206581,
+    "uuid": "e7675f9d-1a34-44af-a750-895f34d76269"
+  },
+  {
+    "id": "75325",
+    "title": "Lego 75325 star wars",
+    "price": 79.45,
+    "link": "https://www.vinted.fr/items/2981716462-lego-75325-star-wars",
+    "published": 1683275863,
+    "uuid": "f7fbc43b-99d4-430d-b352-36f1c55c4620"
   },
   {
     "id": "75325",
@@ -645,7 +669,7 @@
     "price": 105.7,
     "link": "https://www.vinted.fr/items/4802984716-lot-lego-marvel-en-boite-neuf",
     "published": 1721818394,
-    "uuid": "6131db4f-1453-4032-9f39-042ed653ca7c"
+    "uuid": "ef1ef5ba-993f-4be7-9920-bc5376d27e8b"
   },
   {
     "id": "75325",
@@ -653,15 +677,7 @@
     "price": 126.7,
     "link": "https://www.vinted.fr/items/4802973017-lot-lego-super-mario-en-boite-neuf",
     "published": 1721818244,
-    "uuid": "2366dd8c-1d00-499c-88de-836c8b75a56f"
-  },
-  {
-    "id": "75325",
-    "title": "Lot Lego harry Potter en boîte neuf",
-    "price": 168.7,
-    "link": "https://www.vinted.fr/items/4802965283-lot-lego-harry-potter-en-boite-neuf",
-    "published": 1721818145,
-    "uuid": "6d7f6220-2142-41f5-a5f6-b8d0848238c4"
+    "uuid": "1eb816d0-555e-4b4d-bbf3-6de5f74c69c3"
   },
   {
     "id": "75325",
@@ -669,7 +685,15 @@
     "price": 221.2,
     "link": "https://www.vinted.fr/items/4812168509-lot-lego-minecraft-neuf-en-boite",
     "published": 1722007950,
-    "uuid": "9aea2da4-3728-449a-a3ae-657cea2a89b8"
+    "uuid": "4dff2041-fbc3-447e-b34c-379daf8ce2e1"
+  },
+  {
+    "id": "75325",
+    "title": "Lot Lego harry Potter en boîte neuf",
+    "price": 168.7,
+    "link": "https://www.vinted.fr/items/4802965283-lot-lego-harry-potter-en-boite-neuf",
+    "published": 1721818145,
+    "uuid": "89649efb-c447-4f2f-8d81-633c160b7851"
   },
   {
     "id": "75325",
@@ -677,6 +701,6 @@
     "price": 499.45,
     "link": "https://www.vinted.fr/items/2306750688-lego-pack-star-wars",
     "published": 1708613219,
-    "uuid": "11244d7b-8fd6-4e40-9734-9d1a95eb6e65"
+    "uuid": "e62e2f9f-38b6-4275-8247-b602782eaf0f"
   }
 ]

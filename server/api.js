@@ -85,10 +85,10 @@ app.get('/sales/search', async (request, response) => {
     let collectionName = legoSetId.toString();
     let collection = db.collection(collectionName);
     let sales = await collection.find()
-      .sort({ published: -1 }) 
-      .limit(parseInt(limit)) 
+      .sort({ published: -1 })
+      .limit(parseInt(limit))
       .toArray();
-    
+
     const rep = {
       limit: parseInt(limit),
       total: sales.length,

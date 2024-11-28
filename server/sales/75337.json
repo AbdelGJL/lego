@@ -1,75 +1,11 @@
 [
   {
     "id": "75337",
-    "title": "Lego star wars  75337",
-    "price": 52.15,
-    "link": "https://www.vinted.fr/items/5426006740-lego-star-wars-75337",
-    "published": 1732309028,
-    "uuid": "f25e92bd-0fe3-4234-a532-b0627ce7ab45"
-  },
-  {
-    "id": "75337",
     "title": "Lego 75337 minifigs",
     "price": 44.8,
     "link": "https://www.vinted.fr/items/5413218138-lego-75337-minifigs",
     "published": 1732099223,
-    "uuid": "257c7ee3-7e52-4438-9f47-1579b6ca2698"
-  },
-  {
-    "id": "75337",
-    "title": "Lego Star Wars 75337 sans figurines",
-    "price": 68.95,
-    "link": "https://www.vinted.fr/items/5353365536-lego-star-wars-75337-sans-figurines",
-    "published": 1731164923,
-    "uuid": "059f832c-3703-45e6-9f73-ca3e5da4b91f"
-  },
-  {
-    "id": "75337",
-    "title": "Lego 75337 sans figurines",
-    "price": 76.3,
-    "link": "https://www.vinted.fr/items/5278258616-lego-75337-sans-figurines",
-    "published": 1729929349,
-    "uuid": "6ebd58a3-ae94-41b9-b9e0-4bf4efa63939"
-  },
-  {
-    "id": "75337",
-    "title": "Lego Star Wars AT-TE 75337 (sans clones)",
-    "price": 74.2,
-    "link": "https://www.vinted.fr/items/5419683245-lego-star-wars-at-te-75337-sans-clones",
-    "published": 1732200455,
-    "uuid": "02f2cd8b-0af5-42b0-babf-4b8c7ff72040"
-  },
-  {
-    "id": "75337",
-    "title": "Lego 75337 Marcheur AT TE",
-    "price": 110.95,
-    "link": "https://www.vinted.fr/items/5394331146-lego-75337-marcheur-at-te",
-    "published": 1731798547,
-    "uuid": "04e2a887-eada-4fe8-8233-a521c5b96804"
-  },
-  {
-    "id": "75337",
-    "title": "LEGO Star Wars 75337 The AT-TE Walker Without Minifigures",
-    "price": 79.45,
-    "link": "https://www.vinted.fr/items/5376390229-lego-star-wars-75337-the-at-te-walker-without-minifigures",
-    "published": 1731503697,
-    "uuid": "8f95d44c-0910-4cde-ab21-b7075b5a6b0f"
-  },
-  {
-    "id": "75337",
-    "title": "Lego Star Wars Magazine n°50 - 212th Clone Trooper + Diorama",
-    "price": 16.45,
-    "link": "https://www.vinted.fr/items/2995322080-lego-star-wars-magazine-ndeg50-212th-clone-trooper-diorama",
-    "published": 1683550138,
-    "uuid": "fd1d6876-c649-41bd-acec-e6bb3dc5c8a0"
-  },
-  {
-    "id": "75337",
-    "title": "Lego Star Wars AT-TE 75337",
-    "price": 110.95,
-    "link": "https://www.vinted.fr/items/5435828729-lego-star-wars-at-te-75337",
-    "published": 1732462753,
-    "uuid": "47127102-28a5-457c-aa0a-d8dc4fad30ec"
+    "uuid": "f8795c71-f951-407d-9262-43f350333256"
   },
   {
     "id": "75337",
@@ -77,7 +13,71 @@
     "price": 100.45,
     "link": "https://www.vinted.fr/items/5252535527-lego-star-wars-75337",
     "published": 1729456214,
-    "uuid": "3edcb1a2-11c6-495c-9ac4-7d9f4d846cad"
+    "uuid": "4df37a87-ff2e-443f-8e7d-837e3a513c4d"
+  },
+  {
+    "id": "75337",
+    "title": "Lego Star Wars 75337 AT-TE Walker",
+    "price": 100.45,
+    "link": "https://www.vinted.fr/items/5454902021-lego-star-wars-75337-at-te-walker",
+    "published": 1732802891,
+    "uuid": "91a01d22-cbb0-4e3d-ad5f-ef787797c00f"
+  },
+  {
+    "id": "75337",
+    "title": "Lego Star Wars 75337 sans figurines",
+    "price": 68.95,
+    "link": "https://www.vinted.fr/items/5353365536-lego-star-wars-75337-sans-figurines",
+    "published": 1731164923,
+    "uuid": "4e4f93a6-2e11-4db9-a763-28718a698df6"
+  },
+  {
+    "id": "75337",
+    "title": "Lego Star Wars 75337 AT-TE Walker",
+    "price": 100.45,
+    "link": "https://www.vinted.fr/items/5442171916-lego-star-wars-75337-at-te-walker",
+    "published": 1732556427,
+    "uuid": "c8b2041f-0abf-4abb-8953-8854762a1b9e"
+  },
+  {
+    "id": "75337",
+    "title": "Lego Star Wars Magazine n°50 - 212th Clone Trooper + Diorama",
+    "price": 16.45,
+    "link": "https://www.vinted.fr/items/2995322080-lego-star-wars-magazine-ndeg50-212th-clone-trooper-diorama",
+    "published": 1683550138,
+    "uuid": "4ad99a80-f259-4723-bf6d-73b33ab5a187"
+  },
+  {
+    "id": "75337",
+    "title": "Lego 75337 Star Wars AT-TE",
+    "price": 105.69,
+    "link": "https://www.vinted.fr/items/5439162853-lego-75337-star-wars-at-te",
+    "published": 1732524342,
+    "uuid": "1d398866-354e-4edc-bb3d-9a6cb8917bd6"
+  },
+  {
+    "id": "75337",
+    "title": "LEGO 75337 AT-TE Walker",
+    "price": 104.65,
+    "link": "https://www.vinted.fr/items/5448023093-lego-75337-at-te-walker",
+    "published": 1732656823,
+    "uuid": "a534c492-e42c-4400-bc6a-48920c883a6c"
+  },
+  {
+    "id": "75337",
+    "title": "Lego 75337 ´Star Wars AT-TE Walker’ 9 +",
+    "price": 116.19,
+    "link": "https://www.vinted.fr/items/5456600617-lego-75337-star-wars-at-te-walker-9",
+    "published": 1732824381,
+    "uuid": "21b337f5-07f8-44a2-b16f-83fdea79b38c"
+  },
+  {
+    "id": "75337",
+    "title": "Lego Star Wars AT-TE Walker (75337)",
+    "price": 108.85,
+    "link": "https://www.vinted.fr/items/5443081850-lego-star-wars-at-te-walker-75337",
+    "published": 1732566327,
+    "uuid": "f374f839-1fad-4212-bd4f-ba1d8823176a"
   },
   {
     "id": "75337",
@@ -85,39 +85,23 @@
     "price": 83.65,
     "link": "https://www.vinted.fr/items/5242891765-lego-star-wars-75337",
     "published": 1729347209,
-    "uuid": "975189de-d9a2-4483-93df-c2b5a421fa0d"
+    "uuid": "098e5475-f25e-4b04-bc6c-c5870552c907"
   },
   {
     "id": "75337",
-    "title": "Lego star wars 75337 AT-TE Walker",
-    "price": 110.95,
-    "link": "https://www.vinted.fr/items/5336299142-lego-star-wars-75337-at-te-walker",
-    "published": 1730840109,
-    "uuid": "2bf1b852-cb41-4faa-aa67-a7e6c84a234e"
+    "title": "LEGO Star Wars 75337 The AT-TE Walker Without Minifigures",
+    "price": 77.35,
+    "link": "https://www.vinted.fr/items/5376390229-lego-star-wars-75337-the-at-te-walker-without-minifigures",
+    "published": 1731503697,
+    "uuid": "63cf9284-7b40-4ee2-80eb-31cf69dc7d43"
   },
   {
     "id": "75337",
-    "title": "Lego Star Wars 75337 Commander Cody Sw1233",
-    "price": 35.35,
-    "link": "https://www.vinted.fr/items/4779025738-lego-star-wars-75337-commander-cody-sw1233",
-    "published": 1721291056,
-    "uuid": "73ac2c18-3de3-421b-9a82-97cf452c4be8"
-  },
-  {
-    "id": "75337",
-    "title": "Lego star wars 75337 AT-ET",
-    "price": 84.7,
-    "link": "https://www.vinted.fr/items/5299196937-lego-star-wars-75337-at-et",
-    "published": 1730223209,
-    "uuid": "52a55974-e7af-46f7-9633-941b1d701d64"
-  },
-  {
-    "id": "75337",
-    "title": "Lego Cody",
-    "price": 35.35,
-    "link": "https://www.vinted.fr/items/4792540112-lego-cody",
-    "published": 1721585858,
-    "uuid": "e1edfb1b-3ee7-4127-8750-fa9d30abda96"
+    "title": "Lego 75337 Starwars Neu OVP",
+    "price": 100.45,
+    "link": "https://www.vinted.fr/items/5453145043-lego-75337-starwars-neu-ovp",
+    "published": 1732778384,
+    "uuid": "66ff36d5-3497-4fd2-9154-c8e48ecf3025"
   },
   {
     "id": "75337",
@@ -125,47 +109,7 @@
     "price": 115.15,
     "link": "https://www.vinted.fr/items/5426441137-set-lego-star-wars-75337-at-te-walker-boite-neuve",
     "published": 1732326076,
-    "uuid": "60611576-8f60-4f4b-8c21-75d979227dea"
-  },
-  {
-    "id": "75337",
-    "title": "Lego Star Wars le marcheur AT-TE 75337",
-    "price": 121.45,
-    "link": "https://www.vinted.fr/items/5374462685-lego-star-wars-le-marcheur-at-te-75337",
-    "published": 1731458627,
-    "uuid": "3b2e8876-9745-4c86-b850-731d7f1664ca"
-  },
-  {
-    "id": "75337",
-    "title": "Lego Star Wars 75337: Le marcheur AT-TE",
-    "price": 116.2,
-    "link": "https://www.vinted.fr/items/3995045124-lego-star-wars-75337-le-marcheur-at-te",
-    "published": 1705602924,
-    "uuid": "2a717351-96ca-435f-9931-acc22a249880"
-  },
-  {
-    "id": "75337",
-    "title": "Lego 75337 starwars at-te Walker",
-    "price": 110.95,
-    "link": "https://www.vinted.fr/items/5284936018-lego-75337-starwars-at-te-walker",
-    "published": 1730027040,
-    "uuid": "97b653c5-673a-43f0-b93a-01552e7e0a61"
-  },
-  {
-    "id": "75337",
-    "title": "Lego star wars 75337 le marcheur AT TE",
-    "price": 126.7,
-    "link": "https://www.vinted.fr/items/5337417298-lego-star-wars-75337-le-marcheur-at-te",
-    "published": 1730890349,
-    "uuid": "0d1f87ef-0114-4115-b196-49d3a1fd3842"
-  },
-  {
-    "id": "75337",
-    "title": "LEGO Star Wars - Caminante AT-TE - 75337 Nuevo",
-    "price": 121.45,
-    "link": "https://www.vinted.fr/items/5407185943-lego-star-wars-caminante-at-te-75337-nuevo",
-    "published": 1731970976,
-    "uuid": "51415c34-cccb-4dfa-ac42-dce8609f83b4"
+    "uuid": "4779980d-d3a8-4fdc-a031-1bb8c8bdd856"
   },
   {
     "id": "75337",
@@ -173,23 +117,47 @@
     "price": 105.7,
     "link": "https://www.vinted.fr/items/2813094386-lego-star-wars-75337-at-te-walker-neuovp",
     "published": 1679395405,
-    "uuid": "801a5e6c-11bf-4e2a-9363-2f29bf12686c"
+    "uuid": "cff274e3-e4f0-4ae7-93f1-e1260df4d2c5"
   },
   {
     "id": "75337",
-    "title": "Lego 75337 star wars walker AT-TE walker",
-    "price": 110.95,
-    "link": "https://www.vinted.fr/items/4483485570-lego-75337-star-wars-walker-at-te-walker",
-    "published": 1715333711,
-    "uuid": "ca865f91-e5a4-4c6d-b5c5-06dd5e4ed4cc"
+    "title": "Lego Cody",
+    "price": 35.35,
+    "link": "https://www.vinted.fr/items/4792540112-lego-cody",
+    "published": 1721585858,
+    "uuid": "2c55b162-2c55-4aa6-8e4f-7a53d3121db3"
   },
   {
     "id": "75337",
-    "title": "Lego AT-TE 75337 NEUF Scellé",
+    "title": "Lego Star Wars 75337 Commander Cody Sw1233",
+    "price": 35.35,
+    "link": "https://www.vinted.fr/items/4779025738-lego-star-wars-75337-commander-cody-sw1233",
+    "published": 1721291056,
+    "uuid": "8d7635c6-80e4-45d9-b3a0-4b8dff0d0426"
+  },
+  {
+    "id": "75337",
+    "title": "Lego Star Wars 75337: Le marcheur AT-TE",
     "price": 116.2,
-    "link": "https://www.vinted.fr/items/3736612105-lego-at-te-75337-neuf-scelle",
-    "published": 1699561495,
-    "uuid": "d66aa4c4-f615-4077-8b3e-25185d1d0d7e"
+    "link": "https://www.vinted.fr/items/3995045124-lego-star-wars-75337-le-marcheur-at-te",
+    "published": 1705602924,
+    "uuid": "4e68a7fb-703b-4c60-9f9c-749214dbbe52"
+  },
+  {
+    "id": "75337",
+    "title": "Lego star wars 75337 le marcheur AT TE",
+    "price": 126.7,
+    "link": "https://www.vinted.fr/items/5337417298-lego-star-wars-75337-le-marcheur-at-te",
+    "published": 1730890349,
+    "uuid": "fdec6983-8173-4641-a684-c61dedcd8b0b"
+  },
+  {
+    "id": "75337",
+    "title": "Lego Star Wars le marcheur AT-TE 75337",
+    "price": 121.45,
+    "link": "https://www.vinted.fr/items/5374462685-lego-star-wars-le-marcheur-at-te-75337",
+    "published": 1731458627,
+    "uuid": "0b1fe425-99d6-49e6-b357-23d7932cb29e"
   },
   {
     "id": "75337",
@@ -197,103 +165,47 @@
     "price": 126.7,
     "link": "https://www.vinted.fr/items/5242348096-lego-star-wars-75337-at-te-clone-wars-neuf-scelle",
     "published": 1729343279,
-    "uuid": "7b9c2853-3b46-4f60-a43d-c3f3a4f4b4c0"
+    "uuid": "7d112d42-6306-4ab3-9ca8-b2711421ede9"
   },
   {
     "id": "75337",
-    "title": "Lego Starwars 75337, 75152",
-    "price": 157.15,
-    "link": "https://www.vinted.fr/items/4789141409-lego-starwars-75337-75152",
-    "published": 1721552005,
-    "uuid": "462ab711-f344-4738-b351-9e803f701d41"
-  },
-  {
-    "id": "75337",
-    "title": "Lego Star Wars 75337 Caminante AT-TE",
+    "title": "75337 LEGO Star Wars AT-TE Walker",
     "price": 116.2,
-    "link": "https://www.vinted.fr/items/4618011539-lego-star-wars-75337-caminante-at-te",
-    "published": 1717937640,
-    "uuid": "6f38f7b0-dc87-4a66-9d2c-5d715ce0dded"
+    "link": "https://www.vinted.fr/items/5447257829-75337-lego-star-wars-at-te-walker",
+    "published": 1732647183,
+    "uuid": "7a155e0a-4312-4389-a2f0-e1a4ad8a8047"
   },
   {
     "id": "75337",
-    "title": "Lego 75337 AT-TE Walker",
-    "price": 125.65,
-    "link": "https://www.vinted.fr/items/5031597416-lego-75337-at-te-walker",
-    "published": 1726156287,
-    "uuid": "f5f40887-f12e-43b8-8736-5e3dc1e3064e"
-  },
-  {
-    "id": "75337",
-    "title": "Lego - Le chasseur TIE Sith - NEUF",
-    "price": 95.2,
-    "link": "https://www.vinted.fr/items/5412461269-lego-le-chasseur-tie-sith-neuf",
-    "published": 1732088626,
-    "uuid": "d7c723fb-f8d6-4a5b-b3b9-97a75466e5d1"
-  },
-  {
-    "id": "75337",
-    "title": "Lego Star Wars 75337 - marcheur AT-Te",
-    "price": 121.45,
-    "link": "https://www.vinted.fr/items/4714580799-lego-star-wars-75337-marcheur-at-te",
-    "published": 1719931579,
-    "uuid": "423907c0-0499-4bd3-ac26-dcc2351bcc08"
+    "title": "Lego 75337 starwars at-te Walker",
+    "price": 110.95,
+    "link": "https://www.vinted.fr/items/5284936018-lego-75337-starwars-at-te-walker",
+    "published": 1730027040,
+    "uuid": "38ed7957-4877-472a-8ebd-bdbc7ce6c9ec"
   },
   {
     "id": "75337",
     "title": "Lego 75337 AT-TE",
-    "price": 126.7,
-    "link": "https://www.vinted.fr/items/5028044014-lego-75337-at-te",
-    "published": 1726096599,
-    "uuid": "e01e49ef-de93-44c0-b370-4ec96f2b6fa4"
+    "price": 137.2,
+    "link": "https://www.vinted.fr/items/5446266955-lego-75337-at-te",
+    "published": 1732635727,
+    "uuid": "bcfe24ae-1818-422f-bb2d-c554222fef0d"
   },
   {
     "id": "75337",
-    "title": "Lego star wars ",
-    "price": 121.45,
-    "link": "https://www.vinted.fr/items/3906307009-lego-star-wars",
-    "published": 1703437838,
-    "uuid": "1e5a7706-9e86-4b57-b8be-3413e18c6df2"
+    "title": "Lego AT-TE 75337 NEUF Scellé",
+    "price": 116.2,
+    "link": "https://www.vinted.fr/items/3736612105-lego-at-te-75337-neuf-scelle",
+    "published": 1699561495,
+    "uuid": "40527e50-1109-4692-b4bb-c87d41e4e2cd"
   },
   {
     "id": "75337",
-    "title": "Lego 75337 Star Wars neuf",
-    "price": 126.7,
-    "link": "https://www.vinted.fr/items/5317526700-lego-75337-star-wars-neuf",
-    "published": 1730560042,
-    "uuid": "d0a31b27-4f0a-4dfc-ad97-b9d951064ff1"
-  },
-  {
-    "id": "75337",
-    "title": "Lego star wars set 75337 AT-TE Walker",
-    "price": 126.7,
-    "link": "https://www.vinted.fr/items/5325970929-lego-star-wars-set-75337-at-te-walker",
-    "published": 1730661737,
-    "uuid": "649a7024-eb7b-414e-b349-e3e186999f7e"
-  },
-  {
-    "id": "75337",
-    "title": "Lego 75337",
-    "price": 147.7,
-    "link": "https://www.vinted.fr/items/5087916311-lego-75337",
-    "published": 1727011027,
-    "uuid": "dcc8510d-0933-40dd-ac45-46bedbb71bc1"
-  },
-  {
-    "id": "75337",
-    "title": "Lego starwars AT-TE walker, 75337",
-    "price": 115.15,
-    "link": "https://www.vinted.fr/items/3290177875-lego-starwars-at-te-walker-75337",
-    "published": 1690638021,
-    "uuid": "3c7dfccd-eafe-4c04-83c7-34c4b0ac099b"
-  },
-  {
-    "id": "75337",
-    "title": "Lego Star Wars 75337 Le Marcheur Walker AT-TE",
-    "price": 131.95,
-    "link": "https://www.vinted.fr/items/3863425942-lego-star-wars-75337-le-marcheur-walker-at-te",
-    "published": 1702137489,
-    "uuid": "bc58c5c2-1764-49a3-bcb0-aa553684034a"
+    "title": "Lego 75337 - AT-TE Walker",
+    "price": 110.95,
+    "link": "https://www.vinted.fr/items/5447474522-lego-75337-at-te-walker",
+    "published": 1732649760,
+    "uuid": "3d22f4c8-e0cc-4e19-a274-71d009eb58e9"
   },
   {
     "id": "75337",
@@ -301,7 +213,111 @@
     "price": 104.65,
     "link": "https://www.vinted.fr/items/5412468591-lego-star-wars-lenfant-ref75318",
     "published": 1732088829,
-    "uuid": "8505c59b-9391-49f0-a4ff-9e1163e3904d"
+    "uuid": "8f02cb7a-505a-4e9a-a61a-06ce091032d1"
+  },
+  {
+    "id": "75337",
+    "title": "LEGO Star Wars - Caminante AT-TE - 75337 Nuevo",
+    "price": 121.45,
+    "link": "https://www.vinted.fr/items/5407185943-lego-star-wars-caminante-at-te-75337-nuevo",
+    "published": 1731970976,
+    "uuid": "ee141b9b-de21-4448-a00f-97e907ddf271"
+  },
+  {
+    "id": "75337",
+    "title": "Lego - Le chasseur TIE Sith - NEUF",
+    "price": 95.2,
+    "link": "https://www.vinted.fr/items/5412461269-lego-le-chasseur-tie-sith-neuf",
+    "published": 1732088626,
+    "uuid": "37a30b11-5154-4048-8a8b-d947bec3933c"
+  },
+  {
+    "id": "75337",
+    "title": "Lego 75337 star wars walker AT-TE walker",
+    "price": 110.95,
+    "link": "https://www.vinted.fr/items/4483485570-lego-75337-star-wars-walker-at-te-walker",
+    "published": 1715333711,
+    "uuid": "1f039978-b548-4e35-9aea-6de438bd1340"
+  },
+  {
+    "id": "75337",
+    "title": "Lego Star Wars 75337 - marcheur AT-Te",
+    "price": 121.45,
+    "link": "https://www.vinted.fr/items/4714580799-lego-star-wars-75337-marcheur-at-te",
+    "published": 1719931579,
+    "uuid": "a84e95c1-9fa1-4e1a-b908-f5131ef5e7ad"
+  },
+  {
+    "id": "75337",
+    "title": "Lego Star Wars 75337 Caminante AT-TE",
+    "price": 116.2,
+    "link": "https://www.vinted.fr/items/4618011539-lego-star-wars-75337-caminante-at-te",
+    "published": 1717937640,
+    "uuid": "3c2eee25-d5be-4742-aa3d-d609c738344b"
+  },
+  {
+    "id": "75337",
+    "title": "Lego 75337 Star Wars neuf",
+    "price": 126.7,
+    "link": "https://www.vinted.fr/items/5317526700-lego-75337-star-wars-neuf",
+    "published": 1730560042,
+    "uuid": "cafc79d3-a34e-4a32-b834-e93ed4638901"
+  },
+  {
+    "id": "75337",
+    "title": "Lego 75337",
+    "price": 147.7,
+    "link": "https://www.vinted.fr/items/5087916311-lego-75337",
+    "published": 1727011027,
+    "uuid": "0ab2409c-8639-40b4-be1a-8b997646f7c2"
+  },
+  {
+    "id": "75337",
+    "title": "Lego Starwars 75337, 75152",
+    "price": 157.15,
+    "link": "https://www.vinted.fr/items/4789141409-lego-starwars-75337-75152",
+    "published": 1721552005,
+    "uuid": "d3c9105d-5d18-4962-b190-0538456de44c"
+  },
+  {
+    "id": "75337",
+    "title": "Lego 75337 AT-TE",
+    "price": 126.7,
+    "link": "https://www.vinted.fr/items/5028044014-lego-75337-at-te",
+    "published": 1726096599,
+    "uuid": "4509f923-15cf-4da4-9cdd-fb7d3604fea2"
+  },
+  {
+    "id": "75337",
+    "title": "Lego star wars set 75337 AT-TE Walker",
+    "price": 126.7,
+    "link": "https://www.vinted.fr/items/5325970929-lego-star-wars-set-75337-at-te-walker",
+    "published": 1730661737,
+    "uuid": "6695c74f-5f4b-4dc6-8979-f365e7603325"
+  },
+  {
+    "id": "75337",
+    "title": "Lego star wars ",
+    "price": 121.45,
+    "link": "https://www.vinted.fr/items/3906307009-lego-star-wars",
+    "published": 1703437838,
+    "uuid": "b6a01ba3-87d4-421c-929d-9f2ff0466fc8"
+  },
+  {
+    "id": "75337",
+    "title": "Lego Star Wars 75337 Le Marcheur Walker AT-TE",
+    "price": 131.95,
+    "link": "https://www.vinted.fr/items/3863425942-lego-star-wars-75337-le-marcheur-walker-at-te",
+    "published": 1702137489,
+    "uuid": "a33ff085-ffb0-4947-afbf-723f80867bbb"
+  },
+  {
+    "id": "75337",
+    "title": "Lego 75337 AT-TE Walker",
+    "price": 125.65,
+    "link": "https://www.vinted.fr/items/5031597416-lego-75337-at-te-walker",
+    "published": 1726156287,
+    "uuid": "7c44f328-68eb-4591-8103-c8fd22b3782d"
   },
   {
     "id": "75337",
@@ -309,15 +325,15 @@
     "price": 126.7,
     "link": "https://www.vinted.fr/items/4898408101-lego-star-wars-at-te-walker-75337",
     "published": 1723902966,
-    "uuid": "dd3b5506-3e3d-499d-ae1e-8624102440c0"
+    "uuid": "5efef8d2-34af-4422-85fb-8b65b42c2c41"
   },
   {
     "id": "75337",
-    "title": "Lego 75337 AT-TE Walker",
-    "price": 126.7,
-    "link": "https://www.vinted.fr/items/4934175960-lego-75337-at-te-walker",
-    "published": 1724570218,
-    "uuid": "188aad2e-c1d5-4c03-8154-fe42ef9a1520"
+    "title": "Lego starwars AT-TE walker, 75337",
+    "price": 115.15,
+    "link": "https://www.vinted.fr/items/3290177875-lego-starwars-at-te-walker-75337",
+    "published": 1690638021,
+    "uuid": "dbed3917-7557-4775-b217-0443a6bae843"
   },
   {
     "id": "75337",
@@ -325,7 +341,7 @@
     "price": 116.2,
     "link": "https://www.vinted.fr/items/4083105744-lego-star-wars-at-te-walker",
     "published": 1707663003,
-    "uuid": "799c8d2f-8608-467c-aaec-7d64ae22c049"
+    "uuid": "e14ed167-c951-4c01-a1bf-e3020cf885b2"
   },
   {
     "id": "75337",
@@ -333,15 +349,7 @@
     "price": 147.7,
     "link": "https://www.vinted.fr/items/4112120724-sealed-75337-lego-star-wars-at-te-walker",
     "published": 1708186053,
-    "uuid": "66ccfb6f-f09b-40e2-9ec4-7c327cfc1392"
-  },
-  {
-    "id": "75337",
-    "title": "Lego 75337 AT-TE Walker NEW",
-    "price": 126.69,
-    "link": "https://www.vinted.fr/items/3459459393-lego-75337-at-te-walker-new",
-    "published": 1694427199,
-    "uuid": "0c851307-8a67-4dc4-8a8b-73c6ed3c7686"
+    "uuid": "918ffa54-8747-4793-b5ce-dcff36e0fcf8"
   },
   {
     "id": "75337",
@@ -349,71 +357,7 @@
     "price": 142.45,
     "link": "https://www.vinted.fr/items/5111999209-lego-75337-at-te-star-wars-disney-nuovo",
     "published": 1727363994,
-    "uuid": "4b33f9e6-ca17-4451-bd6d-e5b4973440d8"
-  },
-  {
-    "id": "75337",
-    "title": "Lego Star Wars AT ST nuevo 75337",
-    "price": 121.45,
-    "link": "https://www.vinted.fr/items/3902792158-lego-star-wars-at-st-nuevo-75337",
-    "published": 1703252552,
-    "uuid": "c36fc277-2381-46af-8132-9d7056ff5526"
-  },
-  {
-    "id": "75337",
-    "title": "Lego Star Wars 75337, AT-TE Walker, Commander Cody, neu ovp MISB",
-    "price": 146.65,
-    "link": "https://www.vinted.fr/items/3016492999-lego-star-wars-75337-at-te-walker-commander-cody-neu-ovp-misb",
-    "published": 1684004739,
-    "uuid": "932becab-cfa5-4114-9d50-0704aacdb9f2"
-  },
-  {
-    "id": "75337",
-    "title": "Lego   X-Wing Starfighter",
-    "price": 158.2,
-    "link": "https://www.vinted.fr/items/5412504640-lego-x-wing-starfighter",
-    "published": 1732089739,
-    "uuid": "d4094be6-ddcf-485e-97b2-75e9f900c68d"
-  },
-  {
-    "id": "75337",
-    "title": "Lego 75337 Star Wars Walker AT-TE",
-    "price": 142.45,
-    "link": "https://www.vinted.fr/items/4520016176-lego-75337-star-wars-walker-at-te",
-    "published": 1716040696,
-    "uuid": "913791a2-5753-4c51-a3e0-2cc57c6d8d1d"
-  },
-  {
-    "id": "75337",
-    "title": "Star Wars Bundle of 7 ultimate Lego Collection! Check all photos",
-    "price": 273.7,
-    "link": "https://www.vinted.fr/items/4176039558-star-wars-bundle-of-7-ultimate-lego-collection-check-all-photos",
-    "published": 1709476183,
-    "uuid": "a32fb078-13e6-47c3-bcc0-69dba1599e82"
-  },
-  {
-    "id": "75337",
-    "title": "Lego AT-TE Walker 75337",
-    "price": 191.8,
-    "link": "https://www.vinted.fr/items/3703967957-lego-at-te-walker-75337",
-    "published": 1699006672,
-    "uuid": "5387e3aa-7930-4653-bb8f-135e884456af"
-  },
-  {
-    "id": "75337",
-    "title": "Lego Star Wars 75337 AT-TE walker",
-    "price": 131.95,
-    "link": "https://www.vinted.fr/items/5039686517-lego-star-wars-75337-at-te-walker",
-    "published": 1726306400,
-    "uuid": "723a1d17-14cf-49ec-9ea3-df6bf982b1ae"
-  },
-  {
-    "id": "75337",
-    "title": "Lego 75337 AT-TE Walker Star wars brand new and sealed ",
-    "price": 121.44,
-    "link": "https://www.vinted.fr/items/3445843566-lego-75337-at-te-walker-star-wars-brand-new-and-sealed",
-    "published": 1694095754,
-    "uuid": "ba6c0434-83bc-4357-bc60-d60a226d87e5"
+    "uuid": "8b1623c8-8e62-4277-8991-29c712d61a3e"
   },
   {
     "id": "75337",
@@ -421,31 +365,63 @@
     "price": 236.95,
     "link": "https://www.vinted.fr/items/5298356771-lego-set-75337-75312-75347-en-75324",
     "published": 1730214722,
-    "uuid": "08607734-4d31-4144-bfbc-aa35bb90d7ca"
+    "uuid": "fb584ee7-e6c5-4198-b0da-0a68608550c3"
   },
   {
     "id": "75337",
-    "title": "Lego 75337 Walker at-te",
+    "title": "Lego 75337 AT-TE Walker",
     "price": 126.7,
-    "link": "https://www.vinted.fr/items/3909318772-lego-75337-walker-at-te",
-    "published": 1703605993,
-    "uuid": "725d0273-c8ab-432a-aa0d-606ba9ce3c67"
+    "link": "https://www.vinted.fr/items/4934175960-lego-75337-at-te-walker",
+    "published": 1724570218,
+    "uuid": "f39e6e3e-393e-45a6-b428-2bd2fb9207c1"
   },
   {
     "id": "75337",
-    "title": "Lego s star wars 75337",
+    "title": "Lego Star Wars AT ST nuevo 75337",
+    "price": 121.45,
+    "link": "https://www.vinted.fr/items/3902792158-lego-star-wars-at-st-nuevo-75337",
+    "published": 1703252552,
+    "uuid": "60cc047b-3540-492b-97fa-bc90d3500507"
+  },
+  {
+    "id": "75337",
+    "title": "Lego 75337 AT-TE Walker NEW",
+    "price": 126.69,
+    "link": "https://www.vinted.fr/items/3459459393-lego-75337-at-te-walker-new",
+    "published": 1694427199,
+    "uuid": "d6c232d1-f05e-4f3f-89e3-8f4979822549"
+  },
+  {
+    "id": "75337",
+    "title": "Lego Star Wars 75337 AT-TE walker",
+    "price": 131.95,
+    "link": "https://www.vinted.fr/items/5039686517-lego-star-wars-75337-at-te-walker",
+    "published": 1726306400,
+    "uuid": "5ccb39b7-5f24-4073-97bd-02ab5b0f8d52"
+  },
+  {
+    "id": "75337",
+    "title": "Lego Star Wars 75337, AT-TE Walker, Commander Cody, neu ovp MISB",
+    "price": 146.65,
+    "link": "https://www.vinted.fr/items/3016492999-lego-star-wars-75337-at-te-walker-commander-cody-neu-ovp-misb",
+    "published": 1684004739,
+    "uuid": "27392950-bb19-4b34-8e60-8d1cdcff812a"
+  },
+  {
+    "id": "75337",
+    "title": "Lego 75337 AT-TE Walker Star wars brand new and sealed ",
+    "price": 121.44,
+    "link": "https://www.vinted.fr/items/3445843566-lego-75337-at-te-walker-star-wars-brand-new-and-sealed",
+    "published": 1694095754,
+    "uuid": "85846dda-aaba-45a1-8494-6aa28748d627"
+  },
+  {
+    "id": "75337",
+    "title": "Lego 75337 Star Wars Walker AT-TE",
     "price": 142.45,
-    "link": "https://www.vinted.fr/items/3008290897-lego-s-star-wars-75337",
-    "published": 1683817085,
-    "uuid": "63115e45-444c-4ec6-83c8-a620bf614fb5"
-  },
-  {
-    "id": "75337",
-    "title": "LEGO Star Wars Bundle Package Read Description",
-    "price": 242.2,
-    "link": "https://www.vinted.fr/items/4171740751-lego-star-wars-bundle-package-read-description",
-    "published": 1709394405,
-    "uuid": "46ff7f67-7f8a-4475-aa0b-c5e15f063a6d"
+    "link": "https://www.vinted.fr/items/4520016176-lego-75337-star-wars-walker-at-te",
+    "published": 1716040696,
+    "uuid": "06bfdfbd-0983-4325-9ca9-509467a60efe"
   },
   {
     "id": "75337",
@@ -453,7 +429,47 @@
     "price": 158.2,
     "link": "https://www.vinted.fr/items/3908037810-lego-star-wars",
     "published": 1703580409,
-    "uuid": "74ea8980-24ea-40f2-8ba4-92b1a1bfa3c8"
+    "uuid": "444f89e8-eebc-4090-931e-4a18b4d58ccc"
+  },
+  {
+    "id": "75337",
+    "title": "LEGO Star Wars Bundle Package Read Description",
+    "price": 242.2,
+    "link": "https://www.vinted.fr/items/4171740751-lego-star-wars-bundle-package-read-description",
+    "published": 1709394405,
+    "uuid": "7c022165-8928-45e8-a1d1-feeee5484c07"
+  },
+  {
+    "id": "75337",
+    "title": "Lego AT-TE Walker 75337",
+    "price": 191.8,
+    "link": "https://www.vinted.fr/items/3703967957-lego-at-te-walker-75337",
+    "published": 1699006672,
+    "uuid": "15e5f2e6-534b-4464-81ee-c4348d98ae8b"
+  },
+  {
+    "id": "75337",
+    "title": "Lego s star wars 75337",
+    "price": 142.45,
+    "link": "https://www.vinted.fr/items/3008290897-lego-s-star-wars-75337",
+    "published": 1683817085,
+    "uuid": "5eacbcd5-5ece-40e7-8ad1-43389a32df1e"
+  },
+  {
+    "id": "75337",
+    "title": "Lego 75337 Walker at-te",
+    "price": 126.7,
+    "link": "https://www.vinted.fr/items/3909318772-lego-75337-walker-at-te",
+    "published": 1703605993,
+    "uuid": "0684c7d2-7949-47a5-b196-a25b42b5a3a2"
+  },
+  {
+    "id": "75337",
+    "title": "Star Wars Bundle of 7 ultimate Lego Collection! Check all photos",
+    "price": 273.7,
+    "link": "https://www.vinted.fr/items/4176039558-star-wars-bundle-of-7-ultimate-lego-collection-check-all-photos",
+    "published": 1709476183,
+    "uuid": "68f62181-ea27-4c20-9d4d-accc593df533"
   },
   {
     "id": "75337",
@@ -461,7 +477,7 @@
     "price": 294.7,
     "link": "https://www.vinted.fr/items/4175962002-lego-star-wars-set-if-5-bundle",
     "published": 1709475594,
-    "uuid": "4ff9edcd-853a-44ad-b9f5-edb013bb05b6"
+    "uuid": "86bc271b-9b0d-457f-94c4-676c1812febc"
   },
   {
     "id": "75337",
@@ -469,6 +485,6 @@
     "price": 816,
     "link": "https://www.vinted.fr/items/4960499131-collezione-lego",
     "published": 1725012920,
-    "uuid": "df68e5b5-a374-42bf-9412-45fc5c26549b"
+    "uuid": "07fdcf9c-6668-4d36-bd77-4f7be61dab2f"
   }
 ]
