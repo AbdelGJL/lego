@@ -9,6 +9,9 @@ on:
 jobs:
   run-autosandbox:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./server
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -27,6 +30,9 @@ jobs:
   run-autovinted:
     needs: run-autosandbox
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./server
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
