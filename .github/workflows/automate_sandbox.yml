@@ -25,7 +25,7 @@ jobs:
         run: npm install
       
       - name: Run Dealabs Script
-        run: node api/autosandbox.js
+        run: node sandboxDealabs.js
 
   run-autovinted:
     needs: run-autosandbox
@@ -46,4 +46,4 @@ jobs:
         run: npm install
       
       - name: Run Vinted Script
-        run: node api/autovinted.js
+        run: node sandboxVinted.js
