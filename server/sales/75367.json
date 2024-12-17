@@ -1,27 +1,19 @@
 [
   {
     "id": "75367",
+    "title": "Lego Star Wars 75391 - Captain Rex Y-wing microfighter",
+    "price": 11.15,
+    "link": "https://www.vinted.fr/items/5467909085-lego-star-wars-75391-captain-rex-y-wing-microfighter",
+    "published": 1733059609,
+    "uuid": "ad13cbdc-2926-40e1-9d20-b194678cbcbf"
+  },
+  {
+    "id": "75367",
     "title": "Lego sw1315 Clone Trooper Captain Rex",
     "price": 11.2,
     "link": "https://www.vinted.fr/items/4992757092-lego-sw1315-clone-trooper-captain-rex",
     "published": 1725559889,
-    "uuid": "fd84d6d9-894d-40de-8873-26b5e962dcd4"
-  },
-  {
-    "id": "75367",
-    "title": "Lego Star Wars 75391 - Captain Rex Y-wing microfighter",
-    "price": 11.15,
-    "link": "https://www.vinted.fr/items/4942646110-lego-star-wars-75391-captain-rex-y-wing-microfighter",
-    "published": 1725806740,
-    "uuid": "6b9db07d-50bc-4de0-a4c2-7f5d86452432"
-  },
-  {
-    "id": "75367",
-    "title": "Lego Star Wars GWP 5008162 Venator UCS",
-    "price": 68.95,
-    "link": "https://www.vinted.fr/items/4742664403-lego-star-wars-gwp-5008162-venator-ucs",
-    "published": 1720517514,
-    "uuid": "00eeaa9c-8b89-4807-9eae-5466ecb79bf0"
+    "uuid": "2daf508d-26fb-414e-8baa-7bb337f9dcce"
   },
   {
     "id": "75367",
@@ -29,7 +21,7 @@
     "price": 84.7,
     "link": "https://www.vinted.fr/items/5315072926-lego-5008162-gwp-75367-venator-star-wars",
     "published": 1730540228,
-    "uuid": "232b82ba-296e-4d91-a598-fe69dad89fa0"
+    "uuid": "a8c8cf83-2144-439f-8c0d-4548dceb0109"
   },
   {
     "id": "75367",
@@ -37,7 +29,15 @@
     "price": 84.7,
     "link": "https://www.vinted.fr/items/3631927734-lego-star-wars-minifig-yularen",
     "published": 1697717220,
-    "uuid": "61406478-56de-41eb-b063-408cb3bd57d9"
+    "uuid": "c6a95cc6-898d-410f-b135-52864381c75e"
+  },
+  {
+    "id": "75367",
+    "title": "Lego Star Wars GWP 5008162 Venator UCS",
+    "price": 68.95,
+    "link": "https://www.vinted.fr/items/4742664403-lego-star-wars-gwp-5008162-venator-ucs",
+    "published": 1720517514,
+    "uuid": "ce8f16b1-29ee-43b1-9c87-f703f238c1d6"
   },
   {
     "id": "75367",
@@ -45,7 +45,7 @@
     "price": 294.7,
     "link": "https://www.vinted.fr/items/4811309621-crucero-de-ataque-clase-venator-de-la-republica-lego-compatible-75367",
     "published": 1727436768,
-    "uuid": "ba36cda8-adf3-4947-a36b-0980cdef58a5"
+    "uuid": "86dc466d-d03d-4a5e-890e-2819ebb8395c"
   },
   {
     "id": "75367",
@@ -53,7 +53,7 @@
     "price": 95.2,
     "link": "https://www.vinted.fr/items/4213301020-lego-gwp-star-wars",
     "published": 1710236986,
-    "uuid": "08b91279-ea38-4820-85c1-42869f208bd3"
+    "uuid": "25558090-75d5-4147-8d9e-a25dd3cc13b8"
   },
   {
     "id": "75367",
@@ -61,7 +61,7 @@
     "price": 399.7,
     "link": "https://www.vinted.fr/items/4885418285-lego-technic-42054",
     "published": 1723629377,
-    "uuid": "7c1c943e-58dd-4e91-8ab3-2b5fcffbed1c"
+    "uuid": "36ac7643-e392-4512-8960-e5671f3fe377"
   },
   {
     "id": "75367",
@@ -69,6 +69,6 @@
     "price": 561,
     "link": "https://www.vinted.fr/items/4047900218-ucs-venator-set-lego-75367",
     "published": 1706773585,
-    "uuid": "af14227d-fa34-41cd-898b-369dd5f3e8e8"
+    "uuid": "872408f2-b6a5-42b8-997c-138032ec0db1"
   }
 ]

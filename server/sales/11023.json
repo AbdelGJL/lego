@@ -5,7 +5,15 @@
     "price": 22.75,
     "link": "https://www.vinted.fr/items/5333826710-lot-de-3-plaques-vertes-lego-11023",
     "published": 1730812168,
-    "uuid": "cb539d43-ee70-4f11-8e96-3694c91d06e2"
+    "uuid": "367d89c4-f22a-48e9-8a46-b2c1461ccc99"
+  },
+  {
+    "id": "11023",
+    "title": "2 lego platen nr 11023",
+    "price": 10.15,
+    "link": "https://www.vinted.fr/items/5474601594-2-lego-platen-nr-11023",
+    "published": 1733159874,
+    "uuid": "7efe8fa4-1530-49aa-8eeb-5325715a5e74"
   },
   {
     "id": "11023",
@@ -13,7 +21,15 @@
     "price": 42.7,
     "link": "https://www.vinted.fr/items/4968043259-lot-de-5-plaques-lego-vertes-11023",
     "published": 1725133910,
-    "uuid": "69a98050-2a6a-4148-b4ee-2b56c48a94b8"
+    "uuid": "3101d5d5-b884-4656-97da-2881ce6417eb"
+  },
+  {
+    "id": "11023",
+    "title": "Nieuwe groene lego 11023 bouwplaten grondplaten baseplates 32x32",
+    "price": 26.95,
+    "link": "https://www.vinted.fr/items/5461913733-nieuwe-groene-lego-11023-bouwplaten-grondplaten-baseplates-32x32",
+    "published": 1732962790,
+    "uuid": "6c7cd4ba-f221-4650-a071-f13b16e2ac06"
   },
   {
     "id": "11023",
@@ -21,23 +37,7 @@
     "price": 22.75,
     "link": "https://www.vinted.fr/items/3793461437-lego-sealed-bundel-2in1-66745-11027-11023",
     "published": 1700641290,
-    "uuid": "d13a870f-1cdc-47bf-ac75-46217025cfe7"
-  },
-  {
-    "id": "11023",
-    "title": "Lego 66745",
-    "price": 24.33,
-    "link": "https://www.vinted.fr/items/4506276366-lego-66745",
-    "published": 1715770758,
-    "uuid": "a72e2806-5a77-4827-978f-1c217edf95b4"
-  },
-  {
-    "id": "11023",
-    "title": "LEGO 11023 Building Plate, eine quadratische Grundplatte als Basis für Gebäude und andere LEGO Sets",
-    "price": 22.74,
-    "link": "https://www.vinted.fr/items/2515703892-lego-11023-building-plate-eine-quadratische-grundplatte-als-basis-fur-gebaude-und-andere-lego-sets",
-    "published": 1671160323,
-    "uuid": "6f646787-f3e9-4f9a-b5e0-ad4d11ab4b06"
+    "uuid": "ac32344b-9580-4073-a76c-417fa4252bcc"
   },
   {
     "id": "11023",
@@ -45,7 +45,23 @@
     "price": 22.74,
     "link": "https://www.vinted.fr/items/2513480041-lego-11023-square-base-plate-with-32-x-32-knobs-as-a-base-for-constructions-and-for-other-lego-sets",
     "published": 1671088551,
-    "uuid": "4f2f4542-8480-4ce4-97a8-fb2a9d18c1b9"
+    "uuid": "972c5c20-984f-4868-ac99-04e7400f8daa"
+  },
+  {
+    "id": "11023",
+    "title": "LEGO 11023 Building Plate, eine quadratische Grundplatte als Basis für Gebäude und andere LEGO Sets",
+    "price": 22.74,
+    "link": "https://www.vinted.fr/items/2515703892-lego-11023-building-plate-eine-quadratische-grundplatte-als-basis-fur-gebaude-und-andere-lego-sets",
+    "published": 1671160323,
+    "uuid": "18e453fa-4c9e-4f26-8ed2-f23395ef5ca4"
+  },
+  {
+    "id": "11023",
+    "title": "Lego 66745",
+    "price": 24.33,
+    "link": "https://www.vinted.fr/items/4506276366-lego-66745",
+    "published": 1715770758,
+    "uuid": "b1361392-cc23-452a-8c50-ab20286d8ade"
   },
   {
     "id": "11023",
@@ -53,6 +69,6 @@
     "price": 42.7,
     "link": "https://www.vinted.fr/items/3443451259-base-verde-lego-classic-11023",
     "published": 1694071900,
-    "uuid": "f55c4419-1dbc-45b7-8440-412c158faccc"
+    "uuid": "8955dfaa-7273-43ca-9553-817b7366bfe0"
   }
 ]

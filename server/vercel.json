@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "*.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/autosandbox",
+      "dest": "api/autosandbox.js"
+    },
+    {
+      "src": "/api/autovinted",
+      "dest": "api/autovinted.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "api.js"
+    }
+  ],
+  "crons": [{
+      "path": "/api/autosandbox",
+      "schedule": "0 8 * * *"
+    },
+    {
+      "path": "/api/autovinted",
+      "schedule": "5 8 * * *"
+    }
+  ]
+}

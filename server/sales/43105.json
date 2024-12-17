@@ -5,7 +5,15 @@
     "price": 9.1,
     "link": "https://www.vinted.fr/items/4616064701-lego-43105",
     "published": 1717874796,
-    "uuid": "f89e7ed6-3063-45de-9764-5e99a38e9635"
+    "uuid": "6bad1fd7-5d5e-44c6-9cf6-3aa13a44554e"
+  },
+  {
+    "id": "43105",
+    "title": "Lego vidiyo 43105",
+    "price": 4.9,
+    "link": "https://www.vinted.fr/items/5478728323-lego-vidiyo-43105",
+    "published": 1733241110,
+    "uuid": "0d19edf0-0e0d-4b6f-97b7-c67e12efc8f2"
   },
   {
     "id": "43105",
@@ -13,55 +21,7 @@
     "price": 3.85,
     "link": "https://www.vinted.fr/items/5392022102-lego-vidiyo-party-llama-beatbox-43105",
     "published": 1731770522,
-    "uuid": "1393dc97-f578-4492-ac61-335d2f5ab3df"
-  },
-  {
-    "id": "43105",
-    "title": "Légo Vidiyo Party Llama BeatBox (43105)",
-    "price": 7,
-    "link": "https://www.vinted.fr/items/2601334358-lego-vidiyo-party-llama-beatbox-43105",
-    "published": 1674035116,
-    "uuid": "767fcf2a-123e-4c9a-97b8-add60fce8c6c"
-  },
-  {
-    "id": "43105",
-    "title": "Lego Vidiyo 43105",
-    "price": 5.95,
-    "link": "https://www.vinted.fr/items/5400025266-lego-vidiyo-43105",
-    "published": 1731865289,
-    "uuid": "2b8bce4a-4d5a-4b09-bf0a-2df55851f236"
-  },
-  {
-    "id": "43105",
-    "title": "Lego 43105 neuf",
-    "price": 8.58,
-    "link": "https://www.vinted.fr/items/5308364583-lego-43105-neuf",
-    "published": 1730394656,
-    "uuid": "f35e0358-9f0d-4209-9191-032788c6af95"
-  },
-  {
-    "id": "43105",
-    "title": "Lot 2 boîtes Lego 43105 et 43106",
-    "price": 17.5,
-    "link": "https://www.vinted.fr/items/5453526708-lot-2-boites-lego-43105-et-43106",
-    "published": 1732786518,
-    "uuid": "551ee30c-fa14-42f7-9c8e-b407408ca356"
-  },
-  {
-    "id": "43105",
-    "title": "Lego Vidiyo \"Party Lama Beatbox\" 43105",
-    "price": 5.95,
-    "link": "https://www.vinted.fr/items/5387801205-lego-vidiyo-party-lama-beatbox-43105",
-    "published": 1731695789,
-    "uuid": "6aa70959-7e24-42b8-8157-e418962d91b0"
-  },
-  {
-    "id": "43105",
-    "title": "Lego 43105",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/3027355573-lego-43105",
-    "published": 1684245776,
-    "uuid": "d97b58db-2b10-4809-94c8-30839a4012d7"
+    "uuid": "f540d674-dd94-4ce1-8ba5-48fa8f54fa9a"
   },
   {
     "id": "43105",
@@ -69,31 +29,23 @@
     "price": 9.1,
     "link": "https://www.vinted.fr/items/5441801367-lego-vidiyo-43105-parti-llama-beatbox",
     "published": 1732552478,
-    "uuid": "50cfe9d8-0dd0-47fa-8107-06e3419737b7"
+    "uuid": "00166a41-edd0-4118-abec-0a34d54bcda2"
   },
   {
     "id": "43105",
     "title": "Lego Vidiyo 43105",
-    "price": 8.58,
-    "link": "https://www.vinted.fr/items/5367456461-lego-vidiyo-43105",
-    "published": 1731344968,
-    "uuid": "215ffa85-96fa-4c3d-8c5c-56521d01773e"
+    "price": 14.35,
+    "link": "https://www.vinted.fr/items/5479732200-lego-vidiyo-43105",
+    "published": 1733253249,
+    "uuid": "aa918704-0e50-496f-be7a-7350ff21eaee"
   },
   {
     "id": "43105",
-    "title": "Lego vidiyo 43105 neuf",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/3672635207-lego-vidiyo-43105-neuf",
-    "published": 1698417667,
-    "uuid": "8c9c93be-c0a6-4321-a29f-5565847d52f1"
-  },
-  {
-    "id": "43105",
-    "title": "Lot de jeux",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/5446223956-lot-de-jeux",
-    "published": 1732635226,
-    "uuid": "8fa9e3bd-346d-4558-8aff-814a1e0d5272"
+    "title": "Légo Vidiyo Party Llama BeatBox (43105)",
+    "price": 7,
+    "link": "https://www.vinted.fr/items/2601334358-lego-vidiyo-party-llama-beatbox-43105",
+    "published": 1674035116,
+    "uuid": "9d95269c-cb2b-46a7-a758-392fa09edadd"
   },
   {
     "id": "43105",
@@ -101,71 +53,7 @@
     "price": 7,
     "link": "https://www.vinted.fr/items/4135959429-lego-vidiyo-43105-party-llama-beatbox",
     "published": 1708683706,
-    "uuid": "3b09c948-5bf2-4087-a877-5a5cf5683de3"
-  },
-  {
-    "id": "43105",
-    "title": "Party Llama beatbox lego neuf",
-    "price": 7,
-    "link": "https://www.vinted.fr/items/5313520262-party-llama-beatbox-lego-neuf",
-    "published": 1730486940,
-    "uuid": "6b9320d5-8bf0-4e08-88d6-5d0cb1aa3dd4"
-  },
-  {
-    "id": "43105",
-    "title": "Lego - vidiyo - 43105 - party llama - BeatBox",
-    "price": 5.94,
-    "link": "https://www.vinted.fr/items/3835886982-lego-vidiyo-43105-party-llama-beatbox",
-    "published": 1701523849,
-    "uuid": "fcf7b75b-f453-49e9-9b86-eb65a6934076"
-  },
-  {
-    "id": "43105",
-    "title": "Lego vidiyo 43105",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/2556682057-lego-vidiyo-43105",
-    "published": 1672835003,
-    "uuid": "cf05904a-7aa9-48b6-ac61-d351c555ff66"
-  },
-  {
-    "id": "43105",
-    "title": "Lego vidiyo",
-    "price": 5.95,
-    "link": "https://www.vinted.fr/items/3889337611-lego-vidiyo",
-    "published": 1702801717,
-    "uuid": "295d71dd-ee84-4be0-bca9-bd5c02f60582"
-  },
-  {
-    "id": "43105",
-    "title": "Lego vidivo 43105 MISB",
-    "price": 4.9,
-    "link": "https://www.vinted.fr/items/4448297093-lego-vidivo-43105-misb",
-    "published": 1714668620,
-    "uuid": "f899e3cb-8480-4384-931a-a0ce3ac632dc"
-  },
-  {
-    "id": "43105",
-    "title": "Lego Vidiyo 43105 neuf boîte scellée",
-    "price": 5.95,
-    "link": "https://www.vinted.fr/items/4942357850-lego-vidiyo-43105-neuf-boite-scellee",
-    "published": 1724681191,
-    "uuid": "9cd2cfd4-4940-4539-94d9-e61394a7b146"
-  },
-  {
-    "id": "43105",
-    "title": "Neuf lego 43105 vidiyo lama",
-    "price": 5.95,
-    "link": "https://www.vinted.fr/items/4939438496-neuf-lego-43105-vidiyo-lama",
-    "published": 1724618661,
-    "uuid": "b6d27904-7294-4a9b-aab1-a64f6ecba70c"
-  },
-  {
-    "id": "43105",
-    "title": "LEGO Vidiyo - Set 43105",
-    "price": 11.19,
-    "link": "https://www.vinted.fr/items/5278713107-lego-vidiyo-set-43105",
-    "published": 1729934589,
-    "uuid": "a8e21638-1fb3-434e-8d79-442b8497b49b"
+    "uuid": "fc97fc25-ac0b-4bda-958c-b9289fca5c42"
   },
   {
     "id": "43105",
@@ -173,143 +61,39 @@
     "price": 11.2,
     "link": "https://www.vinted.fr/items/5283102770-lot-de-3-sets-lego-vidiyo-43103-43105-et-43106",
     "published": 1729979895,
-    "uuid": "7e804012-e30a-4dfb-b67c-62c1f5e3de2a"
+    "uuid": "013af941-d112-44d8-9e9c-cc30baf65840"
   },
   {
     "id": "43105",
-    "title": "Lego VIDIYO  43105",
-    "price": 5.95,
-    "link": "https://www.vinted.fr/items/5139848602-lego-vidiyo-43105",
-    "published": 1727779282,
-    "uuid": "d550736e-b37f-43c0-bf54-144a861f99bf"
-  },
-  {
-    "id": "43105",
-    "title": "Lego Vidiyo-43105",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/4211457156-lego-vidiyo-43105",
-    "published": 1710177632,
-    "uuid": "7aa28e14-e4d3-43a0-aac3-4a6d68d82046"
-  },
-  {
-    "id": "43105",
-    "title": "Lego vidiyo 43105",
-    "price": 12.25,
-    "link": "https://www.vinted.fr/items/4730103205-lego-vidiyo-43105",
-    "published": 1720269558,
-    "uuid": "9a9504fd-b8a3-4781-972c-80dbb3cada99"
-  },
-  {
-    "id": "43105",
-    "title": "Lego vidiyo neuf Party Llama BeatBox ",
-    "price": 4.9,
-    "link": "https://www.vinted.fr/items/4104529969-lego-vidiyo-neuf-party-llama-beatbox",
-    "published": 1712902958,
-    "uuid": "2489aed1-91ce-479c-9beb-cbad011cbce7"
-  },
-  {
-    "id": "43105",
-    "title": "Lego 43105 Vidiyo",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/5425782672-lego-43105-vidiyo",
-    "published": 1732305619,
-    "uuid": "dc1c6f37-e8ae-492c-ad87-2e6a10aa903a"
-  },
-  {
-    "id": "43105",
-    "title": "Lego Vidiyo - 43105 - Neuf",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/4209704672-lego-vidiyo-43105-neuf",
-    "published": 1710157677,
-    "uuid": "f130d290-e57a-49ad-9e9a-c3e2f79555e2"
-  },
-  {
-    "id": "43105",
-    "title": "Lego 43105",
+    "title": "Party Llama beatbox lego neuf",
     "price": 7,
-    "link": "https://www.vinted.fr/items/3221641038-lego-43105",
-    "published": 1688892238,
-    "uuid": "6df6d937-bec8-4dd3-a683-6b7bdc1d2258"
+    "link": "https://www.vinted.fr/items/5313520262-party-llama-beatbox-lego-neuf",
+    "published": 1730486940,
+    "uuid": "4acf39da-2e36-46ac-bfa3-2000af9db970"
   },
   {
     "id": "43105",
-    "title": "Lego Vidiyo 43105",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/5170933855-lego-vidiyo-43105",
-    "published": 1728229195,
-    "uuid": "a74f00c5-6899-42f0-b346-cec013ff0c57"
+    "title": "Lego Vidiyo \"Party Lama Beatbox\" 43105",
+    "price": 5.95,
+    "link": "https://www.vinted.fr/items/5387801205-lego-vidiyo-party-lama-beatbox-43105",
+    "published": 1731695789,
+    "uuid": "7b4d32d9-bd1c-4738-9180-d8fa9968616d"
   },
   {
     "id": "43105",
-    "title": "Lego Vidiyo 43105",
-    "price": 8.05,
-    "link": "https://www.vinted.fr/items/4039853860-lego-vidiyo-43105",
-    "published": 1706560832,
-    "uuid": "ad9a9521-98b4-4867-a539-672fa52b0109"
+    "title": "Lego 43105 neuf",
+    "price": 8.58,
+    "link": "https://www.vinted.fr/items/5308364583-lego-43105-neuf",
+    "published": 1730394656,
+    "uuid": "3b596ce1-de42-4b21-a569-b639fcfc9a95"
   },
   {
     "id": "43105",
-    "title": "Lego vidiyo 43104 43105",
-    "price": 21.7,
-    "link": "https://www.vinted.fr/items/5445020559-lego-vidiyo-43104-43105",
-    "published": 1732622212,
-    "uuid": "9aac94e2-79f6-49f9-903c-f09dca5251e6"
-  },
-  {
-    "id": "43105",
-    "title": "Lego Vidiyo 43106, 43103, 43105",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/3352786486-lego-vidiyo-43106-43103-43105",
-    "published": 1692096383,
-    "uuid": "217edbd8-7ded-4f77-bc7a-525654d97709"
-  },
-  {
-    "id": "43105",
-    "title": "LEGO 43105 vidiyo llama party",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/4966921540-lego-43105-vidiyo-llama-party",
-    "published": 1725119108,
-    "uuid": "8e158920-f3b2-47b4-8b66-761b12c8db32"
-  },
-  {
-    "id": "43105",
-    "title": "LEGO 43105 Vidiyo Party Llama BeatBox Neu / OVP*",
-    "price": 4.9,
-    "link": "https://www.vinted.fr/items/2868746069-lego-43105-vidiyo-party-llama-beatbox-neu-ovp",
-    "published": 1680667668,
-    "uuid": "5c456406-89bb-4ea3-bb80-98bef8f7632e"
-  },
-  {
-    "id": "43105",
-    "title": "Lego Vidiyo 43105",
-    "price": 8.05,
-    "link": "https://www.vinted.fr/items/2453315082-lego-vidiyo-43105",
-    "published": 1669362687,
-    "uuid": "edfe7dc0-53e0-4250-88ad-7157e97cbd76"
-  },
-  {
-    "id": "43105",
-    "title": "Lot de 2 Lego Vidiyo 43105 et 43106",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/2626226321-lot-de-2-lego-vidiyo-43105-et-43106",
-    "published": 1674673981,
-    "uuid": "2481e697-60a5-4d4a-aea5-3e0ec6ebc495"
-  },
-  {
-    "id": "43105",
-    "title": "Vidiyo Lego 43105 Party Llama Beatbox",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/4173656860-vidiyo-lego-43105-party-llama-beatbox",
-    "published": 1709452405,
-    "uuid": "3025a252-e5df-4f3e-b242-0eb32fe2a304"
-  },
-  {
-    "id": "43105",
-    "title": "LEGO vidiyo 43105",
-    "price": 14.35,
-    "link": "https://www.vinted.fr/items/4174876342-lego-vidiyo-43105",
-    "published": 1709466621,
-    "uuid": "b3dc8a34-4b18-47ea-8624-3c07fd535a3b"
+    "title": "Lego VIDIYO",
+    "price": 7,
+    "link": "https://www.vinted.fr/items/5465514096-lego-vidiyo",
+    "published": 1733006068,
+    "uuid": "62c8f981-6600-4b9e-83c6-e16eb0c83ff6"
   },
   {
     "id": "43105",
@@ -317,23 +101,95 @@
     "price": 13.3,
     "link": "https://www.vinted.fr/items/5323333870-lot-2-boites-lego-vidiyo-43105-et-43107-comme-neuves",
     "published": 1730644093,
-    "uuid": "c88b60b9-e751-47ca-b457-99b07a77e968"
+    "uuid": "7a8478b7-ccae-42f8-a966-595ee879e5c7"
   },
   {
     "id": "43105",
-    "title": "Lot 5 boîtes lego Vidiyo NEUVES",
-    "price": 42.7,
-    "link": "https://www.vinted.fr/items/5435694962-lot-5-boites-lego-vidiyo-neuves",
-    "published": 1732461964,
-    "uuid": "2bb80f38-82df-4bf7-b71d-0df9b1877d9a"
+    "title": "Lego Vidiyo 43105 neuf boîte scellée",
+    "price": 5.95,
+    "link": "https://www.vinted.fr/items/4942357850-lego-vidiyo-43105-neuf-boite-scellee",
+    "published": 1724681191,
+    "uuid": "8cadf417-f2ce-410e-92ee-b32b9a64a2f6"
   },
   {
     "id": "43105",
-    "title": "Lego music vidéo maker 43105 Lama",
-    "price": 10.15,
-    "link": "https://www.vinted.fr/items/4946003657-lego-music-video-maker-43105-lama",
-    "published": 1724752172,
-    "uuid": "44c67943-cd7a-497b-b695-8eebd6d84674"
+    "title": "Lego vidiyo",
+    "price": 5.95,
+    "link": "https://www.vinted.fr/items/3889337611-lego-vidiyo",
+    "published": 1702801717,
+    "uuid": "bafb784b-f83f-416d-9012-3138d2108a86"
+  },
+  {
+    "id": "43105",
+    "title": "Lot de jeux",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/5446223956-lot-de-jeux",
+    "published": 1732635226,
+    "uuid": "4028ede2-5eea-4467-9f54-4c8dd16262d5"
+  },
+  {
+    "id": "43105",
+    "title": "Lego Vidiyo 43105",
+    "price": 8.58,
+    "link": "https://www.vinted.fr/items/5367456461-lego-vidiyo-43105",
+    "published": 1731344968,
+    "uuid": "0700a63a-dad4-488b-9c29-243982913b15"
+  },
+  {
+    "id": "43105",
+    "title": "Lego Vidiyo 43105",
+    "price": 5.95,
+    "link": "https://www.vinted.fr/items/5400025266-lego-vidiyo-43105",
+    "published": 1731865289,
+    "uuid": "7bbefa39-5b76-4102-9655-c9e533e24e14"
+  },
+  {
+    "id": "43105",
+    "title": "Lego vidivo 43105 MISB",
+    "price": 4.9,
+    "link": "https://www.vinted.fr/items/4448297093-lego-vidivo-43105-misb",
+    "published": 1714668620,
+    "uuid": "ea620828-7868-4f88-bf90-f3b22cf3597c"
+  },
+  {
+    "id": "43105",
+    "title": "Lego vidiyo 43105 neuf",
+    "price": 9.1,
+    "link": "https://www.vinted.fr/items/3672635207-lego-vidiyo-43105-neuf",
+    "published": 1698417667,
+    "uuid": "4f23d97f-6548-4bad-b40b-0d1c983bfe22"
+  },
+  {
+    "id": "43105",
+    "title": "Lego VIDIYO  43105",
+    "price": 5.95,
+    "link": "https://www.vinted.fr/items/5139848602-lego-vidiyo-43105",
+    "published": 1727779282,
+    "uuid": "3f0b38a9-8785-4287-8327-7c91d242810b"
+  },
+  {
+    "id": "43105",
+    "title": "Neuf lego 43105 vidiyo lama",
+    "price": 5.95,
+    "link": "https://www.vinted.fr/items/4939438496-neuf-lego-43105-vidiyo-lama",
+    "published": 1724618661,
+    "uuid": "9961e0ac-b185-414e-8a89-044bb200a002"
+  },
+  {
+    "id": "43105",
+    "title": "Lego Vidiyo 43105",
+    "price": 8.05,
+    "link": "https://www.vinted.fr/items/4039853860-lego-vidiyo-43105",
+    "published": 1706560832,
+    "uuid": "72157b31-f771-4ad7-8fd5-ccc483097c91"
+  },
+  {
+    "id": "43105",
+    "title": "Lego 43105",
+    "price": 9.1,
+    "link": "https://www.vinted.fr/items/3027355573-lego-43105",
+    "published": 1684245776,
+    "uuid": "9448fa4c-4740-46b3-8ef6-09a2ef5fc09b"
   },
   {
     "id": "43105",
@@ -341,191 +197,23 @@
     "price": 5.95,
     "link": "https://www.vinted.fr/items/2707368668-lego-neuf-reference-43105",
     "published": 1676820016,
-    "uuid": "568a58ba-e54c-4f23-a1a9-93ab6c221450"
+    "uuid": "ad865980-b016-4362-b589-fd3f2777ab72"
   },
   {
     "id": "43105",
     "title": "Lego 43105",
-    "price": 16.45,
-    "link": "https://www.vinted.fr/items/4168348398-lego-43105",
-    "published": 1709318510,
-    "uuid": "88d58431-c7c1-4921-ae4b-d3f35be89f9c"
-  },
-  {
-    "id": "43105",
-    "title": "LEGO Vidiyo set 43105",
-    "price": 5.95,
-    "link": "https://www.vinted.fr/items/3661594027-lego-vidiyo-set-43105",
-    "published": 1698221830,
-    "uuid": "f072579b-5446-40d7-af17-c93e205746ae"
-  },
-  {
-    "id": "43105",
-    "title": "Lego 43105",
-    "price": 21.7,
-    "link": "https://www.vinted.fr/items/4138902820-lego-43105",
-    "published": 1708727275,
-    "uuid": "14b97f31-23ee-4baf-bee0-b38526976dbd"
-  },
-  {
-    "id": "43105",
-    "title": "Lego 43105",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/2408136326-lego-43105",
-    "published": 1668246608,
-    "uuid": "00b5c40e-e307-4fda-8373-e5314fa35445"
-  },
-  {
-    "id": "43105",
-    "title": "Lego Party Llama 43105",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/4250640140-lego-party-llama-43105",
-    "published": 1710962544,
-    "uuid": "e2db0516-d0be-4c1b-8a30-c09308ec9e4f"
-  },
-  {
-    "id": "43105",
-    "title": "Lego  43105 Vidiyo",
-    "price": 5.95,
-    "link": "https://www.vinted.fr/items/3146194438-lego-43105-vidiyo",
-    "published": 1687008854,
-    "uuid": "2316c44e-34ac-4560-8694-329958d0ec0b"
-  },
-  {
-    "id": "43105",
-    "title": "LEGO-Vidiyo",
-    "price": 5.95,
-    "link": "https://www.vinted.fr/items/4980471988-lego-vidiyo",
-    "published": 1725358265,
-    "uuid": "556d0cc2-05c9-4966-8cd0-d1717d847020"
-  },
-  {
-    "id": "43105",
-    "title": "Lego Vidiyo",
     "price": 7,
-    "link": "https://www.vinted.fr/items/3833346539-lego-vidiyo",
-    "published": 1701452672,
-    "uuid": "02eba0f2-b700-4fa7-b946-7751ca3e8374"
+    "link": "https://www.vinted.fr/items/3221641038-lego-43105",
+    "published": 1688892238,
+    "uuid": "58a7edc6-e7ce-464d-ad14-8aeba0a3ac3c"
   },
   {
     "id": "43105",
-    "title": "Lego 43105 Vidiyo Party Llama BeatBox Neuf",
-    "price": 8.05,
-    "link": "https://www.vinted.fr/items/5319734118-lego-43105-vidiyo-party-llama-beatbox-neuf",
-    "published": 1730585681,
-    "uuid": "09681470-bdeb-4986-b39f-599c02840fd4"
-  },
-  {
-    "id": "43105",
-    "title": "Lego Party Llama BeatBox",
-    "price": 8.05,
-    "link": "https://www.vinted.fr/items/3152270926-lego-party-llama-beatbox",
-    "published": 1687152965,
-    "uuid": "32649cae-e3f2-44c7-a4b5-7e384730f037"
-  },
-  {
-    "id": "43105",
-    "title": "Nieuw in doos lego vidiyo 43105 party llama beatbox",
-    "price": 8.58,
-    "link": "https://www.vinted.fr/items/4859285057-nieuw-in-doos-lego-vidiyo-43105-party-llama-beatbox",
-    "published": 1723040375,
-    "uuid": "5d6733d3-9ad4-4f4d-bbba-ed820823fa76"
-  },
-  {
-    "id": "43105",
-    "title": "Lego Vidiyo BeatBox - Party Llama BeatBox - cod.43105",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/4457754463-lego-vidiyo-beatbox-party-llama-beatbox-cod43105",
-    "published": 1714850447,
-    "uuid": "56f9f6c5-f727-4280-9ce9-85f49622bca0"
-  },
-  {
-    "id": "43105",
-    "title": "Lego Vidiyo 43105 Party Llama Beatbox (Nieuw!)",
-    "price": 5.95,
-    "link": "https://www.vinted.fr/items/3825039484-lego-vidiyo-43105-party-llama-beatbox-nieuw",
-    "published": 1701265789,
-    "uuid": "a0521e86-1e59-4aa1-bf76-2f44c9cb027e"
-  },
-  {
-    "id": "43105",
-    "title": "Lego Vidiyo 43105 neuf",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/2534102083-lego-vidiyo-43105-neuf",
-    "published": 1672060903,
-    "uuid": "c2a33af6-e57d-4ab9-ad20-cc4804db8d81"
-  },
-  {
-    "id": "43105",
-    "title": "Lego Vidiyo 43105 Neu",
-    "price": 5.95,
-    "link": "https://www.vinted.fr/items/4380198500-lego-vidiyo-43105-neu",
-    "published": 1713422096,
-    "uuid": "07ac21f5-f20c-4b27-831b-283e92067bd0"
-  },
-  {
-    "id": "43105",
-    "title": "Lego 43105 Party llama beatbox",
-    "price": 5.95,
-    "link": "https://www.vinted.fr/items/2705480986-lego-43105-party-llama-beatbox",
-    "published": 1676800795,
-    "uuid": "2ac04b28-b05a-446f-a689-f03dd00adf36"
-  },
-  {
-    "id": "43105",
-    "title": "Lego vidiyo ",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/3973720334-lego-vidiyo",
-    "published": 1705162169,
-    "uuid": "b9a32268-edef-435d-9eed-8e00fb268b80"
-  },
-  {
-    "id": "43105",
-    "title": "lego vidiyo 43105",
-    "price": 19.6,
-    "link": "https://www.vinted.fr/items/4052871851-lego-vidiyo-43105",
-    "published": 1706882710,
-    "uuid": "f7cd0fc9-9c5e-4553-b4e4-a5a9d03c976c"
-  },
-  {
-    "id": "43105",
-    "title": "Lego 43105 Vidiyo",
-    "price": 8.05,
-    "link": "https://www.vinted.fr/items/3877798143-lego-43105-vidiyo",
-    "published": 1702462184,
-    "uuid": "699ceeb8-79f7-4b24-92f6-ef0c75d4cf31"
-  },
-  {
-    "id": "43105",
-    "title": "Vidiyo lama neuf lego",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/4074668195-vidiyo-lama-neuf-lego",
-    "published": 1707329552,
-    "uuid": "800bb2b2-08ed-4b26-8133-a6a91b37abba"
-  },
-  {
-    "id": "43105",
-    "title": "Lego Vidiyo 43105",
-    "price": 16.45,
-    "link": "https://www.vinted.fr/items/3926618020-lego-vidiyo-43105",
-    "published": 1704115348,
-    "uuid": "b31a66d2-1fcd-44a8-b02c-6904896c5059"
-  },
-  {
-    "id": "43105",
-    "title": "LEGO Vidiyo Party Llama Beatbox 43105 - Neuf Scellé",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/3884929980-lego-vidiyo-party-llama-beatbox-43105-neuf-scelle",
-    "published": 1702649742,
-    "uuid": "79ff0666-3a67-4979-8547-7f8f90e1690f"
-  },
-  {
-    "id": "43105",
-    "title": "Lego vidiyo - party Llama beatbox ",
-    "price": 13.3,
-    "link": "https://www.vinted.fr/items/3302553304-lego-vidiyo-party-llama-beatbox",
-    "published": 1690908031,
-    "uuid": "1d7f3d0b-fb30-4203-a5d5-4acb07b1a2d7"
+    "title": "Lego - vidiyo - 43105 - party llama - BeatBox",
+    "price": 5.94,
+    "link": "https://www.vinted.fr/items/3835886982-lego-vidiyo-43105-party-llama-beatbox",
+    "published": 1701523849,
+    "uuid": "eeb3c69f-df7c-4052-905c-1399524ec928"
   },
   {
     "id": "43105",
@@ -533,7 +221,151 @@
     "price": 11.2,
     "link": "https://www.vinted.fr/items/4181144458-party-llama-beatbox-43105-lego",
     "published": 1709563261,
-    "uuid": "80e07c85-abcb-45b0-9e79-c9bfebcd6a02"
+    "uuid": "7b7068a6-131a-494e-9a50-89b207092561"
+  },
+  {
+    "id": "43105",
+    "title": "Lego Vidiyo 43105",
+    "price": 8.05,
+    "link": "https://www.vinted.fr/items/2453315082-lego-vidiyo-43105",
+    "published": 1669362687,
+    "uuid": "ac40cf4e-f6c3-4a4f-b2eb-0af298c2c0f6"
+  },
+  {
+    "id": "43105",
+    "title": "Lego Vidiyo - 43105 - Neuf",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/4209704672-lego-vidiyo-43105-neuf",
+    "published": 1710157677,
+    "uuid": "d6c81d95-f1ca-4b76-b6cf-2b7b50052c99"
+  },
+  {
+    "id": "43105",
+    "title": "Lego Vidiyo-43105",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/4211457156-lego-vidiyo-43105",
+    "published": 1710177632,
+    "uuid": "8138d8d0-5237-482a-815a-5b8a6924a1ef"
+  },
+  {
+    "id": "43105",
+    "title": "Lego 43105 Vidiyo",
+    "price": 9.1,
+    "link": "https://www.vinted.fr/items/5425782672-lego-43105-vidiyo",
+    "published": 1732305619,
+    "uuid": "10ce8981-00a8-403a-b299-16188e7512fa"
+  },
+  {
+    "id": "43105",
+    "title": "LEGO 43105 vidiyo llama party",
+    "price": 9.1,
+    "link": "https://www.vinted.fr/items/4966921540-lego-43105-vidiyo-llama-party",
+    "published": 1725119108,
+    "uuid": "882cb67b-27ad-4634-9887-a2006de0509a"
+  },
+  {
+    "id": "43105",
+    "title": "Lego vidiyo neuf Party Llama BeatBox ",
+    "price": 4.9,
+    "link": "https://www.vinted.fr/items/4104529969-lego-vidiyo-neuf-party-llama-beatbox",
+    "published": 1712902958,
+    "uuid": "f0a25cdc-e1fa-471b-8b65-3a85b95e6059"
+  },
+  {
+    "id": "43105",
+    "title": "Vidiyo Lego 43105 Party Llama Beatbox",
+    "price": 9.1,
+    "link": "https://www.vinted.fr/items/4173656860-vidiyo-lego-43105-party-llama-beatbox",
+    "published": 1709452405,
+    "uuid": "b5ea5714-0a08-4f41-b9f9-396cb7c0abea"
+  },
+  {
+    "id": "43105",
+    "title": "Lego 43105 Vidiyo Party Llama BeatBox Neuf",
+    "price": 8.05,
+    "link": "https://www.vinted.fr/items/5319734118-lego-43105-vidiyo-party-llama-beatbox-neuf",
+    "published": 1730585681,
+    "uuid": "6953f51a-5953-42aa-b6d0-81a2d66418df"
+  },
+  {
+    "id": "43105",
+    "title": "Party Llama BeatBox Lego Vidiyo",
+    "price": 13.3,
+    "link": "https://www.vinted.fr/items/5462299011-party-llama-beatbox-lego-vidiyo",
+    "published": 1732966534,
+    "uuid": "44771861-5e69-4e0c-b9d3-2d72006dbaef"
+  },
+  {
+    "id": "43105",
+    "title": "Lego 43105 Vidiyo",
+    "price": 8.05,
+    "link": "https://www.vinted.fr/items/3877798143-lego-43105-vidiyo",
+    "published": 1702462184,
+    "uuid": "86556b11-3085-4a23-93bf-d8a0b646eed7"
+  },
+  {
+    "id": "43105",
+    "title": "LEGO-Vidiyo",
+    "price": 5.95,
+    "link": "https://www.vinted.fr/items/4980471988-lego-vidiyo",
+    "published": 1725358265,
+    "uuid": "f3fa97f0-51fd-4741-b865-7a17d66db045"
+  },
+  {
+    "id": "43105",
+    "title": "LEGO vidiyo 43105",
+    "price": 14.35,
+    "link": "https://www.vinted.fr/items/4174876342-lego-vidiyo-43105",
+    "published": 1709466621,
+    "uuid": "87ce7c4d-2f8b-4585-9829-fdda3409cb57"
+  },
+  {
+    "id": "43105",
+    "title": "Lego 43105 Party llama beatbox",
+    "price": 5.95,
+    "link": "https://www.vinted.fr/items/2705480986-lego-43105-party-llama-beatbox",
+    "published": 1676800795,
+    "uuid": "45936d2d-ae38-4517-ba2d-803bdd8d7246"
+  },
+  {
+    "id": "43105",
+    "title": "Lego Vidiyo 43105",
+    "price": 9.1,
+    "link": "https://www.vinted.fr/items/5170933855-lego-vidiyo-43105",
+    "published": 1728229195,
+    "uuid": "bf31dc09-6650-49bb-9dfa-b3352e3f52cc"
+  },
+  {
+    "id": "43105",
+    "title": "Lego  43105 Vidiyo",
+    "price": 5.95,
+    "link": "https://www.vinted.fr/items/3146194438-lego-43105-vidiyo",
+    "published": 1687008854,
+    "uuid": "b2df5753-fe14-4099-bd36-c82599a2a488"
+  },
+  {
+    "id": "43105",
+    "title": "Lego Vidiyo 43105 Neu",
+    "price": 5.95,
+    "link": "https://www.vinted.fr/items/4380198500-lego-vidiyo-43105-neu",
+    "published": 1713422096,
+    "uuid": "c511fea1-b15c-4111-a6fe-4d358319e487"
+  },
+  {
+    "id": "43105",
+    "title": "Lego vidiyo 43105",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/2556682057-lego-vidiyo-43105",
+    "published": 1672835003,
+    "uuid": "c2dbc4af-5dd0-41c6-afe3-bc012cf008e6"
+  },
+  {
+    "id": "43105",
+    "title": "Lego Vidiyo BeatBox - Party Llama BeatBox - cod.43105",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/4457754463-lego-vidiyo-beatbox-party-llama-beatbox-cod43105",
+    "published": 1714850447,
+    "uuid": "4be5c920-b332-4872-9ca8-36dab44a2c27"
   },
   {
     "id": "43105",
@@ -541,63 +373,15 @@
     "price": 5.95,
     "link": "https://www.vinted.fr/items/4169321938-lego-43105-music-vidiyo-maker",
     "published": 1709367899,
-    "uuid": "375dfdd3-4705-43ba-9944-5a83486720b4"
+    "uuid": "ef2e6c92-1b27-402a-95a0-d4685bca816b"
   },
   {
     "id": "43105",
-    "title": "Lego Vidiyo 43105 Lama",
-    "price": 4.9,
-    "link": "https://www.vinted.fr/items/4738031412-lego-vidiyo-43105-lama",
-    "published": 1720425614,
-    "uuid": "b8a7e66e-5e04-4d28-8441-5da218149170"
-  },
-  {
-    "id": "43105",
-    "title": "Lego 43105 Music Video Maker",
-    "price": 8.58,
-    "link": "https://www.vinted.fr/items/2809094790-lego-43105-music-video-maker",
-    "published": 1679305035,
-    "uuid": "fe3ae707-ff47-4457-ac5d-b577d9fa3cf3"
-  },
-  {
-    "id": "43105",
-    "title": "LEGO 43105 Vidiyo Party Llama Beatbox Ostern",
-    "price": 7,
-    "link": "https://www.vinted.fr/items/2893269817-lego-43105-vidiyo-party-llama-beatbox-ostern",
-    "published": 1681289844,
-    "uuid": "efd050f2-faa6-411b-8be3-d382fe6a38fb"
-  },
-  {
-    "id": "43105",
-    "title": "Vidiyo Lego 43105",
-    "price": 5.95,
-    "link": "https://www.vinted.fr/items/3491026635-vidiyo-lego-43105",
-    "published": 1695057854,
-    "uuid": "33955374-146f-4f9f-91bc-cc1026101009"
-  },
-  {
-    "id": "43105",
-    "title": "Lego Vidiyo 43105",
-    "price": 5.95,
-    "link": "https://www.vinted.fr/items/2042454336-lego-vidiyo-43105",
-    "published": 1658132074,
-    "uuid": "0782607a-5a02-4cb2-9159-49c6ae47eb76"
-  },
-  {
-    "id": "43105",
-    "title": "Lot 5 lego vidiyo",
-    "price": 41.65,
-    "link": "https://www.vinted.fr/items/5343004777-lot-5-lego-vidiyo",
-    "published": 1730983354,
-    "uuid": "f3520ca0-4834-4208-be7a-c6d6589ed5fd"
-  },
-  {
-    "id": "43105",
-    "title": "LEGO 43105 Party Llama Beatbox",
-    "price": 5.95,
-    "link": "https://www.vinted.fr/items/3005331650-lego-43105-party-llama-beatbox",
-    "published": 1683740549,
-    "uuid": "25abb12c-5170-4c8c-971e-9b7a6f9bad8c"
+    "title": "Lego Party Llama 43105",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/4250640140-lego-party-llama-43105",
+    "published": 1710962544,
+    "uuid": "667d8209-6414-4ac3-b8a2-bd7ff8e01bf2"
   },
   {
     "id": "43105",
@@ -605,47 +389,15 @@
     "price": 5.43,
     "link": "https://www.vinted.fr/items/3574772918-lego-vidiyo-43105",
     "published": 1696685877,
-    "uuid": "04a0a69d-c048-4b92-aa26-5e0ac0235d96"
+    "uuid": "e582dcc5-5478-4585-8d95-b859b6637e8b"
   },
   {
     "id": "43105",
-    "title": "Lego 43105 Vidiy Party Llama BeatBox",
-    "price": 5.95,
-    "link": "https://www.vinted.fr/items/3195003096-lego-43105-vidiy-party-llama-beatbox",
-    "published": 1688221522,
-    "uuid": "aa64065c-d475-4267-86b3-e7d531857760"
-  },
-  {
-    "id": "43105",
-    "title": "Lego Vidiyo",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/1686416559-lego-vidiyo",
-    "published": 1646944192,
-    "uuid": "f1dfd1d6-c4ee-4273-bf3c-1d050a4bb8da"
-  },
-  {
-    "id": "43105",
-    "title": "Lego Vidiyo 43105 party Lama beatbox alpaca Summer",
-    "price": 7.53,
-    "link": "https://www.vinted.fr/items/4696467328-lego-vidiyo-43105-party-lama-beatbox-alpaca-summer",
-    "published": 1719564633,
-    "uuid": "86b76a87-d0aa-407e-abc0-72413d8f84d0"
-  },
-  {
-    "id": "43105",
-    "title": "Vidiyo Lego",
-    "price": 5.95,
-    "link": "https://www.vinted.fr/items/3550740590-vidiyo-lego",
-    "published": 1696189407,
-    "uuid": "57e27898-54ce-4c68-99ef-b1b945fafdf7"
-  },
-  {
-    "id": "43105",
-    "title": "Lego VIDIYO 43105",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/4327483076-lego-vidiyo-43105",
-    "published": 1712481612,
-    "uuid": "c548dc20-af31-4923-875e-26184896d62b"
+    "title": "Nieuw in doos lego vidiyo 43105 party llama beatbox",
+    "price": 8.58,
+    "link": "https://www.vinted.fr/items/4859285057-nieuw-in-doos-lego-vidiyo-43105-party-llama-beatbox",
+    "published": 1723040375,
+    "uuid": "a8be70d6-38b4-4d1c-b2af-7e54047d4c2c"
   },
   {
     "id": "43105",
@@ -653,15 +405,143 @@
     "price": 9.1,
     "link": "https://www.vinted.fr/items/4367445740-lego-43105-vidiyo-party-llama-beatbox",
     "published": 1713183091,
-    "uuid": "b0598860-792c-4fb2-a794-8d03edc40691"
+    "uuid": "02b7025f-b6c3-4192-b600-9cb5ba9cb5ae"
   },
   {
     "id": "43105",
-    "title": "\"Party Llama BeatBox\" 43105, LEGO Vidiyo",
-    "price": 5.94,
-    "link": "https://www.vinted.fr/items/2571524822-party-llama-beatbox-43105-lego-vidiyo",
-    "published": 1673205738,
-    "uuid": "c45f7714-89c3-4563-918a-298de33f513a"
+    "title": "Lego vidiyo 43105",
+    "price": 12.25,
+    "link": "https://www.vinted.fr/items/4730103205-lego-vidiyo-43105",
+    "published": 1720269558,
+    "uuid": "10c34ff0-9165-47d7-b1e3-3965cc07690f"
+  },
+  {
+    "id": "43105",
+    "title": "Lego Vidiyo 43106, 43103, 43105",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/3352786486-lego-vidiyo-43106-43103-43105",
+    "published": 1692096383,
+    "uuid": "6a37b237-94ac-4ff2-9744-0948db2c0228"
+  },
+  {
+    "id": "43105",
+    "title": "Lego Vidiyo",
+    "price": 7,
+    "link": "https://www.vinted.fr/items/3833346539-lego-vidiyo",
+    "published": 1701452672,
+    "uuid": "182512e0-2498-4e89-ab5d-15e6b964fba1"
+  },
+  {
+    "id": "43105",
+    "title": "Lego Vidiyo 43105 Party Llama Beatbox (Nieuw!)",
+    "price": 5.95,
+    "link": "https://www.vinted.fr/items/3825039484-lego-vidiyo-43105-party-llama-beatbox-nieuw",
+    "published": 1701265789,
+    "uuid": "18d71363-54fe-4956-b3eb-918c499b507a"
+  },
+  {
+    "id": "43105",
+    "title": "LEGO 43105 Vidiyo Party Llama Beatbox Ostern",
+    "price": 7,
+    "link": "https://www.vinted.fr/items/2893269817-lego-43105-vidiyo-party-llama-beatbox-ostern",
+    "published": 1681289844,
+    "uuid": "b745b821-3bd8-483e-8e93-8dd5fff2aff9"
+  },
+  {
+    "id": "43105",
+    "title": "LEGO Vidiyo Party Llama Beatbox 43105 - Neuf Scellé",
+    "price": 9.1,
+    "link": "https://www.vinted.fr/items/3884929980-lego-vidiyo-party-llama-beatbox-43105-neuf-scelle",
+    "published": 1702649742,
+    "uuid": "af35d498-c28d-4a31-baaf-737b015c75e1"
+  },
+  {
+    "id": "43105",
+    "title": "LEGO 43105 Party Llama Beatbox",
+    "price": 5.95,
+    "link": "https://www.vinted.fr/items/3005331650-lego-43105-party-llama-beatbox",
+    "published": 1683740549,
+    "uuid": "7f9eb676-8568-448d-9537-e16ab7949dd4"
+  },
+  {
+    "id": "43105",
+    "title": "LEGO 43105 Vidiyo Party Llama BeatBox Neu / OVP*",
+    "price": 4.9,
+    "link": "https://www.vinted.fr/items/2868746069-lego-43105-vidiyo-party-llama-beatbox-neu-ovp",
+    "published": 1680667668,
+    "uuid": "c78c2062-de8b-4133-8bce-4bbe46838805"
+  },
+  {
+    "id": "43105",
+    "title": "Lego 43105 Music Video Maker",
+    "price": 8.58,
+    "link": "https://www.vinted.fr/items/2809094790-lego-43105-music-video-maker",
+    "published": 1679305035,
+    "uuid": "c4edb0bd-0d77-4a57-bb6b-4da02d84f739"
+  },
+  {
+    "id": "43105",
+    "title": "Lego Vidiyo 43105 Lama",
+    "price": 4.9,
+    "link": "https://www.vinted.fr/items/4738031412-lego-vidiyo-43105-lama",
+    "published": 1720425614,
+    "uuid": "cbeef086-5e0e-494f-b327-9c7e3f59e54c"
+  },
+  {
+    "id": "43105",
+    "title": "Lego Vidiyo 43105 neuf",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/2534102083-lego-vidiyo-43105-neuf",
+    "published": 1672060903,
+    "uuid": "1dcb477f-e35b-4168-8e7b-6d61fb13d357"
+  },
+  {
+    "id": "43105",
+    "title": "Lot de 2 Lego Vidiyo 43105 et 43106",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/2626226321-lot-de-2-lego-vidiyo-43105-et-43106",
+    "published": 1674673981,
+    "uuid": "0f1c0b17-b748-47e0-926e-1e7e427a23cb"
+  },
+  {
+    "id": "43105",
+    "title": "Lego 43105",
+    "price": 16.45,
+    "link": "https://www.vinted.fr/items/4168348398-lego-43105",
+    "published": 1709318510,
+    "uuid": "e04bdf0b-652d-47ab-9dd1-2f462119fda9"
+  },
+  {
+    "id": "43105",
+    "title": "Lego vidiyo ",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/3973720334-lego-vidiyo",
+    "published": 1705162169,
+    "uuid": "ad3e8278-274a-4c2f-b4c9-2329d97b26db"
+  },
+  {
+    "id": "43105",
+    "title": "Lot 2 boîtes Lego 43105 et 43106",
+    "price": 17.5,
+    "link": "https://www.vinted.fr/items/5453526708-lot-2-boites-lego-43105-et-43106",
+    "published": 1732786518,
+    "uuid": "043bd202-9a18-4b3f-a9f0-a1affa357b10"
+  },
+  {
+    "id": "43105",
+    "title": "Lego Vidiyo 43105",
+    "price": 16.45,
+    "link": "https://www.vinted.fr/items/3926618020-lego-vidiyo-43105",
+    "published": 1704115348,
+    "uuid": "56539cee-0259-4cb4-89db-ed8f2a0e87a2"
+  },
+  {
+    "id": "43105",
+    "title": "Lego Vidiyo 43105 party Lama beatbox alpaca Summer",
+    "price": 7.53,
+    "link": "https://www.vinted.fr/items/4696467328-lego-vidiyo-43105-party-lama-beatbox-alpaca-summer",
+    "published": 1719564633,
+    "uuid": "0828816a-6c75-4755-b66a-ef22ef96450b"
   },
   {
     "id": "43105",
@@ -669,7 +549,47 @@
     "price": 5.95,
     "link": "https://www.vinted.fr/items/3680143110-lego-vidiyo-43105",
     "published": 1698576150,
-    "uuid": "9df5cb1c-071a-41bb-aceb-95a6464135c8"
+    "uuid": "cce8df7a-7d35-41cf-9dc9-f93d95371bad"
+  },
+  {
+    "id": "43105",
+    "title": "Vidiyo Lego 43105",
+    "price": 5.95,
+    "link": "https://www.vinted.fr/items/3491026635-vidiyo-lego-43105",
+    "published": 1695057854,
+    "uuid": "30a655ba-515e-4a56-8b48-3b9c88c53a8d"
+  },
+  {
+    "id": "43105",
+    "title": "Lego 43105",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/2408136326-lego-43105",
+    "published": 1668246608,
+    "uuid": "0944f1cf-5e5c-4bb9-99d3-f26cc986f053"
+  },
+  {
+    "id": "43105",
+    "title": "Lego 43105 Vidiy Party Llama BeatBox",
+    "price": 5.95,
+    "link": "https://www.vinted.fr/items/3195003096-lego-43105-vidiy-party-llama-beatbox",
+    "published": 1688221522,
+    "uuid": "aa771bcd-acbb-4ef3-b5b2-2a41324580e1"
+  },
+  {
+    "id": "43105",
+    "title": "Lego vidiyo - party Llama beatbox ",
+    "price": 13.3,
+    "link": "https://www.vinted.fr/items/3302553304-lego-vidiyo-party-llama-beatbox",
+    "published": 1690908031,
+    "uuid": "f60c070b-a4d4-4a1c-a983-d30364f4d8b8"
+  },
+  {
+    "id": "43105",
+    "title": "LEGO Vidiyo set 43105",
+    "price": 5.95,
+    "link": "https://www.vinted.fr/items/3661594027-lego-vidiyo-set-43105",
+    "published": 1698221830,
+    "uuid": "2d542d01-f898-4989-bd66-1f12c2873a1c"
   },
   {
     "id": "43105",
@@ -677,7 +597,39 @@
     "price": 16.45,
     "link": "https://www.vinted.fr/items/5401115335-lego-vidiyo-43105",
     "published": 1731873907,
-    "uuid": "7cc27b9f-30c5-4c57-ba01-f7f5c20f58b2"
+    "uuid": "58e3d02d-d495-4d13-b60f-928975115be8"
+  },
+  {
+    "id": "43105",
+    "title": "Lego 43105",
+    "price": 21.7,
+    "link": "https://www.vinted.fr/items/4138902820-lego-43105",
+    "published": 1708727275,
+    "uuid": "2cd09a82-ccb6-4720-b05d-011c1753af36"
+  },
+  {
+    "id": "43105",
+    "title": "LEG0 Vidiyo Party Llama Beatbox 43105 Beatbox",
+    "price": 7,
+    "link": "https://www.vinted.fr/items/4624015834-leg0-vidiyo-party-llama-beatbox-43105-beatbox",
+    "published": 1718026987,
+    "uuid": "2ae1e315-c981-4969-99a7-26ec93ed5aff"
+  },
+  {
+    "id": "43105",
+    "title": "lego vidiyo 43105",
+    "price": 19.6,
+    "link": "https://www.vinted.fr/items/4052871851-lego-vidiyo-43105",
+    "published": 1706882710,
+    "uuid": "75b9a1f4-3e4d-423a-b75b-7439fbfede61"
+  },
+  {
+    "id": "43105",
+    "title": "Lego VIDIYO 43105",
+    "price": 9.1,
+    "link": "https://www.vinted.fr/items/4327483076-lego-vidiyo-43105",
+    "published": 1712481612,
+    "uuid": "6e628830-b81f-4c68-b54c-c2069f0ad1a2"
   },
   {
     "id": "43105",
@@ -685,55 +637,7 @@
     "price": 11.2,
     "link": "https://www.vinted.fr/items/3498072371-lego-43105-vidiyo-party-lama-beatbox-nieuw",
     "published": 1695212087,
-    "uuid": "80413db9-49d2-42b9-853e-39c28249960c"
-  },
-  {
-    "id": "43105",
-    "title": "Lego vidiyo 43105",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/2009780425-lego-vidiyo-43105",
-    "published": 1656874166,
-    "uuid": "fa72d10b-6e4e-4cdd-9259-4f554b215605"
-  },
-  {
-    "id": "43105",
-    "title": "Lego Vidiyo",
-    "price": 21.7,
-    "link": "https://www.vinted.fr/items/1447812701-lego-vidiyo",
-    "published": 1637058368,
-    "uuid": "c02603e2-f481-46de-8a33-bd0518e583b5"
-  },
-  {
-    "id": "43105",
-    "title": "Lego Vidiyo 43105 Party Llama Beatbox MISB",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/4743479294-lego-vidiyo-43105-party-llama-beatbox-misb",
-    "published": 1720527905,
-    "uuid": "ada88a81-1ffc-4669-a0e7-2b8ade5275ca"
-  },
-  {
-    "id": "43105",
-    "title": "Lego vidiyo, réalisateur de clips vidéo, légo 43105 Lama festif, NEUF",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/1421073195-lego-vidiyo-realisateur-de-clips-video-lego-43105-lama-festif-neuf",
-    "published": 1636045205,
-    "uuid": "7c0b0441-d85f-45a4-befb-f030a5868285"
-  },
-  {
-    "id": "43105",
-    "title": "Lego Vidiyo / Boîte 43105",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/1245787288-lego-vidiyo-boite-43105",
-    "published": 1628268223,
-    "uuid": "612ced5b-5ad5-4dbd-81f6-6d8ce5093623"
-  },
-  {
-    "id": "43105",
-    "title": "Lego vidiyo ",
-    "price": 13.3,
-    "link": "https://www.vinted.fr/items/3760172732-lego-vidiyo",
-    "published": 1699982896,
-    "uuid": "a4782acd-1ecc-4960-8590-826cd27e881e"
+    "uuid": "ec35aa19-47ce-4d4a-bc36-9eecbdabec9f"
   },
   {
     "id": "43105",
@@ -741,23 +645,55 @@
     "price": 9.1,
     "link": "https://www.vinted.fr/items/1669331998-lego-vidiyo-43105-party-llama-beatbox",
     "published": 1646246686,
-    "uuid": "5024332c-6ed6-4e06-b6ef-0a0c06d71a22"
+    "uuid": "dd58ec75-fc24-4f2c-9566-22364b92a81c"
   },
   {
     "id": "43105",
-    "title": "Lot de 3 boîtes de Lego vidiyo neuves et scellées : 43104 alien - 43105 lama - 43106 licorne",
+    "title": "\"Party Llama BeatBox\" 43105, LEGO Vidiyo",
+    "price": 5.94,
+    "link": "https://www.vinted.fr/items/2571524822-party-llama-beatbox-43105-lego-vidiyo",
+    "published": 1673205738,
+    "uuid": "b262a982-0b88-4e86-8b76-1b8c06005819"
+  },
+  {
+    "id": "43105",
+    "title": "Vidiyo Lego",
+    "price": 5.95,
+    "link": "https://www.vinted.fr/items/3550740590-vidiyo-lego",
+    "published": 1696189407,
+    "uuid": "6576f6d5-c5c6-4c17-8d86-46b6db3662e2"
+  },
+  {
+    "id": "43105",
+    "title": "lot lego vidiyo",
+    "price": 23.8,
+    "link": "https://www.vinted.fr/items/5469508656-lot-lego-vidiyo",
+    "published": 1733071533,
+    "uuid": "ab78ff56-f7b7-4073-812d-3fc69dc4b674"
+  },
+  {
+    "id": "43105",
+    "title": "Lot Lego Vidiyo et Moto Stuntz",
     "price": 26.95,
-    "link": "https://www.vinted.fr/items/3337922229-lot-de-3-boites-de-lego-vidiyo-neuves-et-scellees-43104-alien-43105-lama-43106-licorne",
-    "published": 1691734764,
-    "uuid": "d79a9740-5619-4371-a6b0-0b8cfa0aee16"
+    "link": "https://www.vinted.fr/items/5461851250-lot-lego-vidiyo-et-moto-stuntz",
+    "published": 1732962171,
+    "uuid": "384fc3d4-782e-4240-a82a-559b65796974"
   },
   {
     "id": "43105",
-    "title": "Lot lego Vidiyo neufs + moto stuntz ",
-    "price": 29.05,
-    "link": "https://www.vinted.fr/items/3872590371-lot-lego-vidiyo-neufs-moto-stuntz",
-    "published": 1702316928,
-    "uuid": "a808d69c-bea7-45a4-8d37-89ef7a0b6cc9"
+    "title": "Lego Vidiyo 43105",
+    "price": 5.95,
+    "link": "https://www.vinted.fr/items/2042454336-lego-vidiyo-43105",
+    "published": 1658132074,
+    "uuid": "87049d22-4ee4-422f-a58b-adefcd5a2e84"
+  },
+  {
+    "id": "43105",
+    "title": "Lego Vidiyo / Boîte 43105",
+    "price": 9.1,
+    "link": "https://www.vinted.fr/items/1245787288-lego-vidiyo-boite-43105",
+    "published": 1628268223,
+    "uuid": "fb61a06c-ef33-48dd-b5e4-33fccd2789d2"
   },
   {
     "id": "43105",
@@ -765,31 +701,63 @@
     "price": 5.95,
     "link": "https://www.vinted.fr/items/3317554036-lego-43105-vidiyo-party-llama-beatbox-96-y-otro-lego-sorpresa-con-mas-beats-ver-fotos",
     "published": 1691255718,
-    "uuid": "723f9d1f-8738-4c7f-a4e8-fde6d25fb2c5"
+    "uuid": "30101a68-54bd-4f17-af82-97816c23aa7f"
   },
   {
     "id": "43105",
-    "title": "Lot lego Vidiyo neufs + moto stuntz ",
-    "price": 29.05,
-    "link": "https://www.vinted.fr/items/3872590371-lot-lego-vidiyo-neufs-moto-stuntz",
-    "published": 1702316928,
-    "uuid": "fd201eac-8fb7-493b-bf93-c8dcd1ce073b"
+    "title": "Lego vidiyo ",
+    "price": 13.3,
+    "link": "https://www.vinted.fr/items/3760172732-lego-vidiyo",
+    "published": 1699982896,
+    "uuid": "fed267af-b490-4f07-bb2a-2fec0b82d2a4"
   },
   {
     "id": "43105",
-    "title": "Lego Vidiyo Party Llama Beatbox",
-    "price": 10.15,
-    "link": "https://www.vinted.fr/items/1685822949-lego-vidiyo-party-llama-beatbox",
-    "published": 1646926642,
-    "uuid": "7932fc15-9f10-49f3-bf01-a8fc32ebbe35"
+    "title": "Lego vidiyo, réalisateur de clips vidéo, légo 43105 Lama festif, NEUF",
+    "price": 9.1,
+    "link": "https://www.vinted.fr/items/1421073195-lego-vidiyo-realisateur-de-clips-video-lego-43105-lama-festif-neuf",
+    "published": 1636045205,
+    "uuid": "094677c7-09b2-48be-98dc-14f5de2e8b29"
   },
   {
     "id": "43105",
-    "title": "Lego 43105 nuovo",
-    "price": 8.05,
-    "link": "https://www.vinted.fr/items/1735869854-lego-43105-nuovo",
-    "published": 1648907821,
-    "uuid": "c60e9c2f-994e-4270-b482-54c087bacbce"
+    "title": "LEGO Vidiyo 43105 Party Llama Beatbox",
+    "price": 12.25,
+    "link": "https://www.vinted.fr/items/2965931364-lego-vidiyo-43105-party-llama-beatbox",
+    "published": 1682932037,
+    "uuid": "bb03314b-c8c7-459d-bf23-b364497def47"
+  },
+  {
+    "id": "43105",
+    "title": "Lego VIdiyo Beatbox - Party llama 43105",
+    "price": 7,
+    "link": "https://www.vinted.fr/items/2165991435-lego-vidiyo-beatbox-party-llama-43105",
+    "published": 1662302679,
+    "uuid": "5f8cae3a-b087-400a-b67f-c2dcb97d5e23"
+  },
+  {
+    "id": "43105",
+    "title": "Lego Vidiyo",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/1686416559-lego-vidiyo",
+    "published": 1646944192,
+    "uuid": "85788d69-e431-4698-8c2f-bde9bcc3695f"
+  },
+  {
+    "id": "43105",
+    "title": "Lot 5 lego vidiyo",
+    "price": 41.65,
+    "link": "https://www.vinted.fr/items/5343004777-lot-5-lego-vidiyo",
+    "published": 1730983354,
+    "uuid": "bcd086b0-c61b-4f32-964f-670fcc04a414"
+  },
+  {
+    "id": "43105",
+    "title": "Lego vidiyo lama",
+    "price": 7,
+    "link": "https://www.vinted.fr/items/2503827510-lego-vidiyo-lama",
+    "published": 1670781939,
+    "uuid": "da24aa19-b56a-4757-8de3-d89cbf3ffcb6"
   },
   {
     "id": "43105",
@@ -797,71 +765,31 @@
     "price": 19.71,
     "link": "https://www.vinted.fr/items/4284774368-lego-43105-party-llama-beatbox",
     "published": 1711637917,
-    "uuid": "5a2e4dfc-69ee-49cc-b3d2-95988fd71bc0"
-  },
-  {
-    "id": "43105",
-    "title": "Lego Llama vidiyo kit 43105",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/3039242304-lego-llama-vidiyo-kit-43105",
-    "published": 1684515589,
-    "uuid": "af4a0bc6-20a3-4176-878d-2b822a5f59be"
-  },
-  {
-    "id": "43105",
-    "title": "Lego - Natal -  Santa's Workshop - 40565 selado",
-    "price": 41.64,
-    "link": "https://www.vinted.fr/items/3893388390-lego-natal-santas-workshop-40565-selado",
-    "published": 1702899617,
-    "uuid": "3503a877-9aa0-4bcd-8d9b-94857b6babff"
-  },
-  {
-    "id": "43105",
-    "title": "Lego Vidyo 43105",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/1964439427-lego-vidyo-43105",
-    "published": 1655235473,
-    "uuid": "3e1fb22e-6d1a-480d-8729-8ea5c7cd0bf1"
-  },
-  {
-    "id": "43105",
-    "title": "Lote de 4 lego Vidiyo",
-    "price": 21.7,
-    "link": "https://www.vinted.fr/items/4520464507-lote-de-4-lego-vidiyo",
-    "published": 1716045300,
-    "uuid": "0ebd1faf-bce8-40dc-ad35-da56595d2f7c"
+    "uuid": "d7e2cdc6-ab4a-4ec7-b765-8e7536f8b613"
   },
   {
     "id": "43105",
     "title": "Lego Vidiyo",
-    "price": 21.7,
-    "link": "https://www.vinted.fr/items/1447812701-lego-vidiyo",
-    "published": 1637058368,
-    "uuid": "1335cf91-58a3-46b3-b800-c4020a2749b4"
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/1686416559-lego-vidiyo",
+    "published": 1646944192,
+    "uuid": "6fa925a6-61ff-4852-b502-336cbe65233c"
   },
   {
     "id": "43105",
-    "title": "Party Llama BeatBox Lego Vidiyo \n\n\n",
-    "price": 13.3,
-    "link": "https://www.vinted.fr/items/1564749043-party-llama-beatbox-lego-vidiyo",
-    "published": 1642258264,
-    "uuid": "b0dbc456-0c7c-4d21-9efc-fdde441fadb9"
+    "title": "LEGO Vidiyo 43105 Party Llama Beatbox",
+    "price": 12.25,
+    "link": "https://www.vinted.fr/items/2965931364-lego-vidiyo-43105-party-llama-beatbox",
+    "published": 1682932037,
+    "uuid": "f2d3e7f5-be10-4bd5-baef-42b43b716127"
   },
   {
     "id": "43105",
-    "title": "Lot de 2 Legos ",
-    "price": 26.95,
-    "link": "https://www.vinted.fr/items/3996572551-lot-de-2-legos",
-    "published": 1705661480,
-    "uuid": "7c21ebe7-c06e-462a-adf8-fcc541be404d"
-  },
-  {
-    "id": "43105",
-    "title": "Lego 43105 Vidiyo - Party Lama Beatbox - MISB",
-    "price": 16.45,
-    "link": "https://www.vinted.fr/items/2680491106-lego-43105-vidiyo-party-lama-beatbox-misb",
-    "published": 1676119377,
-    "uuid": "ae931a21-ee07-418c-bada-0d5636ccd31e"
+    "title": "Lego Vidiyo 43105 Party Llama Beatbox MISB",
+    "price": 9.1,
+    "link": "https://www.vinted.fr/items/4743479294-lego-vidiyo-43105-party-llama-beatbox-misb",
+    "published": 1720527905,
+    "uuid": "35285fe2-3ac9-4764-9851-e79fb5c809de"
   },
   {
     "id": "43105",
@@ -869,15 +797,47 @@
     "price": 16.45,
     "link": "https://www.vinted.fr/items/1581145914-lego-vidiyo-43105-party-llama-beatbox-15-euros",
     "published": 1642877601,
-    "uuid": "d30e060d-50c5-4d77-846b-5d788a7239ad"
+    "uuid": "4b38c2e6-c238-4859-9e2e-ca074b8a2302"
   },
   {
     "id": "43105",
-    "title": "Lego Vidiyo Party Llama Beatbox 43105",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/4104570920-lego-vidiyo-party-llama-beatbox-43105",
-    "published": 1708013246,
-    "uuid": "7bf28833-b1f6-4d2c-92ad-003daec1a511"
+    "title": "Lego vidiyo lama",
+    "price": 7,
+    "link": "https://www.vinted.fr/items/2503827510-lego-vidiyo-lama",
+    "published": 1670781939,
+    "uuid": "396e6463-27b5-41e5-afc3-cc834972b378"
+  },
+  {
+    "id": "43105",
+    "title": "Lego VIdiyo Beatbox - Party llama 43105",
+    "price": 7,
+    "link": "https://www.vinted.fr/items/2165991435-lego-vidiyo-beatbox-party-llama-43105",
+    "published": 1662302679,
+    "uuid": "0416611a-22fe-410f-a7df-c5dc31bc5ae0"
+  },
+  {
+    "id": "43105",
+    "title": "Lego 43105 Vidiyo - Party Lama Beatbox - MISB",
+    "price": 16.45,
+    "link": "https://www.vinted.fr/items/2680491106-lego-43105-vidiyo-party-lama-beatbox-misb",
+    "published": 1676119377,
+    "uuid": "6197a57c-07a3-4566-a28e-10f525c89b9f"
+  },
+  {
+    "id": "43105",
+    "title": "Lego 43105 nuovo",
+    "price": 8.05,
+    "link": "https://www.vinted.fr/items/1735869854-lego-43105-nuovo",
+    "published": 1648907821,
+    "uuid": "199af92b-66a3-4c9c-bd1a-c26d930ef62e"
+  },
+  {
+    "id": "43105",
+    "title": "Lote de 4 lego Vidiyo",
+    "price": 21.7,
+    "link": "https://www.vinted.fr/items/4520464507-lote-de-4-lego-vidiyo",
+    "published": 1716045300,
+    "uuid": "af089057-78aa-422c-8800-576d27ec6a65"
   },
   {
     "id": "43105",
@@ -885,39 +845,7 @@
     "price": 37.45,
     "link": "https://www.vinted.fr/items/5057707554-lego-vidiyo-43102-43103-43104-43105-43106",
     "published": 1726512102,
-    "uuid": "b84cb77b-b1c6-4629-9961-589d9c8d7d0a"
-  },
-  {
-    "id": "43105",
-    "title": "LEGO Vidiyo",
-    "price": 19.6,
-    "link": "https://www.vinted.fr/items/1448223302-lego-vidiyo",
-    "published": 1637069255,
-    "uuid": "21e45b5a-d964-405d-88ef-e1721aea6e13"
-  },
-  {
-    "id": "43105",
-    "title": "Lot lego vidiyo ",
-    "price": 32.2,
-    "link": "https://www.vinted.fr/items/2277293830-lot-lego-vidiyo",
-    "published": 1664958892,
-    "uuid": "d08f73a5-581c-4638-8fb5-d7344cd9a60f"
-  },
-  {
-    "id": "43105",
-    "title": "Lego Vidiyo Party Llama BeatBox (43105)",
-    "price": 20.13,
-    "link": "https://www.vinted.fr/items/1541509266-lego-vidiyo-party-llama-beatbox-43105",
-    "published": 1641333415,
-    "uuid": "ae0a21d2-3782-4043-bc42-fc2b3a943828"
-  },
-  {
-    "id": "43105",
-    "title": "Lego vidiyo 43102 - 43103 - 43105 - 43106 - 43107",
-    "price": 37.45,
-    "link": "https://www.vinted.fr/items/4627939349-lego-vidiyo-43102-43103-43105-43106-43107",
-    "published": 1718104791,
-    "uuid": "418bab9f-bdde-4255-bb9d-ef8b4b910e30"
+    "uuid": "fefd374b-8cac-4c41-b669-9b1d92e150b9"
   },
   {
     "id": "43105",
@@ -925,39 +853,39 @@
     "price": 26.9,
     "link": "https://www.vinted.fr/items/2488920520-4-sets-lego-vidiyo-43104-43105-43106-43107",
     "published": 1670340144,
-    "uuid": "19a597a2-8bd4-44f8-ab3f-42154d479eb4"
+    "uuid": "d9167ce3-ecc7-4441-b2d7-2415141ab4ea"
   },
   {
     "id": "43105",
-    "title": "Lot boîtes promotionnelles : Lego Friends et vidiyo",
-    "price": 21.7,
-    "link": "https://www.vinted.fr/items/3163738666-lot-boites-promotionnelles-lego-friends-et-vidiyo",
-    "published": 1687424854,
-    "uuid": "74b7dec6-e8e6-45f0-85a8-6b469cc78861"
+    "title": "Lego Llama vidiyo kit 43105",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/3039242304-lego-llama-vidiyo-kit-43105",
+    "published": 1684515589,
+    "uuid": "a49bfb0b-eebf-4f54-8810-722ebdb5930a"
   },
   {
     "id": "43105",
-    "title": "Lego 43102 y 4 más ",
-    "price": 32.2,
-    "link": "https://www.vinted.fr/items/3638837456-lego-43102-y-4-mas",
-    "published": 1697835485,
-    "uuid": "fc8b2531-ae52-48ed-8e3a-d422e25d26bb"
-  },
-  {
-    "id": "43105",
-    "title": "Lot de 3 set Lego vidiyo",
-    "price": 28,
-    "link": "https://www.vinted.fr/items/2432225857-lot-de-3-set-lego-vidiyo",
-    "published": 1668848547,
-    "uuid": "d97b6e38-6c1f-408e-a4eb-7cc5bc92ea97"
+    "title": "LEGO Vidiyo",
+    "price": 19.6,
+    "link": "https://www.vinted.fr/items/1448223302-lego-vidiyo",
+    "published": 1637069255,
+    "uuid": "1166f161-e8a1-4392-9703-96af4f4d27ce"
   },
   {
     "id": "43105",
     "title": "Lego 43107 - 43105",
-    "price": 47.95,
+    "price": 42.7,
     "link": "https://www.vinted.fr/items/5296489216-lego-43107-43105",
     "published": 1730197310,
-    "uuid": "916957e5-2698-4f71-b5b3-953c5f0d9501"
+    "uuid": "1fb93fd0-8018-40a0-9370-a60b067ac786"
+  },
+  {
+    "id": "43105",
+    "title": "Lego Vidyo 43105",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/1964439427-lego-vidyo-43105",
+    "published": 1655235473,
+    "uuid": "3f715fda-4e6f-43ec-8e08-deab2e7d70b6"
   },
   {
     "id": "43105",
@@ -965,15 +893,55 @@
     "price": 42.7,
     "link": "https://www.vinted.fr/items/5158746018-lego-vidiyo-4-ref-43102-43103-43104-43105",
     "published": 1728066604,
-    "uuid": "e6eec75e-7431-4df6-a48f-d4ce770c6e5e"
+    "uuid": "2901e8db-8670-40ac-a70f-c3290976abbe"
   },
   {
     "id": "43105",
-    "title": "Lego - Art Floral - 31207 - Selado - Descontinuado",
-    "price": 50.04,
-    "link": "https://www.vinted.fr/items/5236448409-lego-art-floral-31207-selado-descontinuado",
-    "published": 1729248646,
-    "uuid": "99151e86-431c-4959-88d7-c9cde0ae786c"
+    "title": "Lego 43102 y 4 más ",
+    "price": 32.2,
+    "link": "https://www.vinted.fr/items/3638837456-lego-43102-y-4-mas",
+    "published": 1697835485,
+    "uuid": "bc7c0d25-a846-422d-9788-7b1eb187ef4e"
+  },
+  {
+    "id": "43105",
+    "title": "Lego Vidiyo Party Llama Beatbox",
+    "price": 10.15,
+    "link": "https://www.vinted.fr/items/1685822949-lego-vidiyo-party-llama-beatbox",
+    "published": 1646926642,
+    "uuid": "7b846d9e-8115-4eff-b390-b2108a2fdc27"
+  },
+  {
+    "id": "43105",
+    "title": "Lego vidiyo 43102 - 43103 - 43105 - 43106 - 43107",
+    "price": 37.45,
+    "link": "https://www.vinted.fr/items/4627939349-lego-vidiyo-43102-43103-43105-43106-43107",
+    "published": 1718104791,
+    "uuid": "1cabb574-26d8-4c21-9bbe-dc46b554dedd"
+  },
+  {
+    "id": "43105",
+    "title": "Party Llama BeatBox Lego Vidiyo \n\n\n",
+    "price": 13.3,
+    "link": "https://www.vinted.fr/items/1564749043-party-llama-beatbox-lego-vidiyo",
+    "published": 1642258264,
+    "uuid": "5e5f9047-5f9b-4aaa-9ed6-90821fd5f9fa"
+  },
+  {
+    "id": "43105",
+    "title": "Lego Vidiyo Party Llama BeatBox (43105)",
+    "price": 20.13,
+    "link": "https://www.vinted.fr/items/1541509266-lego-vidiyo-party-llama-beatbox-43105",
+    "published": 1641333415,
+    "uuid": "67cf3294-43f6-493a-8557-442aab5cf0bc"
+  },
+  {
+    "id": "43105",
+    "title": "Lego Vidiyo Party Llama Beatbox 43105",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/4104570920-lego-vidiyo-party-llama-beatbox-43105",
+    "published": 1708013246,
+    "uuid": "98139df7-2d4f-4a1d-8ab6-c4004b8cc139"
   },
   {
     "id": "43105",
@@ -981,15 +949,15 @@
     "price": 62.65,
     "link": "https://www.vinted.fr/items/3377927094-lot-figurines-lego-vidiyo-neuves-43102-43103-43104-431054310643107",
     "published": 1692702465,
-    "uuid": "4ebe9951-3cad-486f-9748-4d7c09eb9237"
+    "uuid": "8df71c1e-b8d8-4f3b-b008-2f28b6ae7186"
   },
   {
     "id": "43105",
-    "title": "Lego party Llama beatbox vidiyo",
-    "price": 11.19,
-    "link": "https://www.vinted.fr/items/1284651371-lego-party-llama-beatbox-vidiyo",
-    "published": 1630335637,
-    "uuid": "518f3fc4-76f6-47aa-b168-a13d3cb4bc53"
+    "title": "Lot boîtes promotionnelles : Lego Friends et vidiyo",
+    "price": 21.7,
+    "link": "https://www.vinted.fr/items/3163738666-lot-boites-promotionnelles-lego-friends-et-vidiyo",
+    "published": 1687424854,
+    "uuid": "3a49d33a-2707-424c-bff2-cea1a6f91ab4"
   },
   {
     "id": "43105",
@@ -997,6 +965,30 @@
     "price": 84.7,
     "link": "https://www.vinted.fr/items/3039667965-sets-lego-vidiyo-serie-1",
     "published": 1684522595,
-    "uuid": "fd3c704d-3ae9-4a23-b4bc-9eca0bd40a13"
+    "uuid": "9367f61c-76d1-4eec-ba0c-da30925b77b3"
+  },
+  {
+    "id": "43105",
+    "title": "Lego party Llama beatbox vidiyo",
+    "price": 11.19,
+    "link": "https://www.vinted.fr/items/1284651371-lego-party-llama-beatbox-vidiyo",
+    "published": 1630335637,
+    "uuid": "621ecc5f-db6f-45d6-9bcf-c71365cb540c"
+  },
+  {
+    "id": "43105",
+    "title": "Lot de 3 set Lego vidiyo",
+    "price": 28,
+    "link": "https://www.vinted.fr/items/2432225857-lot-de-3-set-lego-vidiyo",
+    "published": 1668848547,
+    "uuid": "a4e3433f-74a3-4970-a710-01c11b82133a"
+  },
+  {
+    "id": "43105",
+    "title": "Lego - Art Floral - 31207 - Selado - Descontinuado",
+    "price": 50.04,
+    "link": "https://www.vinted.fr/items/5236448409-lego-art-floral-31207-selado-descontinuado",
+    "published": 1729248646,
+    "uuid": "c5358de6-777e-4183-acd4-fb09b4148443"
   }
 ]

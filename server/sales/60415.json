@@ -1,19 +1,27 @@
 [
   {
     "id": "60415",
+    "title": "LEGO 60415",
+    "price": 13.3,
+    "link": "https://www.vinted.fr/items/5461123031-lego-60415",
+    "published": 1732940810,
+    "uuid": "bf68ea8c-0997-4a05-88a6-b94964b2fe8c"
+  },
+  {
+    "id": "60415",
     "title": "Lego City 60415",
     "price": 14.88,
     "link": "https://www.vinted.fr/items/4952878381-lego-city-60415",
     "published": 1724857231,
-    "uuid": "3f0f5144-b43f-453e-9b10-23acb50445aa"
+    "uuid": "80cc5c09-6b99-4160-baa3-233530c64336"
   },
   {
     "id": "60415",
-    "title": "Set Lego City 60415 La Course-Poursuite Entre la Voiture de Police et la Super Voiture",
-    "price": 15.93,
-    "link": "https://www.vinted.fr/items/5426061464-set-lego-city-60415-la-course-poursuite-entre-la-voiture-de-police-et-la-super-voiture",
-    "published": 1732309944,
-    "uuid": "91db1ec1-5bb4-4930-9381-5d8a3da6a0e4"
+    "title": "Lego city 60415",
+    "price": 16.45,
+    "link": "https://www.vinted.fr/items/5457928554-lego-city-60415",
+    "published": 1732875548,
+    "uuid": "c545dc4e-2070-4589-9acc-11e774e757bf"
   },
   {
     "id": "60415",
@@ -21,15 +29,7 @@
     "price": 16.45,
     "link": "https://www.vinted.fr/items/5009700269-lego-60415",
     "published": 1725822436,
-    "uuid": "a4d0bc9b-622a-478f-bf19-93b8be7b9296"
-  },
-  {
-    "id": "60415",
-    "title": "Lego 60415 la course poursuite",
-    "price": 20.65,
-    "link": "https://www.vinted.fr/items/4637863430-lego-60415-la-course-poursuite",
-    "published": 1718291675,
-    "uuid": "d3f0af90-09d3-4141-a173-d5dc8b24cd38"
+    "uuid": "36c00581-b1bc-4269-b9aa-31e44b29d01e"
   },
   {
     "id": "60415",
@@ -37,15 +37,7 @@
     "price": 16.45,
     "link": "https://www.vinted.fr/items/4402197056-jeu-lego-city-60415",
     "published": 1713793601,
-    "uuid": "73ef8d32-eaa0-4454-85cc-c82cafd8521c"
-  },
-  {
-    "id": "60415",
-    "title": "Lego city 60415",
-    "price": 20.65,
-    "link": "https://www.vinted.fr/items/5331465924-lego-city-60415",
-    "published": 1730752280,
-    "uuid": "8ea715b6-4f8f-4aae-ad2b-085ef2748a16"
+    "uuid": "782ee110-6ff4-4b27-9cc7-cec3bae3982d"
   },
   {
     "id": "60415",
@@ -53,7 +45,15 @@
     "price": 21.18,
     "link": "https://www.vinted.fr/items/4165945752-lego-60415",
     "published": 1709287018,
-    "uuid": "9c3039fc-1db5-49aa-b27d-4645f8e5492f"
+    "uuid": "8ed89ad1-2a5c-4366-824c-7dda6cf2157c"
+  },
+  {
+    "id": "60415",
+    "title": "Lego city 60415",
+    "price": 20.65,
+    "link": "https://www.vinted.fr/items/5331465924-lego-city-60415",
+    "published": 1730752280,
+    "uuid": "fa28c091-8aee-4b4f-ac50-1d3b480f2323"
   },
   {
     "id": "60415",
@@ -61,23 +61,23 @@
     "price": 16.45,
     "link": "https://www.vinted.fr/items/5427277234-lego-60415-voiture-police-voleur",
     "published": 1732357354,
-    "uuid": "7869df8e-14e3-4567-b47d-eb83c2c1d838"
+    "uuid": "85ffded7-5cdb-487a-8c79-f14a25abf043"
   },
   {
     "id": "60415",
-    "title": "Lego politie achtervolging set 60415",
-    "price": 20.13,
-    "link": "https://www.vinted.fr/items/5119785029-lego-politie-achtervolging-set-60415",
-    "published": 1727515343,
-    "uuid": "bca5f8e7-1dc5-421b-8131-d0050545c7a0"
+    "title": "Lego City 60415",
+    "price": 18.55,
+    "link": "https://www.vinted.fr/items/5463050882-lego-city-60415",
+    "published": 1732973819,
+    "uuid": "c2e11297-1f99-4fcf-840b-c6721ab5a240"
   },
   {
     "id": "60415",
-    "title": "Lego 60415",
-    "price": 21.7,
-    "link": "https://www.vinted.fr/items/4947652591-lego-60415",
-    "published": 1724768283,
-    "uuid": "847431ca-9ce3-403e-8397-19086cea4856"
+    "title": "Lego 60415 la course poursuite",
+    "price": 20.65,
+    "link": "https://www.vinted.fr/items/4637863430-lego-60415-la-course-poursuite",
+    "published": 1718291675,
+    "uuid": "9609c11f-c681-40de-bad2-8749585792f4"
   },
   {
     "id": "60415",
@@ -85,6 +85,30 @@
     "price": 21.7,
     "link": "https://www.vinted.fr/items/5384167130-lego-60415",
     "published": 1731622011,
-    "uuid": "c2219881-2326-4334-8bcd-74b08f67d984"
+    "uuid": "915cf389-f569-44af-9e6b-ea43cc29d834"
+  },
+  {
+    "id": "60415",
+    "title": "Lego 60415",
+    "price": 21.7,
+    "link": "https://www.vinted.fr/items/4947652591-lego-60415",
+    "published": 1724768283,
+    "uuid": "00ae62cf-50ae-47af-94c8-935b55843564"
+  },
+  {
+    "id": "60415",
+    "title": "3 legos neufs jamais ouvert",
+    "price": 35.35,
+    "link": "https://www.vinted.fr/items/5471656174-3-legos-neufs-jamais-ouvert",
+    "published": 1733118781,
+    "uuid": "e318ab93-d121-46b8-9349-b8b875815f58"
+  },
+  {
+    "id": "60415",
+    "title": "Lego politie achtervolging set 60415",
+    "price": 20.13,
+    "link": "https://www.vinted.fr/items/5119785029-lego-politie-achtervolging-set-60415",
+    "published": 1727515343,
+    "uuid": "d9d95376-9439-4d8b-bb6c-7db43e759a11"
   }
 ]

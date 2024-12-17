@@ -1,19 +1,11 @@
 [
   {
     "id": "75582",
-    "title": "Lego 75582",
-    "price": 47.94,
-    "link": "https://www.vinted.fr/items/4783707856-lego-75582",
-    "published": 1721396181,
-    "uuid": "8031136c-4dff-4786-83f3-e50f7e335117"
-  },
-  {
-    "id": "75582",
     "title": "LEGO 75582 GRU 4 Mi villano favorito y los Minions",
     "price": 47.95,
     "link": "https://www.vinted.fr/items/5378447754-lego-75582-gru-4-mi-villano-favorito-y-los-minions",
     "published": 1731523678,
-    "uuid": "3fef86ab-7c71-4155-8404-d17cf7d90dbc"
+    "uuid": "3d8e8b29-789d-423c-91a7-4516ebfc8082"
   },
   {
     "id": "75582",
@@ -21,7 +13,7 @@
     "price": 52.15,
     "link": "https://www.vinted.fr/items/5446638748-lego-75582",
     "published": 1732639984,
-    "uuid": "d22da66f-1f9b-4795-8c9d-246a01e5b4c3"
+    "uuid": "0f84056a-f407-4f6f-96ab-61406a2b3016"
   },
   {
     "id": "75582",
@@ -29,7 +21,15 @@
     "price": 46.9,
     "link": "https://www.vinted.fr/items/4791939286-lego-75582-verschrikkelijke-ikke",
     "published": 1721579677,
-    "uuid": "7c679ccf-0fe5-4b4a-8b18-d3ed4ce13492"
+    "uuid": "b8bf58dc-82ae-42fa-804d-6848362dd718"
+  },
+  {
+    "id": "75582",
+    "title": "Lego 75582",
+    "price": 47.94,
+    "link": "https://www.vinted.fr/items/4783707856-lego-75582",
+    "published": 1721396181,
+    "uuid": "5dc3d5c4-2ca7-45c6-ba8d-7ee6f10edc13"
   },
   {
     "id": "75582",
@@ -37,6 +37,6 @@
     "price": 52.15,
     "link": "https://www.vinted.fr/items/5411833095-75582-lego-gru-4-mi-villano-favorito-modelo-de-gru-y-los-minions",
     "published": 1732050577,
-    "uuid": "da12a47a-6a22-498a-9e4c-ce85c12bf1b0"
+    "uuid": "4371a013-4240-4f85-a273-85755e45826b"
   }
 ]

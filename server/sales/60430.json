@@ -1,35 +1,19 @@
 [
   {
     "id": "60430",
-    "title": "Lego City N° 60430 : Stuntz",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/5311350662-lego-city-ndeg-60430-stuntz",
-    "published": 1730466166,
-    "uuid": "e7a20e86-54b4-4c9c-8811-70eddd890622"
-  },
-  {
-    "id": "60430",
-    "title": "Lego City 60430 - Neuf sous scellé",
-    "price": 16.45,
-    "link": "https://www.vinted.fr/items/5389314579-lego-city-60430-neuf-sous-scelle",
-    "published": 1731748596,
-    "uuid": "91a5548a-7dec-4c3b-b196-57c2880087ae"
-  },
-  {
-    "id": "60430",
     "title": "Lego City  60430 Interstellar Spaceship Space",
     "price": 13.3,
     "link": "https://www.vinted.fr/items/5442974470-lego-city-60430-interstellar-spaceship-space",
     "published": 1732565135,
-    "uuid": "cc113cbd-bb82-440e-97bb-3a8670dd7fa4"
+    "uuid": "497ab395-c6fa-43d2-9a60-b73394c4e995"
   },
   {
     "id": "60430",
-    "title": "Lego astronave",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/5384757311-lego-astronave",
-    "published": 1731660710,
-    "uuid": "e503f448-02e5-4953-b4ae-03fcc501160a"
+    "title": "«Non Négociable » Lego City Space 60430",
+    "price": 16.45,
+    "link": "https://www.vinted.fr/items/5463863657-non-negociable-lego-city-space-60430",
+    "published": 1732981556,
+    "uuid": "b0b9c641-7fd1-44f8-9935-aa51aaff8932"
   },
   {
     "id": "60430",
@@ -37,7 +21,39 @@
     "price": 15.93,
     "link": "https://www.vinted.fr/items/5359759957-set-lego-city-60430-le-vaisseau-interstellaire",
     "published": 1731252526,
-    "uuid": "cd031a44-b14a-4e4c-978e-0c3ee560c87a"
+    "uuid": "0ebf35ea-a802-402f-992d-0c5cc60e48cb"
+  },
+  {
+    "id": "60430",
+    "title": "Lego city space 60430",
+    "price": 14.35,
+    "link": "https://www.vinted.fr/items/5471432049-lego-city-space-60430",
+    "published": 1733092456,
+    "uuid": "d39482e2-19c7-4b3e-8368-f34a809d23ff"
+  },
+  {
+    "id": "60430",
+    "title": "Lego city 60430",
+    "price": 19.6,
+    "link": "https://www.vinted.fr/items/5458639594-lego-city-60430",
+    "published": 1733153748,
+    "uuid": "4e9901b2-7a58-4d5b-a1b9-a788edd63a70"
+  },
+  {
+    "id": "60430",
+    "title": "Lego city space 60430",
+    "price": 9.1,
+    "link": "https://www.vinted.fr/items/5480523720-lego-city-space-60430",
+    "published": 1733264394,
+    "uuid": "b60eb028-8a53-41f7-b2ab-5e70439fb841"
+  },
+  {
+    "id": "60430",
+    "title": "Lego astronave",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/5384757311-lego-astronave",
+    "published": 1731660710,
+    "uuid": "0c85b717-a9ca-4727-9cdb-6a46eb09e3df"
   },
   {
     "id": "60430",
@@ -45,55 +61,7 @@
     "price": 14.35,
     "link": "https://www.vinted.fr/items/5336988300-lego-60430-ongeopend",
     "published": 1730880946,
-    "uuid": "73a0698e-786c-431e-9045-8d04d67cc791"
-  },
-  {
-    "id": "60430",
-    "title": "Lego de la gamme Space",
-    "price": 26.95,
-    "link": "https://www.vinted.fr/items/5187462262-lego-de-la-gamme-space",
-    "published": 1728479778,
-    "uuid": "5f9ff3b0-4b35-4545-b5dd-9bf36befe78e"
-  },
-  {
-    "id": "60430",
-    "title": "Lego Vaisseau spacial",
-    "price": 16.45,
-    "link": "https://www.vinted.fr/items/5249854279-lego-vaisseau-spacial",
-    "published": 1729436149,
-    "uuid": "4d7de8a8-76e6-4917-9220-378ac7b72c70"
-  },
-  {
-    "id": "60430",
-    "title": "Lego city 60430",
-    "price": 15.4,
-    "link": "https://www.vinted.fr/items/5384520261-lego-city-60430",
-    "published": 1731655384,
-    "uuid": "b9252ab0-3173-4e45-b3a9-7cd0805ff13d"
-  },
-  {
-    "id": "60430",
-    "title": "LEGO City 60430 Raumschiff NEU",
-    "price": 14.35,
-    "link": "https://www.vinted.fr/items/5355826552-lego-city-60430-raumschiff-neu",
-    "published": 1731206371,
-    "uuid": "dabb262f-242e-43e1-8904-69dd563675f1"
-  },
-  {
-    "id": "60430",
-    "title": "Lego 60430 Interstellar Spaceship",
-    "price": 14.35,
-    "link": "https://www.vinted.fr/items/4741013982-lego-60430-interstellar-spaceship",
-    "published": 1720461882,
-    "uuid": "ca59377d-c055-4a0c-9fcb-078a1adb008a"
-  },
-  {
-    "id": "60430",
-    "title": "Lego 60430 neuf non ouvert ",
-    "price": 15.4,
-    "link": "https://www.vinted.fr/items/3763181770-lego-60430-neuf-non-ouvert",
-    "published": 1700053943,
-    "uuid": "5b19e9c1-b258-4983-9769-1a065b7c580f"
+    "uuid": "f00b3006-adb3-4339-acad-2e8a72321317"
   },
   {
     "id": "60430",
@@ -101,87 +69,31 @@
     "price": 15.4,
     "link": "https://www.vinted.fr/items/5423229665-lego-city-space-60430-nave-espacial-interestelar",
     "published": 1732275571,
-    "uuid": "e30535ba-4c5b-4398-a86f-a1d19b25e6c0"
+    "uuid": "d4fe8e33-54af-4d52-a908-83502146283b"
   },
   {
     "id": "60430",
-    "title": "Boîte Lego Space 60430 non ouverte",
-    "price": 19.6,
-    "link": "https://www.vinted.fr/items/5219776107-boite-lego-space-60430-non-ouverte",
-    "published": 1728971331,
-    "uuid": "273b67f8-713c-4b4c-be65-fa7b2293f724"
+    "title": "Lego de la gamme Space",
+    "price": 26.95,
+    "link": "https://www.vinted.fr/items/5187462262-lego-de-la-gamme-space",
+    "published": 1728479778,
+    "uuid": "c788bac2-9c23-4222-a68a-8dfa775c79ae"
   },
   {
     "id": "60430",
-    "title": "Lego 60430 interstellar spaceship",
+    "title": "Lego Vaisseau spacial",
     "price": 16.45,
-    "link": "https://www.vinted.fr/items/4768688682-lego-60430-interstellar-spaceship",
-    "published": 1721057330,
-    "uuid": "029772aa-cf2e-44b1-8af1-73401d3d38e5"
+    "link": "https://www.vinted.fr/items/5249854279-lego-vaisseau-spacial",
+    "published": 1729436149,
+    "uuid": "17a254ca-4cb7-422d-a827-abc1d22f2090"
   },
   {
     "id": "60430",
-    "title": "Lego 60430",
-    "price": 19.6,
-    "link": "https://www.vinted.fr/items/5452598476-lego-60430",
-    "published": 1732741822,
-    "uuid": "430875e3-1004-4327-b6c6-8721034db3de"
-  },
-  {
-    "id": "60430",
-    "title": "Lego City - space - 60430 - neu - interstellar spaceship",
-    "price": 16.45,
-    "link": "https://www.vinted.fr/items/5378063137-lego-city-space-60430-neu-interstellar-spaceship",
-    "published": 1731519519,
-    "uuid": "6c2074d1-c261-46a9-8605-c58bd94d826e"
-  },
-  {
-    "id": "60430",
-    "title": "Lego space",
+    "title": "Lego 60430 neuf non ouvert ",
     "price": 15.4,
-    "link": "https://www.vinted.fr/items/5396073305-lego-space",
-    "published": 1731842685,
-    "uuid": "0d9afeb2-1abd-4c6f-a806-de50a0b5f902"
-  },
-  {
-    "id": "60430",
-    "title": "Lego Interstellar",
-    "price": 19.6,
-    "link": "https://www.vinted.fr/items/5360265139-lego-interstellar",
-    "published": 1731255529,
-    "uuid": "1926b51e-fc46-44b8-9382-26342a495405"
-  },
-  {
-    "id": "60430",
-    "title": "Lego 60430 navette interstellaire",
-    "price": 15.4,
-    "link": "https://www.vinted.fr/items/4789631321-lego-60430-navette-interstellaire",
-    "published": 1721557607,
-    "uuid": "50d86bb2-1291-486b-95f6-a92aad86e89f"
-  },
-  {
-    "id": "60430",
-    "title": "Lego 60430",
-    "price": 16.45,
-    "link": "https://www.vinted.fr/items/4697327075-lego-60430",
-    "published": 1719577792,
-    "uuid": "79491874-55d4-4464-9455-1ee4cb605f9b"
-  },
-  {
-    "id": "60430",
-    "title": "Lego 60430 ",
-    "price": 18.03,
-    "link": "https://www.vinted.fr/items/4306502755-lego-60430",
-    "published": 1712069007,
-    "uuid": "d549a7cc-6c96-4cc6-a71e-a49f56d129f8"
-  },
-  {
-    "id": "60430",
-    "title": "Lego Windscreen 10x4x2 98878",
-    "price": 2.01,
-    "link": "https://www.vinted.fr/items/4866258685-lego-windscreen-10x4x2-98878",
-    "published": 1723195371,
-    "uuid": "b52e26fe-dd09-4c7b-8755-8ff9e0af2d48"
+    "link": "https://www.vinted.fr/items/3763181770-lego-60430-neuf-non-ouvert",
+    "published": 1700053943,
+    "uuid": "71c2146a-1bfc-4a6e-a490-db0e555a306a"
   },
   {
     "id": "60430",
@@ -189,31 +101,103 @@
     "price": 21.7,
     "link": "https://www.vinted.fr/items/5384163353-lego-60430",
     "published": 1731621928,
-    "uuid": "34ac31a9-f17a-4274-b235-204f81a9f17c"
+    "uuid": "77c1979f-c9a6-4e9c-b5a9-3a80da69c4e7"
   },
   {
     "id": "60430",
-    "title": "Lego 60430 Interstellar spaceship NEU",
+    "title": "Lego 60430 interstellar spaceship",
+    "price": 16.45,
+    "link": "https://www.vinted.fr/items/4768688682-lego-60430-interstellar-spaceship",
+    "published": 1721057330,
+    "uuid": "f02cc825-b28f-48d4-b1fc-a9aaff05b23b"
+  },
+  {
+    "id": "60430",
+    "title": "Lego City - space - 60430 - neu - interstellar spaceship",
+    "price": 16.45,
+    "link": "https://www.vinted.fr/items/5378063137-lego-city-space-60430-neu-interstellar-spaceship",
+    "published": 1731519519,
+    "uuid": "57b09f5a-387a-4b99-bcd8-e1bcdb888276"
+  },
+  {
+    "id": "60430",
+    "title": "Lego navicella",
     "price": 15.4,
-    "link": "https://www.vinted.fr/items/4031825762-lego-60430-interstellar-spaceship-neu",
-    "published": 1706437502,
-    "uuid": "6e54a2cc-9223-4f47-a375-84cd1e857684"
+    "link": "https://www.vinted.fr/items/5471104212-lego-navicella",
+    "published": 1733086951,
+    "uuid": "06061a9b-8da3-4c0a-98b3-84a7e7775e22"
   },
   {
     "id": "60430",
-    "title": "Lego City Space 60441 (3-in-1 with 60428 60430 30663) New",
-    "price": 32.19,
-    "link": "https://www.vinted.fr/items/5058268527-lego-city-space-60441-3-in-1-with-60428-60430-30663-new",
-    "published": 1726518393,
-    "uuid": "9d1ed9e9-572e-48c2-b263-153677340829"
+    "title": "Lego 60430 Interstellar Spaceship",
+    "price": 14.35,
+    "link": "https://www.vinted.fr/items/4741013982-lego-60430-interstellar-spaceship",
+    "published": 1720461882,
+    "uuid": "93d7e6b8-16aa-4dc5-97f8-04bcc6cca5e9"
   },
   {
     "id": "60430",
-    "title": "Lego City 60430 - Interstellar Spaceship",
-    "price": 20.65,
-    "link": "https://www.vinted.fr/items/5191810656-lego-city-60430-interstellar-spaceship",
-    "published": 1728556138,
-    "uuid": "5af20b37-0970-44a6-bfe1-e19dbc4cab37"
+    "title": "Lego 60430 ",
+    "price": 18.03,
+    "link": "https://www.vinted.fr/items/4306502755-lego-60430",
+    "published": 1712069007,
+    "uuid": "cbd1c37b-1660-4767-a5d1-fbb6dc39016d"
+  },
+  {
+    "id": "60430",
+    "title": "Lego space",
+    "price": 15.4,
+    "link": "https://www.vinted.fr/items/5396073305-lego-space",
+    "published": 1731842685,
+    "uuid": "5fb44d07-4b18-4c71-8104-6cfa74c98be9"
+  },
+  {
+    "id": "60430",
+    "title": "Lego city 60430",
+    "price": 15.4,
+    "link": "https://www.vinted.fr/items/5384520261-lego-city-60430",
+    "published": 1731655384,
+    "uuid": "8435be11-a537-4198-940c-d719464c1562"
+  },
+  {
+    "id": "60430",
+    "title": "Boîte Lego Space 60430 non ouverte",
+    "price": 19.6,
+    "link": "https://www.vinted.fr/items/5219776107-boite-lego-space-60430-non-ouverte",
+    "published": 1728971331,
+    "uuid": "dc23c0a6-6727-4695-bb32-e7cb23819d1d"
+  },
+  {
+    "id": "60430",
+    "title": "Lego 60430 navette interstellaire",
+    "price": 15.4,
+    "link": "https://www.vinted.fr/items/4789631321-lego-60430-navette-interstellaire",
+    "published": 1721557607,
+    "uuid": "44ae92a9-8aae-4672-936a-e9dbcb3a1cac"
+  },
+  {
+    "id": "60430",
+    "title": "Lego 60430",
+    "price": 19.6,
+    "link": "https://www.vinted.fr/items/5452598476-lego-60430",
+    "published": 1732741822,
+    "uuid": "3fd99f8b-d565-41aa-83ce-f5e174158e94"
+  },
+  {
+    "id": "60430",
+    "title": "Lego Windscreen 10x4x2 98878",
+    "price": 2.01,
+    "link": "https://www.vinted.fr/items/4866258685-lego-windscreen-10x4x2-98878",
+    "published": 1723195371,
+    "uuid": "d08d7c98-ca2f-4462-a6e4-2be9496885d9"
+  },
+  {
+    "id": "60430",
+    "title": "Lego City Space 60430",
+    "price": 20.13,
+    "link": "https://www.vinted.fr/items/5458812158-lego-city-space-60430",
+    "published": 1732887170,
+    "uuid": "15039043-59f6-44cc-b2af-e0dc2802bc58"
   },
   {
     "id": "60430",
@@ -221,7 +205,23 @@
     "price": 19.6,
     "link": "https://www.vinted.fr/items/4139195304-lego-60430",
     "published": 1708761788,
-    "uuid": "e25cfa38-fabb-408e-86f4-94022919a01d"
+    "uuid": "c986edd8-c619-421a-8191-f866857c087d"
+  },
+  {
+    "id": "60430",
+    "title": "Lego 60430",
+    "price": 16.45,
+    "link": "https://www.vinted.fr/items/4697327075-lego-60430",
+    "published": 1719577792,
+    "uuid": "ddd08a42-77b8-48bf-8df5-7bc69a780131"
+  },
+  {
+    "id": "60430",
+    "title": "Lego City 60430 - Interstellar Spaceship",
+    "price": 20.65,
+    "link": "https://www.vinted.fr/items/5191810656-lego-city-60430-interstellar-spaceship",
+    "published": 1728556138,
+    "uuid": "32f4199b-3f88-492c-9104-d3007c2a1b2d"
   },
   {
     "id": "60430",
@@ -229,15 +229,15 @@
     "price": 26.95,
     "link": "https://www.vinted.fr/items/5451446338-lego-city-interstellar-spaceship-60430",
     "published": 1732727744,
-    "uuid": "5ea066e7-8824-435a-a551-c9741054c1ee"
+    "uuid": "a0bba890-ab77-4e2c-b936-9d3ad3c7a26d"
   },
   {
     "id": "60430",
-    "title": "LEGO City 60430 Interstellar Spaceship",
-    "price": 21.7,
-    "link": "https://www.vinted.fr/items/5007016494-lego-city-60430-interstellar-spaceship",
-    "published": 1725805110,
-    "uuid": "08f3ae7f-3434-4249-8046-42cdcc0dceb6"
+    "title": "Lego City Space 60441 (3-in-1 with 60428 60430 30663) New",
+    "price": 32.19,
+    "link": "https://www.vinted.fr/items/5058268527-lego-city-space-60441-3-in-1-with-60428-60430-30663-new",
+    "published": 1726518393,
+    "uuid": "c1d12d42-ad25-46a0-a1fe-08919e7400fd"
   },
   {
     "id": "60430",
@@ -245,6 +245,6 @@
     "price": 36.4,
     "link": "https://www.vinted.fr/items/4891168471-lego-city-pack-les-explorateurs-de-lespace",
     "published": 1723736539,
-    "uuid": "d7010e93-1c6f-49c4-9c92-d42e19c4f125"
+    "uuid": "a4ff7c40-19e3-4cb3-9f48-187e59df6a5c"
   }
 ]

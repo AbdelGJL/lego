@@ -6,34 +6,56 @@
 // const fs = require('fs').promises;
 import { scrape as dealabsScrape } from './websites/dealabs.js';
 import { scrape as vintedScrape } from './websites/vinted.js';
-import * as mongo from './server.js';
+import * as mongo from './scripts/server.js';
 import { promises as fs } from 'fs';
 
+// async function scrapePage(url, website, id = 0) {
+//   if (website === "dealabs") {
+//     try {
+//       const deals = await dealabsScrape(url);
+//       return deals;
+//     } catch (error) {
+//       console.error(`Error scraping ${url}:`, error);
+//       return [];
+//     }
+//   }
+//   else {
+//     try {
+//       const sales = await vintedScrape(url, id);
+//       return sales;
+//     } catch (error) {
+//       console.error(`Error scraping ${url}:`, error);
+//       return [];
+//     }
+//   }
+// }
+
 async function scrapePage(url, website, id = 0) {
-  if (website === "dealabs") {
+  let attempts = 0;
+  const maxAttempts = 5;
+  while (attempts < maxAttempts) {
     try {
-      const deals = await dealabsScrape(url);
-      return deals;
+      if (website === "dealabs") {
+        const deals = await dealabsScrape(url);
+        return deals;
+      } else {
+        const sales = await vintedScrape(url, id);
+        return sales;
+      }
     } catch (error) {
-      console.error(`Error scraping ${url}:`, error);
-      return [];
-    }
-  }
-  else {
-    try {
-      const sales = await vintedScrape(url, id);
-      return sales;
-    } catch (error) {
-      console.error(`Error scraping ${url}:`, error);
-      return [];
+      attempts++;
+      console.error(`Error scraping ${url}, attempt ${attempts} of ${maxAttempts}:`, error);
+      if (attempts >= maxAttempts) {
+        return [];
+      }
     }
   }
 }
 
-async function sandbox(website = 'https://www.dealabs.com/groupe/lego') {
+export async function sandbox(website = 'https://www.dealabs.com/groupe/lego') {
   try {
     await mongo.clearUpdate();
-    
+
     let allDeals = [];
     let page = 1;
     let hasMorePages = true;
@@ -57,15 +79,17 @@ async function sandbox(website = 'https://www.dealabs.com/groupe/lego') {
 
     console.log(`📥 Saving...`);
     await mongo.run(allDeals, "deals");
-    await SaveInJSON(allDeals, "deals");
+    //await SaveInJSON(allDeals, "deals");
     console.log("📂 All deals stored in deals collection !");
 
-    
+
     //Scrapping vinted
     website = 'https://www.vinted.fr/';
     console.log(`🕵️‍♀️  browsing ${website}`);
     let allSales = [];
     let allIds = idsArray(allDeals);
+    //console.log(allIds.length);
+
     //allIds = allIds.filter(item => item !== null);
     for (const id of allIds) {
       page = 1;
@@ -87,14 +111,14 @@ async function sandbox(website = 'https://www.dealabs.com/groupe/lego') {
 
       if (allSales.length !== 0) {
         console.log(`📥 Saving...`);
-        await SaveInJSON(allSales, id);
+        //await SaveInJSON(allSales, id);
         await mongo.run(allSales, id);
         console.log(`📂 All sales of lego ${id} stored in ${id} collection !`);
       }
 
     }
-    
-    
+
+
     process.exit(0);
   } catch (e) {
     console.error(e);
@@ -140,7 +164,7 @@ async function AddManualy(id = "42151") {
 
   if (allSales.length !== 0) {
     console.log(`📥 Saving...`);
-    await SaveInJSON(allSales, id);
+    //await SaveInJSON(allSales, id);
     await mongo.run(allSales, id);
     console.log(`📂 All sales of lego ${id} stored in ${id} collection !`);
   }

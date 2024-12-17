@@ -1,12 +1,12 @@
 //const fetch = (...args) => import('node-fetch').then(module => module.default(...args));
 import fetch from 'node-fetch';
 //import { TokenCookie, headers } from './utils.js'; // Assurez-vous que ces modules existent et sont correctement exportés
-import * as cheerio from 'cheerio';
+//import * as cheerio from 'cheerio';
 //const cheerio = require('cheerio');
 // const { v4: uuidv4 } = require('uuid');
 // const fs = require('fs');
 import { v4 as uuidv4 } from 'uuid';
-import { promises as fs } from 'fs';
+//import { promises as fs } from 'fs';
 
 const headers = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
@@ -31,9 +31,6 @@ const parse = (data, item_id) => {
     const link = item.url;
     const uuid = uuidv4();
     const published = item.photo.high_resolution.timestamp;
-
-
-
     return {
       id,
       title,
@@ -51,34 +48,73 @@ const parse = (data, item_id) => {
  * @param {String} id - item id
  * @returns 
  */
-export async function scrape (url, id) {
-  try {
-    const { csrfToken, cookies } = await TokenCookie();
-    const response = await fetch(url, {
-      headers: {
-        ...headers,
-        'X-Csrf-Token': csrfToken,
-        Cookie: cookies
+// export async function scrape (url, id) {
+//   try {
+//     const { csrfToken, cookies } = await TokenCookie();
+//     const response = await fetch(url, {
+//       headers: {
+//         ...headers,
+//         'X-Csrf-Token': csrfToken,
+//         Cookie: cookies
+//       }
+//     });
+
+//     if (response.ok) {
+//       const data = await response.json();
+//       const jsonData = await parse(data, id);
+//       return jsonData;
+//     } else {
+//       const errorText = await response.text();
+//       console.error(`Response error : status ${response.status} - ${response.statusText}\n${errorText}`);
+//       throw new Error(`Resonse error : status ${response.status} - ${response.statusText}`);
+//     }
+//   } catch (error) {
+//     //console.error("Fetch error :", error);
+//     console.error(`Error scraping ${url}:`, error);
+//     //throw error;
+//     return null;
+//   }
+// }
+
+export async function scrape(url, id) {
+  let attempts = 0;
+  const maxAttempts = 10;
+  const retryDelay = 10000; // 5 seconds delay between retries
+
+  while (attempts < maxAttempts) {
+    try {
+      const { csrfToken, cookies } = await TokenCookie();
+      const response = await fetch(url, {
+        headers: {
+          ...headers,
+          'X-Csrf-Token': csrfToken,
+          Cookie: cookies
+        },
+        timeout: 20000 // 10 seconds timeout
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        const jsonData = await parse(data, id);
+        return jsonData;
+      } else if (response.status === 429) {
+        // Too Many Requests - wait and retry
+        console.warn(`Rate limit exceeded, retrying in ${retryDelay / 1000} seconds...`);
+        await new Promise(resolve => setTimeout(resolve, retryDelay));
+        attempts++;
+      } else {
+        const errorText = await response.text();
+        console.error(`Response error : status ${response.status} - ${response.statusText}\n${errorText}`);
+        throw new Error(`Response error : status ${response.status} - ${response.statusText}`);
       }
-    });
-
-    if (response.ok) {
-      const data = await response.json();
-      const jsonData = await parse(data, id);
-      return jsonData;
-    } else {
-      const errorText = await response.text();
-      console.error(`Response error : status ${response.status} - ${response.statusText}\n${errorText}`);
-      throw new Error(`Resonse error : status ${response.status} - ${response.statusText}`);
+    } catch (error) {
+      attempts++;
+      console.error(`Error scraping ${url}, attempt ${attempts} of ${maxAttempts}:`, error);
+      if (attempts >= maxAttempts) {
+        return null;
+      }
     }
-  } catch (error) {
-    //console.error("Fetch error :", error);
-    console.error(`Error scraping ${url}:`, error);
-    //throw error;
-    return null;
   }
-
-  
 }
 
 async function TokenCookie() {

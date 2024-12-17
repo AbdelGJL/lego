@@ -1,123 +1,35 @@
 [
   {
     "id": "31124",
+    "title": "Lego robot creator",
+    "price": 5.95,
+    "link": "https://www.vinted.fr/items/5480360337-lego-robot-creator",
+    "published": 1733261315,
+    "uuid": "721d5ba5-df32-4719-b9bf-a577f6c9de9f"
+  },
+  {
+    "id": "31124",
+    "title": "Lego  31124 neuf  6+",
+    "price": 6.22,
+    "link": "https://www.vinted.fr/items/5478378294-lego-31124-neuf-6",
+    "published": 1733237050,
+    "uuid": "e3359f2f-6a53-4219-808f-f85d2ffeafeb"
+  },
+  {
+    "id": "31124",
+    "title": "Lego creator réf 31124 NEUF",
+    "price": 8.05,
+    "link": "https://www.vinted.fr/items/5475472578-lego-creator-ref-31124-neuf",
+    "published": 1733169885,
+    "uuid": "062e9bca-b741-4f29-82fe-30d7b09fd3a2"
+  },
+  {
+    "id": "31124",
     "title": "Lego creator 31124",
     "price": 8.05,
     "link": "https://www.vinted.fr/items/5234311663-lego-creator-31124",
     "published": 1729190731,
-    "uuid": "aa630bae-d434-4d64-92f1-fdf25da7efe2"
-  },
-  {
-    "id": "31124",
-    "title": "Lego creator 3 en 1 31124",
-    "price": 10.15,
-    "link": "https://www.vinted.fr/items/5395371445-lego-creator-3-en-1-31124",
-    "published": 1731838292,
-    "uuid": "e4d00643-253d-4433-a27f-4b20014593b1"
-  },
-  {
-    "id": "31124",
-    "title": "Lego creator, 31124, 3 in 1",
-    "price": 5.95,
-    "link": "https://www.vinted.fr/items/5433768509-lego-creator-31124-3-in-1",
-    "published": 1732450432,
-    "uuid": "811ae0e4-5b14-4b05-92dd-3d8da60c2ba8"
-  },
-  {
-    "id": "31124",
-    "title": "Lego creator 31124",
-    "price": 8.05,
-    "link": "https://www.vinted.fr/items/5342042634-lego-creator-31124",
-    "published": 1730972942,
-    "uuid": "1e10c76a-c78c-4f13-9dc4-33fc66484b3d"
-  },
-  {
-    "id": "31124",
-    "title": "Lego 31124 creator 3 en 1 le super robot",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/5186006968-lego-31124-creator-3-en-1-le-super-robot",
-    "published": 1728466552,
-    "uuid": "728da162-5547-430b-a7f7-75aa279f86e5"
-  },
-  {
-    "id": "31124",
-    "title": "Lego Creator 3 en 1 Le super robot",
-    "price": 9.63,
-    "link": "https://www.vinted.fr/items/5445641303-lego-creator-3-en-1-le-super-robot",
-    "published": 1732629120,
-    "uuid": "b289bb45-d568-429e-a501-eadf3efa89d7"
-  },
-  {
-    "id": "31124",
-    "title": "NIEUW lego 6+ set 31124",
-    "price": 8.05,
-    "link": "https://www.vinted.fr/items/4879512641-nieuw-lego-6-set-31124",
-    "published": 1723481615,
-    "uuid": "b3bc6eb2-4e1a-4d13-ba80-6a89067308bc"
-  },
-  {
-    "id": "31124",
-    "title": "LEGO Creator N°31124 Neuf",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/5391971448-lego-creator-ndeg31124-neuf",
-    "published": 1731770143,
-    "uuid": "65d07054-7619-4b6e-a081-22827b3d9991"
-  },
-  {
-    "id": "31124",
-    "title": "Lego set 31124",
-    "price": 7,
-    "link": "https://www.vinted.fr/items/5437575924-lego-set-31124",
-    "published": 1732475074,
-    "uuid": "fa6ecacf-d08a-44c4-886b-54632f4a227b"
-  },
-  {
-    "id": "31124",
-    "title": "Lego creator 31124",
-    "price": 8.05,
-    "link": "https://www.vinted.fr/items/5438740835-lego-creator-31124",
-    "published": 1732490321,
-    "uuid": "b77be1e9-b757-470e-ad89-bba2f828f989"
-  },
-  {
-    "id": "31124",
-    "title": "Lego 31124 NEU Roboter 3in1",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/5440875333-lego-31124-neu-roboter-3in1",
-    "published": 1732607156,
-    "uuid": "a0aeafba-f62c-43ae-8822-69cf509162db"
-  },
-  {
-    "id": "31124",
-    "title": "31124 3in1 Super Robot - Creator (LEGO)",
-    "price": 8.05,
-    "link": "https://www.vinted.fr/items/5372390371-31124-3in1-super-robot-creator-lego",
-    "published": 1731427798,
-    "uuid": "be67ded5-afc7-452c-90eb-10e803ddb152"
-  },
-  {
-    "id": "31124",
-    "title": "Lego creator 31124",
-    "price": 8.58,
-    "link": "https://www.vinted.fr/items/5257870597-lego-creator-31124",
-    "published": 1729539786,
-    "uuid": "ac7e304d-87ed-4d8a-8c1c-ddd64b0de202"
-  },
-  {
-    "id": "31124",
-    "title": "Lego creator 3in1 codice 31124",
-    "price": 7.53,
-    "link": "https://www.vinted.fr/items/5412973066-lego-creator-3in1-codice-31124",
-    "published": 1732096681,
-    "uuid": "fd4010f1-bf92-4b08-8090-461ae315c833"
-  },
-  {
-    "id": "31124",
-    "title": "Lego Super Robot neuf",
-    "price": 10.15,
-    "link": "https://www.vinted.fr/items/4748494460-lego-super-robot-neuf",
-    "published": 1720624055,
-    "uuid": "35b4ee76-aa3a-4164-abab-329a59c3d16a"
+    "uuid": "f96e8d62-a0e7-44c2-89c1-df2cb883b232"
   },
   {
     "id": "31124",
@@ -125,415 +37,23 @@
     "price": 5.95,
     "link": "https://www.vinted.fr/items/4871051292-lego-31124",
     "published": 1723300312,
-    "uuid": "87061114-efa4-4a9f-b1b1-5eb0628b0810"
+    "uuid": "9114a480-6cbd-4b7b-8c4b-0ea14ca862ad"
   },
   {
     "id": "31124",
-    "title": "Lego 31124",
-    "price": 7,
-    "link": "https://www.vinted.fr/items/5346073353-lego-31124",
-    "published": 1731046325,
-    "uuid": "cfc1446b-457e-4aae-b068-366d2d826222"
-  },
-  {
-    "id": "31124",
-    "title": "Lego creator ",
+    "title": "Lego 31124 creator 3 en 1 le super robot",
     "price": 9.1,
-    "link": "https://www.vinted.fr/items/4196381192-lego-creator",
-    "published": 1709901803,
-    "uuid": "3aa8ab42-dfff-4e18-be92-1a4ac28ecaa8"
+    "link": "https://www.vinted.fr/items/5186006968-lego-31124-creator-3-en-1-le-super-robot",
+    "published": 1728466552,
+    "uuid": "1cee392f-b76d-464d-b445-f18bc03a3dd2"
   },
   {
     "id": "31124",
-    "title": "Lego creator 31124",
-    "price": 10.15,
-    "link": "https://www.vinted.fr/items/4964030536-lego-creator-31124",
-    "published": 1725087657,
-    "uuid": "23741314-bd7b-4aad-812b-395f298e9b4b"
-  },
-  {
-    "id": "31124",
-    "title": "Lego creator 31124",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/5434387785-lego-creator-31124",
-    "published": 1732454347,
-    "uuid": "b64f129a-cf82-4bfe-a558-9c3bf2fb78ec"
-  },
-  {
-    "id": "31124",
-    "title": "Lego 31124",
-    "price": 4.9,
-    "link": "https://www.vinted.fr/items/4452757609-lego-31124",
-    "published": 1714758890,
-    "uuid": "0bfbfdc4-18b8-47f2-bb8a-84cf139740a4"
-  },
-  {
-    "id": "31124",
-    "title": "Creator 3en 1",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/5065075050-creator-3en-1",
-    "published": 1726653400,
-    "uuid": "3520176d-d9dc-41b3-b2d8-8ce73d47964c"
-  },
-  {
-    "id": "31124",
-    "title": "Lego creator 3 in 1 31124",
-    "price": 10.15,
-    "link": "https://www.vinted.fr/items/5377863451-lego-creator-3-in-1-31124",
-    "published": 1731517449,
-    "uuid": "76c6b7ea-f8fe-4dd2-8586-1914ae7bd0ed"
-  },
-  {
-    "id": "31124",
-    "title": "Lego Créator 31124 super Robot Neuf",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/5413262231-lego-creator-31124-super-robot-neuf",
-    "published": 1732099662,
-    "uuid": "44e10406-5021-4552-8b3a-40c189b4551e"
-  },
-  {
-    "id": "31124",
-    "title": "Lego créator 31124",
-    "price": 10.15,
-    "link": "https://www.vinted.fr/items/3716479262-lego-creator-31124",
-    "published": 1699195774,
-    "uuid": "aeda046a-c26c-4993-909b-1eb3130ae4b4"
-  },
-  {
-    "id": "31124",
-    "title": "Lego 31124 Creator Mehrfarbig Spielzeug Neu",
-    "price": 8.05,
-    "link": "https://www.vinted.fr/items/5369269636-lego-31124-creator-mehrfarbig-spielzeug-neu",
-    "published": 1731363410,
-    "uuid": "2a9482d0-7db2-45e8-a55a-e67868237687"
-  },
-  {
-    "id": "31124",
-    "title": "Lego 31124",
-    "price": 7,
-    "link": "https://www.vinted.fr/items/4967897419-lego-31124",
-    "published": 1725131313,
-    "uuid": "511500ea-9f66-46a2-9c9b-24517b854485"
-  },
-  {
-    "id": "31124",
-    "title": "Lego Creator 31124",
-    "price": 8.04,
-    "link": "https://www.vinted.fr/items/5014656146-lego-creator-31124",
-    "published": 1725904246,
-    "uuid": "6276f460-de69-4c7c-a099-773527382da7"
-  },
-  {
-    "id": "31124",
-    "title": "Lego 31124-creator3in1-le super robot-neuf et scellé-#3",
-    "price": 10.15,
-    "link": "https://www.vinted.fr/items/4363170066-lego-31124-creator3in1-le-super-robot-neuf-et-scelle-3",
-    "published": 1713107206,
-    "uuid": "3e995fe6-171d-43b8-af1d-14977493dbef"
-  },
-  {
-    "id": "31124",
-    "title": "Lego 31124",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/5286923882-lego-31124",
-    "published": 1730039890,
-    "uuid": "90b82095-ada1-44e0-9214-43eed5dba9fc"
-  },
-  {
-    "id": "31124",
-    "title": "Boite lego 31124",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/3953698631-boite-lego-31124",
-    "published": 1716623110,
-    "uuid": "218b5b90-7fc2-4ada-b91f-ec40b10e3ce5"
-  },
-  {
-    "id": "31124",
-    "title": "Lego Creator 31124 Super-Mech",
-    "price": 8.05,
-    "link": "https://www.vinted.fr/items/4386727600-lego-creator-31124-super-mech",
-    "published": 1713537751,
-    "uuid": "234c3a8d-2b38-4a6a-bcc3-b1f5b85c31ec"
-  },
-  {
-    "id": "31124",
-    "title": "Lego creator 31124 3 in 1 dragon avion robot neuf",
-    "price": 20.65,
-    "link": "https://www.vinted.fr/items/5400536705-lego-creator-31124-3-in-1-dragon-avion-robot-neuf",
-    "published": 1731869022,
-    "uuid": "1d7a9ba1-234e-48e0-8918-126df4a55176"
-  },
-  {
-    "id": "31124",
-    "title": "Lego creator",
-    "price": 16.45,
-    "link": "https://www.vinted.fr/items/5360241465-lego-creator",
-    "published": 1731255384,
-    "uuid": "2c82ef42-e887-45a2-9129-7ff7a2c99ffe"
-  },
-  {
-    "id": "31124",
-    "title": "Lego Creator 31124 Le super robot ",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/2951991093-lego-creator-31124-le-super-robot",
-    "published": 1682594352,
-    "uuid": "0f187729-64d0-4430-8bd8-210d187f0d87"
-  },
-  {
-    "id": "31124",
-    "title": "Lego 31124",
-    "price": 7,
-    "link": "https://www.vinted.fr/items/5448804404-lego-31124",
-    "published": 1732698733,
-    "uuid": "6277614b-fea4-43ae-b42a-669c53489e8b"
-  },
-  {
-    "id": "31124",
-    "title": "Lotto 3 set Lego Creator 3 in 1",
-    "price": 32.2,
-    "link": "https://www.vinted.fr/items/4932684582-lotto-3-set-lego-creator-3-in-1",
-    "published": 1724517155,
-    "uuid": "35065196-ae2b-42ef-ba54-6c468acc12e5"
-  },
-  {
-    "id": "31124",
-    "title": "Lego Creator 31124 Le Super Robot",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/4166403583-lego-creator-31124-le-super-robot",
-    "published": 1709293185,
-    "uuid": "fdd3e2aa-dcc9-4c38-8c13-9be88de736bd"
-  },
-  {
-    "id": "31124",
-    "title": "Lego creator 31124 Goldorak",
-    "price": 13.3,
-    "link": "https://www.vinted.fr/items/5304033053-lego-creator-31124-goldorak",
-    "published": 1730308986,
-    "uuid": "799baeda-e619-4bb6-a9e0-a774255e68ab"
-  },
-  {
-    "id": "31124",
-    "title": "Lego 31124 - Le Super Robot",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/3377468841-lego-31124-le-super-robot",
-    "published": 1692696118,
-    "uuid": "b26e2496-96b3-4030-a83d-001f0020e96d"
-  },
-  {
-    "id": "31124",
-    "title": "LEGO Creator 31124 superrobot",
-    "price": 7.53,
-    "link": "https://www.vinted.fr/items/5262204494-lego-creator-31124-superrobot",
-    "published": 1729616260,
-    "uuid": "083a9cf9-55b3-42d9-ad0f-9f94d50c3046"
-  },
-  {
-    "id": "31124",
-    "title": "Lego 3 in 1 n.31124",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/4207304655-lego-3-in-1-n31124",
-    "published": 1710093368,
-    "uuid": "29573cfa-0f23-4e33-a37b-287636a128db"
-  },
-  {
-    "id": "31124",
-    "title": "Lego 31124",
-    "price": 7,
-    "link": "https://www.vinted.fr/items/3360808945-lego-31124",
-    "published": 1692287085,
-    "uuid": "5f6869d8-b2ad-427b-9de8-a19dff91884d"
-  },
-  {
-    "id": "31124",
-    "title": "2 lego MISB 31124",
-    "price": 26.95,
-    "link": "https://www.vinted.fr/items/5008862920-2-lego-misb-31124",
-    "published": 1725815445,
-    "uuid": "f664472d-3419-4eb5-a517-0c8229f06c1f"
-  },
-  {
-    "id": "31124",
-    "title": "Lego 31124 et 40578",
-    "price": 32.2,
-    "link": "https://www.vinted.fr/items/5258956267-lego-31124-et-40578",
-    "published": 1729584870,
-    "uuid": "bb93dbd0-2eba-4ec5-92cf-125a29704a72"
-  },
-  {
-    "id": "31124",
-    "title": "LEGO Creator - Super Robot (31124)",
-    "price": 10.15,
-    "link": "https://www.vinted.fr/items/3804038300-lego-creator-super-robot-31124",
-    "published": 1700848283,
-    "uuid": "f45464c9-b623-4390-af9e-4a41456bb7e0"
-  },
-  {
-    "id": "31124",
-    "title": "LEGO 31124 Creator 3-in-1 Super Robot",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/4294354962-lego-31124-creator-3-in-1-super-robot",
-    "published": 1711836884,
-    "uuid": "e009ef16-e428-4cfb-852d-22277c29a64a"
-  },
-  {
-    "id": "31124",
-    "title": "Lego neuf",
-    "price": 16.45,
-    "link": "https://www.vinted.fr/items/3931108624-lego-neuf",
-    "published": 1704213296,
-    "uuid": "e0606c1a-3051-479a-a302-15c2ec354f8e"
-  },
-  {
-    "id": "31124",
-    "title": "Lego 31124",
-    "price": 10.68,
-    "link": "https://www.vinted.fr/items/4449487161-lego-31124",
-    "published": 1714687772,
-    "uuid": "bda80902-68e3-4987-a33d-ab7e52681279"
-  },
-  {
-    "id": "31124",
-    "title": "LEGO Creator 31124",
-    "price": 7,
-    "link": "https://www.vinted.fr/items/4180049443-lego-creator-31124",
-    "published": 1709550628,
-    "uuid": "7dcf4a91-24d1-4fa6-87cf-4fb76ed38dee"
-  },
-  {
-    "id": "31124",
-    "title": "Lego Super Robot 31124 - Creator 3 in 1",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/3670152511-lego-super-robot-31124-creator-3-in-1",
-    "published": 1698353967,
-    "uuid": "22fd177e-6191-486e-9d09-629e6aa5d4bf"
-  },
-  {
-    "id": "31124",
-    "title": "Lego 31124 type goldorak creator",
-    "price": 13.83,
-    "link": "https://www.vinted.fr/items/4029221622-lego-31124-type-goldorak-creator",
-    "published": 1706367571,
-    "uuid": "a8422fef-f02c-4fc6-b366-cde7847cf969"
-  },
-  {
-    "id": "31124",
-    "title": "Lego 31124 Super Robot",
-    "price": 10.14,
-    "link": "https://www.vinted.fr/items/4357548766-lego-31124-super-robot",
-    "published": 1713016891,
-    "uuid": "d262f44e-8cdd-4d55-a298-05782ec459d3"
-  },
-  {
-    "id": "31124",
-    "title": "Lego Creator 31124 ",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/3906746398-lego-creator-31124",
-    "published": 1703500127,
-    "uuid": "b2f5d5ff-f8bf-48cf-9bb1-2f78a28a0f55"
-  },
-  {
-    "id": "31124",
-    "title": "Lego Creator 3 in 1 31124 ",
-    "price": 12.25,
-    "link": "https://www.vinted.fr/items/4222575328-lego-creator-3-in-1-31124",
-    "published": 1710426679,
-    "uuid": "ab9f5973-b791-4bc3-a237-d7e1a13e4911"
-  },
-  {
-    "id": "31124",
-    "title": "Super robot lego 31124 creator 3 in 1 sealed sigillato",
-    "price": 10.15,
-    "link": "https://www.vinted.fr/items/4370698478-super-robot-lego-31124-creator-3-in-1-sealed-sigillato",
-    "published": 1713223430,
-    "uuid": "3e30dd8a-0f47-4127-a368-10194d1fc82a"
-  },
-  {
-    "id": "31124",
-    "title": "Lego robot creator 3 en 1 31124 neuf jamais ouvert ",
-    "price": 16.45,
-    "link": "https://www.vinted.fr/items/2738702944-lego-robot-creator-3-en-1-31124-neuf-jamais-ouvert",
-    "published": 1677595515,
-    "uuid": "9f802edc-d7f8-40c4-aabc-ad7b9a2bcccf"
-  },
-  {
-    "id": "31124",
-    "title": "Lego creator - 31124",
-    "price": 8.05,
-    "link": "https://www.vinted.fr/items/4477078860-lego-creator-31124",
-    "published": 1715188923,
-    "uuid": "a03857f7-014b-4c59-bba9-f83f11435c0f"
-  },
-  {
-    "id": "31124",
-    "title": "Lego Creator 31124 3-in-1 Superrobot",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/3884596119-lego-creator-31124-3-in-1-superrobot",
-    "published": 1702643850,
-    "uuid": "69a64d68-57fa-4640-a595-ad43d1d57e19"
-  },
-  {
-    "id": "31124",
-    "title": "Jouet Lego Le Super Robot Lego Creator 3 en 1 Réf 31124 Neuf 6+",
-    "price": 21.7,
-    "link": "https://www.vinted.fr/items/2206356006-jouet-lego-le-super-robot-lego-creator-3-en-1-ref-31124-neuf-6",
-    "published": 1663350902,
-    "uuid": "44c4bec5-3343-431d-8bd1-fac7f55e66ea"
-  },
-  {
-    "id": "31124",
-    "title": "Lego 31124 Creator 3 in 1 Flugzeug",
-    "price": 8.05,
-    "link": "https://www.vinted.fr/items/3755258095-lego-31124-creator-3-in-1-flugzeug",
-    "published": 1699890346,
-    "uuid": "bb02259f-49d0-4d0f-8b99-d05bfb2756b2"
-  },
-  {
-    "id": "31124",
-    "title": "Set lego 31124",
-    "price": 9.1,
-    "link": "https://www.vinted.fr/items/3078219058-set-lego-31124",
-    "published": 1685428394,
-    "uuid": "7b2df044-a1a4-46d8-b98f-668aaf470620"
-  },
-  {
-    "id": "31124",
-    "title": "Lego Creator 31124, NEU, Original verpackt ",
-    "price": 13.3,
-    "link": "https://www.vinted.fr/items/4310246842-lego-creator-31124-neu-original-verpackt",
-    "published": 1712146114,
-    "uuid": "b828014d-30dd-4249-976e-762575a810d8"
-  },
-  {
-    "id": "31124",
-    "title": "Lego Creator Robot 31124",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/3568772958-lego-creator-robot-31124",
-    "published": 1696577738,
-    "uuid": "d90926f3-5e83-451b-bf61-e04c67d86791"
-  },
-  {
-    "id": "31124",
-    "title": "Lego Creator 3em1",
-    "price": 21.7,
-    "link": "https://www.vinted.fr/items/5293609997-lego-creator-3em1",
-    "published": 1730132363,
-    "uuid": "410e789d-f5d5-4a99-97d9-ab317724a8cd"
-  },
-  {
-    "id": "31124",
-    "title": "31124 Lego creator 3in1 neu in OVP ",
-    "price": 10.68,
-    "link": "https://www.vinted.fr/items/3528949971-31124-lego-creator-3in1-neu-in-ovp",
-    "published": 1695767450,
-    "uuid": "c8559c5e-5462-417c-bc86-c94a11436221"
-  },
-  {
-    "id": "31124",
-    "title": "lego 31124 type goldorak",
-    "price": 12.46,
-    "link": "https://www.vinted.fr/items/2454341401-lego-31124-type-goldorak",
-    "published": 1669384218,
-    "uuid": "c2efc2f6-f610-4d37-b8f5-506ba592ea84"
+    "title": "Lego creator, 31124, 3 in 1",
+    "price": 5.95,
+    "link": "https://www.vinted.fr/items/5433768509-lego-creator-31124-3-in-1",
+    "published": 1732450432,
+    "uuid": "03dc8d00-e6ac-400a-97f7-c518d14f5767"
   },
   {
     "id": "31124",
@@ -541,15 +61,375 @@
     "price": 1.75,
     "link": "https://www.vinted.fr/items/5107407638-lot-lego",
     "published": 1729984751,
-    "uuid": "57d28e63-54dc-4007-b0e5-5bc2b6d918e7"
+    "uuid": "2e8cc9c6-6be1-4f95-87b7-35469873803b"
   },
   {
     "id": "31124",
-    "title": "LEGO 31124 Creator 3 en 1 Le Super Robot, ",
-    "price": 15.4,
-    "link": "https://www.vinted.fr/items/5128046347-lego-31124-creator-3-en-1-le-super-robot",
-    "published": 1727614421,
-    "uuid": "4e9bf28c-dadb-4e7d-b79d-d26ca9e51cd3"
+    "title": "Lego creator 31124",
+    "price": 8.05,
+    "link": "https://www.vinted.fr/items/5342042634-lego-creator-31124",
+    "published": 1730972942,
+    "uuid": "003bc12d-1de1-47a9-81e0-741c9f6bf962"
+  },
+  {
+    "id": "31124",
+    "title": "Lego creator 3in1 codice 31124",
+    "price": 7.53,
+    "link": "https://www.vinted.fr/items/5412973066-lego-creator-3in1-codice-31124",
+    "published": 1732096681,
+    "uuid": "4ca7aaaa-c9c7-4f23-8e82-61aff4224f36"
+  },
+  {
+    "id": "31124",
+    "title": "NIEUW lego 6+ set 31124",
+    "price": 8.05,
+    "link": "https://www.vinted.fr/items/4879512641-nieuw-lego-6-set-31124",
+    "published": 1723481615,
+    "uuid": "b5e9bab4-d8e0-445e-8a9f-78ca3c06458b"
+  },
+  {
+    "id": "31124",
+    "title": "LEGO Creator N°31124 Neuf",
+    "price": 9.1,
+    "link": "https://www.vinted.fr/items/5391971448-lego-creator-ndeg31124-neuf",
+    "published": 1731770143,
+    "uuid": "45faa696-bbce-44b1-856a-77f29598096a"
+  },
+  {
+    "id": "31124",
+    "title": "Lego Super Robot neuf",
+    "price": 10.15,
+    "link": "https://www.vinted.fr/items/4748494460-lego-super-robot-neuf",
+    "published": 1720624055,
+    "uuid": "2868db38-a4f5-4227-bf73-14bacb2c4551"
+  },
+  {
+    "id": "31124",
+    "title": "Lego Creator 31124 Super-Mech",
+    "price": 8.05,
+    "link": "https://www.vinted.fr/items/4386727600-lego-creator-31124-super-mech",
+    "published": 1713537751,
+    "uuid": "2eb88d93-3b3f-4886-ab6d-694b7ae3e4a1"
+  },
+  {
+    "id": "31124",
+    "title": "Lego 31124",
+    "price": 7,
+    "link": "https://www.vinted.fr/items/5346073353-lego-31124",
+    "published": 1731046325,
+    "uuid": "427da897-3290-4835-ae2b-ddfeed0202eb"
+  },
+  {
+    "id": "31124",
+    "title": "Lego creator ",
+    "price": 9.1,
+    "link": "https://www.vinted.fr/items/4196381192-lego-creator",
+    "published": 1709901803,
+    "uuid": "4ebd538a-1194-4f00-82e7-cfefb00387df"
+  },
+  {
+    "id": "31124",
+    "title": "Lego set 31124",
+    "price": 7,
+    "link": "https://www.vinted.fr/items/5437575924-lego-set-31124",
+    "published": 1732475074,
+    "uuid": "d60f892f-2a82-40dc-b672-534aa86189a4"
+  },
+  {
+    "id": "31124",
+    "title": "Lego 31124",
+    "price": 3.85,
+    "link": "https://www.vinted.fr/items/4452757609-lego-31124",
+    "published": 1714758890,
+    "uuid": "17600d20-56f7-40d5-9e02-7a725e12137d"
+  },
+  {
+    "id": "31124",
+    "title": "Lego 31124 NEU Roboter 3in1",
+    "price": 9.1,
+    "link": "https://www.vinted.fr/items/5440875333-lego-31124-neu-roboter-3in1",
+    "published": 1732607156,
+    "uuid": "d1fb14ff-f746-417a-861d-5ed36ff3ed5e"
+  },
+  {
+    "id": "31124",
+    "title": "Lego 31124 - Le Super Robot (type Goldorak)",
+    "price": 14.35,
+    "link": "https://www.vinted.fr/items/5464656211-lego-31124-le-super-robot-type-goldorak",
+    "published": 1732990983,
+    "uuid": "0ed72461-e876-4c2e-aaf1-90f53d9cdd30"
+  },
+  {
+    "id": "31124",
+    "title": "Lego creator 31124",
+    "price": 9.1,
+    "link": "https://www.vinted.fr/items/5434387785-lego-creator-31124",
+    "published": 1732454347,
+    "uuid": "e698b15a-06fb-4a09-84ca-c4fbfe8a34f5"
+  },
+  {
+    "id": "31124",
+    "title": "Lego creator 31124",
+    "price": 10.15,
+    "link": "https://www.vinted.fr/items/4964030536-lego-creator-31124",
+    "published": 1725087657,
+    "uuid": "3bb02ca3-8db9-456e-ad7b-46b05cf7629c"
+  },
+  {
+    "id": "31124",
+    "title": "Lego Creator 31124 Le super robot ",
+    "price": 9.1,
+    "link": "https://www.vinted.fr/items/2951991093-lego-creator-31124-le-super-robot",
+    "published": 1682594352,
+    "uuid": "f13ad49b-1781-49f6-a2a7-bb2042360b6e"
+  },
+  {
+    "id": "31124",
+    "title": "Lego 31124-creator3in1-le super robot-neuf et scellé-#3",
+    "price": 10.15,
+    "link": "https://www.vinted.fr/items/4363170066-lego-31124-creator3in1-le-super-robot-neuf-et-scelle-3",
+    "published": 1713107206,
+    "uuid": "f0bf4d92-605a-42fa-9c96-da7f5ff88e1b"
+  },
+  {
+    "id": "31124",
+    "title": "Lego creator 31124",
+    "price": 9.63,
+    "link": "https://www.vinted.fr/items/5472330083-lego-creator-31124",
+    "published": 1733134940,
+    "uuid": "2d5a17d8-e089-4786-8b86-0189e90489be"
+  },
+  {
+    "id": "31124",
+    "title": "Lego Créator 31124 super Robot Neuf",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/5413262231-lego-creator-31124-super-robot-neuf",
+    "published": 1732099662,
+    "uuid": "fed8e476-828c-4b15-a8a9-3810810098df"
+  },
+  {
+    "id": "31124",
+    "title": "Lego 31124",
+    "price": 7,
+    "link": "https://www.vinted.fr/items/5448804404-lego-31124",
+    "published": 1732698733,
+    "uuid": "f5bb8b88-6305-4874-a24f-2b941665f891"
+  },
+  {
+    "id": "31124",
+    "title": "Lego 31124 et 40578",
+    "price": 24.85,
+    "link": "https://www.vinted.fr/items/5258956267-lego-31124-et-40578",
+    "published": 1729584870,
+    "uuid": "052a37d7-769c-42ac-9036-3aa1af709c89"
+  },
+  {
+    "id": "31124",
+    "title": "LEGO 31124 Creator 3-in-1 Super Robot",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/4294354962-lego-31124-creator-3-in-1-super-robot",
+    "published": 1711836884,
+    "uuid": "63e8e0f0-1d82-4ebf-8d06-4c800424a791"
+  },
+  {
+    "id": "31124",
+    "title": "Lego creator - 31124",
+    "price": 8.05,
+    "link": "https://www.vinted.fr/items/4477078860-lego-creator-31124",
+    "published": 1715188923,
+    "uuid": "05c1c0b5-5baf-44ca-a834-40650f37c1f1"
+  },
+  {
+    "id": "31124",
+    "title": "Lego Creator 31124",
+    "price": 8.04,
+    "link": "https://www.vinted.fr/items/5014656146-lego-creator-31124",
+    "published": 1725904246,
+    "uuid": "405090bd-9a13-4102-8ad2-1aa55389de44"
+  },
+  {
+    "id": "31124",
+    "title": "Lego creator 31124 Goldorak",
+    "price": 13.3,
+    "link": "https://www.vinted.fr/items/5304033053-lego-creator-31124-goldorak",
+    "published": 1730308986,
+    "uuid": "a40035c3-6e93-4e88-b4d4-dd42f3b3d21b"
+  },
+  {
+    "id": "31124",
+    "title": "Lego creator 31124",
+    "price": 8.58,
+    "link": "https://www.vinted.fr/items/5257870597-lego-creator-31124",
+    "published": 1729539786,
+    "uuid": "40447062-a464-4fff-8da4-aae7edce9087"
+  },
+  {
+    "id": "31124",
+    "title": "Lego 31124",
+    "price": 9.1,
+    "link": "https://www.vinted.fr/items/5286923882-lego-31124",
+    "published": 1730039890,
+    "uuid": "19004a28-23e8-44a7-a18f-3062aa0c832d"
+  },
+  {
+    "id": "31124",
+    "title": "LEGO Creator 31124 superrobot",
+    "price": 7.53,
+    "link": "https://www.vinted.fr/items/5262204494-lego-creator-31124-superrobot",
+    "published": 1729616260,
+    "uuid": "af3757c9-725d-4baa-ade3-0eacf29675b6"
+  },
+  {
+    "id": "31124",
+    "title": "Lego creator 3 in 1 31124",
+    "price": 10.15,
+    "link": "https://www.vinted.fr/items/5377863451-lego-creator-3-in-1-31124",
+    "published": 1731517449,
+    "uuid": "7415d82e-94e4-4946-9d07-7f1f9d5c738b"
+  },
+  {
+    "id": "31124",
+    "title": "Lego Creator 31124 3-in-1 Superrobot",
+    "price": 9.1,
+    "link": "https://www.vinted.fr/items/3884596119-lego-creator-31124-3-in-1-superrobot",
+    "published": 1702643850,
+    "uuid": "f5c9862b-f55b-49fa-a371-cac071f9157d"
+  },
+  {
+    "id": "31124",
+    "title": "Creator 3en 1",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/5065075050-creator-3en-1",
+    "published": 1726653400,
+    "uuid": "bf5bcec5-7e23-4656-8216-5aa0211b5d62"
+  },
+  {
+    "id": "31124",
+    "title": "Boite lego 31124",
+    "price": 9.1,
+    "link": "https://www.vinted.fr/items/3953698631-boite-lego-31124",
+    "published": 1716623110,
+    "uuid": "b34ac636-b26e-4973-a05f-a8365af50b14"
+  },
+  {
+    "id": "31124",
+    "title": "Lego Creator 31124 Le Super Robot",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/4166403583-lego-creator-31124-le-super-robot",
+    "published": 1709293185,
+    "uuid": "dd4f19f6-546a-4d29-b6c2-de0434292aeb"
+  },
+  {
+    "id": "31124",
+    "title": "Lego 31124",
+    "price": 7,
+    "link": "https://www.vinted.fr/items/4967897419-lego-31124",
+    "published": 1725131313,
+    "uuid": "c58155a7-953f-4ded-93f6-21f9da47ca0a"
+  },
+  {
+    "id": "31124",
+    "title": "Super robot lego 31124 creator 3 in 1 sealed sigillato",
+    "price": 10.15,
+    "link": "https://www.vinted.fr/items/4370698478-super-robot-lego-31124-creator-3-in-1-sealed-sigillato",
+    "published": 1713223430,
+    "uuid": "d33191a5-93ca-49dc-a24a-4084b8d9184a"
+  },
+  {
+    "id": "31124",
+    "title": "LEGO Creator - Super Robot (31124)",
+    "price": 10.15,
+    "link": "https://www.vinted.fr/items/3804038300-lego-creator-super-robot-31124",
+    "published": 1700848283,
+    "uuid": "70f61832-ccc3-4d55-8a33-0a48a10822a7"
+  },
+  {
+    "id": "31124",
+    "title": "Lego creator",
+    "price": 16.45,
+    "link": "https://www.vinted.fr/items/5360241465-lego-creator",
+    "published": 1731255384,
+    "uuid": "95a428a9-59b9-433b-b60f-2c432da9ba98"
+  },
+  {
+    "id": "31124",
+    "title": "Lego créator 31124",
+    "price": 10.15,
+    "link": "https://www.vinted.fr/items/3716479262-lego-creator-31124",
+    "published": 1699195774,
+    "uuid": "4cfde974-be0f-4d9a-9ade-09deb0c71584"
+  },
+  {
+    "id": "31124",
+    "title": "Lego 31124",
+    "price": 10.68,
+    "link": "https://www.vinted.fr/items/4449487161-lego-31124",
+    "published": 1714687772,
+    "uuid": "e768f0ac-374a-4326-af73-05f85f3a5631"
+  },
+  {
+    "id": "31124",
+    "title": "Lego Creator 3 in 1 31124 ",
+    "price": 12.25,
+    "link": "https://www.vinted.fr/items/4222575328-lego-creator-3-in-1-31124",
+    "published": 1710426679,
+    "uuid": "d2a35282-e1c5-4e36-bf3c-d103c144037c"
+  },
+  {
+    "id": "31124",
+    "title": "Lego 31124 Super Robot",
+    "price": 10.14,
+    "link": "https://www.vinted.fr/items/4357548766-lego-31124-super-robot",
+    "published": 1713016891,
+    "uuid": "af5f5450-d9be-4f1b-a25c-3c9debcc03a9"
+  },
+  {
+    "id": "31124",
+    "title": "Set lego 31124",
+    "price": 9.1,
+    "link": "https://www.vinted.fr/items/3078219058-set-lego-31124",
+    "published": 1685428394,
+    "uuid": "778e2d9a-0f80-4ad7-a2ec-1f01519993e2"
+  },
+  {
+    "id": "31124",
+    "title": "Lego Super Robot 31124 - Creator 3 in 1",
+    "price": 9.1,
+    "link": "https://www.vinted.fr/items/3670152511-lego-super-robot-31124-creator-3-in-1",
+    "published": 1698353967,
+    "uuid": "0cdfb132-c23b-49cc-a2fe-7c53fd68eed9"
+  },
+  {
+    "id": "31124",
+    "title": "Lego 31124",
+    "price": 7,
+    "link": "https://www.vinted.fr/items/3360808945-lego-31124",
+    "published": 1692287085,
+    "uuid": "df0d09f4-3564-434b-9037-5de96e87fd60"
+  },
+  {
+    "id": "31124",
+    "title": "Lego 31124 Creator 3 in 1 Flugzeug",
+    "price": 8.05,
+    "link": "https://www.vinted.fr/items/3755258095-lego-31124-creator-3-in-1-flugzeug",
+    "published": 1699890346,
+    "uuid": "aa061926-da63-442c-befc-d20cc511b9d5"
+  },
+  {
+    "id": "31124",
+    "title": "Lego neuf",
+    "price": 16.45,
+    "link": "https://www.vinted.fr/items/3931108624-lego-neuf",
+    "published": 1704213296,
+    "uuid": "0ded1aed-8522-446f-976f-2fe9a9f2e90d"
+  },
+  {
+    "id": "31124",
+    "title": "Lego Creator 31124 ",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/3906746398-lego-creator-31124",
+    "published": 1703500127,
+    "uuid": "4f132f46-3075-4a48-a52e-a8aa33b8a503"
   },
   {
     "id": "31124",
@@ -557,15 +437,111 @@
     "price": 9.1,
     "link": "https://www.vinted.fr/items/2453549942-lego-31124",
     "published": 1669369204,
-    "uuid": "14ce4f14-1f2e-4c56-9bb8-9d38255972de"
+    "uuid": "eb5296ab-f5c5-48e4-9042-a28807d7dcdb"
   },
   {
     "id": "31124",
-    "title": "Lote de lego creator , 31136 , 31124 y 31145",
-    "price": 63.6,
-    "link": "https://www.vinted.fr/items/5380738089-lote-de-lego-creator-31136-31124-y-31145",
-    "published": 1731582923,
-    "uuid": "bd253e83-0c03-44bb-ad4a-58b5e29c9091"
+    "title": "Lego robot creator 3 en 1 31124 neuf jamais ouvert ",
+    "price": 16.45,
+    "link": "https://www.vinted.fr/items/2738702944-lego-robot-creator-3-en-1-31124-neuf-jamais-ouvert",
+    "published": 1677595515,
+    "uuid": "f6434c8e-7940-4eea-93e1-9a64bc9e60d1"
+  },
+  {
+    "id": "31124",
+    "title": "Lego creator 31124 3 in 1 dragon avion robot neuf",
+    "price": 20.65,
+    "link": "https://www.vinted.fr/items/5400536705-lego-creator-31124-3-in-1-dragon-avion-robot-neuf",
+    "published": 1731869022,
+    "uuid": "67544ddf-d4db-4402-90b6-ac4b247ea79b"
+  },
+  {
+    "id": "31124",
+    "title": "Lego 31124 type goldorak creator",
+    "price": 13.83,
+    "link": "https://www.vinted.fr/items/4029221622-lego-31124-type-goldorak-creator",
+    "published": 1706367571,
+    "uuid": "a1fbaf51-8016-4e4c-a107-72dc6b71d01f"
+  },
+  {
+    "id": "31124",
+    "title": "Lotto 3 set Lego Creator 3 in 1",
+    "price": 32.2,
+    "link": "https://www.vinted.fr/items/4932684582-lotto-3-set-lego-creator-3-in-1",
+    "published": 1724517155,
+    "uuid": "883271b3-81b0-4678-b887-f522d0ca72bf"
+  },
+  {
+    "id": "31124",
+    "title": "Lego Creator 31124, NEU, Original verpackt ",
+    "price": 13.3,
+    "link": "https://www.vinted.fr/items/4310246842-lego-creator-31124-neu-original-verpackt",
+    "published": 1712146114,
+    "uuid": "f9abeff7-7b60-4799-af8d-2dafd3d03716"
+  },
+  {
+    "id": "31124",
+    "title": "31124 Lego creator 3in1 neu in OVP ",
+    "price": 10.68,
+    "link": "https://www.vinted.fr/items/3528949971-31124-lego-creator-3in1-neu-in-ovp",
+    "published": 1695767450,
+    "uuid": "40120b07-91f7-4bd3-af73-2f50e8863a06"
+  },
+  {
+    "id": "31124",
+    "title": "lego 31124 type goldorak",
+    "price": 12.46,
+    "link": "https://www.vinted.fr/items/2454341401-lego-31124-type-goldorak",
+    "published": 1669384218,
+    "uuid": "9a6d3d6a-8893-478e-af21-cdec7ae79c4b"
+  },
+  {
+    "id": "31124",
+    "title": "Lego Creator Robot 31124",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/3568772958-lego-creator-robot-31124",
+    "published": 1696577738,
+    "uuid": "4ffffbdb-7cdd-4e5e-b2e8-f90dfb43936a"
+  },
+  {
+    "id": "31124",
+    "title": "Lego Creator 3em1",
+    "price": 21.7,
+    "link": "https://www.vinted.fr/items/5293609997-lego-creator-3em1",
+    "published": 1730132363,
+    "uuid": "959679de-b2fc-47f2-9667-957601a69b95"
+  },
+  {
+    "id": "31124",
+    "title": "2 lego MISB 31124",
+    "price": 26.95,
+    "link": "https://www.vinted.fr/items/5008862920-2-lego-misb-31124",
+    "published": 1725815445,
+    "uuid": "9a860f4d-a81f-401c-97ea-055ba8f2e600"
+  },
+  {
+    "id": "31124",
+    "title": "LEGO 31124 Creator 3 en 1 Le Super Robot, ",
+    "price": 15.4,
+    "link": "https://www.vinted.fr/items/5128046347-lego-31124-creator-3-en-1-le-super-robot",
+    "published": 1727614421,
+    "uuid": "df8d7d03-dc90-4f0d-a351-ba6974b41cd8"
+  },
+  {
+    "id": "31124",
+    "title": "31124 Super Robot",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/2596406710-31124-super-robot",
+    "published": 1683296409,
+    "uuid": "ec259dcb-ea68-4d05-abd1-2374dffaa357"
+  },
+  {
+    "id": "31124",
+    "title": "Jouet Lego Le Super Robot Lego Creator 3 en 1 Réf 31124 Neuf 6+",
+    "price": 21.7,
+    "link": "https://www.vinted.fr/items/2206356006-jouet-lego-le-super-robot-lego-creator-3-en-1-ref-31124-neuf-6",
+    "published": 1663350902,
+    "uuid": "16434e3e-1e6d-48ea-810a-cf0b7540452e"
   },
   {
     "id": "31124",
@@ -573,6 +549,14 @@
     "price": 42.6,
     "link": "https://www.vinted.fr/items/5208032703-lote-de-3-lego-creator-3-in-1",
     "published": 1728815908,
-    "uuid": "0f3da3b1-0846-4702-aebb-edbd489e02e1"
+    "uuid": "018fdccb-d31f-46fe-8881-4cc523e433a4"
+  },
+  {
+    "id": "31124",
+    "title": "Lote de lego creator , 31136 , 31124 y 31145",
+    "price": 63.6,
+    "link": "https://www.vinted.fr/items/5380738089-lote-de-lego-creator-31136-31124-y-31145",
+    "published": 1731582923,
+    "uuid": "431e4528-b4c3-4b06-bdfb-4ee68ccca87f"
   }
 ]

@@ -5,7 +5,23 @@
     "price": 7,
     "link": "https://www.vinted.fr/items/5310432729-lego-60400",
     "published": 1730457862,
-    "uuid": "ddecfbd0-a631-4177-bf6a-10f07d68843d"
+    "uuid": "c2fb068d-212f-4386-bed9-c602760bde9d"
+  },
+  {
+    "id": "60400",
+    "title": "Lego 60400 pilotes de kart / course kart neuf",
+    "price": 10.15,
+    "link": "https://www.vinted.fr/items/5476655845-lego-60400-pilotes-de-kart-course-kart-neuf",
+    "published": 1733216845,
+    "uuid": "1ea7a6c8-be52-49bc-b462-3e8ddeb60e10"
+  },
+  {
+    "id": "60400",
+    "title": "Lego 60400 neuf",
+    "price": 7,
+    "link": "https://www.vinted.fr/items/5473468537-lego-60400-neuf",
+    "published": 1733147516,
+    "uuid": "5fdd3399-ce88-4ae5-ae1b-d294691876cc"
   },
   {
     "id": "60400",
@@ -13,15 +29,7 @@
     "price": 10.15,
     "link": "https://www.vinted.fr/items/5396760487-lego-go-karts-karting-60400",
     "published": 1731846828,
-    "uuid": "a1cae6e0-e4c1-4c2c-b87b-84600dc7a394"
-  },
-  {
-    "id": "60400",
-    "title": "Lego 60400",
-    "price": 10.15,
-    "link": "https://www.vinted.fr/items/4860626246-lego-60400",
-    "published": 1723055830,
-    "uuid": "ff10a712-8721-4e24-9338-db6fe997d1c6"
+    "uuid": "2a1ab1c6-66ed-419e-9162-4ff51d70835d"
   },
   {
     "id": "60400",
@@ -29,15 +37,15 @@
     "price": 11.1,
     "link": "https://www.vinted.fr/items/4788682825-lego-city-kart-60400",
     "published": 1723740432,
-    "uuid": "e9274164-cc8f-4c0e-8ba0-0d2ab598fa7b"
+    "uuid": "364d22fd-bcaa-4f28-892c-e23ca42c3c4e"
   },
   {
     "id": "60400",
-    "title": "Lego City - Karts de Corrida (60400)",
-    "price": 10.14,
-    "link": "https://www.vinted.fr/items/5408050304-lego-city-karts-de-corrida-60400",
-    "published": 1732011131,
-    "uuid": "12209552-810f-46dc-95de-8521ab8a5640"
+    "title": "Lego 60400",
+    "price": 10.15,
+    "link": "https://www.vinted.fr/items/4860626246-lego-60400",
+    "published": 1723055830,
+    "uuid": "a4063c50-9114-4c25-a7b7-5ec957e45156"
   },
   {
     "id": "60400",
@@ -45,15 +53,7 @@
     "price": 9.1,
     "link": "https://www.vinted.fr/items/5434056492-set-lego-60400-city",
     "published": 1732452288,
-    "uuid": "e07f46cf-10a5-4c96-95f2-67a31deaf7c9"
-  },
-  {
-    "id": "60400",
-    "title": "Lego city cod.60400 go-kart e piloti nuovo e sigillato",
-    "price": 8.05,
-    "link": "https://www.vinted.fr/items/5007905952-lego-city-cod60400-go-kart-e-piloti-nuovo-e-sigillato",
-    "published": 1725809907,
-    "uuid": "8ecc65a7-8138-4227-88bf-55695420f943"
+    "uuid": "e50e8a88-09f8-471c-bfce-d5e72071a365"
   },
   {
     "id": "60400",
@@ -61,6 +61,6 @@
     "price": 15.4,
     "link": "https://www.vinted.fr/items/3973167596-lego-60400",
     "published": 1705156776,
-    "uuid": "26c0d5d5-fd04-4ad2-9214-d15b5bf58d2c"
+    "uuid": "cbe0c16f-caef-4434-a9f3-015c1663cb04"
   }
 ]

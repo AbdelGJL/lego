@@ -5,31 +5,7 @@
     "price": 10.15,
     "link": "https://www.vinted.fr/items/5443614046-lego-ninjago-71801",
     "published": 1732574855,
-    "uuid": "8a8d1cd9-51ee-475a-ac67-e441d8140d0b"
-  },
-  {
-    "id": "71801",
-    "title": "lego ninjago 71801 neuf",
-    "price": 10.15,
-    "link": "https://www.vinted.fr/items/5421120250-lego-ninjago-71801-neuf",
-    "published": 1732216680,
-    "uuid": "fdf32504-60fd-4087-9d2a-d3a4575b58a9"
-  },
-  {
-    "id": "71801",
-    "title": "Lego Ninjago 71801 kai's rising dragon strike",
-    "price": 10.15,
-    "link": "https://www.vinted.fr/items/5416575467-lego-ninjago-71801-kais-rising-dragon-strike",
-    "published": 1732132743,
-    "uuid": "f1043d9b-30a5-403c-96cf-7306c7f47e73"
-  },
-  {
-    "id": "71801",
-    "title": "Lego Ninjago 71801+71802+71803 (novos selados)",
-    "price": 25.9,
-    "link": "https://www.vinted.fr/items/5449027855-lego-ninjago-718017180271803-novos-selados",
-    "published": 1732701690,
-    "uuid": "6c9845e6-fb79-4bc1-8759-369248239137"
+    "uuid": "b0e362a6-8bfb-4108-ad12-da61297e3dcd"
   },
   {
     "id": "71801",
@@ -37,7 +13,23 @@
     "price": 26.95,
     "link": "https://www.vinted.fr/items/5446508511-lot-lego-city-60390-60318-ninjago-71801-marvel-76243",
     "published": 1732638511,
-    "uuid": "313dae4f-8147-4f7f-ad98-f897aa10211b"
+    "uuid": "f09372fc-0a14-4280-9a61-dc1a9c87df15"
+  },
+  {
+    "id": "71801",
+    "title": "Lego Ninjago 71801 kai's rising dragon strike",
+    "price": 10.15,
+    "link": "https://www.vinted.fr/items/5416575467-lego-ninjago-71801-kais-rising-dragon-strike",
+    "published": 1732132743,
+    "uuid": "f7ed71ae-fa25-427f-9522-2022bec693d3"
+  },
+  {
+    "id": "71801",
+    "title": "lego ninjago 71801 neuf",
+    "price": 10.15,
+    "link": "https://www.vinted.fr/items/5421120250-lego-ninjago-71801-neuf",
+    "published": 1732216680,
+    "uuid": "1f92b5df-cec8-4b06-a935-442d092ac0dc"
   },
   {
     "id": "71801",
@@ -45,6 +37,6 @@
     "price": 42.69,
     "link": "https://www.vinted.fr/items/5319011688-misb-lego-ninjago-dragons-rising-bundle",
     "published": 1730574109,
-    "uuid": "96b5b546-afa9-4818-9158-2646e4aab463"
+    "uuid": "b2e681bb-cf34-45e0-b3cd-95e4766bef32"
   }
 ]

@@ -5,15 +5,7 @@
     "price": 74.2,
     "link": "https://www.vinted.fr/items/5361099428-lego-21056-taj-mahal",
     "published": 1731261117,
-    "uuid": "dc3d10ca-d944-4c6e-8f81-aab8490c5146"
-  },
-  {
-    "id": "21056",
-    "title": "LEGO 21056 Taj Mahal agra india Architecture Expert *BQ",
-    "price": 152.95,
-    "link": "https://www.vinted.fr/items/5453583183-lego-21056-taj-mahal-agra-india-architecture-expert-bq",
-    "published": 1732787287,
-    "uuid": "f31a9617-6248-4035-8397-a0eba7f27c93"
+    "uuid": "eb9bd874-d3da-4f07-a734-9eb9c1c1555f"
   },
   {
     "id": "21056",
@@ -21,15 +13,23 @@
     "price": 147.7,
     "link": "https://www.vinted.fr/items/5366505137-lego-architecture-rare-21056-taj-mahal",
     "published": 1732526859,
-    "uuid": "0c35d177-1f44-461b-b092-1692757198bf"
+    "uuid": "3a1ea35b-6889-49c1-8743-0e043c5b8a27"
   },
   {
     "id": "21056",
-    "title": "Lego Taj Mahal  21056 / 2022 pcs - nieuw",
-    "price": 131.95,
-    "link": "https://www.vinted.fr/items/4747607163-lego-taj-mahal-21056-2022-pcs-nieuw",
-    "published": 1720613510,
-    "uuid": "b5b70f0a-be09-4b6b-a9bf-cc9348324e33"
+    "title": "Lego 21056 Taj Mahal",
+    "price": 158.15,
+    "link": "https://www.vinted.fr/items/5461974293-lego-21056-taj-mahal",
+    "published": 1732963377,
+    "uuid": "50b88cc7-d2a0-4c04-9e11-1c7fcff28be4"
+  },
+  {
+    "id": "21056",
+    "title": "Lego Architecture 21056 Taj Mahal (rare)",
+    "price": 158.2,
+    "link": "https://www.vinted.fr/items/5480299631-lego-architecture-21056-taj-mahal-rare",
+    "published": 1733260402,
+    "uuid": "3e7e563f-4828-49bf-8691-3148966ba758"
   },
   {
     "id": "21056",
@@ -37,47 +37,23 @@
     "price": 95.2,
     "link": "https://www.vinted.fr/items/5452361583-lego-architecture-21024-louvre-museum-paris-check-my-list",
     "published": 1732738718,
-    "uuid": "61cb1029-ffa9-4812-80c2-7e47841c7cbc"
+    "uuid": "d1b3ac30-88f9-4e32-ae45-b0469354d40e"
   },
   {
     "id": "21056",
-    "title": "Lego 21051 Architecture Skylines Tokyo",
-    "price": 84.7,
-    "link": "https://www.vinted.fr/items/5452426828-lego-21051-architecture-skylines-tokyo",
-    "published": 1732739530,
-    "uuid": "57c2dd70-abfe-4331-9da7-dea547885e71"
+    "title": "LEGO 21056 Taj Mahal agra india Architecture Expert *ZP",
+    "price": 152.95,
+    "link": "https://www.vinted.fr/items/5465765746-lego-21056-taj-mahal-agra-india-architecture-expert-zp",
+    "published": 1733036156,
+    "uuid": "b5ea1ecc-9b5f-4a0f-b233-d0a63ea6df89"
   },
   {
     "id": "21056",
-    "title": "Lego Architecture 21003 Seattle Space Needle",
-    "price": 53.2,
-    "link": "https://www.vinted.fr/items/5430375027-lego-architecture-21003-seattle-space-needle",
-    "published": 1732482119,
-    "uuid": "98709b41-6302-4577-a3e1-4a1b98137d83"
-  },
-  {
-    "id": "21056",
-    "title": "Lego 21029 Architecture Buckingham Palace, New - full collection in sale",
-    "price": 116.2,
-    "link": "https://www.vinted.fr/items/5387525358-lego-21029-architecture-buckingham-palace-new-full-collection-in-sale",
-    "published": 1731950453,
-    "uuid": "a5d2994f-f25d-45f8-9867-88941262e34e"
-  },
-  {
-    "id": "21056",
-    "title": "Lego 21041 Great Wall of China New - full Architecture collection",
-    "price": 84.7,
-    "link": "https://www.vinted.fr/items/5387563171-lego-21041-great-wall-of-china-new-full-architecture-collection",
-    "published": 1732487156,
-    "uuid": "2d1ea9fb-f19e-4439-8ea5-7e24f66e6047"
-  },
-  {
-    "id": "21056",
-    "title": "Lego Architecture 21004 Solomon Guggenheim Museum - full collection in sale",
-    "price": 95.2,
-    "link": "https://www.vinted.fr/items/5387718353-lego-architecture-21004-solomon-guggenheim-museum-full-collection-in-sale",
-    "published": 1732485905,
-    "uuid": "6f96d8a5-1bc6-4f38-9e4d-b039cb95bb56"
+    "title": "Lego 10279 – Volkswagen T2 Camper Van {VW Bus}",
+    "price": 152.95,
+    "link": "https://www.vinted.fr/items/5480995191-lego-10279-volkswagen-t2-camper-van-vw-bus",
+    "published": 1733300501,
+    "uuid": "c6395d75-efd8-4ec2-ab22-54624bef0a1e"
   },
   {
     "id": "21056",
@@ -85,7 +61,39 @@
     "price": 84.7,
     "link": "https://www.vinted.fr/items/5385746284-lego-21023-architecture-flatiron-building-new-york-full-collection-in-sale",
     "published": 1732384559,
-    "uuid": "e614f3cd-6480-4949-bbeb-b0b6eceee1f1"
+    "uuid": "e42e8a2c-a577-4ec6-b861-05fbdaa2bb25"
+  },
+  {
+    "id": "21056",
+    "title": "Lego Architecture 21004 Solomon Guggenheim Museum - full collection in sale",
+    "price": 95.2,
+    "link": "https://www.vinted.fr/items/5387718353-lego-architecture-21004-solomon-guggenheim-museum-full-collection-in-sale",
+    "published": 1732485905,
+    "uuid": "706c24ab-1cf0-42d9-bfae-6ead73106938"
+  },
+  {
+    "id": "21056",
+    "title": "Lego Architecture 21003 Seattle Space Needle",
+    "price": 53.2,
+    "link": "https://www.vinted.fr/items/5430375027-lego-architecture-21003-seattle-space-needle",
+    "published": 1732482119,
+    "uuid": "747f8ba6-a033-4694-972a-4c7fcf90d3dd"
+  },
+  {
+    "id": "21056",
+    "title": "Lego 21041 Great Wall of China New - full Architecture collection",
+    "price": 84.7,
+    "link": "https://www.vinted.fr/items/5387563171-lego-21041-great-wall-of-china-new-full-architecture-collection",
+    "published": 1732487156,
+    "uuid": "510adcf7-afbb-42f7-b8a7-c4cf47c69bc2"
+  },
+  {
+    "id": "21056",
+    "title": "Lego 21029 Architecture Buckingham Palace, New - full collection in sale",
+    "price": 116.2,
+    "link": "https://www.vinted.fr/items/5387525358-lego-21029-architecture-buckingham-palace-new-full-collection-in-sale",
+    "published": 1731950453,
+    "uuid": "03750746-6110-4e8a-890e-90c89c0fc1a3"
   },
   {
     "id": "21056",
@@ -93,7 +101,7 @@
     "price": 63.7,
     "link": "https://www.vinted.fr/items/5010129129-lego-architecture-21000-2-willis-tower",
     "published": 1731880234,
-    "uuid": "b372588a-43e6-4164-a3bf-959e64f1a060"
+    "uuid": "5ceaefb7-b577-4d06-bd3b-ac37b4dd6930"
   },
   {
     "id": "21056",
@@ -101,47 +109,7 @@
     "price": 89.95,
     "link": "https://www.vinted.fr/items/5010423808-lego-21015-architecture-the-leaning-tower-of-pisa",
     "published": 1731881835,
-    "uuid": "1b63f9a2-47f9-423f-a90a-a3b6d4c84288"
-  },
-  {
-    "id": "21056",
-    "title": "Lego 21050 Architecture Studio - check my list !",
-    "price": 210.7,
-    "link": "https://www.vinted.fr/items/5452399939-lego-21050-architecture-studio-check-my-list",
-    "published": 1732739194,
-    "uuid": "6f3df409-cda5-4827-8ac0-9055f9336a1d"
-  },
-  {
-    "id": "21056",
-    "title": "Lego Architecture 19710 21000 Sears Tower Landmark series complete 100% (2008)",
-    "price": 68.95,
-    "link": "https://www.vinted.fr/items/5147575909-lego-architecture-19710-21000-sears-tower-landmark-series-complete-100-2008",
-    "published": 1732389521,
-    "uuid": "e3fdebda-2a33-4b51-b3a4-9a5b3b01257a"
-  },
-  {
-    "id": "21056",
-    "title": "Lego 21000-2 Willis Tower",
-    "price": 116.2,
-    "link": "https://www.vinted.fr/items/5010106432-lego-21000-2-willis-tower",
-    "published": 1732390844,
-    "uuid": "60486755-a915-4733-95fb-537c1fa2e9f8"
-  },
-  {
-    "id": "21056",
-    "title": "Lego 19720 21001 Architecture John Hancock Center",
-    "price": 126.7,
-    "link": "https://www.vinted.fr/items/5010005838-lego-19720-21001-architecture-john-hancock-center",
-    "published": 1732389319,
-    "uuid": "9349213a-d50e-45e5-a599-69a1b6db84e0"
-  },
-  {
-    "id": "21056",
-    "title": "21016 LEGO Architecture Sungnyemun - Exclusive!",
-    "price": 189.7,
-    "link": "https://www.vinted.fr/items/5010373284-21016-lego-architecture-sungnyemun-exclusive",
-    "published": 1731881126,
-    "uuid": "f2283945-76e0-4490-86ca-2ab7c8792d2f"
+    "uuid": "a38caa59-fdf1-44af-9cb7-c063015eb392"
   },
   {
     "id": "21056",
@@ -149,7 +117,7 @@
     "price": 168.7,
     "link": "https://www.vinted.fr/items/5015771028-21017-lego-architecture-architect-series-imperial-hotel",
     "published": 1731882538,
-    "uuid": "f07f9c11-50f8-4955-ba72-60523f742828"
+    "uuid": "026d13a8-f284-4fb4-85aa-46816d9c96e1"
   },
   {
     "id": "21056",
@@ -157,7 +125,15 @@
     "price": 236.95,
     "link": "https://www.vinted.fr/items/5003191683-21027-lego-architecture-berlin-new-and-sealed",
     "published": 1732386557,
-    "uuid": "2e72d339-a3bb-448e-960a-7a6e36fa0cd0"
+    "uuid": "edab607f-f650-44ce-824d-aaa45a692df9"
+  },
+  {
+    "id": "21056",
+    "title": "Lego Architecture 19710 21000 Sears Tower Landmark series complete 100% (2008)",
+    "price": 68.95,
+    "link": "https://www.vinted.fr/items/5147575909-lego-architecture-19710-21000-sears-tower-landmark-series-complete-100-2008",
+    "published": 1732389521,
+    "uuid": "57176cce-43dd-46cc-9284-1b6a872fe6ca"
   },
   {
     "id": "21056",
@@ -165,7 +141,31 @@
     "price": 336.7,
     "link": "https://www.vinted.fr/items/5176117026-lego-architecture-21005-fallingwater-architect-series",
     "published": 1731884889,
-    "uuid": "39edc30d-2493-4b7e-a6fb-42d3953754a5"
+    "uuid": "c518eb3d-3251-4742-b98c-e3f4b64ae97b"
+  },
+  {
+    "id": "21056",
+    "title": "Lego 21000-2 Willis Tower",
+    "price": 116.2,
+    "link": "https://www.vinted.fr/items/5010106432-lego-21000-2-willis-tower",
+    "published": 1732390844,
+    "uuid": "d6f0f0c5-c721-4db7-9e74-9a7593bc5563"
+  },
+  {
+    "id": "21056",
+    "title": "21016 LEGO Architecture Sungnyemun - Exclusive!",
+    "price": 189.7,
+    "link": "https://www.vinted.fr/items/5010373284-21016-lego-architecture-sungnyemun-exclusive",
+    "published": 1731881126,
+    "uuid": "34c77320-5110-40e1-911e-f5325f04cc29"
+  },
+  {
+    "id": "21056",
+    "title": "Lego 19720 21001 Architecture John Hancock Center",
+    "price": 126.7,
+    "link": "https://www.vinted.fr/items/5010005838-lego-19720-21001-architecture-john-hancock-center",
+    "published": 1732389319,
+    "uuid": "fac845a9-2873-46a4-8822-a53fdb8c063b"
   },
   {
     "id": "21056",
@@ -173,6 +173,6 @@
     "price": 612,
     "link": "https://www.vinted.fr/items/5154383239-lego-21010-architecture-architect-series-robie-house",
     "published": 1731881515,
-    "uuid": "7df053c1-ff4e-4ea6-898d-ba0d64d2cca7"
+    "uuid": "30f919fe-4604-4b09-846e-184f2f6bb60b"
   }
 ]

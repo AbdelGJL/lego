@@ -5,7 +5,15 @@
     "price": 32.2,
     "link": "https://www.vinted.fr/items/5227471399-lego-76964-neuf",
     "published": 1729086180,
-    "uuid": "75ee571c-af72-48b1-bb4b-6e986a988ffc"
+    "uuid": "faf27c04-45de-4f0a-a77d-d8e4fa738d2a"
+  },
+  {
+    "id": "76964",
+    "title": "Lego dinosaure 76964",
+    "price": 40.6,
+    "link": "https://www.vinted.fr/items/5480778423-lego-dinosaure-76964",
+    "published": 1733291360,
+    "uuid": "aab42899-4036-434f-bded-098bc8ef6fe3"
   },
   {
     "id": "76964",
@@ -13,7 +21,15 @@
     "price": 37.45,
     "link": "https://www.vinted.fr/items/4974560802-lego-jurassic-world-76964",
     "published": 1725240981,
-    "uuid": "ec57527c-7de1-4c88-b7a5-7039be77f7b6"
+    "uuid": "9cde6a60-3f27-4243-a46e-2bc4f908845a"
+  },
+  {
+    "id": "76964",
+    "title": "Lego 76964 dinosaure",
+    "price": 47.95,
+    "link": "https://www.vinted.fr/items/5471914970-lego-76964-dinosaure",
+    "published": 1733129080,
+    "uuid": "76496267-92b1-4fc7-895a-7590adfd9d04"
   },
   {
     "id": "76964",
@@ -21,7 +37,7 @@
     "price": 42.7,
     "link": "https://www.vinted.fr/items/4651304385-lego-76964-neuf",
     "published": 1718559648,
-    "uuid": "e3e0dad8-b871-4dbf-ad2b-8fa5ed67b4d1"
+    "uuid": "66583b0c-cb9b-4095-85dc-ec4cf9fdd05b"
   },
   {
     "id": "76964",
@@ -29,6 +45,6 @@
     "price": 210.7,
     "link": "https://www.vinted.fr/items/5045679788-lot-lego-jurassiques-park",
     "published": 1726390261,
-    "uuid": "656e9400-955d-41f8-812a-18faa4e02ac4"
+    "uuid": "08aee0f2-4215-4c9d-bcdb-9ef30078333f"
   }
 ]

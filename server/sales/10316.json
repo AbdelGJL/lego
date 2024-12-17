@@ -5,7 +5,7 @@
     "price": 18.55,
     "link": "https://www.vinted.fr/items/5073133551-lego-10316-figures",
     "published": 1726767162,
-    "uuid": "dbf2602b-b50b-427f-8406-b255f817a12d"
+    "uuid": "55a13a4a-11e4-473e-bac8-04b0432ec7e3"
   },
   {
     "id": "10316",
@@ -13,7 +13,7 @@
     "price": 21.7,
     "link": "https://www.vinted.fr/items/5226852913-lego-lotr-boromir-dark-blue-legs-lor126",
     "published": 1729081079,
-    "uuid": "03d79905-5193-45d6-81dc-834803a19ff6"
+    "uuid": "79126163-4623-4671-b376-d3973a39d690"
   },
   {
     "id": "10316",
@@ -21,15 +21,7 @@
     "price": 17.5,
     "link": "https://www.vinted.fr/items/5226895612-lego-lotr-bilbo-baggins-white-hair-lor117",
     "published": 1729081124,
-    "uuid": "252b3654-0a4f-424d-a0f1-354d3261a92d"
-  },
-  {
-    "id": "10316",
-    "title": "LEGO Icons #10316 The Lord of the Rings Rivendell",
-    "price": 446.41,
-    "link": "https://www.vinted.fr/items/5453005829-lego-icons-10316-the-lord-of-the-rings-rivendell",
-    "published": 1732755906,
-    "uuid": "ff4e8eeb-7e30-46e1-ae47-75f2cf8f7749"
+    "uuid": "decd325e-7352-4bcf-bee5-789dea673b97"
   },
   {
     "id": "10316",
@@ -37,15 +29,7 @@
     "price": 26.95,
     "link": "https://www.vinted.fr/items/4687193501-aragorn-lego-10316",
     "published": 1719329922,
-    "uuid": "5bd9bd09-bd7c-4589-9f7c-4da577c67115"
-  },
-  {
-    "id": "10316",
-    "title": "Minifigurine serie 24 orc",
-    "price": 15.4,
-    "link": "https://www.vinted.fr/items/3547968510-minifigurine-serie-24-orc",
-    "published": 1696165979,
-    "uuid": "afd7c061-8610-487b-b0dc-3a703a3ab942"
+    "uuid": "cf77902f-6a87-4459-b049-39683d5c893d"
   },
   {
     "id": "10316",
@@ -53,15 +37,15 @@
     "price": 53.2,
     "link": "https://www.vinted.fr/items/5327398703-lego-brickheadz-40630-frodo-gollum-autografato-dal-designer",
     "published": 1730710039,
-    "uuid": "55500118-0157-44ad-a972-4aceb47efe40"
+    "uuid": "0e028b71-310a-4407-b1af-dc1f56b1b179"
   },
   {
     "id": "10316",
-    "title": "Rivendell - Gran Burrone",
-    "price": 483.7,
-    "link": "https://www.vinted.fr/items/5421483490-rivendell-gran-burrone",
-    "published": 1732221230,
-    "uuid": "29c36e4e-493c-4da8-9d28-b95b66dc7f11"
+    "title": "Minifigurine serie 24 orc",
+    "price": 15.4,
+    "link": "https://www.vinted.fr/items/3547968510-minifigurine-serie-24-orc",
+    "published": 1696165979,
+    "uuid": "fcd5fffc-fa59-4d50-9ced-d888d808691b"
   },
   {
     "id": "10316",
@@ -69,7 +53,7 @@
     "price": 53.2,
     "link": "https://www.vinted.fr/items/2848489467-lego-10316-minifig-statue-nuove",
     "published": 1685644109,
-    "uuid": "34cc0735-cddb-4925-99cc-7feaab32a8a6"
+    "uuid": "e1eb0668-d512-4a18-8f5a-6be5986f4d77"
   },
   {
     "id": "10316",
@@ -77,7 +61,15 @@
     "price": 83.65,
     "link": "https://www.vinted.fr/items/3186915581-lego-oficial-lord-rings-10316-rivendel",
     "published": 1688018514,
-    "uuid": "9a7b18d4-1170-43b6-9900-a7ed4effbb6d"
+    "uuid": "1661f7f2-f927-4a5d-a060-b280ceb20919"
+  },
+  {
+    "id": "10316",
+    "title": "Rivendell - Gran Burrone",
+    "price": 483.7,
+    "link": "https://www.vinted.fr/items/5421483490-rivendell-gran-burrone",
+    "published": 1732221230,
+    "uuid": "b6240e65-553d-4683-933a-930dcbd4b00e"
   },
   {
     "id": "10316",
@@ -85,6 +77,6 @@
     "price": 494.2,
     "link": "https://www.vinted.fr/items/3805824508-lego-10316-rivendell",
     "published": 1700908339,
-    "uuid": "6961f953-5c9a-4e4b-ad48-9038609df11c"
+    "uuid": "0da52679-e2f2-4e97-99c2-d339779ceccc"
   }
 ]

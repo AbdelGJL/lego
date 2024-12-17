@@ -5,7 +5,15 @@
     "price": 242.2,
     "link": "https://www.vinted.fr/items/5424911531-nasa-artemis-space-launch-system",
     "published": 1732294000,
-    "uuid": "eaee56d1-5cb3-4c51-8380-1d451b5fea3c"
+    "uuid": "9a186ef2-edd4-4479-850e-f635a8b8e394"
+  },
+  {
+    "id": "10341",
+    "title": "Lego 10341",
+    "price": 236.95,
+    "link": "https://www.vinted.fr/items/5457894427-lego-10341",
+    "published": 1732875088,
+    "uuid": "a737b9ae-f16d-4b2e-9761-43aa349ccae3"
   },
   {
     "id": "10341",
@@ -13,7 +21,7 @@
     "price": 252.7,
     "link": "https://www.vinted.fr/items/5418509450-sistema-di-lancio-spaziale-nasa-artemis",
     "published": 1732188439,
-    "uuid": "eb2ecb12-809b-4006-9722-003e63d2b001"
+    "uuid": "14e05166-1804-4395-b5f2-85da5ef5c832"
   },
   {
     "id": "10341",
@@ -21,6 +29,6 @@
     "price": 314.65,
     "link": "https://www.vinted.fr/items/4688820603-lego-icons-le-systeme-de-lancement-spatial-dartemis-de-la-nasa",
     "published": 1719380209,
-    "uuid": "85dbba52-6c80-4779-a6db-1301fee0cf3a"
+    "uuid": "32ac7938-94b3-42d2-9f29-927017e25e04"
   }
 ]

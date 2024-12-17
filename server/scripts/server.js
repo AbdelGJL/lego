@@ -1,4 +1,5 @@
 import dotenv from "dotenv";
+dotenv.config();
 //const { Console } = require('console');
 //const { MongoClient, ServerApiVersion } = require('mongodb');
 import { MongoClient, ServerApiVersion } from "mongodb";
@@ -6,7 +7,7 @@ const uri = `mongodb+srv://abdelgjl:${process.env.SECRET_KEY}@clusterlego.xkkxu.
 const MONGODB_DB_NAME = 'lego';
 //const fs = require('fs').promises;
 const collection_name = 'deals';
-import db from './db/conn.mjs';
+import db from '../db/conn.mjs';
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {

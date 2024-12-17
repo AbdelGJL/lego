@@ -4,6 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Buy Sell Lego</title>
         <link rel="icon" href="BSLLogo.png" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel='stylesheet' href='style.css' />
     </head>
     <body>
@@ -24,6 +25,43 @@
                                     <label>Lego set id:</label>
                                     <select id="lego-set-id-select"></select>
                                 </div>
+                            </section>
+                            <section id="deal-sale">
+                                <table id="deal-table">
+                                    <tr>
+                                        <td id="deal-infos">
+                                            <h2 id="deal-title"></h2>
+                                            <div class="deal-info-row">
+                                                <span style="font-weight: bold;">Deal ID :&nbsp; </span>
+                                                <span id="dealS-id">0</span>
+                                            </div>
+                                            <div class="deal-info-row">
+                                                <span style="font-weight: bold;">Price :&nbsp; </span>
+                                                <span id="deal-price">0€</span>
+                                            </div>
+                                            <div class="deal-info-row">
+                                                <span style="font-weight: bold;">Discount :&nbsp; </span>
+                                                <span id="deal-discount">0%</span>
+                                            </div>
+                                            <div class="deal-info-row">
+                                                <span style="font-weight: bold;">Comments :&nbsp; </span>
+                                                <span id="deal-comments">0</span>
+                                            </div>
+                                            <div class="deal-info-row">
+                                                <span style="font-weight: bold;">Temperature :&nbsp; </span>
+                                                <span id="deal-temperature">0°</span>
+                                            </div>
+                                            <div class="deal-info-row">
+                                                <span style="font-weight: bold;">Published :&nbsp; </span>
+                                                <span id="deal-published">N/A</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <img id="deal-image" alt="Deal Image"/>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr></hr>
                             </section>
                             <section id="indicators" style="display: block;">
                                 <h2>Indicators</h2>
@@ -103,15 +141,20 @@
             </div>
             <nav id="sidebar">
                 <ul>
+                    <li><a href="#whoamI" id="who-am-i" style="text-decoration: underline;">Home</a></li>
+                    <li><a href="#infos" id="infosS">Informations</a></li>
                     <li><a href="#deals" id="deals-link">Deals</a></li>
-                    <li><a href="#favorites" id="favorites-link">My
-                            Favorites</a></li>
+                    <li><a href="#favorites" id="favorites-link">My Favorites</a></li>
                 </ul>
             </nav>
             <main id="main-content">
-                <section id="options">
+                <section id="title" style="display: none;">
                     <h2>Latest Deals &#128165</h2>
-                    <div id="filters">
+                </section>
+                <section id="options" style="display: none;">
+                    <button id="toggle-filters" class="filter-btn">Show Filters &#128315;</button>
+                    <div class="filter-container" style="display: none;">
+                    <div id="filters" style="display: none;">
                         <span>Filter by :</span>
                         <button type="button" class="filter-btn"
                             id="discount-btn"
@@ -130,7 +173,7 @@
                             <div class="tooltip-text"></div>
                         </div>
                     </div>
-                    <div id="sort">
+                    <div id="sort" style="display: none;">
                         <label for="sort-select">Sort :</label>
                         <select name="sort" id="sort-select" class="select">
                             <option value="date-asc">Recently published</option>
@@ -139,15 +182,27 @@
                             <option value="price-asc">Cheaper</option>
                             <option value="price-desc">Expensive</option>
                         </select>
-                        <div style="text-align: right;">
-                            <span id="nbDeals">0</span>
-                            <span> deals found</span>
-                        </div>
+                        
                     </div>
-
+                    <!--<div class="vertical-divider"></div>-->
+                    <div id="new-filters" style="display: none;">
+                        <label for="price-input">Price :</label>
+                        <input type="number" id="price-input" class="filter-input" placeholder="Enter price">
+                        <label for="date-input">Date :</label>
+                        <input type="date" id="date-input" class="filter-input">
+                        <button type="button" class="filter-btn" id="validate-btn" onclick="validateFilters();">Validate</button>
+                    </div>
+                    <div id="clear-filters" style="display: none;">
+                        <button type="button" class="filter-btn" id="clear-btn" onclick="clearFilters();">Clear filters</button>
+                    </div>
+                    </div>
+                    <div style="text-align: right;">
+                        <span id="nbDeals">0</span>
+                        <span> deals found</span>
+                    </div>
                 </section>
-                <section id="deals"></section>
-                <section id="pagination">
+                <section id="deals" style="display: none;"></section>
+                <section id="pagination" style="display: none;">
                     <div id="show">
                         <label for="show-select">Show :</label>
                         <select name="show" id="show-select" class="select">
@@ -166,8 +221,110 @@
                     <h2>My Favorites &#129505</h2>
                     <div class="favorites-list" id="favorites-list"></div>
                 </section>
+                <section id="whoAmIsection">
+                    <h2>Welcome to Buy Sell Lego</h2>
+                    <h3>Who am I ?</h3>
+                    <p>Hi, I'm GJL, a junior engineer and here is BSL (Buy Sell Lego). This fabulous website helps you to
+                        find the best Lego set that could be reselled quickly and earns you more money easily.
+                    </p>
+                    <p>If you want to know what can you find in each section. Click on Informations menu at your left.</p>
+                    <h3>Socials</h3>
+                    <p>If you want to see how did I code this website or just to see my other projects, click on the icon below : </p>
+                    <div class="footer-content" style="padding: 5px;">
+                        <a href="https://github.com/AbdelGJL">
+                            <img src="github_black.png" alt="GitHub" id="github" style="width: 30px; height: 30px; align-content: center;"/>
+                        </a>
+                        <a>&nbsp; &nbsp;</a>
+                        <a href="https://github.com/AbdelGJL">AbdelGJL</a>
+                    </div>
+                    <div class="footer-content" style="padding: 5px;">
+                        <a href="https://www.linkedin.com/in/abdelhak-hacib/">
+                            <img src="linkedin.png" alt="LinkedIn" id="linkedin" style="width: 30px; height: 30px; align-content: center;"/>
+                        </a>
+                        <a>&nbsp; &nbsp;</a>
+                        <a href="https://www.linkedin.com/in/abdelhak-hacib/">Abdelhak HACIB</a>
+                    </div>
+                    <div class="footer-content" style="padding: 5px;">
+                        <a href="mailto:buy.sell.lego.contact@gmail.com">
+                            <img src="email.png" alt="email" id="email" style="width: 30px; height: 30px; float: right; padding-right: 10px;"/>
+                        </a>
+                        <a>&nbsp;</a>
+                        <a href="mailto:buy.sell.lego.contact@gmail.com">buy.sell.lego.contact@gmail.com</a>
+                    </div>
+                </section>
+                <section id="infosSection" style="display: none;">
+                    <h2>Information</h2>                    
+                    <h3> Makes a Great Deal?</h3>
+                    <p>We analyze each potential deal through three critical lenses:</p>
+                    <h4>1. Price Intelligence</h4>
+                    <p>We don't just look at the sticker price. Our algorithm compares the deal's price against historical sales data, using advanced statistical techniques. We're looking for significant savings - typically a price reduction between 20% and 30%, or an exceptional drop of 40% or more. This ensures you're not just buying something cheap, but getting genuine value.</p>
+                    <h4>2. Community and Platform Dynamics</h4>
+                    <p>Different platforms tell different stories about a deal's quality:</p>
+                    <h5>On Dealabs:</h5>
+                    <ul>
+                        <li id="bullet-point">Fresh deals (less than a day old) need buzz: at least one comment and a temperature above 80°</li>
+                        <li id="bullet-point">Slightly older deals (1-2 days) require more engagement: over 3 comments and a temperature above 120°</li>
+                        <li id="bullet-point">Established deals (2+ days) need serious traction: more than 10 comments and a temperature over 160°</li>
+                    </ul>
+                    
+                    <h5>On Vinted:</h5>
+                    <ul>
+                        <li id="bullet-point">We track the market's recent activity by looking at sales dates.</li>
+                        <li id="bullet-point">We check if similar items have been sold within the last month, indicating a healthy, active market</li>
+                    </ul>
+                    <h4>3. Resale Potential</h4>
+                    
+                    <p>
+                    We calculate your potential profit margin. A good deal isn't just cheap - it needs room for potential resale. We aim for deals with at least a 20% margin, giving you a meaningful financial upside.
+                    Our Recommendation System
+                    Based on how many of these criteria a deal meets, we provide clear guidance:
+                    </p>
+                    <ul>
+                        <li id="bullet-point">0 criteria met: Avoid this deal</li>
+                        <li id="bullet-point">1 criterion met: Proceed with caution</li>
+                        <li id="bullet-point">2 criteria met: Worth considering</li>
+                        <li id="bullet-point">3 criteria met: This is a must-grab opportunity!</li>
+                    </ul>
+
+                    
+                    <h4>Disclaimer</h4>
+                    <p> This deal evaluation system is a guide, not an absolute truth.
+                    These recommendations are meant to assist, not replace, your personal judgment. 
+                    <br>Always:</p>
+
+                    <ul>
+                        <li id="bullet-point">Conduct your own research</li>
+                        <li id="bullet-point">Verify deal details personally</li>
+                        <li id="bullet-point">Assess your actual needs</li>
+                        <li id="bullet-point">Consider your budget</li>
+                        <li id="bullet-point">Remain critical of automated recommendations</li>
+                    </ul>
+                    <p>The final decision is always yours.</p>
+                    <h3>How to use this website ?</h3>
+                    <p>Not yet haha</p>
+                    <h3>Is there some infos that you don't understand ?</h3>
+                    <span>In the website, there are some filters or indicators that have this icon next to it : </span>
+                    <div class="tooltip-container">
+                        <button class="tooltip-button"
+                            id="info-tuto">&#10067</button>
+                        <div class="tooltip-text"></div>
+                    </div>
+                    <p>Hover your mouse on it to get more information about the filter or the indicator.</p>
+                </section>
             </main>
         </div>
+        <footer>
+            <span>&copy; 2024 Buy Sell Lego, All Rights Reserved. This content is developed for educational purpose only.</span>
+            <a href="https://github.com/AbdelGJL">
+                <img src="github.png" alt="github" id="github" style="width: 30px; height: 30px; float: right;"/>
+            </a>
+            <a href="https://www.linkedin.com/in/abdelhak-hacib/">
+                <img src="linkedin_white.png" alt="linkedin" id="linkedin_white" style="width: 30px; height: 30px; float: right; padding-right: 10px;"/>
+            </a>
+            <a href="mailto:buy.sell.lego.contact@gmail.com">
+                <img src="email_white.png" alt="email" id="email" style="width: 30px; height: 30px; float: right; padding-right: 10px;"/>
+            </a>
+        </footer>
         <script type="text/javascript" charset="UTF-8" src="utils.js"></script>
         <script type="text/javascript" charset="UTF-8"
             src="portfolio.js"></script>

@@ -1,51 +1,19 @@
 [
   {
     "id": "71428",
-    "title": "Lego 71428",
-    "price": 5.95,
-    "link": "https://www.vinted.fr/items/4951321529-lego-71428",
-    "published": 1724841923,
-    "uuid": "12756144-e856-40df-92a0-b794c14f3cd1"
-  },
-  {
-    "id": "71428",
     "title": "lego 71428",
     "price": 9.1,
     "link": "https://www.vinted.fr/items/5423406300-lego-71428",
     "published": 1732277518,
-    "uuid": "cc90a6f2-f504-443a-813c-e7c1620875e0"
+    "uuid": "ff992849-8eda-4442-8ae6-f4115ae7d093"
   },
   {
     "id": "71428",
-    "title": "Lego super Mario",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/4654412248-lego-super-mario",
-    "published": 1718631755,
-    "uuid": "2c493a80-5388-4875-890b-6b13abfea0c4"
-  },
-  {
-    "id": "71428",
-    "title": "Lego 71428 Super Mario Yoshi's Egg-cellent Forest",
-    "price": 8.58,
-    "link": "https://www.vinted.fr/items/5446501349-lego-71428-super-mario-yoshis-egg-cellent-forest",
-    "published": 1732638429,
-    "uuid": "0b9499dd-1bb9-47ad-b869-3ced17c13a0b"
-  },
-  {
-    "id": "71428",
-    "title": "Lego  71428",
-    "price": 11.2,
-    "link": "https://www.vinted.fr/items/5425371826-lego-71428",
-    "published": 1732299772,
-    "uuid": "1b1f52cb-39c2-4095-9c00-b30941a90897"
-  },
-  {
-    "id": "71428",
-    "title": "Lego Mario",
-    "price": 10.15,
-    "link": "https://www.vinted.fr/items/5250862745-lego-mario",
-    "published": 1729441756,
-    "uuid": "3a8746f4-71a0-4043-8009-217c1bc934b9"
+    "title": "NEUF - Lego Super Mario 71428",
+    "price": 14.35,
+    "link": "https://www.vinted.fr/items/5481009420-neuf-lego-super-mario-71428",
+    "published": 1733300808,
+    "uuid": "94a1a45e-829e-48c9-af21-648332512e2c"
   },
   {
     "id": "71428",
@@ -53,7 +21,23 @@
     "price": 11.2,
     "link": "https://www.vinted.fr/items/5258549292-lego-71428",
     "published": 1729571224,
-    "uuid": "995dc7e4-8784-4dcb-b346-4381277c3913"
+    "uuid": "65a1072d-bd9c-4ed7-a60d-b099881f6cb3"
+  },
+  {
+    "id": "71428",
+    "title": "Lego  71428",
+    "price": 11.2,
+    "link": "https://www.vinted.fr/items/5425371826-lego-71428",
+    "published": 1732299772,
+    "uuid": "3f775748-d271-4a96-8f79-a8115ee2e1d2"
+  },
+  {
+    "id": "71428",
+    "title": "Lego Mario",
+    "price": 10.15,
+    "link": "https://www.vinted.fr/items/5250862745-lego-mario",
+    "published": 1729441756,
+    "uuid": "9f3fd090-8a0c-4fe9-826f-fc143fa64112"
   },
   {
     "id": "71428",
@@ -61,7 +45,7 @@
     "price": 10.15,
     "link": "https://www.vinted.fr/items/5272513727-lego-mario-yoshis-eigenaardige-woud-71428",
     "published": 1729792527,
-    "uuid": "8ec35560-24a8-4023-99fd-f1e2195fd931"
+    "uuid": "026a6750-b047-4559-980b-e860646f9275"
   },
   {
     "id": "71428",
@@ -69,15 +53,7 @@
     "price": 12.24,
     "link": "https://www.vinted.fr/items/4221058434-71428-lego-super-mario-yoshi-expansion-set",
     "published": 1710405321,
-    "uuid": "9a804292-eb1e-4100-a311-2da5af39b821"
-  },
-  {
-    "id": "71428",
-    "title": "Lego Super Mario 71428",
-    "price": 14.35,
-    "link": "https://www.vinted.fr/items/5448596021-lego-super-mario-71428",
-    "published": 1732694892,
-    "uuid": "0a9bff2d-c24e-48fc-b9de-bb7f0868f527"
+    "uuid": "99374199-d749-41e7-b7df-3a28d876c87d"
   },
   {
     "id": "71428",
@@ -85,6 +61,6 @@
     "price": 16.45,
     "link": "https://www.vinted.fr/items/5364915146-lego-super-mario-71428-pack-di-espansione-yoshi-nella-foresta-fuovolosa-usato",
     "published": 1731327851,
-    "uuid": "0cb0daf1-1fc0-4968-8d17-40bc724bf230"
+    "uuid": "ef8c7cb0-f231-4a34-bf22-4c72c97f5913"
   }
 ]

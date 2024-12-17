@@ -3,6 +3,8 @@ import express, { response } from 'express';
 import helmet from 'helmet';
 import bodyParser from 'body-parser';
 import db from "./db/conn.mjs";
+import { calculateLimitAndOffset, paginate } from 'paginate-info';
+import { CommandSucceededEvent } from 'mongodb';
 
 const PORT = 8092;
 
@@ -19,7 +21,7 @@ app.get('/', (request, response) => {
 });
 
 app.get('/deals/search', async (request, response) => {
-  const { limit = 12, price, date, filterBy, disc = 50, temp = 100, com = 15 } = request.query;
+  const { page = 1, size, price, date, filterBy, disc = 50, temp = 100, com = 15 } = request.query;
   try {
     let query = {};
     if (price) {
@@ -44,15 +46,27 @@ app.get('/deals/search', async (request, response) => {
       }
     }
     let collection = db.collection("deals");
-    let deals = await collection.find(query)
-      .sort({ price: 1 })
-      .limit(parseInt(limit))
-      .toArray();
+    // let deals = await collection.find(query)
+    //   .sort({ price: 1 })
+    //   .limit(parseInt(limit))
+    //   .toArray();
 
+    // const rep = {
+    //   limit: parseInt(limit),
+    //   total: deals.length,
+    //   result: deals
+    // }
+    const count = await collection.countDocuments(query);
+    const { limit, offset } = calculateLimitAndOffset(page, size);
+    const rows = await collection.find(query)
+      .sort({ price: 1 })
+      .limit(limit)
+      .skip(offset)
+      .toArray();
+    const meta = paginate(page, count, rows, size);
     const rep = {
-      limit: parseInt(limit),
-      total: deals.length,
-      result: deals
+      success: true,
+      data : {result : rows, meta}
     }
     response.status(200).send(rep);
   } catch (error) {
@@ -63,7 +77,7 @@ app.get('/deals/search', async (request, response) => {
 app.get('/deals/:id', async (request, response) => {
   const dealId = request.params.id;
   try {
-    let collection = await db.collection("deals");
+    let collection = db.collection("deals");
     let deal = await collection.findOne({ uuid: dealId });
     if (deal) {
       response.status(200).send(deal);
@@ -75,8 +89,29 @@ app.get('/deals/:id', async (request, response) => {
   }
 });
 
+app.get('/deals', async (request, response) => {
+  const { page, size } = request.query;
+  try {
+    let collection = db.collection("deals");
+    const count = await collection.countDocuments();
+    const { limit, offset } = calculateLimitAndOffset(page, size);
+    const rows = await collection.find({})
+      .limit(limit)
+      .skip(offset)
+      .toArray();
+    const meta = paginate(page, count, rows, size);
+    const rep = {
+      success: true,
+      data : {result : rows, meta}
+    }
+    response.status(200).send(rep);
+  } catch (error) {
+    response.status(500).send({ error: 'An error occurred while fetching the deals' });
+  }
+});
+
 app.get('/sales/search', async (request, response) => {
-  const { limit = 12, legoSetId } = request.query;
+  const { limit = 20, legoSetId } = request.query;
   try {
     if (!legoSetId) {
       return response.status(400).send({ error: 'legoSetId is required' });
@@ -90,9 +125,10 @@ app.get('/sales/search', async (request, response) => {
       .toArray();
 
     const rep = {
+      success: true,
       limit: parseInt(limit),
       total: sales.length,
-      result: sales
+      data : {result : sales}
     };
 
     response.status(200).send(rep);
