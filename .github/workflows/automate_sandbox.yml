@@ -25,6 +25,9 @@ jobs:
         run: npm install
       
       - name: Run Dealabs Script
+        env:
+          SECRET_KEY: ${{ secrets.SECRET_KEY }}
+          SCRAPER_COOKIES: ${{ secrets.SCRAPER_COOKIES }}
         run: node sandboxDealabs.js
 
   run-autovinted:
@@ -46,4 +49,6 @@ jobs:
         run: npm install
       
       - name: Run Vinted Script
+        env:
+          SECRET_KEY: ${{ secrets.SECRET_KEY }}
         run: node sandboxVinted.js
